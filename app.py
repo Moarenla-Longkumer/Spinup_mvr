@@ -5,7 +5,7 @@ from pathlib import Path
 SUMMARY_XLSX = Path("multi_site_qa_qc_summary_full.xlsx")
 
 st.set_page_config(layout="wide")
-st.title("DayCent QA/QC Dashboard")
+st.title("DayCent Spinup QA/QC Dashboard")
 
 @st.cache_data
 def load_summary_xlsx(path_str: str):
