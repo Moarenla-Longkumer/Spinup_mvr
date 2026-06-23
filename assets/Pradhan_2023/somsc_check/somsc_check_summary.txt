@@ -1,0 +1,72 @@
+SOMSC Check Summary for Site: Pradhan_2023
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-45.97%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,941.39 g C / m²
+Change during Equilibrium Phase: +3,800.70 g C / m²
+Change during Base Phase: -3,526.72 g C / m²
+Final SOMSC at end of Base Phase: 2,248.26 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,160.96 g C / m²
+Model is 45.97% lower than observation.
+(Difference: -1,912.70 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 3, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + RR × N1 (+403.07)
+  + RR × N2 (+402.13)
+  + RR × N3 (+408.92)
+
+SOMSC Decrease (g C / m²):
+  - RB × N1 (-1.77)
+  - RB × N2 (-1.76)
+  - RB × N3 (-1.75)
+
+--- Experimental Analysis ---
+'pradhan_2023_rb × n1_somsc' Change: -1.77 g C / m² (End value: 4,159.18)
+'pradhan_2023_rb × n2_somsc' Change: -1.76 g C / m² (End value: 4,159.19)
+'pradhan_2023_rb × n3_somsc' Change: -1.75 g C / m² (End value: 4,159.21)
+'pradhan_2023_rr × n1_somsc' Change: +403.07 g C / m² (End value: 4,564.02)
+'pradhan_2023_rr × n2_somsc' Change: +402.13 g C / m² (End value: 4,563.08)
+'pradhan_2023_rr × n3_somsc' Change: +408.92 g C / m² (End value: 4,569.87)
+
+Average SOMSC at end of all experimental phases: 4,362.42 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct_sw_sw_sw (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_CT_SW_SW_SW_output/soilc.out FAILED: No matching data found.
+ -> Checking rt_sw_sw_sw (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_RT_SW_SW_SW_output/soilc.out FAILED: No matching data found.
+ -> Checking ct_sf_sf_sf (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_CT_SF_SF_SF_output/soilc.out FAILED: No matching data found.
+ -> Checking rt_sf_sf_sf (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_RT_SF_SF_SF_output/soilc.out FAILED: No matching data found.
+ -> Checking ct_sf_mc_sf (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_CT_SF_MC_SF_output/soilc.out FAILED: No matching data found.
+ -> Checking rt_sf_mc_sf (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_RT_SF_MC_SF_output/soilc.out FAILED: No matching data found.
+ -> Checking ct_mc_sf_mc (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_CT_MC_SF_MC_output/soilc.out FAILED: No matching data found.
+ -> Checking rt_mc_sf_mc (Years: 2013, Day: 76)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/Pradhan_2023_out/Pradhan_2023_RT_MC_SF_MC_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pradhan_2023/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

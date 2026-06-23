@@ -1,0 +1,68 @@
+SOMSC Check Summary for Site: Kumar_2017
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-100.00%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,969.40 g C / m²
+Change during Equilibrium Phase: +3,318.23 g C / m²
+Change during Base Phase: -5,348.63 g C / m²
+Final SOMSC at end of Base Phase: 0.04 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,646.17 g C / m²
+Model is 100.00% lower than observation.
+(Difference: -3,646.13 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 7, SOMSC decrease: 1
+
+SOMSC Increase (g C / m²):
+  + TRT_CASTOR_CAKE_500KG (+6.90)
+  + TRT_FYM_10T (+81.69)
+  + TRT_FYM_5T (+37.48)
+  + TRT_FYM_5T_NEEM_CAKE_500KG (+8.91)
+  + TRT_NEEM_CAKE_500KG (+5.44)
+  + TRT_VERMICOMPOST_2_5T (+15.38)
+  + TRT_VERMICOMPOST_5T (+37.48)
+
+SOMSC Decrease (g C / m²):
+  - TRT_ABSOLUTE_CONTROL (-10.38)
+
+--- Experimental Analysis ---
+'kumar_2017_trt_absolute_control_somsc' Change: -10.38 g C / m² (End value: 3,635.75)
+'kumar_2017_trt_castor_cake_500kg_somsc' Change: +6.90 g C / m² (End value: 3,653.03)
+'kumar_2017_trt_fym_10t_somsc' Change: +81.69 g C / m² (End value: 3,727.83)
+'kumar_2017_trt_fym_5t_somsc' Change: +37.48 g C / m² (End value: 3,683.61)
+'kumar_2017_trt_fym_5t_neem_cake_500kg_somsc' Change: +8.91 g C / m² (End value: 3,655.04)
+'kumar_2017_trt_neem_cake_500kg_somsc' Change: +5.44 g C / m² (End value: 3,651.57)
+'kumar_2017_trt_vermicompost_2_5t_somsc' Change: +15.38 g C / m² (End value: 3,661.51)
+'kumar_2017_trt_vermicompost_5t_somsc' Change: +37.48 g C / m² (End value: 3,683.61)
+
+Average SOMSC at end of all experimental phases: 3,668.99 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_fym_5t (Years: 2015, Day: 300)... SUCCESS: 3683.12
+ -> Checking trt_vermicompost_2_5t (Years: 2015, Day: 300)... SUCCESS: 3661.02
+ -> Checking trt_fym_10t (Years: 2015, Day: 300)... SUCCESS: 3727.33
+ -> Checking trt_vermicompost_5t (Years: 2015, Day: 300)... SUCCESS: 3683.12
+ -> Checking trt_castor_cake_500kg (Years: 2015, Day: 300)... SUCCESS: 3652.42
+ -> Checking trt_neem_cake_500kg (Years: 2015, Day: 300)... SUCCESS: 3651.03
+ -> Checking trt_fym_5t_neem_cake_500kg (Years: 2015, Day: 300)... SUCCESS: 3654.21
+ -> Checking trt_absolute_control (Years: 2015, Day: 300)... SUCCESS: 3637.54
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kumar_2017/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

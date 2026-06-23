@@ -1,0 +1,67 @@
+N2O Check Summary for Site: Lv_2021
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 15
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 15
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                    Observation  Observed  Simulated               Difference
+   lv_2021_ck_n2oflux_2012_2012       0.6   167.1012   +27750.20% [OVER >50%]
+  lv_2021_npk_n2oflux_2012_2012       2.1  3865.1954  +183956.92% [OVER >50%]
+ lv_2021_npks_n2oflux_2012_2012       2.2  5944.8503  +270120.47% [OVER >50%]
+ lv_2021_npkm_n2oflux_2012_2012       2.2  3562.7776  +161844.44% [OVER >50%]
+lv_2021_npkm+_n2oflux_2012_2012       3.8  6409.2649  +168564.87% [OVER >50%]
+   lv_2021_ck_n2oflux_2013_2013       0.2   162.8455   +81322.75% [OVER >50%]
+  lv_2021_npk_n2oflux_2013_2013       1.3  2968.1592  +228219.94% [OVER >50%]
+ lv_2021_npks_n2oflux_2013_2013       1.1  4476.3011  +406836.46% [OVER >50%]
+ lv_2021_npkm_n2oflux_2013_2013       1.5  3554.7658  +236884.39% [OVER >50%]
+lv_2021_npkm+_n2oflux_2013_2013       3.4  6212.0760  +182608.12% [OVER >50%]
+   lv_2021_ck_n2oflux_2013_2014       0.7   209.9568   +29893.83% [OVER >50%]
+  lv_2021_npk_n2oflux_2013_2014       1.3 10517.6185  +808947.58% [OVER >50%]
+ lv_2021_npks_n2oflux_2013_2014       1.3 16492.6262 +1268563.55% [OVER >50%]
+ lv_2021_npkm_n2oflux_2013_2014       1.6  9820.8999  +613706.24% [OVER >50%]
+lv_2021_npkm+_n2oflux_2013_2014       3.7 13298.4986  +359318.88% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Lv_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 15
+R²: 0.1724
+RMSE: 7482.31
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and period dates in `observations/Lv_2021_obs.csv`.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 15
+ -> ck period 2012-112 to 2012-315... SUCCESS: sim=167.1012
+ -> npk period 2012-112 to 2012-315... SUCCESS: sim=3865.1954
+ -> npks period 2012-112 to 2012-315... SUCCESS: sim=5944.8503
+ -> npkm period 2012-112 to 2012-315... SUCCESS: sim=3562.7776
+ -> npkm+ period 2012-112 to 2012-315... SUCCESS: sim=6409.2649
+ -> ck period 2013-105 to 2013-213... SUCCESS: sim=162.8455
+ -> npk period 2013-105 to 2013-213... SUCCESS: sim=2968.1592
+ -> npks period 2013-105 to 2013-213... SUCCESS: sim=4476.3011
+ -> npkm period 2013-105 to 2013-213... SUCCESS: sim=3554.7658
+ -> npkm+ period 2013-105 to 2013-213... SUCCESS: sim=6212.0760
+ -> ck period 2013-269 to 2014-196... SUCCESS: sim=209.9568
+ -> npk period 2013-269 to 2014-196... SUCCESS: sim=10517.6185
+ -> npks period 2013-269 to 2014-196... SUCCESS: sim=16492.6262
+ -> npkm period 2013-269 to 2014-196... SUCCESS: sim=9820.8999
+ -> npkm+ period 2013-269 to 2014-196... SUCCESS: sim=13298.4986
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/observed_vs_modeled_n2o.png'

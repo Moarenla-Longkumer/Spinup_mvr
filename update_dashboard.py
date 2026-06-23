@@ -26,7 +26,7 @@ from pathlib import Path
 # Everything after this marker becomes the path under assets/.
 SITES_MARKER = "daycent_sites2/sites/"
 ASSETS = Path("assets")
-INV = Path("qaqc_spinup_inventory.csv")
+INV = Path("/Users/mac/Documents/Spinup_testing/daycent_pipeline/my_ap/Spinup_mvr/qaqc_spinup_inventory.csv")
 
 # Columns in the CSV that hold filesystem paths we want to bundle.
 PATH_COLS = [

@@ -1,0 +1,179 @@
+SOMSC Check Summary for Site: Lv_2021
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-74.88%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 2,012.56 g C / m²
+Change during Equilibrium Phase: +1,749.19 g C / m²
+Change during Base Phase: -2,899.22 g C / m²
+Final SOMSC at end of Base Phase: 887.05 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,531.40 g C / m²
+Model is 74.88% lower than observation.
+(Difference: -2,644.35 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 4, SOMSC decrease: 1
+
+SOMSC Increase (g C / m²):
+  + NPK (+44.52)
+  + NPKM (+4025.67)
+  + NPKM+ (+8006.48)
+  + NPKS (+1093.15)
+
+SOMSC Decrease (g C / m²):
+  - CK (-160.62)
+
+--- Experimental Analysis ---
+'lv_2021_ck_somsc' Change: -160.62 g C / m² (End value: 3,370.85)
+'lv_2021_npk_somsc' Change: +44.52 g C / m² (End value: 3,575.98)
+'lv_2021_npkm_somsc' Change: +4,025.67 g C / m² (End value: 7,557.13)
+'lv_2021_npkm+_somsc' Change: +8,006.48 g C / m² (End value: 11,537.94)
+'lv_2021_npks_somsc' Change: +1,093.15 g C / m² (End value: 4,624.61)
+
+Average SOMSC at end of all experimental phases: 6,133.30 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ck (Years: 1990, Day: 310.0)... SUCCESS: 3528.30
+ -> Checking ck (Years: 1991, Day: 310.0)... SUCCESS: 3528.32
+ -> Checking ck (Years: 1992, Day: 269.0)... SUCCESS: 3527.15
+ -> Checking ck (Years: 1993, Day: 200.0)... SUCCESS: 3540.76
+ -> Checking ck (Years: 1994, Day: 310.0)... SUCCESS: 3535.94
+ -> Checking ck (Years: 1995, Day: 269.0)... SUCCESS: 3532.05
+ -> Checking ck (Years: 1996, Day: 200.0)... SUCCESS: 3535.88
+ -> Checking ck (Years: 1997, Day: 310.0)... SUCCESS: 3517.19
+ -> Checking ck (Years: 1998, Day: 269.0)... SUCCESS: 3509.04
+ -> Checking ck (Years: 1999, Day: 200.0)... SUCCESS: 3502.82
+ -> Checking ck (Years: 2000, Day: 310.0)... SUCCESS: 3485.38
+ -> Checking ck (Years: 2001, Day: 269.0)... SUCCESS: 3477.95
+ -> Checking ck (Years: 2002, Day: 200.0)... SUCCESS: 3472.61
+ -> Checking ck (Years: 2003, Day: 310.0)... SUCCESS: 3456.77
+ -> Checking ck (Years: 2004, Day: 269.0)... SUCCESS: 3449.94
+ -> Checking ck (Years: 2005, Day: 200.0)... SUCCESS: 3445.69
+ -> Checking ck (Years: 2006, Day: 310.0)... SUCCESS: 3429.31
+ -> Checking ck (Years: 2007, Day: 269.0)... SUCCESS: 3422.24
+ -> Checking ck (Years: 2008, Day: 200.0)... SUCCESS: 3417.86
+ -> Checking ck (Years: 2009, Day: 310.0)... SUCCESS: 3403.09
+ -> Checking ck (Years: 2010, Day: 269.0)... SUCCESS: 3397.12
+ -> Checking ck (Years: 2011, Day: 200.0)... SUCCESS: 3392.29
+ -> Checking ck (Years: 2012, Day: 310.0)... SUCCESS: 3379.71
+ -> Checking ck (Years: 2013, Day: 269.0)... SUCCESS: 3373.43
+ -> Checking ck (Years: 2014, Day: 200.0)... SUCCESS: 3369.54
+ -> Checking npk (Years: 1990, Day: 310.0)... SUCCESS: 3528.30
+ -> Checking npk (Years: 1991, Day: 310.0)... SUCCESS: 3528.26
+ -> Checking npk (Years: 1992, Day: 269.0)... SUCCESS: 3527.07
+ -> Checking npk (Years: 1993, Day: 200.0)... SUCCESS: 3540.65
+ -> Checking npk (Years: 1994, Day: 310.0)... SUCCESS: 3536.69
+ -> Checking npk (Years: 1995, Day: 269.0)... SUCCESS: 3535.10
+ -> Checking npk (Years: 1996, Day: 200.0)... SUCCESS: 3553.84
+ -> Checking npk (Years: 1997, Day: 310.0)... SUCCESS: 3550.26
+ -> Checking npk (Years: 1998, Day: 269.0)... SUCCESS: 3547.32
+ -> Checking npk (Years: 1999, Day: 200.0)... SUCCESS: 3566.22
+ -> Checking npk (Years: 2000, Day: 310.0)... SUCCESS: 3563.73
+ -> Checking npk (Years: 2001, Day: 269.0)... SUCCESS: 3561.73
+ -> Checking npk (Years: 2002, Day: 200.0)... SUCCESS: 3577.81
+ -> Checking npk (Years: 2003, Day: 310.0)... SUCCESS: 3571.67
+ -> Checking npk (Years: 2004, Day: 269.0)... SUCCESS: 3567.23
+ -> Checking npk (Years: 2005, Day: 200.0)... SUCCESS: 3581.20
+ -> Checking npk (Years: 2006, Day: 310.0)... SUCCESS: 3570.24
+ -> Checking npk (Years: 2007, Day: 269.0)... SUCCESS: 3564.55
+ -> Checking npk (Years: 2008, Day: 200.0)... SUCCESS: 3573.62
+ -> Checking npk (Years: 2009, Day: 310.0)... SUCCESS: 3560.66
+ -> Checking npk (Years: 2010, Day: 269.0)... SUCCESS: 3554.03
+ -> Checking npk (Years: 2011, Day: 200.0)... SUCCESS: 3565.83
+ -> Checking npk (Years: 2012, Day: 310.0)... SUCCESS: 3562.92
+ -> Checking npk (Years: 2013, Day: 269.0)... SUCCESS: 3555.11
+ -> Checking npk (Years: 2014, Day: 200.0)... SUCCESS: 3565.17
+ -> Checking npks (Years: 1990, Day: 310.0)... SUCCESS: 3528.30
+ -> Checking npks (Years: 1991, Day: 310.0)... SUCCESS: 3621.75
+ -> Checking npks (Years: 1992, Day: 269.0)... SUCCESS: 3698.76
+ -> Checking npks (Years: 1993, Day: 200.0)... SUCCESS: 3771.43
+ -> Checking npks (Years: 1994, Day: 310.0)... SUCCESS: 3838.98
+ -> Checking npks (Years: 1995, Day: 269.0)... SUCCESS: 3917.43
+ -> Checking npks (Years: 1996, Day: 200.0)... SUCCESS: 4001.71
+ -> Checking npks (Years: 1997, Day: 310.0)... SUCCESS: 4052.69
+ -> Checking npks (Years: 1998, Day: 269.0)... SUCCESS: 4126.66
+ -> Checking npks (Years: 1999, Day: 200.0)... SUCCESS: 4222.43
+ -> Checking npks (Years: 2000, Day: 310.0)... SUCCESS: 4266.41
+ -> Checking npks (Years: 2001, Day: 269.0)... SUCCESS: 4335.04
+ -> Checking npks (Years: 2002, Day: 200.0)... SUCCESS: 4405.56
+ -> Checking npks (Years: 2003, Day: 310.0)... SUCCESS: 4443.64
+ -> Checking npks (Years: 2004, Day: 269.0)... SUCCESS: 4483.11
+ -> Checking npks (Years: 2005, Day: 200.0)... SUCCESS: 4529.14
+ -> Checking npks (Years: 2006, Day: 310.0)... SUCCESS: 4525.04
+ -> Checking npks (Years: 2007, Day: 269.0)... SUCCESS: 4538.14
+ -> Checking npks (Years: 2008, Day: 200.0)... SUCCESS: 4564.56
+ -> Checking npks (Years: 2009, Day: 310.0)... SUCCESS: 4542.48
+ -> Checking npks (Years: 2010, Day: 269.0)... SUCCESS: 4543.90
+ -> Checking npks (Years: 2011, Day: 200.0)... SUCCESS: 4581.63
+ -> Checking npks (Years: 2012, Day: 310.0)... SUCCESS: 4591.98
+ -> Checking npks (Years: 2013, Day: 269.0)... SUCCESS: 4590.58
+ -> Checking npks (Years: 2014, Day: 200.0)... SUCCESS: 4616.13
+ -> Checking npkm (Years: 1990, Day: 310.0)... SUCCESS: 3793.03
+ -> Checking npkm (Years: 1991, Day: 310.0)... SUCCESS: 4056.76
+ -> Checking npkm (Years: 1992, Day: 269.0)... SUCCESS: 4306.66
+ -> Checking npkm (Years: 1993, Day: 200.0)... SUCCESS: 4562.67
+ -> Checking npkm (Years: 1994, Day: 310.0)... SUCCESS: 4775.60
+ -> Checking npkm (Years: 1995, Day: 269.0)... SUCCESS: 4990.47
+ -> Checking npkm (Years: 1996, Day: 200.0)... SUCCESS: 5222.53
+ -> Checking npkm (Years: 1997, Day: 310.0)... SUCCESS: 5395.69
+ -> Checking npkm (Years: 1998, Day: 269.0)... SUCCESS: 5577.68
+ -> Checking npkm (Years: 1999, Day: 200.0)... SUCCESS: 5783.05
+ -> Checking npkm (Years: 2000, Day: 310.0)... SUCCESS: 5922.31
+ -> Checking npkm (Years: 2001, Day: 269.0)... SUCCESS: 6082.24
+ -> Checking npkm (Years: 2002, Day: 200.0)... SUCCESS: 6262.85
+ -> Checking npkm (Years: 2003, Day: 310.0)... SUCCESS: 6375.76
+ -> Checking npkm (Years: 2004, Day: 269.0)... SUCCESS: 6512.33
+ -> Checking npkm (Years: 2005, Day: 200.0)... SUCCESS: 6675.63
+ -> Checking npkm (Years: 2006, Day: 310.0)... SUCCESS: 6757.28
+ -> Checking npkm (Years: 2007, Day: 269.0)... SUCCESS: 6871.04
+ -> Checking npkm (Years: 2008, Day: 200.0)... SUCCESS: 7014.35
+ -> Checking npkm (Years: 2009, Day: 310.0)... SUCCESS: 7075.34
+ -> Checking npkm (Years: 2010, Day: 269.0)... SUCCESS: 7180.85
+ -> Checking npkm (Years: 2011, Day: 200.0)... SUCCESS: 7311.54
+ -> Checking npkm (Years: 2012, Day: 310.0)... SUCCESS: 7371.54
+ -> Checking npkm (Years: 2013, Day: 269.0)... SUCCESS: 7454.82
+ -> Checking npkm (Years: 2014, Day: 200.0)... SUCCESS: 7573.11
+ -> Checking npkm+ (Years: 1990, Day: 310.0)... SUCCESS: 4057.76
+ -> Checking npkm+ (Years: 1991, Day: 310.0)... SUCCESS: 4585.21
+ -> Checking npkm+ (Years: 1992, Day: 269.0)... SUCCESS: 5086.23
+ -> Checking npkm+ (Years: 1993, Day: 200.0)... SUCCESS: 5584.64
+ -> Checking npkm+ (Years: 1994, Day: 310.0)... SUCCESS: 6014.42
+ -> Checking npkm+ (Years: 1995, Day: 269.0)... SUCCESS: 6445.74
+ -> Checking npkm+ (Years: 1996, Day: 200.0)... SUCCESS: 6891.11
+ -> Checking npkm+ (Years: 1997, Day: 310.0)... SUCCESS: 7240.98
+ -> Checking npkm+ (Years: 1998, Day: 269.0)... SUCCESS: 7607.87
+ -> Checking npkm+ (Years: 1999, Day: 200.0)... SUCCESS: 7999.69
+ -> Checking npkm+ (Years: 2000, Day: 310.0)... SUCCESS: 8280.72
+ -> Checking npkm+ (Years: 2001, Day: 269.0)... SUCCESS: 8602.61
+ -> Checking npkm+ (Years: 2002, Day: 200.0)... SUCCESS: 8947.73
+ -> Checking npkm+ (Years: 2003, Day: 310.0)... SUCCESS: 9179.68
+ -> Checking npkm+ (Years: 2004, Day: 269.0)... SUCCESS: 9457.27
+ -> Checking npkm+ (Years: 2005, Day: 200.0)... SUCCESS: 9769.88
+ -> Checking npkm+ (Years: 2006, Day: 310.0)... SUCCESS: 9944.06
+ -> Checking npkm+ (Years: 2007, Day: 269.0)... SUCCESS: 10177.28
+ -> Checking npkm+ (Years: 2008, Day: 200.0)... SUCCESS: 10454.79
+ -> Checking npkm+ (Years: 2009, Day: 310.0)... SUCCESS: 10589.68
+ -> Checking npkm+ (Years: 2010, Day: 269.0)... SUCCESS: 10807.33
+ -> Checking npkm+ (Years: 2011, Day: 200.0)... SUCCESS: 11056.86
+ -> Checking npkm+ (Years: 2012, Day: 310.0)... SUCCESS: 11179.76
+ -> Checking npkm+ (Years: 2013, Day: 269.0)... SUCCESS: 11354.18
+ -> Checking npkm+ (Years: 2014, Day: 200.0)... SUCCESS: 11580.67
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

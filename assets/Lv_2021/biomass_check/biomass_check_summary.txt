@@ -1,0 +1,219 @@
+Biomass Check Summary for Site: Lv_2021
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 30
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 30
+
+                           Observation  Observed  Simulated         Difference
+            lv_2021_ck_cgrain_cot_2012       NaN    34.5289 FLAG (invalid obs)
+           lv_2021_npk_cgrain_cot_2012       NaN    79.6179 FLAG (invalid obs)
+          lv_2021_npks_cgrain_cot_2012       NaN    78.5276 FLAG (invalid obs)
+          lv_2021_npkm_cgrain_cot_2012       NaN    79.6179 FLAG (invalid obs)
+         lv_2021_npkm+_cgrain_cot_2012       NaN    79.6179 FLAG (invalid obs)
+             lv_2021_ck_cgrain_c6_2013       NaN    31.4598 FLAG (invalid obs)
+            lv_2021_npk_cgrain_c6_2013       NaN   179.1238 FLAG (invalid obs)
+           lv_2021_npks_cgrain_c6_2013       NaN   173.0071 FLAG (invalid obs)
+           lv_2021_npkm_cgrain_c6_2013       NaN   179.1241 FLAG (invalid obs)
+          lv_2021_npkm+_cgrain_c6_2013       NaN   179.1244 FLAG (invalid obs)
+          lv_2021_ck_cgrain_sw3eg_2014       NaN    25.9067 FLAG (invalid obs)
+         lv_2021_npk_cgrain_sw3eg_2014       NaN   111.5230 FLAG (invalid obs)
+        lv_2021_npks_cgrain_sw3eg_2014       NaN   109.6012 FLAG (invalid obs)
+        lv_2021_npkm_cgrain_sw3eg_2014       NaN   111.5231 FLAG (invalid obs)
+       lv_2021_npkm+_cgrain_sw3eg_2014       NaN   111.5231 FLAG (invalid obs)
+     lv_2021_ck_aglivc-cgrain_cot_2012       NaN    64.3201 FLAG (invalid obs)
+    lv_2021_npk_aglivc-cgrain_cot_2012       NaN   148.3339 FLAG (invalid obs)
+   lv_2021_npks_aglivc-cgrain_cot_2012       NaN   146.3022 FLAG (invalid obs)
+   lv_2021_npkm_aglivc-cgrain_cot_2012       NaN   148.3339 FLAG (invalid obs)
+  lv_2021_npkm+_aglivc-cgrain_cot_2012       NaN   148.3340 FLAG (invalid obs)
+      lv_2021_ck_aglivc-cgrain_c6_2013       NaN    32.6434 FLAG (invalid obs)
+     lv_2021_npk_aglivc-cgrain_c6_2013       NaN   196.3359 FLAG (invalid obs)
+    lv_2021_npks_aglivc-cgrain_c6_2013       NaN   189.5090 FLAG (invalid obs)
+    lv_2021_npkm_aglivc-cgrain_c6_2013       NaN   196.3363 FLAG (invalid obs)
+   lv_2021_npkm+_aglivc-cgrain_c6_2013       NaN   196.3366 FLAG (invalid obs)
+   lv_2021_ck_aglivc-cgrain_sw3eg_2014       NaN    28.2403 FLAG (invalid obs)
+  lv_2021_npk_aglivc-cgrain_sw3eg_2014       NaN   153.6304 FLAG (invalid obs)
+ lv_2021_npks_aglivc-cgrain_sw3eg_2014       NaN   150.6450 FLAG (invalid obs)
+ lv_2021_npkm_aglivc-cgrain_sw3eg_2014       NaN   153.6306 FLAG (invalid obs)
+lv_2021_npkm+_aglivc-cgrain_sw3eg_2014       NaN   153.6307 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Lv_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 0
+R²: undefined
+RMSE: undefined
+Status: CANNOT ASSESS - R² is undefined (need at least 2 paired points). Fix observations / extraction.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'comment', 'value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 30
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CK
+Successfully processed: 'lv_2021_ck_cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPK
+Successfully processed: 'lv_2021_npk_cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPKS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKS
+Successfully processed: 'lv_2021_npks_cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPKM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM
+Successfully processed: 'lv_2021_npkm_cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPKM+
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM+_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM+
+Successfully processed: 'lv_2021_npkm+_cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CK
+Successfully processed: 'lv_2021_ck_cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPK
+Successfully processed: 'lv_2021_npk_cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPKS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKS
+Successfully processed: 'lv_2021_npks_cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPKM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM
+Successfully processed: 'lv_2021_npkm_cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPKM+
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM+_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM+
+Successfully processed: 'lv_2021_npkm+_cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CK
+Successfully processed: 'lv_2021_ck_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPK
+Successfully processed: 'lv_2021_npk_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPKS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKS
+Successfully processed: 'lv_2021_npks_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPKM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM
+Successfully processed: 'lv_2021_npkm_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPKM+
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM+_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM+
+Successfully processed: 'lv_2021_npkm+_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CK
+Successfully processed: 'lv_2021_ck_aglivc-cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPK
+Successfully processed: 'lv_2021_npk_aglivc-cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPKS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKS
+Successfully processed: 'lv_2021_npks_aglivc-cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPKM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM
+Successfully processed: 'lv_2021_npkm_aglivc-cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: NPKM+
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM+_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM+
+Successfully processed: 'lv_2021_npkm+_aglivc-cgrain_cot_2012'
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CK
+Successfully processed: 'lv_2021_ck_aglivc-cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPK
+Successfully processed: 'lv_2021_npk_aglivc-cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPKS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKS
+Successfully processed: 'lv_2021_npks_aglivc-cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPKM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM
+Successfully processed: 'lv_2021_npkm_aglivc-cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: NPKM+
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM+_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM+
+Successfully processed: 'lv_2021_npkm+_aglivc-cgrain_c6_2013'
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CK
+Successfully processed: 'lv_2021_ck_aglivc-cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPK
+Successfully processed: 'lv_2021_npk_aglivc-cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPKS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKS
+Successfully processed: 'lv_2021_npks_aglivc-cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPKM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM
+Successfully processed: 'lv_2021_npkm_aglivc-cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: NPKM+
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/Lv_2021_out/Lv_2021_NPKM+_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NPKM+
+Successfully processed: 'lv_2021_npkm+_aglivc-cgrain_sw3eg_2014'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lv_2021/observed_vs_modeled_biomass.png'
+--- Script finished. ---
