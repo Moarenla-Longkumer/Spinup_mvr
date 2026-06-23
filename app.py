@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
-SUMMARY_XLSX = Path("multi_site_qa_qc_summary_20260604.xlsx")
+SUMMARY_XLSX = Path("multi_site_qa_qc_summary_full.xlsx")
 
 st.set_page_config(layout="wide")
 st.title("DayCent QA/QC Dashboard")
