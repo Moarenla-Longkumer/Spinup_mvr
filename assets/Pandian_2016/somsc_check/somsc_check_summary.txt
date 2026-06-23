@@ -1,0 +1,114 @@
+SOMSC Check Summary for Site: Pandian_2016
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-98.94%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,912.53 g C / m²
+Change during Equilibrium Phase: +209.42 g C / m²
+Change during Base Phase: -2,062.78 g C / m²
+Final SOMSC at end of Base Phase: 78.49 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 7,416.31 g C / m²
+Model is 98.94% lower than observation.
+(Difference: -7,337.82 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 9
+Experiments with SOMSC increase: 8, SOMSC decrease: 1
+
+SOMSC Increase (g C / m²):
+  + CCP (+29.53)
+  + CSB_2.5 (+1356.11)
+  + CSB_5 (+1356.11)
+  + EFYM (+34.35)
+  + MSB_2.5 (+1158.37)
+  + MSB_5 (+1158.37)
+  + PB_2.5 (+1463.93)
+  + RSB_2.5 (+1401.03)
+
+SOMSC Decrease (g C / m²):
+  - C (-72.91)
+
+--- Experimental Analysis ---
+'pandian_2016_c_somsc' Change: -72.91 g C / m² (End value: 7,343.41)
+'pandian_2016_ccp_somsc' Change: +29.53 g C / m² (End value: 7,445.85)
+'pandian_2016_csb_2.5_somsc' Change: +1,356.11 g C / m² (End value: 8,772.43)
+'pandian_2016_csb_5_somsc' Change: +1,356.11 g C / m² (End value: 8,772.43)
+'pandian_2016_efym_somsc' Change: +34.35 g C / m² (End value: 7,450.67)
+'pandian_2016_msb_2.5_somsc' Change: +1,158.37 g C / m² (End value: 8,574.69)
+'pandian_2016_msb_5_somsc' Change: +1,158.37 g C / m² (End value: 8,574.69)
+'pandian_2016_pb_2.5_somsc' Change: +1,463.93 g C / m² (End value: 8,880.25)
+'pandian_2016_rsb_2.5_somsc' Change: +1,401.03 g C / m² (End value: 8,817.35)
+
+Average SOMSC at end of all experimental phases: 8,292.42 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking c (Years: 2013, Day: 343)... SUCCESS: 7343.19
+ -> Checking ccp (Years: 2013, Day: 343)... SUCCESS: 7444.97
+ -> Checking efym (Years: 2013, Day: 343)... SUCCESS: 7450.33
+ -> Checking msb_2.5 (Years: 2013, Day: 343)... SUCCESS: 8575.71
+ -> Checking msb_5 (Years: 2013, Day: 343)... SUCCESS: 8575.71
+ -> Checking csb_2.5 (Years: 2013, Day: 343)... SUCCESS: 8773.65
+ -> Checking csb_5 (Years: 2013, Day: 343)... SUCCESS: 8773.65
+ -> Checking rsb_2.5 (Years: 2013, Day: 343)... SUCCESS: 8818.62
+ -> Checking rsb_5 (Years: 2013, Day: 343)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pandian_2016/Pandian_2016_out/Pandian_2016_RSB_5_output/soilc.out FAILED: No matching data found.
+ -> Checking pb_2.5 (Years: 2013, Day: 343)... SUCCESS: 8881.58
+ -> Checking pb_5 (Years: 2013, Day: 343)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pandian_2016/Pandian_2016_out/Pandian_2016_PB_5_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pandian_2016/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pandian_2016/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pandian_2016/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 9
+Rows passing delta rule (sim >= obs): 9
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+               Observation  Observed  Simulated Difference
+      pandian_2016_c_somsc    1620.0  7343.1902   +353.28%
+    pandian_2016_ccp_somsc    1980.0  7444.9749   +276.01%
+   pandian_2016_efym_somsc    1790.0  7450.3331   +316.22%
+pandian_2016_msb_2.5_somsc    1990.0  8575.7075   +330.94%
+  pandian_2016_msb_5_somsc    2110.0  8575.7075   +306.43%
+pandian_2016_csb_2.5_somsc    1960.0  8773.6479   +347.64%
+  pandian_2016_csb_5_somsc    2070.0  8773.6479   +323.85%
+pandian_2016_rsb_2.5_somsc    1980.0  8818.6160   +345.38%
+ pandian_2016_pb_2.5_somsc    1940.0  8881.5769   +357.81%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 9
+R²: 0.4816
+RMSE: 6378.38 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Pandian_2016_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+pandian_2016_c_somsc,c,2013,343,1620.0,7343.1902
+pandian_2016_ccp_somsc,ccp,2013,343,1980.0,7444.9749
+pandian_2016_efym_somsc,efym,2013,343,1790.0,7450.3331
+pandian_2016_msb_2.5_somsc,msb_2.5,2013,343,1990.0,8575.7075
+pandian_2016_msb_5_somsc,msb_5,2013,343,2110.0,8575.7075
+pandian_2016_csb_2.5_somsc,csb_2.5,2013,343,1960.0,8773.6479
+pandian_2016_csb_5_somsc,csb_5,2013,343,2070.0,8773.6479
+pandian_2016_rsb_2.5_somsc,rsb_2.5,2013,343,1980.0,8818.616
+pandian_2016_pb_2.5_somsc,pb_2.5,2013,343,1940.0,8881.5769

@@ -1,0 +1,57 @@
+N2O Check Summary for Site: Bhattacharyya_2018
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 6
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 6
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                Observation  Observed  Simulated              Difference
+    bhattacharyya_2018_ct_n2oflux_2014_2014  0.844675   694.7034  +82145.02% [OVER >50%]
+  bhattacharyya_2018_pnbb_n2oflux_2014_2014  0.857143   774.9609  +90312.11% [OVER >50%]
+bhattacharyya_2018_pnbb_r_n2oflux_2014_2014  0.963117   787.1996  +81634.59% [OVER >50%]
+    bhattacharyya_2018_ct_n2oflux_2014_2015  0.708122   876.6649 +123701.42% [OVER >50%]
+  bhattacharyya_2018_pnbb_n2oflux_2014_2015  0.703046   503.7255  +71549.04% [OVER >50%]
+bhattacharyya_2018_pnbb_r_n2oflux_2014_2015  0.880711   471.5982  +53447.46% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Bhattacharyya_2018_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.0036
+RMSE: 700.09
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and period dates in `observations/Bhattacharyya_2018_obs.csv`.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 10
+ -> ct period 2014-186 to 2014-299... SUCCESS: sim=694.7034
+ -> pnbb period 2014-186 to 2014-299... SUCCESS: sim=774.9609
+ -> pnbb_r period 2014-186 to 2014-299... SUCCESS: sim=787.1996
+ -> zt period 2014-186 to 2014-299... 
+    [WARN] Missing /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/Bhattacharyya_2018_out/Bhattacharyya_2018_ZT_output/summary.out FAILED.
+ -> zt_r period 2014-186 to 2014-299... 
+    [WARN] Missing /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/Bhattacharyya_2018_out/Bhattacharyya_2018_ZT_R_output/summary.out FAILED.
+ -> ct period 2014-314 to 2015-100... SUCCESS: sim=876.6649
+ -> pnbb period 2014-314 to 2015-100... SUCCESS: sim=503.7255
+ -> pnbb_r period 2014-314 to 2015-100... SUCCESS: sim=471.5982
+ -> zt period 2014-314 to 2015-100... 
+    [WARN] Missing /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/Bhattacharyya_2018_out/Bhattacharyya_2018_ZT_output/summary.out FAILED.
+ -> zt_r period 2014-314 to 2015-100... 
+    [WARN] Missing /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/Bhattacharyya_2018_out/Bhattacharyya_2018_ZT_R_output/summary.out FAILED.
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/observed_vs_modeled_n2o.png'

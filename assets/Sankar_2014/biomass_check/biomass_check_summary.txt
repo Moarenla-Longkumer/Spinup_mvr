@@ -1,0 +1,1048 @@
+Biomass Check Summary for Site: Sankar_2014
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 168
+Rows passing delta rule (sim >= obs): 134
+Rows with shortfall (sim < obs): 34
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                   Observation  Observed  Simulated          Difference
+sankar_2014_t1_cgrain_cot_1987     22.96    41.0219             +78.67%
+sankar_2014_t1_cgrain_cot_1989     22.40    20.9813  -6.33% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_1989     36.40    17.0173 -53.25% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_1990     21.20    27.3209             +28.87%
+sankar_2014_t1_cgrain_cot_1991     12.00    22.1593             +84.66%
+sankar_2014_t1_cgrain_cot_1993     17.20    16.9901  -1.22% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_1993     40.64    23.1544 -43.03% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_1995     14.96    22.6218             +51.22%
+sankar_2014_t1_cgrain_cot_1996     26.60    20.8075 -21.78% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_1997      6.64    24.4011            +267.49%
+sankar_2014_t1_cgrain_cot_1998     18.76    24.7653             +32.01%
+sankar_2014_t1_cgrain_cot_1998      3.64    27.3192            +650.53%
+sankar_2014_t1_cgrain_cot_2000     22.20    20.2847  -8.63% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_2000     24.12    17.6237 -26.93% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_2001     11.92    23.3720             +96.07%
+sankar_2014_t1_cgrain_cot_2003     13.76    17.4469             +26.79%
+sankar_2014_t1_cgrain_cot_2003     10.00    16.9505             +69.51%
+sankar_2014_t1_cgrain_cot_2005      5.96    18.6219            +212.45%
+sankar_2014_t1_cgrain_cot_2006     25.40    16.5219 -34.95% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_2007     36.76    15.9322 -56.66% [SHORTFALL]
+sankar_2014_t1_cgrain_cot_2008     19.60    16.5965 -15.32% [SHORTFALL]
+sankar_2014_t2_cgrain_cot_1987     33.36    95.0509            +184.92%
+sankar_2014_t2_cgrain_cot_1989     30.00    56.1447             +87.15%
+sankar_2014_t2_cgrain_cot_1989     51.60    53.7886              +4.24%
+sankar_2014_t2_cgrain_cot_1990     34.00    76.1306            +123.91%
+sankar_2014_t2_cgrain_cot_1991     18.40    65.5213            +256.09%
+sankar_2014_t2_cgrain_cot_1993     25.20    52.8325            +109.65%
+sankar_2014_t2_cgrain_cot_1993     65.48    66.4115              +1.42%
+sankar_2014_t2_cgrain_cot_1995     18.84    63.6160            +237.66%
+sankar_2014_t2_cgrain_cot_1996     34.12    63.6228             +86.47%
+sankar_2014_t2_cgrain_cot_1997     16.08    71.5571            +345.01%
+sankar_2014_t2_cgrain_cot_1998     25.68    70.4754            +174.44%
+sankar_2014_t2_cgrain_cot_1998      8.04    84.4822            +950.77%
+sankar_2014_t2_cgrain_cot_2000     27.24    57.6653            +111.69%
+sankar_2014_t2_cgrain_cot_2000     36.16    57.2164             +58.23%
+sankar_2014_t2_cgrain_cot_2001     13.00    71.8262            +452.51%
+sankar_2014_t2_cgrain_cot_2003     17.64    56.7761            +221.86%
+sankar_2014_t2_cgrain_cot_2003     11.88    53.9843            +354.41%
+sankar_2014_t2_cgrain_cot_2005      6.84    60.1970            +780.07%
+sankar_2014_t2_cgrain_cot_2006     42.84    54.2029             +26.52%
+sankar_2014_t2_cgrain_cot_2007     42.20    53.4651             +26.69%
+sankar_2014_t2_cgrain_cot_2008     28.28    52.3597             +85.15%
+sankar_2014_t3_cgrain_cot_1987     31.40    67.1071            +113.72%
+sankar_2014_t3_cgrain_cot_1989     28.40    37.2439             +31.14%
+sankar_2014_t3_cgrain_cot_1989     51.20    33.9855 -33.62% [SHORTFALL]
+sankar_2014_t3_cgrain_cot_1990     29.60    49.9679             +68.81%
+sankar_2014_t3_cgrain_cot_1991     14.80    42.0612            +184.20%
+sankar_2014_t3_cgrain_cot_1993     22.80    33.2893             +46.01%
+sankar_2014_t3_cgrain_cot_1993     53.52    43.0876 -19.49% [SHORTFALL]
+sankar_2014_t3_cgrain_cot_1995     19.96    42.0161            +110.50%
+sankar_2014_t3_cgrain_cot_1996     32.80    40.5755             +23.71%
+sankar_2014_t3_cgrain_cot_1997     12.88    45.8512            +255.99%
+sankar_2014_t3_cgrain_cot_1998     22.24    45.1176            +102.87%
+sankar_2014_t3_cgrain_cot_1998      6.48    54.5384            +741.64%
+sankar_2014_t3_cgrain_cot_2000     22.72    38.6526             +70.13%
+sankar_2014_t3_cgrain_cot_2000     29.04    35.9252             +23.71%
+sankar_2014_t3_cgrain_cot_2001     13.56    45.5945            +236.24%
+sankar_2014_t3_cgrain_cot_2003     15.72    35.5377            +126.07%
+sankar_2014_t3_cgrain_cot_2003     11.32    34.5873            +205.54%
+sankar_2014_t3_cgrain_cot_2005      6.08    37.7896            +521.54%
+sankar_2014_t3_cgrain_cot_2006     40.36    33.9221 -15.95% [SHORTFALL]
+sankar_2014_t3_cgrain_cot_2007     46.24    32.9834 -28.67% [SHORTFALL]
+sankar_2014_t3_cgrain_cot_2008     23.88    33.5201             +40.37%
+sankar_2014_t4_cgrain_cot_1987     30.44    62.3422            +104.80%
+sankar_2014_t4_cgrain_cot_1989     24.80    35.2570             +42.17%
+sankar_2014_t4_cgrain_cot_1989     45.20    31.0795 -31.24% [SHORTFALL]
+sankar_2014_t4_cgrain_cot_1990     28.80    47.4165             +64.64%
+sankar_2014_t4_cgrain_cot_1991     16.40    38.7406            +136.22%
+sankar_2014_t4_cgrain_cot_1993     25.20    32.1208             +27.46%
+sankar_2014_t4_cgrain_cot_1993     56.16    42.0455 -25.13% [SHORTFALL]
+sankar_2014_t4_cgrain_cot_1995     17.32    39.7868            +129.72%
+sankar_2014_t4_cgrain_cot_1996     31.80    38.5386             +21.19%
+sankar_2014_t4_cgrain_cot_1997     12.28    44.2846            +260.62%
+sankar_2014_t4_cgrain_cot_1998     23.20    44.4941             +91.78%
+sankar_2014_t4_cgrain_cot_1998      4.48    51.9923           +1060.54%
+sankar_2014_t4_cgrain_cot_2000     26.04    36.9988             +42.08%
+sankar_2014_t4_cgrain_cot_2000     35.20    33.6651  -4.36% [SHORTFALL]
+sankar_2014_t4_cgrain_cot_2001     15.68    43.9802            +180.49%
+sankar_2014_t4_cgrain_cot_2003     15.12    33.9059            +124.25%
+sankar_2014_t4_cgrain_cot_2003     11.28    32.5598            +188.65%
+sankar_2014_t4_cgrain_cot_2005      6.96    36.6242            +426.21%
+sankar_2014_t4_cgrain_cot_2006     32.12    32.4689              +1.09%
+sankar_2014_t4_cgrain_cot_2007     42.08    31.5889 -24.93% [SHORTFALL]
+sankar_2014_t4_cgrain_cot_2008     24.64    32.2281             +30.80%
+sankar_2014_t5_cgrain_cot_1987     27.36    41.7997             +52.78%
+sankar_2014_t5_cgrain_cot_1989     26.00    22.6533 -12.87% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_1989     45.60    19.3414 -57.58% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_1990     30.00    32.7335              +9.11%
+sankar_2014_t5_cgrain_cot_1991     18.80    27.1249             +44.28%
+sankar_2014_t5_cgrain_cot_1993     24.40    21.6437 -11.30% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_1993     65.48    30.8473 -52.89% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_1995     17.80    30.6844             +72.38%
+sankar_2014_t5_cgrain_cot_1996     31.44    29.0579  -7.58% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_1997     17.24    34.6912            +101.23%
+sankar_2014_t5_cgrain_cot_1998     24.00    36.6595             +52.75%
+sankar_2014_t5_cgrain_cot_1998      4.04    41.0069            +915.02%
+sankar_2014_t5_cgrain_cot_2000     26.96    30.5326             +13.25%
+sankar_2014_t5_cgrain_cot_2000     36.44    27.1666 -25.45% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_2001     15.08    36.6818            +143.25%
+sankar_2014_t5_cgrain_cot_2003     18.24    27.5744             +51.18%
+sankar_2014_t5_cgrain_cot_2003     12.32    27.4608            +122.90%
+sankar_2014_t5_cgrain_cot_2005      7.96    31.3481            +293.82%
+sankar_2014_t5_cgrain_cot_2006     34.64    28.0081 -19.15% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_2007     57.20    26.5996 -53.50% [SHORTFALL]
+sankar_2014_t5_cgrain_cot_2008     28.52    27.9786  -1.90% [SHORTFALL]
+sankar_2014_t6_cgrain_cot_1987     29.20   100.9072            +245.57%
+sankar_2014_t6_cgrain_cot_1989     31.20    62.3487             +99.84%
+sankar_2014_t6_cgrain_cot_1989     56.00    59.6149              +6.46%
+sankar_2014_t6_cgrain_cot_1990     32.80    85.5647            +160.87%
+sankar_2014_t6_cgrain_cot_1991     20.40    72.7925            +256.83%
+sankar_2014_t6_cgrain_cot_1993     33.60    59.9144             +78.32%
+sankar_2014_t6_cgrain_cot_1993     71.80    75.5153              +5.17%
+sankar_2014_t6_cgrain_cot_1995     19.80    69.4081            +250.55%
+sankar_2014_t6_cgrain_cot_1996     34.64    71.6202            +106.76%
+sankar_2014_t6_cgrain_cot_1997     18.72    80.2260            +328.56%
+sankar_2014_t6_cgrain_cot_1998     23.36    81.5253            +249.00%
+sankar_2014_t6_cgrain_cot_1998      6.96    95.9554           +1278.67%
+sankar_2014_t6_cgrain_cot_2000     26.72    63.8705            +139.04%
+sankar_2014_t6_cgrain_cot_2000     35.24    64.6641             +83.50%
+sankar_2014_t6_cgrain_cot_2001     16.12    81.1157            +403.20%
+sankar_2014_t6_cgrain_cot_2003     16.92    64.5362            +281.42%
+sankar_2014_t6_cgrain_cot_2003     11.76    60.6046            +415.35%
+sankar_2014_t6_cgrain_cot_2005      9.72    68.6769            +606.55%
+sankar_2014_t6_cgrain_cot_2006     47.40    61.6596             +30.08%
+sankar_2014_t6_cgrain_cot_2007     47.56    60.4143             +27.03%
+sankar_2014_t6_cgrain_cot_2008     28.88    59.7002            +106.72%
+sankar_2014_t7_cgrain_cot_1987     30.52    80.9839            +165.35%
+sankar_2014_t7_cgrain_cot_1989     29.60    47.1687             +59.35%
+sankar_2014_t7_cgrain_cot_1989     52.00    44.5992 -14.23% [SHORTFALL]
+sankar_2014_t7_cgrain_cot_1990     34.00    67.7858             +99.37%
+sankar_2014_t7_cgrain_cot_1991     19.20    57.7075            +200.56%
+sankar_2014_t7_cgrain_cot_1993     33.20    47.7431             +43.80%
+sankar_2014_t7_cgrain_cot_1993     76.40    61.8682 -19.02% [SHORTFALL]
+sankar_2014_t7_cgrain_cot_1995     21.60    59.0361            +173.32%
+sankar_2014_t7_cgrain_cot_1996     39.60    59.2647             +49.66%
+sankar_2014_t7_cgrain_cot_1997     22.36    69.3907            +210.33%
+sankar_2014_t7_cgrain_cot_1998     28.24    71.0285            +151.52%
+sankar_2014_t7_cgrain_cot_1998      8.68    82.3122            +848.30%
+sankar_2014_t7_cgrain_cot_2000     27.60    56.9161            +106.22%
+sankar_2014_t7_cgrain_cot_2000     38.40    55.5968             +44.78%
+sankar_2014_t7_cgrain_cot_2001     17.48    72.3472            +313.89%
+sankar_2014_t7_cgrain_cot_2003     22.16    57.3250            +158.69%
+sankar_2014_t7_cgrain_cot_2003     14.36    54.4532            +279.20%
+sankar_2014_t7_cgrain_cot_2005     10.92    62.0506            +468.23%
+sankar_2014_t7_cgrain_cot_2006     49.64    55.6603             +12.13%
+sankar_2014_t7_cgrain_cot_2007     69.80    54.4487 -21.99% [SHORTFALL]
+sankar_2014_t7_cgrain_cot_2008     30.60    54.4564             +77.96%
+sankar_2014_t8_cgrain_cot_1987     27.00    62.3422            +130.90%
+sankar_2014_t8_cgrain_cot_1989     28.80    35.2570             +22.42%
+sankar_2014_t8_cgrain_cot_1989     54.00    31.0795 -42.45% [SHORTFALL]
+sankar_2014_t8_cgrain_cot_1990     33.20    47.4165             +42.82%
+sankar_2014_t8_cgrain_cot_1991     20.00    38.7406             +93.70%
+sankar_2014_t8_cgrain_cot_1993     32.00    32.1208              +0.38%
+sankar_2014_t8_cgrain_cot_1993     69.00    42.0455 -39.06% [SHORTFALL]
+sankar_2014_t8_cgrain_cot_1995     20.64    39.7868             +92.77%
+sankar_2014_t8_cgrain_cot_1996     32.00    38.5386             +20.43%
+sankar_2014_t8_cgrain_cot_1997     16.32    44.2846            +171.35%
+sankar_2014_t8_cgrain_cot_1998     23.76    44.4941             +87.26%
+sankar_2014_t8_cgrain_cot_1998      5.04    51.9923            +931.59%
+sankar_2014_t8_cgrain_cot_2000     25.24    36.9988             +46.59%
+sankar_2014_t8_cgrain_cot_2000     33.60    33.6651              +0.19%
+sankar_2014_t8_cgrain_cot_2001     12.00    43.9802            +266.50%
+sankar_2014_t8_cgrain_cot_2003     19.08    33.9059             +77.70%
+sankar_2014_t8_cgrain_cot_2003     12.84    32.5598            +153.58%
+sankar_2014_t8_cgrain_cot_2005      8.56    36.6242            +327.85%
+sankar_2014_t8_cgrain_cot_2006     44.40    32.4689 -26.87% [SHORTFALL]
+sankar_2014_t8_cgrain_cot_2007     46.96    31.5889 -32.73% [SHORTFALL]
+sankar_2014_t8_cgrain_cot_2008     24.92    32.2281             +29.33%
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Sankar_2014_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 168
+R²: 0.0025
+RMSE: 29.87 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Sankar_2014_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 168
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'sankar_2014_t1_cgrain_cot_2008'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'sankar_2014_t2_cgrain_cot_2008'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'sankar_2014_t3_cgrain_cot_2008'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'sankar_2014_t4_cgrain_cot_2008'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'sankar_2014_t5_cgrain_cot_2008'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'sankar_2014_t6_cgrain_cot_2008'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'sankar_2014_t7_cgrain_cot_2008'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1987'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1989'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1990'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1991'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1993'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1995'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_1998'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2000'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2001'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2003'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2005'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2006'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2007'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/Sankar_2014_out/Sankar_2014_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'sankar_2014_t8_cgrain_cot_2008'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/observed_vs_modeled_biomass.png'
+--- Script finished. ---

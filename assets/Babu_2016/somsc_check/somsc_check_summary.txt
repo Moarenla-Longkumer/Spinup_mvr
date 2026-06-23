@@ -1,0 +1,110 @@
+SOMSC Check Summary for Site: Babu_2016
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-97.50%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,909.61 g C / m²
+Change during Equilibrium Phase: +1,508.53 g C / m²
+Change during Base Phase: -3,368.71 g C / m²
+Final SOMSC at end of Base Phase: 117.34 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,691.51 g C / m²
+Model is 97.50% lower than observation.
+(Difference: -4,574.17 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 9
+Experiments with SOMSC increase: 3, SOMSC decrease: 6
+
+SOMSC Increase (g C / m²):
+  + TRT_FYM5 (+30.91)
+  + TRT_GNS4 (+257.26)
+  + TRT_RDF50_GNS4 (+257.26)
+
+SOMSC Decrease (g C / m²):
+  - TRT_CONTROL (-451.52)
+  - TRT_FYM4 (-41.17)
+  - TRT_RDF100 (-449.95)
+  - TRT_RDF100_ZN (-448.78)
+  - TRT_RDF50 (-449.95)
+  - TRT_RDF50_FYM4 (-41.16)
+
+--- Experimental Analysis ---
+'babu_2016_trt_control_somsc' Change: -451.52 g C / m² (End value: 4,239.98)
+'babu_2016_trt_fym4_somsc' Change: -41.17 g C / m² (End value: 4,650.33)
+'babu_2016_trt_fym5_somsc' Change: +30.91 g C / m² (End value: 4,722.40)
+'babu_2016_trt_gns4_somsc' Change: +257.26 g C / m² (End value: 4,948.76)
+'babu_2016_trt_rdf100_somsc' Change: -449.95 g C / m² (End value: 4,241.54)
+'babu_2016_trt_rdf100_zn_somsc' Change: -448.78 g C / m² (End value: 4,242.71)
+'babu_2016_trt_rdf50_somsc' Change: -449.95 g C / m² (End value: 4,241.55)
+'babu_2016_trt_rdf50_fym4_somsc' Change: -41.16 g C / m² (End value: 4,650.34)
+'babu_2016_trt_rdf50_gns4_somsc' Change: +257.26 g C / m² (End value: 4,948.76)
+
+Average SOMSC at end of all experimental phases: 4,542.93 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_control (Years: 2004, Day: 308)... SUCCESS: 4396.73
+ -> Checking trt_rdf100 (Years: 2004, Day: 308)... SUCCESS: 4398.34
+ -> Checking trt_rdf50 (Years: 2004, Day: 308)... SUCCESS: 4398.35
+ -> Checking trt_gns4 (Years: 2004, Day: 308)... SUCCESS: 5021.50
+ -> Checking trt_fym4 (Years: 2004, Day: 308)... SUCCESS: 4765.54
+ -> Checking trt_rdf50_gns4 (Years: 2004, Day: 308)... SUCCESS: 5021.50
+ -> Checking trt_rdf50_fym4 (Years: 2004, Day: 308)... SUCCESS: 4765.55
+ -> Checking trt_rdf100_zn (Years: 2004, Day: 308)... SUCCESS: 4399.48
+ -> Checking trt_fym5 (Years: 2004, Day: 308)... SUCCESS: 4856.84
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 9
+Rows passing delta rule (sim >= obs): 9
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                   Observation  Observed  Simulated Difference
+   babu_2016_trt_control_somsc     481.0  4396.7266   +814.08%
+    babu_2016_trt_rdf100_somsc     920.0  4398.3430   +378.08%
+     babu_2016_trt_rdf50_somsc     854.0  4398.3452   +415.03%
+      babu_2016_trt_gns4_somsc     920.0  5021.4974   +445.81%
+      babu_2016_trt_fym4_somsc     951.0  4765.5405   +401.11%
+babu_2016_trt_rdf50_gns4_somsc     730.0  5021.4960   +587.88%
+babu_2016_trt_rdf50_fym4_somsc    1231.0  4765.5533   +287.13%
+ babu_2016_trt_rdf100_zn_somsc     833.0  4399.4798   +428.15%
+      babu_2016_trt_fym5_somsc    1157.0  4856.8374   +319.78%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 9
+R²: 0.1265
+RMSE: 3781.32 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Babu_2016_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+babu_2016_trt_control_somsc,trt_control,2004,308,481.0,4396.7266
+babu_2016_trt_rdf100_somsc,trt_rdf100,2004,308,920.0,4398.343
+babu_2016_trt_rdf50_somsc,trt_rdf50,2004,308,854.0,4398.3452
+babu_2016_trt_gns4_somsc,trt_gns4,2004,308,920.0,5021.4974
+babu_2016_trt_fym4_somsc,trt_fym4,2004,308,951.0,4765.540499999999
+babu_2016_trt_rdf50_gns4_somsc,trt_rdf50_gns4,2004,308,730.0,5021.496
+babu_2016_trt_rdf50_fym4_somsc,trt_rdf50_fym4,2004,308,1231.0,4765.5533000000005
+babu_2016_trt_rdf100_zn_somsc,trt_rdf100_zn,2004,308,833.0,4399.4798
+babu_2016_trt_fym5_somsc,trt_fym5,2004,308,1157.0,4856.8374

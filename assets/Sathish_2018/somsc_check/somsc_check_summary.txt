@@ -1,0 +1,59 @@
+SOMSC Check Summary for Site: Sathish_2018
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-90.65%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,832.63 g C / m²
+Change during Equilibrium Phase: -26.63 g C / m²
+Change during Base Phase: -1,351.40 g C / m²
+Final SOMSC at end of Base Phase: 462.03 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,941.46 g C / m²
+Model is 90.65% lower than observation.
+(Difference: -4,479.43 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 3, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  + T2 (+722.97)
+  + T3 (+767.97)
+  + T4 (+795.91)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-387.47)
+  - T5 (-298.73)
+
+--- Experimental Analysis ---
+'sathish_2018_t1_somsc' Change: -387.47 g C / m² (End value: 4,554.01)
+'sathish_2018_t2_somsc' Change: +722.97 g C / m² (End value: 5,664.45)
+'sathish_2018_t3_somsc' Change: +767.97 g C / m² (End value: 5,709.45)
+'sathish_2018_t4_somsc' Change: +795.91 g C / m² (End value: 5,737.39)
+'sathish_2018_t5_somsc' Change: -298.73 g C / m² (End value: 4,642.75)
+
+Average SOMSC at end of all experimental phases: 5,261.61 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2016, Day: 40)... FAILED: No matching data found.
+ -> Checking t2 (Years: 2016, Day: 40)... FAILED: No matching data found.
+ -> Checking t3 (Years: 2016, Day: 40)... FAILED: No matching data found.
+ -> Checking t4 (Years: 2016, Day: 40)... FAILED: No matching data found.
+ -> Checking t5 (Years: 2016, Day: 40)... FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sathish_2018/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

@@ -1,0 +1,64 @@
+SOMSC Check Summary for Site: Dhadli_2016
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,921.16 g C / m²
+Change during Equilibrium Phase: +738.16 g C / m²
+Change during Base Phase: +1,500.34 g C / m²
+Final SOMSC at end of Base Phase: 4,203.00 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,813.48 g C / m²
+Model is 10.21% higher than observation.
+(Difference: +389.52 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 4
+Experiments with SOMSC increase: 1, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + T4 (+4907.52)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-1286.33)
+  - T2 (-1275.78)
+  - T5 (-1599.32)
+
+--- Experimental Analysis ---
+'dhadli_2016_t1_somsc' Change: -1,286.33 g C / m² (End value: 2,527.12)
+'dhadli_2016_t2_somsc' Change: -1,275.78 g C / m² (End value: 2,537.67)
+'dhadli_2016_t4_somsc' Change: +4,907.52 g C / m² (End value: 8,720.98)
+'dhadli_2016_t5_somsc' Change: -1,599.32 g C / m² (End value: 2,214.14)
+
+Average SOMSC at end of all experimental phases: 3,999.98 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2013, Day: 145)... SUCCESS: 2534.56
+ -> Checking t2 (Years: 2013, Day: 145)... SUCCESS: 2545.27
+ -> Checking t3 (Years: 2013, Day: 145)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output/soilc.out FAILED: No matching data found.
+ -> Checking t4 (Years: 2013, Day: 145)... SUCCESS: 9108.02
+ -> Checking t5 (Years: 2013, Day: 145)... SUCCESS: 2225.94
+ -> Checking t1 (Years: 2013, Day: 310)... SUCCESS: 2542.45
+ -> Checking t2 (Years: 2013, Day: 310)... SUCCESS: 2553.60
+ -> Checking t3 (Years: 2013, Day: 310)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output/soilc.out FAILED: No matching data found.
+ -> Checking t4 (Years: 2013, Day: 310)... SUCCESS: 8880.55
+ -> Checking t5 (Years: 2013, Day: 310)... SUCCESS: 2224.09
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

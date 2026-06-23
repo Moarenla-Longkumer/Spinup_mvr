@@ -1,0 +1,964 @@
+Biomass Check Summary for Site: Srinivasarao_2012c
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 154
+Rows passing delta rule (sim >= obs): 86
+Rows with shortfall (sim < obs): 68
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                              Observation  Observed  Simulated          Difference
+srinivasarao_2012c_t1_cgrain_sorghum_1986     38.25    31.0220 -18.90% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1986     49.95    36.9449 -26.04% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1986     66.15    54.7563 -17.22% [SHORTFALL]
+srinivasarao_2012c_t4_cgrain_sorghum_1986     61.20    74.8792             +22.35%
+srinivasarao_2012c_t5_cgrain_sorghum_1986     47.25    75.0660             +58.87%
+srinivasarao_2012c_t6_cgrain_sorghum_1986     53.10    88.1334             +65.98%
+srinivasarao_2012c_t7_cgrain_sorghum_1986     76.05    66.7003 -12.29% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1987      6.75    46.8066            +593.43%
+srinivasarao_2012c_t2_cgrain_sorghum_1987     10.35    79.6780            +669.84%
+srinivasarao_2012c_t3_cgrain_sorghum_1987      9.90   120.4109           +1116.27%
+srinivasarao_2012c_t4_cgrain_sorghum_1987      9.45    73.2068            +674.68%
+srinivasarao_2012c_t5_cgrain_sorghum_1987     10.35    69.7129            +573.55%
+srinivasarao_2012c_t6_cgrain_sorghum_1987      9.45   100.5368            +963.88%
+srinivasarao_2012c_t7_cgrain_sorghum_1987     13.95    66.0155            +373.23%
+srinivasarao_2012c_t1_cgrain_sorghum_1988     27.00    30.0819             +11.41%
+srinivasarao_2012c_t2_cgrain_sorghum_1988     45.00    56.8143             +26.25%
+srinivasarao_2012c_t3_cgrain_sorghum_1988     53.55    90.6907             +69.36%
+srinivasarao_2012c_t4_cgrain_sorghum_1988     56.25    55.3061  -1.68% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1988     45.00    57.6113             +28.03%
+srinivasarao_2012c_t6_cgrain_sorghum_1988     36.45    80.2927            +120.28%
+srinivasarao_2012c_t7_cgrain_sorghum_1988     50.40    53.4133              +5.98%
+srinivasarao_2012c_t1_cgrain_sorghum_1989     37.80    16.1178 -57.36% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1989     42.30    34.9264 -17.43% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1989     46.35    60.9169             +31.43%
+srinivasarao_2012c_t4_cgrain_sorghum_1989     48.15    36.8236 -23.52% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1989     49.95    40.1528 -19.61% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_1989     49.95    53.8359              +7.78%
+srinivasarao_2012c_t7_cgrain_sorghum_1989     53.10    35.3356 -33.45% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1990     28.35    20.0042 -29.44% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1990     35.55    39.6796             +11.62%
+srinivasarao_2012c_t3_cgrain_sorghum_1990     40.05    67.3959             +68.28%
+srinivasarao_2012c_t4_cgrain_sorghum_1990     39.15    43.9416             +12.24%
+srinivasarao_2012c_t5_cgrain_sorghum_1990     36.90    48.3597             +31.06%
+srinivasarao_2012c_t6_cgrain_sorghum_1990     39.15    63.4834             +62.15%
+srinivasarao_2012c_t7_cgrain_sorghum_1990     41.40    44.5522              +7.61%
+srinivasarao_2012c_t1_cgrain_sorghum_1991     33.30    20.9601 -37.06% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1991     55.35    42.4968 -23.22% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1991     63.90    71.4973             +11.89%
+srinivasarao_2012c_t4_cgrain_sorghum_1991     63.00    48.1181 -23.62% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1991     58.05    52.3282  -9.86% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_1991     45.45    69.1995             +52.25%
+srinivasarao_2012c_t7_cgrain_sorghum_1991     71.55    45.9415 -35.79% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1992     37.35    20.7404 -44.47% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1992     40.95    41.0973              +0.36%
+srinivasarao_2012c_t3_cgrain_sorghum_1992     46.80    71.3899             +52.54%
+srinivasarao_2012c_t4_cgrain_sorghum_1992     52.65    49.0035  -6.93% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1992     39.15    55.4779             +41.71%
+srinivasarao_2012c_t6_cgrain_sorghum_1992     50.40    66.2223             +31.39%
+srinivasarao_2012c_t7_cgrain_sorghum_1992     58.95    45.7398 -22.41% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1993     36.00    21.2698 -40.92% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1993     44.10    42.1699  -4.38% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1993     45.45    71.4232             +57.15%
+srinivasarao_2012c_t4_cgrain_sorghum_1993     45.90    49.1823              +7.15%
+srinivasarao_2012c_t5_cgrain_sorghum_1993     44.10    54.8006             +24.26%
+srinivasarao_2012c_t6_cgrain_sorghum_1993     47.25    74.3616             +57.38%
+srinivasarao_2012c_t7_cgrain_sorghum_1993     49.50    51.4660              +3.97%
+srinivasarao_2012c_t1_cgrain_sorghum_1994     29.25    14.9413 -48.92% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1994     56.70    34.3944 -39.34% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1994     74.70    60.6160 -18.85% [SHORTFALL]
+srinivasarao_2012c_t4_cgrain_sorghum_1994     74.25    36.1648 -51.29% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1994     56.70    41.4628 -26.87% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_1994     39.60    53.4801             +35.05%
+srinivasarao_2012c_t7_cgrain_sorghum_1994     58.50    34.6527 -40.76% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1995     37.80    22.7781 -39.74% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1995     48.60    46.0510  -5.24% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1995     46.35    76.9583             +66.04%
+srinivasarao_2012c_t4_cgrain_sorghum_1995     40.95    52.3344             +27.80%
+srinivasarao_2012c_t5_cgrain_sorghum_1995     59.85    61.0196              +1.95%
+srinivasarao_2012c_t6_cgrain_sorghum_1995     49.95    76.1906             +52.53%
+srinivasarao_2012c_t7_cgrain_sorghum_1995     64.80    55.1908 -14.83% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1996     21.15    16.6987 -21.05% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1996     26.10    38.6329             +48.02%
+srinivasarao_2012c_t3_cgrain_sorghum_1996     50.85    65.2348             +28.29%
+srinivasarao_2012c_t4_cgrain_sorghum_1996     46.35    42.1842  -8.99% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1996     46.80    47.8775              +2.30%
+srinivasarao_2012c_t6_cgrain_sorghum_1996     29.25    61.3595            +109.78%
+srinivasarao_2012c_t7_cgrain_sorghum_1996     49.05    40.5781 -17.27% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1997     30.15    15.9091 -47.23% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1997     59.40    36.5108 -38.53% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1997     72.45    62.7537 -13.38% [SHORTFALL]
+srinivasarao_2012c_t4_cgrain_sorghum_1997     66.15    38.3581 -42.01% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1997     76.95    43.1908 -43.87% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_1997     41.40    57.0916             +37.90%
+srinivasarao_2012c_t7_cgrain_sorghum_1997     63.45    38.3761 -39.52% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_1998      4.95    25.4026            +413.18%
+srinivasarao_2012c_t2_cgrain_sorghum_1998      8.55    49.2955            +476.56%
+srinivasarao_2012c_t3_cgrain_sorghum_1998     10.80    86.7583            +703.32%
+srinivasarao_2012c_t4_cgrain_sorghum_1998      9.00    54.6398            +507.11%
+srinivasarao_2012c_t5_cgrain_sorghum_1998      8.10    63.3912            +682.61%
+srinivasarao_2012c_t6_cgrain_sorghum_1998      6.75    83.7604           +1140.89%
+srinivasarao_2012c_t7_cgrain_sorghum_1998     10.80    57.5258            +432.65%
+srinivasarao_2012c_t1_cgrain_sorghum_1999     27.45    13.5213 -50.74% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_1999     40.05    33.2511 -16.98% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_1999     46.80    57.7801             +23.46%
+srinivasarao_2012c_t4_cgrain_sorghum_1999     47.70    33.5483 -29.67% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_1999     47.25    37.8556 -19.88% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_1999     38.25    47.0197             +22.93%
+srinivasarao_2012c_t7_cgrain_sorghum_1999     53.55    30.6038 -42.85% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_2000     38.70    16.9059 -56.32% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_2000     45.90    38.5859 -15.93% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_2000     52.20    65.8122             +26.08%
+srinivasarao_2012c_t4_cgrain_sorghum_2000     47.25    43.0595  -8.87% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_2000     64.35    49.8162 -22.59% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_2000     39.60    61.6586             +55.70%
+srinivasarao_2012c_t7_cgrain_sorghum_2000     49.05    42.4924 -13.37% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_2001     33.30    17.6120 -47.11% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_2001     42.30    38.3645  -9.30% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_2001     46.35    64.8822             +39.98%
+srinivasarao_2012c_t4_cgrain_sorghum_2001     54.45    41.8977 -23.05% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_2001     54.00    47.6921 -11.68% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_2001     37.80    60.4125             +59.82%
+srinivasarao_2012c_t7_cgrain_sorghum_2001     58.95    41.3448 -29.86% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_2002     24.75    20.4069 -17.55% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_2002     52.20    44.5641 -14.63% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_2002     55.80    74.3366             +33.22%
+srinivasarao_2012c_t4_cgrain_sorghum_2002     58.95    47.5127 -19.40% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_2002     52.20    54.5363              +4.48%
+srinivasarao_2012c_t6_cgrain_sorghum_2002     32.85    69.9366            +112.90%
+srinivasarao_2012c_t7_cgrain_sorghum_2002     45.00    48.8714              +8.60%
+srinivasarao_2012c_t1_cgrain_sorghum_2003     24.75    22.6950  -8.30% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_2003     37.35    45.0310             +20.56%
+srinivasarao_2012c_t3_cgrain_sorghum_2003     44.55    73.1558             +64.21%
+srinivasarao_2012c_t4_cgrain_sorghum_2003     45.00    50.6824             +12.63%
+srinivasarao_2012c_t5_cgrain_sorghum_2003     44.55    57.5823             +29.25%
+srinivasarao_2012c_t6_cgrain_sorghum_2003     35.55    71.0863             +99.96%
+srinivasarao_2012c_t7_cgrain_sorghum_2003     50.85    51.0827              +0.46%
+srinivasarao_2012c_t1_cgrain_sorghum_2004     30.15    22.4871 -25.42% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_2004     42.75    44.3393              +3.72%
+srinivasarao_2012c_t3_cgrain_sorghum_2004     49.50    74.8248             +51.16%
+srinivasarao_2012c_t4_cgrain_sorghum_2004     50.40    50.6430              +0.48%
+srinivasarao_2012c_t5_cgrain_sorghum_2004     49.95    57.9842             +16.08%
+srinivasarao_2012c_t6_cgrain_sorghum_2004     40.95    72.5586             +77.19%
+srinivasarao_2012c_t7_cgrain_sorghum_2004     56.25    51.5105  -8.43% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_2005     15.30    19.1664             +25.27%
+srinivasarao_2012c_t2_cgrain_sorghum_2005     30.15    40.3029             +33.67%
+srinivasarao_2012c_t3_cgrain_sorghum_2005     31.50    69.2490            +119.84%
+srinivasarao_2012c_t4_cgrain_sorghum_2005     33.75    45.1009             +33.63%
+srinivasarao_2012c_t5_cgrain_sorghum_2005     50.85    53.8212              +5.84%
+srinivasarao_2012c_t6_cgrain_sorghum_2005     33.75    66.8935             +98.20%
+srinivasarao_2012c_t7_cgrain_sorghum_2005     67.50    48.6959 -27.86% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_2006     15.75    16.3858              +4.04%
+srinivasarao_2012c_t2_cgrain_sorghum_2006     26.10    36.9064             +41.40%
+srinivasarao_2012c_t3_cgrain_sorghum_2006     29.70    63.5154            +113.86%
+srinivasarao_2012c_t4_cgrain_sorghum_2006     41.40    41.2357  -0.40% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_2006     38.25    49.4359             +29.24%
+srinivasarao_2012c_t6_cgrain_sorghum_2006     33.30    60.6787             +82.22%
+srinivasarao_2012c_t7_cgrain_sorghum_2006     62.10    44.2123 -28.80% [SHORTFALL]
+srinivasarao_2012c_t1_cgrain_sorghum_2007     25.20    16.7296 -33.61% [SHORTFALL]
+srinivasarao_2012c_t2_cgrain_sorghum_2007     45.45    37.1515 -18.26% [SHORTFALL]
+srinivasarao_2012c_t3_cgrain_sorghum_2007     50.40    64.8726             +28.72%
+srinivasarao_2012c_t4_cgrain_sorghum_2007     59.40    40.0400 -32.59% [SHORTFALL]
+srinivasarao_2012c_t5_cgrain_sorghum_2007     57.15    47.7010 -16.53% [SHORTFALL]
+srinivasarao_2012c_t6_cgrain_sorghum_2007     49.05    59.2062             +20.71%
+srinivasarao_2012c_t7_cgrain_sorghum_2007     69.75    42.7355 -38.73% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Srinivasarao_2012c_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 154
+R²: 0.0000
+RMSE: 25.59 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Srinivasarao_2012c_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'comment uncertainty units', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 154
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1986'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1986'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1986'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1986'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1986'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1986'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1986'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1987'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1987'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1987'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1987'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1987'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1987'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1987'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1988'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1988'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1988'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1988'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1988'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1988'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1988'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1989'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1989'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1989'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1989'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1989'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1989'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1989'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1990'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1990'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1990'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1990'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1990'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1990'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1990'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1991'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1991'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1991'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1991'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1991'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1991'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1991'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1992'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1992'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1992'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1992'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1992'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1992'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1992'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1993'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1993'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1993'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1993'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1993'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1993'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1993'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1994'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1994'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1994'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1994'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1994'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1994'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1994'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1995'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1995'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1995'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1995'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1995'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1995'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1995'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1996'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1996'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1996'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1996'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1996'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1996'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1996'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1997'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1997'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1997'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1997'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1997'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1997'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1997'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1998'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1998'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1998'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1998'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1998'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1998'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1998'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_1999'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_1999'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_1999'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_1999'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_1999'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_1999'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_1999'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2000'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2000'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2000'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2000'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2000'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2000'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2000'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2001'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2001'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2001'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2001'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2001'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2001'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2001'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2002'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2002'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2002'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2002'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2002'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2002'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2002'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2003'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2003'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2003'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2003'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2003'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2003'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2003'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2004'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2004'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2004'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2004'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2004'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2004'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2004'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2005'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2005'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2005'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2005'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2005'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2005'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2005'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2006'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2006'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2006'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2006'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2006'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2006'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2006'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2012c_t1_cgrain_sorghum_2007'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2012c_t2_cgrain_sorghum_2007'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2012c_t3_cgrain_sorghum_2007'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2012c_t4_cgrain_sorghum_2007'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2012c_t5_cgrain_sorghum_2007'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2012c_t6_cgrain_sorghum_2007'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/Srinivasarao_2012c_out/Srinivasarao_2012c_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2012c_t7_cgrain_sorghum_2007'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/observed_vs_modeled_biomass.png'
+--- Script finished. ---

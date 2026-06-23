@@ -1,0 +1,91 @@
+SOMSC Check Summary for Site: Banerjee_2018
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-64.77%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 2,005.42 g C / m²
+Change during Equilibrium Phase: +625.15 g C / m²
+Change during Base Phase: -941.23 g C / m²
+Final SOMSC at end of Base Phase: 1,725.39 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,897.70 g C / m²
+Model is 64.77% lower than observation.
+(Difference: -3,172.31 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 4
+Experiments with SOMSC increase: 4, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + T1 (+239.44)
+  + T2 (+264.00)
+  + T3 (+502.76)
+  + T4 (+740.31)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'banerjee_2018_t1_somsc' Change: +239.44 g C / m² (End value: 5,137.14)
+'banerjee_2018_t2_somsc' Change: +264.00 g C / m² (End value: 5,161.70)
+'banerjee_2018_t3_somsc' Change: +502.76 g C / m² (End value: 5,400.45)
+'banerjee_2018_t4_somsc' Change: +740.31 g C / m² (End value: 5,638.01)
+
+Average SOMSC at end of all experimental phases: 5,334.33 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2014,2015,2016, Day: 34)... SUCCESS: 5192.47
+ -> Checking t2 (Years: 2014,2015,2016, Day: 34)... SUCCESS: 5199.42
+ -> Checking t3 (Years: 2014,2015,2016, Day: 34)... SUCCESS: 5368.54
+ -> Checking t4 (Years: 2014,2015,2016, Day: 34)... SUCCESS: 5537.19
+ -> Checking t5 (Years: 2014,2015,2016, Day: 34)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T5_output/soilc.out FAILED: No matching data found.
+ -> Checking t6 (Years: 2014,2015,2016, Day: 34)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T6_output/soilc.out FAILED: No matching data found.
+ -> Checking t7 (Years: 2014,2015,2016, Day: 34)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T7_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 4
+Rows passing delta rule (sim >= obs): 4
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+           Observation  Observed   Simulated Difference
+banerjee_2018_t1_somsc    861.00 5192.473833   +503.07%
+banerjee_2018_t2_somsc    987.00 5199.424533   +426.79%
+banerjee_2018_t3_somsc   1171.35 5368.542167   +358.32%
+banerjee_2018_t4_somsc   1316.25 5537.188267   +320.68%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 4
+R²: 0.9281
+RMSE: 4240.84 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+banerjee_2018_t1_somsc,t1,"2014,2015,2016",34,861.0,5192.4738333333335
+banerjee_2018_t2_somsc,t2,"2014,2015,2016",34,987.0,5199.424533333334
+banerjee_2018_t3_somsc,t3,"2014,2015,2016",34,1171.35,5368.542166666666
+banerjee_2018_t4_somsc,t4,"2014,2015,2016",34,1316.25,5537.188266666667

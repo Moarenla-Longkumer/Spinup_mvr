@@ -1,0 +1,90 @@
+SOMSC Check Summary for Site: Das_2018
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,882.54 g C / m²
+Change during Equilibrium Phase: +389.80 g C / m²
+Change during Base Phase: +1,353.12 g C / m²
+Final SOMSC at end of Base Phase: 3,662.05 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,238.07 g C / m²
+Model is 13.09% higher than observation.
+(Difference: +423.98 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 1, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + PNBB_R (+11.40)
+
+SOMSC Decrease (g C / m²):
+  - CT (-311.30)
+  - PNBB (-94.30)
+  - ZT (-50.79)
+  - ZT_R (-8.47)
+
+--- Experimental Analysis ---
+'das_2018_ct_somsc' Change: -311.30 g C / m² (End value: 2,926.93)
+'das_2018_pnbb_somsc' Change: -94.30 g C / m² (End value: 3,143.93)
+'das_2018_pnbb_r_somsc' Change: +11.40 g C / m² (End value: 3,249.63)
+'das_2018_zt_somsc' Change: -50.79 g C / m² (End value: 3,187.44)
+'das_2018_zt_r_somsc' Change: -8.47 g C / m² (End value: 3,229.77)
+
+Average SOMSC at end of all experimental phases: 3,147.54 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct (Years: 2013, Day: 110)... SUCCESS: 2954.23
+ -> Checking pnbb (Years: 2013, Day: 110)... SUCCESS: 3176.34
+ -> Checking pnbb_r (Years: 2013, Day: 110)... SUCCESS: 3273.71
+ -> Checking zt (Years: 2013, Day: 110)... SUCCESS: 3226.04
+ -> Checking zt_r (Years: 2013, Day: 110)... SUCCESS: 3257.83
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Das_2018/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Das_2018/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Das_2018/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 1
+Rows with shortfall (sim < obs): 4
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+          Observation  Observed  Simulated         Difference
+    das_2018_ct_somsc    2884.0  2954.2340             +2.44%
+  das_2018_pnbb_somsc    3244.5  3176.3412 -2.10% [SHORTFALL]
+das_2018_pnbb_r_somsc    3411.5  3273.7080 -4.04% [SHORTFALL]
+    das_2018_zt_somsc    3319.0  3226.0380 -2.80% [SHORTFALL]
+  das_2018_zt_r_somsc    3423.0  3257.8280 -4.83% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Das_2018_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.9923
+RMSE: 113.57 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+das_2018_ct_somsc,ct,2013,110,2884.0,2954.234
+das_2018_pnbb_somsc,pnbb,2013,110,3244.5,3176.3412
+das_2018_pnbb_r_somsc,pnbb_r,2013,110,3411.5,3273.708
+das_2018_zt_somsc,zt,2013,110,3319.0,3226.0379999999996
+das_2018_zt_r_somsc,zt_r,2013,110,3423.0,3257.828

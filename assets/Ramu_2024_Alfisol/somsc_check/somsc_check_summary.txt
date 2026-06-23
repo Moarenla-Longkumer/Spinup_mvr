@@ -1,0 +1,48 @@
+SOMSC Check Summary for Site: Ramu_2024_Alfisol
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-46.62%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,932.72 g C / m²
+Change during Equilibrium Phase: +2,558.88 g C / m²
+Change during Base Phase: -2,318.23 g C / m²
+Final SOMSC at end of Base Phase: 2,190.15 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,103.06 g C / m²
+Model is 46.62% lower than observation.
+(Difference: -1,912.91 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 2
+Experiments with SOMSC increase: 0, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - T1_Alfisol (-3.36)
+  - T2_Alfisol (-2.95)
+
+--- Experimental Analysis ---
+'ramu_2024_alfisol_t1_alfisol_somsc' Change: -3.36 g C / m² (End value: 4,099.67)
+'ramu_2024_alfisol_t2_alfisol_somsc' Change: -2.95 g C / m² (End value: 4,100.09)
+
+Average SOMSC at end of all experimental phases: 4,099.88 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+[INFO] No SOMSC observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ramu_2024_Alfisol/observed_vs_modeled_somsc.png'
+[INFO] Observed-vs-modelled metrics skipped because observed SOMSC data is missing.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

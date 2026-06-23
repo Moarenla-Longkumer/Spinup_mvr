@@ -1,0 +1,52 @@
+N2O Check Summary for Site: Bhattacharya_2023
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 8
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 8
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                              Observation  Observed  Simulated              Difference
+bhattacharya_2023_ct r0_n2oflux_2020_2021     0.057   432.6168 +758876.84% [OVER >50%]
+bhattacharya_2023_ct r+_n2oflux_2020_2021     0.068   333.6175 +490513.97% [OVER >50%]
+bhattacharya_2023_nt r0_n2oflux_2020_2021     0.072   308.1517 +427888.47% [OVER >50%]
+bhattacharya_2023_nt r+_n2oflux_2020_2021     0.075   231.7711 +308928.13% [OVER >50%]
+bhattacharya_2023_ct r0_n2oflux_2021_2022     0.063   522.1796 +828756.51% [OVER >50%]
+bhattacharya_2023_ct r+_n2oflux_2021_2022     0.070   442.9256 +632650.86% [OVER >50%]
+bhattacharya_2023_nt r0_n2oflux_2021_2022     0.071   400.6420 +564184.51% [OVER >50%]
+bhattacharya_2023_nt r+_n2oflux_2021_2022     0.074   303.2249 +409663.38% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Bhattacharya_2023_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 8
+R²: 0.5086
+RMSE: 382.11
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 8
+ -> ct r0 period 2020-331 to 2021-103... SUCCESS: sim=432.6168
+ -> ct r+ period 2020-331 to 2021-103... SUCCESS: sim=333.6175
+ -> nt r0 period 2020-331 to 2021-103... SUCCESS: sim=308.1517
+ -> nt r+ period 2020-331 to 2021-103... SUCCESS: sim=231.7711
+ -> ct r0 period 2021-327 to 2022-101... SUCCESS: sim=522.1796
+ -> ct r+ period 2021-327 to 2022-101... SUCCESS: sim=442.9256
+ -> nt r0 period 2021-327 to 2022-101... SUCCESS: sim=400.6420
+ -> nt r+ period 2021-327 to 2022-101... SUCCESS: sim=303.2249
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharya_2023/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharya_2023/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharya_2023/observed_vs_modeled_n2o.png'

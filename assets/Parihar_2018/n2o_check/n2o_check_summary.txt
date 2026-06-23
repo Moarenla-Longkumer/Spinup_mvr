@@ -1,0 +1,51 @@
+N2O Check Summary for Site: Parihar_2018
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 7
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 7
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                         Observation  Observed   Simulated             Difference
+   parihar_2018_pb_n2oflux_2012_2013     28.27 2885.273325 +10106.13% [OVER >50%]
+   parihar_2018_zt_n2oflux_2012_2013     28.26 2616.364275  +9158.19% [OVER >50%]
+   parihar_2018_ct_n2oflux_2012_2013     22.08 3488.324950 +15698.57% [OVER >50%]
+ parihar_2018_mwmb_n2oflux_2012_2013      4.07 3251.401900 +79787.02% [OVER >50%]
+  parihar_2018_mcs_n2oflux_2012_2013      4.28 2150.432333 +50143.75% [OVER >50%]
+parihar_2018_mmumb_n2oflux_2012_2013      4.28 3226.165133 +75277.69% [OVER >50%]
+  parihar_2018_mms_n2oflux_2012_2013      4.58 3358.617367 +73232.26% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Parihar_2018_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 7
+R²: 0.0077
+RMSE: 3015.60
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and period dates in `observations/Parihar_2018_obs.csv`.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 7
+ -> pb period 2012-188 to 2013-187... SUCCESS: sim=2885.2733
+ -> zt period 2012-188 to 2013-187... SUCCESS: sim=2616.3643
+ -> ct period 2012-188 to 2013-187... SUCCESS: sim=3488.3250
+ -> mwmb period 2012-188 to 2013-187... SUCCESS: sim=3251.4019
+ -> mcs period 2012-188 to 2013-187... SUCCESS: sim=2150.4323
+ -> mmumb period 2012-188 to 2013-187... SUCCESS: sim=3226.1651
+ -> mms period 2012-188 to 2013-187... SUCCESS: sim=3358.6174
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Parihar_2018/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Parihar_2018/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Parihar_2018/observed_vs_modeled_n2o.png'

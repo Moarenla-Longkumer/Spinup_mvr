@@ -1,0 +1,70 @@
+SOMSC Check Summary for Site: Pathak_2021
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-62.07%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,895.69 g C / m²
+Change during Equilibrium Phase: +1,776.78 g C / m²
+Change during Base Phase: -2,350.65 g C / m²
+Final SOMSC at end of Base Phase: 1,328.07 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,500.93 g C / m²
+Model is 62.07% lower than observation.
+(Difference: -2,172.86 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 1
+Experiments with SOMSC increase: 1, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + iii (+2570.56)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'pathak_2021_iii_somsc' Change: +2,570.56 g C / m² (End value: 6,071.47)
+
+Average SOMSC at end of all experimental phases: 6,071.47 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking iii (Years: 2018, Day: 95)... SUCCESS: 6167.07
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pathak_2021/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pathak_2021/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pathak_2021/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 1
+Rows passing delta rule (sim >= obs): 1
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+          Observation    Observed  Simulated Difference
+pathak_2021_iii_somsc 2574.868421  6167.0672   +139.51%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 1
+R²: undefined
+RMSE: undefined
+Status: CANNOT ASSESS - R² is undefined (need at least 2 paired points).
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+pathak_2021_iii_somsc,iii,2018,95,2574.868421,6167.0671999999995

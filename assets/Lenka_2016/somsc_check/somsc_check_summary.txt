@@ -1,0 +1,82 @@
+SOMSC Check Summary for Site: Lenka_2016
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-35.64%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,960.62 g C / m²
+Change during Equilibrium Phase: +2,934.57 g C / m²
+Change during Base Phase: -2,778.45 g C / m²
+Final SOMSC at end of Base Phase: 2,144.67 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,332.52 g C / m²
+Model is 35.64% lower than observation.
+(Difference: -1,187.85 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 3
+Experiments with SOMSC increase: 0, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - INM (-343.87)
+  - NPK (-586.62)
+  - ONM (-100.81)
+
+--- Experimental Analysis ---
+'lenka_2016_inm_somsc' Change: -343.87 g C / m² (End value: 2,988.63)
+'lenka_2016_npk_somsc' Change: -586.62 g C / m² (End value: 2,745.89)
+'lenka_2016_onm_somsc' Change: -100.81 g C / m² (End value: 3,231.69)
+
+Average SOMSC at end of all experimental phases: 2,988.74 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking onm (Years: 2013, Day: 76)... SUCCESS: 3267.86
+ -> Checking npk (Years: 2013, Day: 76)... SUCCESS: 2758.24
+ -> Checking inm (Years: 2013, Day: 76)... SUCCESS: 3012.66
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2016/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2016/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2016/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 3
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 3
+
+         Observation  Observed  Simulated         Difference
+lenka_2016_onm_somsc       0.0  3267.8616 FLAG (invalid obs)
+lenka_2016_npk_somsc       0.0  2758.2355 FLAG (invalid obs)
+lenka_2016_inm_somsc       0.0  3012.6558 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Lenka_2016_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 3
+R²: 0.0000 (flat observations or flat model)
+RMSE: 3020.09 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Lenka_2016_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+lenka_2016_onm_somsc,onm,2013,76,0.0,3267.8616
+lenka_2016_npk_somsc,npk,2013,76,0.0,2758.2355000000002
+lenka_2016_inm_somsc,inm,2013,76,0.0,3012.6558

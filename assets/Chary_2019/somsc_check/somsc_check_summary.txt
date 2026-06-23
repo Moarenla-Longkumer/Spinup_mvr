@@ -1,0 +1,305 @@
+SOMSC Check Summary for Site: Chary_2019
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-91.60%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,905.72 g C / m²
+Change during Equilibrium Phase: +3,172.94 g C / m²
+Change during Base Phase: -4,887.42 g C / m²
+Final SOMSC at end of Base Phase: 271.20 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,226.80 g C / m²
+Model is 91.60% lower than observation.
+(Difference: -2,955.60 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 48
+Experiments with SOMSC increase: 25, SOMSC decrease: 23
+
+SOMSC Increase (g C / m²):
+  + BB_INM (+394.99)
+  + BB_O (+94.13)
+  + BC_INM (+402.29)
+  + BC_O (+106.46)
+  + BG_INM (+112.96)
+  + BG_O (+53.99)
+  + CC_INM (+403.82)
+  + CC_O (+122.04)
+  + CG_INM (+118.31)
+  + CG_O (+79.13)
+  + CaC_INM (+404.68)
+  + CaC_O (+111.09)
+  + CaCa_INM (+421.30)
+  + CaCa_O (+115.77)
+  + CaCa_RDF (+3.01)
+  + CaG_INM (+123.70)
+  + CaG_O (+66.53)
+  + GG_INM (+11.88)
+  + GG_O (+33.32)
+  + SC_INM (+90.58)
+  + SC_O (+99.60)
+  + SG_INM (+101.78)
+  + SG_O (+50.58)
+  + SS_INM (+254.47)
+  + SS_O (+69.65)
+
+SOMSC Decrease (g C / m²):
+  - BB_C (-77.69)
+  - BB_RDF (-5.74)
+  - BC_C (-63.14)
+  - BC_RDF (-9.53)
+  - BG_C (-104.77)
+  - BG_RDF (-63.28)
+  - CC_C (-47.85)
+  - CC_RDF (-22.23)
+  - CG_C (-65.80)
+  - CG_RDF (-69.87)
+  - CaC_C (-56.78)
+  - CaC_RDF (-10.11)
+  - CaCa_C (-32.76)
+  - CaG_C (-79.24)
+  - CaG_RDF (-59.48)
+  - GG_C (-115.37)
+  - GG_RDF (-115.32)
+  - SC_C (-61.79)
+  - SC_RDF (-49.85)
+  - SG_C (-101.55)
+  - SG_RDF (-101.48)
+  - SS_C (-83.93)
+  - SS_RDF (-83.87)
+
+--- Experimental Analysis ---
+'chary_2019_bb_c_somsc' Change: -77.69 g C / m² (End value: 3,149.08)
+'chary_2019_bb_inm_somsc' Change: +394.99 g C / m² (End value: 3,621.77)
+'chary_2019_bb_o_somsc' Change: +94.13 g C / m² (End value: 3,320.91)
+'chary_2019_bb_rdf_somsc' Change: -5.74 g C / m² (End value: 3,221.04)
+'chary_2019_bc_c_somsc' Change: -63.14 g C / m² (End value: 3,163.63)
+'chary_2019_bc_inm_somsc' Change: +402.29 g C / m² (End value: 3,629.06)
+'chary_2019_bc_o_somsc' Change: +106.46 g C / m² (End value: 3,333.24)
+'chary_2019_bc_rdf_somsc' Change: -9.53 g C / m² (End value: 3,217.24)
+'chary_2019_bg_c_somsc' Change: -104.77 g C / m² (End value: 3,122.00)
+'chary_2019_bg_inm_somsc' Change: +112.96 g C / m² (End value: 3,339.74)
+'chary_2019_bg_o_somsc' Change: +53.99 g C / m² (End value: 3,280.76)
+'chary_2019_bg_rdf_somsc' Change: -63.28 g C / m² (End value: 3,163.50)
+'chary_2019_cc_c_somsc' Change: -47.85 g C / m² (End value: 3,178.93)
+'chary_2019_cc_inm_somsc' Change: +403.82 g C / m² (End value: 3,630.60)
+'chary_2019_cc_o_somsc' Change: +122.04 g C / m² (End value: 3,348.81)
+'chary_2019_cc_rdf_somsc' Change: -22.23 g C / m² (End value: 3,204.55)
+'chary_2019_cg_c_somsc' Change: -65.80 g C / m² (End value: 3,160.98)
+'chary_2019_cg_inm_somsc' Change: +118.31 g C / m² (End value: 3,345.09)
+'chary_2019_cg_o_somsc' Change: +79.13 g C / m² (End value: 3,305.90)
+'chary_2019_cg_rdf_somsc' Change: -69.87 g C / m² (End value: 3,156.91)
+'chary_2019_cac_c_somsc' Change: -56.78 g C / m² (End value: 3,170.00)
+'chary_2019_cac_inm_somsc' Change: +404.68 g C / m² (End value: 3,631.46)
+'chary_2019_cac_o_somsc' Change: +111.09 g C / m² (End value: 3,337.87)
+'chary_2019_cac_rdf_somsc' Change: -10.11 g C / m² (End value: 3,216.67)
+'chary_2019_caca_c_somsc' Change: -32.76 g C / m² (End value: 3,194.01)
+'chary_2019_caca_inm_somsc' Change: +421.30 g C / m² (End value: 3,648.07)
+'chary_2019_caca_o_somsc' Change: +115.77 g C / m² (End value: 3,342.55)
+'chary_2019_caca_rdf_somsc' Change: +3.01 g C / m² (End value: 3,229.79)
+'chary_2019_cag_c_somsc' Change: -79.24 g C / m² (End value: 3,147.54)
+'chary_2019_cag_inm_somsc' Change: +123.70 g C / m² (End value: 3,350.48)
+'chary_2019_cag_o_somsc' Change: +66.53 g C / m² (End value: 3,293.31)
+'chary_2019_cag_rdf_somsc' Change: -59.48 g C / m² (End value: 3,167.30)
+'chary_2019_gg_c_somsc' Change: -115.37 g C / m² (End value: 3,111.41)
+'chary_2019_gg_inm_somsc' Change: +11.88 g C / m² (End value: 3,238.66)
+'chary_2019_gg_o_somsc' Change: +33.32 g C / m² (End value: 3,260.10)
+'chary_2019_gg_rdf_somsc' Change: -115.32 g C / m² (End value: 3,111.45)
+'chary_2019_sc_c_somsc' Change: -61.79 g C / m² (End value: 3,164.99)
+'chary_2019_sc_inm_somsc' Change: +90.58 g C / m² (End value: 3,317.35)
+'chary_2019_sc_o_somsc' Change: +99.60 g C / m² (End value: 3,326.38)
+'chary_2019_sc_rdf_somsc' Change: -49.85 g C / m² (End value: 3,176.93)
+'chary_2019_sg_c_somsc' Change: -101.55 g C / m² (End value: 3,125.23)
+'chary_2019_sg_inm_somsc' Change: +101.78 g C / m² (End value: 3,328.56)
+'chary_2019_sg_o_somsc' Change: +50.58 g C / m² (End value: 3,277.35)
+'chary_2019_sg_rdf_somsc' Change: -101.48 g C / m² (End value: 3,125.30)
+'chary_2019_ss_c_somsc' Change: -83.93 g C / m² (End value: 3,142.85)
+'chary_2019_ss_inm_somsc' Change: +254.47 g C / m² (End value: 3,481.25)
+'chary_2019_ss_o_somsc' Change: +69.65 g C / m² (End value: 3,296.43)
+'chary_2019_ss_rdf_somsc' Change: -83.87 g C / m² (End value: 3,142.91)
+
+Average SOMSC at end of all experimental phases: 3,276.04 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking sc_c (Years: 2005, Day: 282)... SUCCESS: 3164.47
+ -> Checking sc_rdf (Years: 2005, Day: 282)... SUCCESS: 3176.42
+ -> Checking sc_inm (Years: 2005, Day: 282)... SUCCESS: 3316.93
+ -> Checking sc_o (Years: 2005, Day: 282)... SUCCESS: 3325.92
+ -> Checking ss_c (Years: 2005, Day: 282)... SUCCESS: 3142.31
+ -> Checking ss_rdf (Years: 2005, Day: 282)... SUCCESS: 3142.37
+ -> Checking ss_inm (Years: 2005, Day: 282)... SUCCESS: 3480.90
+ -> Checking ss_o (Years: 2005, Day: 282)... SUCCESS: 3295.96
+ -> Checking sg_c (Years: 2005, Day: 282)... SUCCESS: 3124.69
+ -> Checking sg_rdf (Years: 2005, Day: 282)... SUCCESS: 3124.76
+ -> Checking sg_inm (Years: 2005, Day: 282)... SUCCESS: 3328.16
+ -> Checking sg_o (Years: 2005, Day: 282)... SUCCESS: 3276.88
+ -> Checking bg_c (Years: 2005, Day: 264)... SUCCESS: 3123.04
+ -> Checking bg_rdf (Years: 2005, Day: 264)... SUCCESS: 3155.99
+ -> Checking bg_inm (Years: 2005, Day: 264)... SUCCESS: 3334.67
+ -> Checking bg_o (Years: 2005, Day: 264)... SUCCESS: 3282.87
+ -> Checking bb_c (Years: 2005, Day: 264)... SUCCESS: 3150.24
+ -> Checking bb_rdf (Years: 2005, Day: 264)... SUCCESS: 3214.14
+ -> Checking bb_inm (Years: 2005, Day: 264)... SUCCESS: 3620.38
+ -> Checking bb_o (Years: 2005, Day: 264)... SUCCESS: 3323.22
+ -> Checking bc_c (Years: 2005, Day: 264)... SUCCESS: 3164.75
+ -> Checking bc_rdf (Years: 2005, Day: 264)... SUCCESS: 3210.25
+ -> Checking bc_inm (Years: 2005, Day: 264)... SUCCESS: 3627.72
+ -> Checking bc_o (Years: 2005, Day: 264)... SUCCESS: 3335.44
+ -> Checking cac_c (Years: 2006, Day: 114)... SUCCESS: 3176.54
+ -> Checking cac_rdf (Years: 2006, Day: 114)... SUCCESS: 3218.76
+ -> Checking cac_inm (Years: 2006, Day: 114)... SUCCESS: 3645.94
+ -> Checking cac_o (Years: 2006, Day: 114)... SUCCESS: 3348.29
+ -> Checking caca_c (Years: 2006, Day: 114)... SUCCESS: 3199.78
+ -> Checking caca_rdf (Years: 2006, Day: 114)... SUCCESS: 3232.69
+ -> Checking caca_inm (Years: 2006, Day: 114)... SUCCESS: 3663.48
+ -> Checking caca_o (Years: 2006, Day: 114)... SUCCESS: 3353.25
+ -> Checking cag_c (Years: 2006, Day: 114)... SUCCESS: 3152.68
+ -> Checking cag_rdf (Years: 2006, Day: 114)... SUCCESS: 3168.51
+ -> Checking cag_inm (Years: 2006, Day: 114)... SUCCESS: 3357.03
+ -> Checking cag_o (Years: 2006, Day: 114)... SUCCESS: 3303.16
+ -> Checking cg_c (Years: 2005, Day: 294)... SUCCESS: 3160.53
+ -> Checking cg_rdf (Years: 2005, Day: 294)... SUCCESS: 3156.19
+ -> Checking cg_inm (Years: 2005, Day: 294)... SUCCESS: 3344.40
+ -> Checking cg_o (Years: 2005, Day: 294)... SUCCESS: 3305.44
+ -> Checking cc_c (Years: 2005, Day: 294)... SUCCESS: 3178.72
+ -> Checking cc_rdf (Years: 2005, Day: 294)... SUCCESS: 3203.99
+ -> Checking cc_inm (Years: 2005, Day: 294)... SUCCESS: 3630.14
+ -> Checking cc_o (Years: 2005, Day: 294)... SUCCESS: 3348.54
+ -> Checking gg_c (Years: 2005, Day: 249)... SUCCESS: 3113.75
+ -> Checking gg_rdf (Years: 2005, Day: 249)... SUCCESS: 3113.79
+ -> Checking gg_inm (Years: 2005, Day: 249)... SUCCESS: 3243.07
+ -> Checking gg_o (Years: 2005, Day: 249)... SUCCESS: 3264.61
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chary_2019/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chary_2019/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chary_2019/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 48
+Rows passing delta rule (sim >= obs): 48
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+              Observation  Observed  Simulated Difference
+    chary_2019_sc_c_somsc   1102.95  3164.4650   +186.91%
+  chary_2019_sc_rdf_somsc   1236.15  3176.4189   +156.96%
+  chary_2019_sc_inm_somsc   1213.80  3316.9290   +173.27%
+    chary_2019_sc_o_somsc   1062.00  3325.9244   +213.18%
+    chary_2019_ss_c_somsc   1061.10  3142.3129   +196.14%
+  chary_2019_ss_rdf_somsc   1035.45  3142.3740   +203.48%
+  chary_2019_ss_inm_somsc   1070.10  3480.8970   +225.29%
+    chary_2019_ss_o_somsc    957.00  3295.9603   +244.41%
+    chary_2019_sg_c_somsc   1102.95  3124.6904   +183.30%
+  chary_2019_sg_rdf_somsc   1162.05  3124.7577   +168.90%
+  chary_2019_sg_inm_somsc   1070.10  3328.1581   +211.01%
+    chary_2019_sg_o_somsc   1069.50  3276.8769   +206.39%
+    chary_2019_bg_c_somsc   1041.60  3123.0364   +199.83%
+  chary_2019_bg_rdf_somsc   1044.00  3155.9866   +202.30%
+  chary_2019_bg_inm_somsc   1088.85  3334.6694   +206.26%
+    chary_2019_bg_o_somsc   1148.40  3282.8694   +185.86%
+    chary_2019_bb_c_somsc   1004.40  3150.2442   +213.64%
+  chary_2019_bb_rdf_somsc    947.70  3214.1440   +239.15%
+  chary_2019_bb_inm_somsc   1121.25  3620.3809   +222.89%
+    chary_2019_bb_o_somsc   1207.50  3323.2225   +175.22%
+    chary_2019_bc_c_somsc   1171.35  3164.7503   +170.18%
+  chary_2019_bc_rdf_somsc   1107.00  3210.2503   +190.00%
+  chary_2019_bc_inm_somsc   1179.75  3627.7246   +207.50%
+    chary_2019_bc_o_somsc   1203.60  3335.4395   +177.12%
+   chary_2019_cac_c_somsc    985.80  3176.5383   +222.23%
+ chary_2019_cac_rdf_somsc   1078.80  3218.7590   +198.36%
+ chary_2019_cac_inm_somsc   1097.40  3645.9364   +232.23%
+   chary_2019_cac_o_somsc   1060.20  3348.2944   +215.82%
+  chary_2019_caca_c_somsc    969.90  3199.7795   +229.91%
+chary_2019_caca_rdf_somsc   1089.00  3232.6898   +196.85%
+chary_2019_caca_inm_somsc   1170.00  3663.4798   +213.12%
+  chary_2019_caca_o_somsc   1069.50  3353.2542   +213.53%
+   chary_2019_cag_c_somsc    988.20  3152.6847   +219.03%
+ chary_2019_cag_rdf_somsc   1071.00  3168.5052   +195.85%
+ chary_2019_cag_inm_somsc   1062.00  3357.0269   +216.10%
+   chary_2019_cag_o_somsc   1145.70  3303.1569   +188.31%
+    chary_2019_cg_c_somsc   1062.00  3160.5294   +197.60%
+  chary_2019_cg_rdf_somsc   1070.55  3156.1911   +194.82%
+  chary_2019_cg_inm_somsc   1276.50  3344.4044   +162.00%
+    chary_2019_cg_o_somsc   1067.85  3305.4355   +209.54%
+    chary_2019_cc_c_somsc   1087.50  3178.7152   +192.30%
+  chary_2019_cc_rdf_somsc   1044.30  3203.9868   +206.81%
+  chary_2019_cc_inm_somsc   1173.00  3630.1354   +209.47%
+    chary_2019_cc_o_somsc   1155.75  3348.5382   +189.73%
+    chary_2019_gg_c_somsc   1190.70  3113.7462   +161.51%
+  chary_2019_gg_rdf_somsc   1138.50  3113.7875   +173.50%
+  chary_2019_gg_inm_somsc   1138.50  3243.0711   +184.85%
+    chary_2019_gg_o_somsc   1128.60  3264.6093   +189.26%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 48
+R²: 0.0809
+RMSE: 2183.96 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Chary_2019_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+chary_2019_sc_c_somsc,sc_c,2005,282,1102.95,3164.465
+chary_2019_sc_rdf_somsc,sc_rdf,2005,282,1236.15,3176.4189
+chary_2019_sc_inm_somsc,sc_inm,2005,282,1213.8,3316.929
+chary_2019_sc_o_somsc,sc_o,2005,282,1062.0,3325.9244
+chary_2019_ss_c_somsc,ss_c,2005,282,1061.1,3142.3129
+chary_2019_ss_rdf_somsc,ss_rdf,2005,282,1035.45,3142.374
+chary_2019_ss_inm_somsc,ss_inm,2005,282,1070.1,3480.897
+chary_2019_ss_o_somsc,ss_o,2005,282,957.0,3295.9603
+chary_2019_sg_c_somsc,sg_c,2005,282,1102.95,3124.6904
+chary_2019_sg_rdf_somsc,sg_rdf,2005,282,1162.05,3124.7577
+chary_2019_sg_inm_somsc,sg_inm,2005,282,1070.1,3328.1581
+chary_2019_sg_o_somsc,sg_o,2005,282,1069.5,3276.8769
+chary_2019_bg_c_somsc,bg_c,2005,264,1041.6,3123.0364
+chary_2019_bg_rdf_somsc,bg_rdf,2005,264,1044.0,3155.9866
+chary_2019_bg_inm_somsc,bg_inm,2005,264,1088.85,3334.6694
+chary_2019_bg_o_somsc,bg_o,2005,264,1148.4,3282.8694
+chary_2019_bb_c_somsc,bb_c,2005,264,1004.4,3150.2442
+chary_2019_bb_rdf_somsc,bb_rdf,2005,264,947.7,3214.1440000000002
+chary_2019_bb_inm_somsc,bb_inm,2005,264,1121.25,3620.3809
+chary_2019_bb_o_somsc,bb_o,2005,264,1207.5,3323.2225
+chary_2019_bc_c_somsc,bc_c,2005,264,1171.35,3164.7503
+chary_2019_bc_rdf_somsc,bc_rdf,2005,264,1107.0,3210.2502999999997
+chary_2019_bc_inm_somsc,bc_inm,2005,264,1179.75,3627.7245999999996
+chary_2019_bc_o_somsc,bc_o,2005,264,1203.6,3335.4395
+chary_2019_cac_c_somsc,cac_c,2006,114,985.8,3176.5383
+chary_2019_cac_rdf_somsc,cac_rdf,2006,114,1078.8,3218.759
+chary_2019_cac_inm_somsc,cac_inm,2006,114,1097.4,3645.9364
+chary_2019_cac_o_somsc,cac_o,2006,114,1060.2,3348.2944
+chary_2019_caca_c_somsc,caca_c,2006,114,969.9,3199.7795
+chary_2019_caca_rdf_somsc,caca_rdf,2006,114,1089.0,3232.6898
+chary_2019_caca_inm_somsc,caca_inm,2006,114,1170.0,3663.4798
+chary_2019_caca_o_somsc,caca_o,2006,114,1069.5,3353.2542000000003
+chary_2019_cag_c_somsc,cag_c,2006,114,988.2,3152.6847
+chary_2019_cag_rdf_somsc,cag_rdf,2006,114,1071.0,3168.5051999999996
+chary_2019_cag_inm_somsc,cag_inm,2006,114,1062.0,3357.0269
+chary_2019_cag_o_somsc,cag_o,2006,114,1145.7,3303.1569
+chary_2019_cg_c_somsc,cg_c,2005,294,1062.0,3160.5294
+chary_2019_cg_rdf_somsc,cg_rdf,2005,294,1070.55,3156.1911
+chary_2019_cg_inm_somsc,cg_inm,2005,294,1276.5,3344.4044
+chary_2019_cg_o_somsc,cg_o,2005,294,1067.85,3305.4355
+chary_2019_cc_c_somsc,cc_c,2005,294,1087.5,3178.7152
+chary_2019_cc_rdf_somsc,cc_rdf,2005,294,1044.3,3203.9867999999997
+chary_2019_cc_inm_somsc,cc_inm,2005,294,1173.0,3630.1354
+chary_2019_cc_o_somsc,cc_o,2005,294,1155.75,3348.5382
+chary_2019_gg_c_somsc,gg_c,2005,249,1190.7,3113.7462
+chary_2019_gg_rdf_somsc,gg_rdf,2005,249,1138.5,3113.7875
+chary_2019_gg_inm_somsc,gg_inm,2005,249,1138.5,3243.0711
+chary_2019_gg_o_somsc,gg_o,2005,249,1128.6,3264.6093

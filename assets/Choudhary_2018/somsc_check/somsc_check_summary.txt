@@ -1,0 +1,120 @@
+SOMSC Check Summary for Site: Choudhary_2018
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-86.50%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,882.54 g C / m²
+Change during Equilibrium Phase: +389.80 g C / m²
+Change during Base Phase: -1,868.82 g C / m²
+Final SOMSC at end of Base Phase: 437.19 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,238.07 g C / m²
+Model is 86.50% lower than observation.
+(Difference: -2,800.88 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 20
+Experiments with SOMSC increase: 20, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + CT_CR0_S0 (+4.22)
+  + CT_CR0_S15 (+3.29)
+  + CT_CR0_S30 (+3.29)
+  + CT_CR0_S45 (+3.29)
+  + CT_CR2_S0 (+84.70)
+  + CT_CR2_S15 (+88.26)
+  + CT_CR2_S30 (+88.26)
+  + CT_CR2_S45 (+88.26)
+  + CT_CR4_S0 (+163.60)
+  + CT_CR4_S15 (+168.60)
+  + CT_CR4_S30 (+168.60)
+  + CT_CR4_S45 (+168.60)
+  + ZT_CR2_S0 (+111.98)
+  + ZT_CR2_S15 (+113.38)
+  + ZT_CR2_S30 (+113.38)
+  + ZT_CR2_S45 (+113.38)
+  + ZT_CR4_S0 (+194.13)
+  + ZT_CR4_S15 (+195.88)
+  + ZT_CR4_S30 (+195.88)
+  + ZT_CR4_S45 (+195.88)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'choudhary_2018_ct_cr0_s0_somsc' Change: +4.22 g C / m² (End value: 3,242.30)
+'choudhary_2018_ct_cr0_s15_somsc' Change: +3.29 g C / m² (End value: 3,241.36)
+'choudhary_2018_ct_cr0_s30_somsc' Change: +3.29 g C / m² (End value: 3,241.36)
+'choudhary_2018_ct_cr0_s45_somsc' Change: +3.29 g C / m² (End value: 3,241.36)
+'choudhary_2018_ct_cr2_s0_somsc' Change: +84.70 g C / m² (End value: 3,322.77)
+'choudhary_2018_ct_cr2_s15_somsc' Change: +88.26 g C / m² (End value: 3,326.33)
+'choudhary_2018_ct_cr2_s30_somsc' Change: +88.26 g C / m² (End value: 3,326.33)
+'choudhary_2018_ct_cr2_s45_somsc' Change: +88.26 g C / m² (End value: 3,326.33)
+'choudhary_2018_ct_cr4_s0_somsc' Change: +163.60 g C / m² (End value: 3,401.68)
+'choudhary_2018_ct_cr4_s15_somsc' Change: +168.60 g C / m² (End value: 3,406.68)
+'choudhary_2018_ct_cr4_s30_somsc' Change: +168.60 g C / m² (End value: 3,406.68)
+'choudhary_2018_ct_cr4_s45_somsc' Change: +168.60 g C / m² (End value: 3,406.68)
+'choudhary_2018_zt_cr2_s0_somsc' Change: +111.98 g C / m² (End value: 3,350.05)
+'choudhary_2018_zt_cr2_s15_somsc' Change: +113.38 g C / m² (End value: 3,351.45)
+'choudhary_2018_zt_cr2_s30_somsc' Change: +113.38 g C / m² (End value: 3,351.45)
+'choudhary_2018_zt_cr2_s45_somsc' Change: +113.38 g C / m² (End value: 3,351.45)
+'choudhary_2018_zt_cr4_s0_somsc' Change: +194.13 g C / m² (End value: 3,432.21)
+'choudhary_2018_zt_cr4_s15_somsc' Change: +195.88 g C / m² (End value: 3,433.96)
+'choudhary_2018_zt_cr4_s30_somsc' Change: +195.88 g C / m² (End value: 3,433.96)
+'choudhary_2018_zt_cr4_s45_somsc' Change: +195.88 g C / m² (End value: 3,433.96)
+
+Average SOMSC at end of all experimental phases: 3,351.42 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct_cr0 (Years: 2015, Day: 70)... SUCCESS: 3251.08
+ -> Checking ct_cr2 (Years: 2015, Day: 70)... SUCCESS: 3338.73
+ -> Checking ct_cr4 (Years: 2015, Day: 70)... SUCCESS: 3422.32
+ -> Checking zt_cr2 (Years: 2015, Day: 70)... SUCCESS: 3361.87
+ -> Checking zt_cr4 (Years: 2015, Day: 70)... SUCCESS: 3445.50
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Choudhary_2018/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Choudhary_2018/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Choudhary_2018/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 5
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                Observation  Observed   Simulated Difference
+choudhary_2018_ct_cr0_somsc   934.525 3251.081525   +247.89%
+choudhary_2018_ct_cr2_somsc   986.700 3338.730775   +238.37%
+choudhary_2018_ct_cr4_somsc  1038.555 3422.319900   +229.53%
+choudhary_2018_zt_cr2_somsc   998.325 3361.871325   +236.75%
+choudhary_2018_zt_cr4_somsc  1029.300 3445.504625   +234.74%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.9627
+RMSE: 2366.65 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+choudhary_2018_ct_cr0_somsc,ct_cr0,2015,70,934.525,3251.0815250000005
+choudhary_2018_ct_cr2_somsc,ct_cr2,2015,70,986.7,3338.7307749999995
+choudhary_2018_ct_cr4_somsc,ct_cr4,2015,70,1038.555,3422.3199000000004
+choudhary_2018_zt_cr2_somsc,zt_cr2,2015,70,998.325,3361.8713249999996
+choudhary_2018_zt_cr4_somsc,zt_cr4,2015,70,1029.3,3445.5046249999996

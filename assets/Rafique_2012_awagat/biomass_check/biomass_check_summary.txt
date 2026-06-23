@@ -1,0 +1,487 @@
+Biomass Check Summary for Site: Rafique_2012_awagat
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 64
+Rows passing delta rule (sim >= obs): 8
+Rows with shortfall (sim < obs): 56
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                                 Observation  Observed  Simulated          Difference
+         rafique_2012_awagat_ffu_res_flatbed_cgrain_cot_2001      81.6   75.55430  -7.41% [SHORTFALL]
+       rafique_2012_awagat_ffu_nores_flatbed_cgrain_cot_2001      97.6   69.61450 -28.67% [SHORTFALL]
+       rafique_2012_awagat_ffu_res_raisedbed_cgrain_cot_2001     100.0   75.55430 -24.45% [SHORTFALL]
+     rafique_2012_awagat_ffu_nores_raisedbed_cgrain_cot_2001      98.0   69.61450 -28.96% [SHORTFALL]
+         rafique_2012_awagat_bnm_res_flatbed_cgrain_cot_2001      84.8   95.88620             +13.07%
+       rafique_2012_awagat_bnm_nores_flatbed_cgrain_cot_2001     102.4   85.05510 -16.94% [SHORTFALL]
+       rafique_2012_awagat_bnm_res_raisedbed_cgrain_cot_2001     105.6   95.88620  -9.20% [SHORTFALL]
+     rafique_2012_awagat_bnm_nores_raisedbed_cgrain_cot_2001     102.8   85.05510 -17.26% [SHORTFALL]
+         rafique_2012_awagat_inm_res_flatbed_cgrain_cot_2001      87.2   83.31630  -4.45% [SHORTFALL]
+       rafique_2012_awagat_inm_nores_flatbed_cgrain_cot_2001     106.4   81.66460 -23.25% [SHORTFALL]
+       rafique_2012_awagat_inm_res_raisedbed_cgrain_cot_2001     109.2   83.31630 -23.70% [SHORTFALL]
+     rafique_2012_awagat_inm_nores_raisedbed_cgrain_cot_2001     106.8   81.66460 -23.54% [SHORTFALL]
+      rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_cot_2001      90.0   85.55070  -4.94% [SHORTFALL]
+    rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_cot_2001     110.0   82.14310 -25.32% [SHORTFALL]
+    rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_cot_2001     113.2   85.55070 -24.43% [SHORTFALL]
+  rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_cot_2001     110.4   82.14310 -25.60% [SHORTFALL]
+              rafique_2012_awagat_ffu_res_flatbed_cgrain_cot      81.6   77.28064  -5.29% [SHORTFALL]
+            rafique_2012_awagat_ffu_nores_flatbed_cgrain_cot      99.6   66.95370 -32.78% [SHORTFALL]
+            rafique_2012_awagat_ffu_res_raisedbed_cgrain_cot     102.8   77.28064 -24.82% [SHORTFALL]
+          rafique_2012_awagat_ffu_nores_raisedbed_cgrain_cot     100.8   66.95370 -33.58% [SHORTFALL]
+              rafique_2012_awagat_bnm_res_flatbed_cgrain_cot      86.8   91.89832              +5.87%
+            rafique_2012_awagat_bnm_nores_flatbed_cgrain_cot     107.2   78.98048 -26.32% [SHORTFALL]
+            rafique_2012_awagat_bnm_res_raisedbed_cgrain_cot     110.8   91.89832 -17.06% [SHORTFALL]
+          rafique_2012_awagat_bnm_nores_raisedbed_cgrain_cot     108.4   78.98048 -27.14% [SHORTFALL]
+              rafique_2012_awagat_inm_res_flatbed_cgrain_cot      88.8   89.70966              +1.02%
+            rafique_2012_awagat_inm_nores_flatbed_cgrain_cot     110.0   80.34140 -26.96% [SHORTFALL]
+            rafique_2012_awagat_inm_res_raisedbed_cgrain_cot     114.4   89.70966 -21.58% [SHORTFALL]
+          rafique_2012_awagat_inm_nores_raisedbed_cgrain_cot     111.6   80.34140 -28.01% [SHORTFALL]
+           rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_cot      93.6   90.44614  -3.37% [SHORTFALL]
+         rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_cot     117.2   82.08724 -29.96% [SHORTFALL]
+         rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_cot     121.6   90.44614 -25.62% [SHORTFALL]
+       rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_cot     118.8   82.08724 -30.90% [SHORTFALL]
+       rafique_2012_awagat_ffu_res_flatbed_cgrain_sw3eg_2001     123.6  134.28630              +8.65%
+     rafique_2012_awagat_ffu_nores_flatbed_cgrain_sw3eg_2001     153.2  134.28630 -12.35% [SHORTFALL]
+     rafique_2012_awagat_ffu_res_raisedbed_cgrain_sw3eg_2001     156.8  134.28630 -14.36% [SHORTFALL]
+   rafique_2012_awagat_ffu_nores_raisedbed_cgrain_sw3eg_2001     154.0  134.28630 -12.80% [SHORTFALL]
+       rafique_2012_awagat_bnm_res_flatbed_cgrain_sw3eg_2001     126.0  147.82620             +17.32%
+     rafique_2012_awagat_bnm_nores_flatbed_cgrain_sw3eg_2001     157.6  147.82620  -6.20% [SHORTFALL]
+     rafique_2012_awagat_bnm_res_raisedbed_cgrain_sw3eg_2001     161.2  147.82620  -8.30% [SHORTFALL]
+   rafique_2012_awagat_bnm_nores_raisedbed_cgrain_sw3eg_2001     158.0  147.82620  -6.44% [SHORTFALL]
+       rafique_2012_awagat_inm_res_flatbed_cgrain_sw3eg_2001     124.0  147.82640             +19.21%
+     rafique_2012_awagat_inm_nores_flatbed_cgrain_sw3eg_2001     154.4  147.82640  -4.26% [SHORTFALL]
+     rafique_2012_awagat_inm_res_raisedbed_cgrain_sw3eg_2001     158.8  147.82640  -6.91% [SHORTFALL]
+   rafique_2012_awagat_inm_nores_raisedbed_cgrain_sw3eg_2001     154.4  147.82640  -4.26% [SHORTFALL]
+    rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_sw3eg_2001     127.2  147.82620             +16.22%
+  rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_sw3eg_2001     158.8  147.82620  -6.91% [SHORTFALL]
+  rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_sw3eg_2001     164.0  147.82620  -9.86% [SHORTFALL]
+rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_sw3eg_2001     159.2  147.82620  -7.14% [SHORTFALL]
+            rafique_2012_awagat_ffu_res_flatbed_cgrain_sw3eg     116.4   86.20932 -25.94% [SHORTFALL]
+          rafique_2012_awagat_ffu_nores_flatbed_cgrain_sw3eg     150.8  105.13852 -30.28% [SHORTFALL]
+          rafique_2012_awagat_ffu_res_raisedbed_cgrain_sw3eg     156.8   86.20932 -45.02% [SHORTFALL]
+        rafique_2012_awagat_ffu_nores_raisedbed_cgrain_sw3eg     153.6  105.13852 -31.55% [SHORTFALL]
+            rafique_2012_awagat_bnm_res_flatbed_cgrain_sw3eg     122.4  125.34966              +2.41%
+          rafique_2012_awagat_bnm_nores_flatbed_cgrain_sw3eg     161.2  134.43858 -16.60% [SHORTFALL]
+          rafique_2012_awagat_bnm_res_raisedbed_cgrain_sw3eg     167.6  125.34966 -25.21% [SHORTFALL]
+        rafique_2012_awagat_bnm_nores_raisedbed_cgrain_sw3eg     164.0  134.43858 -18.03% [SHORTFALL]
+            rafique_2012_awagat_inm_res_flatbed_cgrain_sw3eg     119.2  106.23922 -10.87% [SHORTFALL]
+          rafique_2012_awagat_inm_nores_flatbed_cgrain_sw3eg     156.8  134.41678 -14.28% [SHORTFALL]
+          rafique_2012_awagat_inm_res_raisedbed_cgrain_sw3eg     163.2  106.23922 -34.90% [SHORTFALL]
+        rafique_2012_awagat_inm_nores_raisedbed_cgrain_sw3eg     158.4  134.41678 -15.14% [SHORTFALL]
+         rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_sw3eg     126.0  115.78250  -8.11% [SHORTFALL]
+       rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_sw3eg     166.8  135.70800 -18.64% [SHORTFALL]
+       rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_sw3eg     174.4  115.78250 -33.61% [SHORTFALL]
+     rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_sw3eg     168.8  135.70800 -19.60% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Rafique_2012_awagat_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 64
+R²: 0.6257
+RMSE: 26.82 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 64
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_res_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_res_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_cot_2001'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_res_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_res_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_GM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_GM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_GM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_GM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in FFU_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_res_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_res_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in INM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in BNM_GM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_res_raisedbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: FFU_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_FFU_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in FFU_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_ffu_nores_raisedbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_res_raisedbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in BNM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_nores_raisedbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_res_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_res_raisedbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: INM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_INM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in INM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_inm_nores_raisedbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in BNM_GM_Res_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Flatbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Flatbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in BNM_GM_noRes_Flatbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_flatbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_Res_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_Res_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in BNM_GM_Res_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_res_raisedbed_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: BNM_GM_noRes_Raisedbed
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/Rafique_2012_awagat_out/Rafique_2012_awagat_BNM_GM_noRes_Raisedbed_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in BNM_GM_noRes_Raisedbed
+Successfully processed: 'rafique_2012_awagat_bnm_gm_nores_raisedbed_cgrain_sw3eg'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/observed_vs_modeled_biomass.png'
+--- Script finished. ---

@@ -1,0 +1,111 @@
+SOMSC Check Summary for Site: Parihar_2018
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,882.54 g C / m²
+Change during Equilibrium Phase: +389.80 g C / m²
+Change during Base Phase: +2,722.94 g C / m²
+Final SOMSC at end of Base Phase: 5,034.24 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,238.07 g C / m²
+Model is 55.47% higher than observation.
+(Difference: +1,796.17 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 0, SOMSC decrease: 12
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - CT_MCS (-406.84)
+  - CT_MMS (-427.61)
+  - CT_MMuMb (-674.46)
+  - CT_MWMb (-696.69)
+  - PB_MCS (-112.24)
+  - PB_MMS (-99.79)
+  - PB_MMuMb (-177.18)
+  - PB_MWMb (-144.05)
+  - ZT_MCS (-77.74)
+  - ZT_MMS (-77.40)
+  - ZT_MMuMb (-143.16)
+  - ZT_MWMb (-120.80)
+
+--- Experimental Analysis ---
+'parihar_2018_ct_mcs_somsc' Change: -406.84 g C / m² (End value: 2,831.36)
+'parihar_2018_ct_mms_somsc' Change: -427.61 g C / m² (End value: 2,810.58)
+'parihar_2018_ct_mmumb_somsc' Change: -674.46 g C / m² (End value: 2,563.74)
+'parihar_2018_ct_mwmb_somsc' Change: -696.69 g C / m² (End value: 2,541.51)
+'parihar_2018_pb_mcs_somsc' Change: -112.24 g C / m² (End value: 3,125.95)
+'parihar_2018_pb_mms_somsc' Change: -99.79 g C / m² (End value: 3,138.40)
+'parihar_2018_pb_mmumb_somsc' Change: -177.18 g C / m² (End value: 3,061.02)
+'parihar_2018_pb_mwmb_somsc' Change: -144.05 g C / m² (End value: 3,094.15)
+'parihar_2018_zt_mcs_somsc' Change: -77.74 g C / m² (End value: 3,160.46)
+'parihar_2018_zt_mms_somsc' Change: -77.40 g C / m² (End value: 3,160.80)
+'parihar_2018_zt_mmumb_somsc' Change: -143.16 g C / m² (End value: 3,095.04)
+'parihar_2018_zt_mwmb_somsc' Change: -120.80 g C / m² (End value: 3,117.39)
+
+Average SOMSC at end of all experimental phases: 2,975.03 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking pb (Years: 2013, Day: 190)... SUCCESS: 3137.31
+ -> Checking zt (Years: 2013, Day: 190)... SUCCESS: 3160.24
+ -> Checking ct (Years: 2013, Day: 190)... SUCCESS: 2715.48
+ -> Checking mwmb (Years: 2013, Day: 190)... SUCCESS: 2947.85
+ -> Checking mcs (Years: 2013, Day: 190)... SUCCESS: 3067.51
+ -> Checking mmumb (Years: 2013, Day: 190)... SUCCESS: 2936.92
+ -> Checking mms (Years: 2013, Day: 190)... SUCCESS: 3065.10
+ -> Checking nan (Years: 2013, Day: 190)... FAILED: No schedule files resolved.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Parihar_2018/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Parihar_2018/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Parihar_2018/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 7
+Rows passing delta rule (sim >= obs): 7
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+             Observation  Observed   Simulated Difference
+   parihar_2018_pb_somsc    2827.0 3137.311950    +10.98%
+   parihar_2018_zt_somsc    2826.0 3160.244775    +11.83%
+   parihar_2018_ct_somsc    2208.0 2715.480900    +22.98%
+ parihar_2018_mwmb_somsc    2750.0 2947.851300     +7.19%
+  parihar_2018_mcs_somsc    2825.0 3067.511100     +8.58%
+parihar_2018_mmumb_somsc    2425.0 2936.919467    +21.11%
+  parihar_2018_mms_somsc    2479.0 3065.101633    +23.64%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 7
+R²: 0.6809
+RMSE: 408.67 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+parihar_2018_pb_somsc,pb,2013,190,2827.0,3137.3119500000003
+parihar_2018_zt_somsc,zt,2013,190,2826.0,3160.244775
+parihar_2018_ct_somsc,ct,2013,190,2208.0,2715.4809
+parihar_2018_mwmb_somsc,mwmb,2013,190,2750.0,2947.8513
+parihar_2018_mcs_somsc,mcs,2013,190,2825.0,3067.5111
+parihar_2018_mmumb_somsc,mmumb,2013,190,2425.0,2936.9194666666663
+parihar_2018_mms_somsc,mms,2013,190,2479.0,3065.1016333333337

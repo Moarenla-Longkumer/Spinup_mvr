@@ -1,0 +1,80 @@
+SOMSC Check Summary for Site: Usman_2014
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,957.39 g C / m²
+Change during Equilibrium Phase: +355.19 g C / m²
+Change during Base Phase: +1,412.08 g C / m²
+Final SOMSC at end of Base Phase: 3,779.02 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,222.49 g C / m²
+Model is 17.27% higher than observation.
+(Difference: +556.53 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 15
+Experiments with SOMSC increase: 0, SOMSC decrease: 15
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - CT_N0 (-170.48)
+  - CT_N100 (-170.50)
+  - CT_N150 (-170.50)
+  - CT_N200 (-170.41)
+  - CT_N50 (-170.48)
+  - RT_N0 (-69.68)
+  - RT_N100 (-69.57)
+  - RT_N150 (-69.58)
+  - RT_N200 (-69.55)
+  - RT_N50 (-69.58)
+  - ZT_N0 (-33.29)
+  - ZT_N100 (-32.03)
+  - ZT_N150 (-32.04)
+  - ZT_N200 (-32.00)
+  - ZT_N50 (-32.03)
+
+--- Experimental Analysis ---
+'usman_2014_ct_n0_somsc' Change: -170.48 g C / m² (End value: 3,052.13)
+'usman_2014_ct_n100_somsc' Change: -170.50 g C / m² (End value: 3,052.11)
+'usman_2014_ct_n150_somsc' Change: -170.50 g C / m² (End value: 3,052.11)
+'usman_2014_ct_n200_somsc' Change: -170.41 g C / m² (End value: 3,052.20)
+'usman_2014_ct_n50_somsc' Change: -170.48 g C / m² (End value: 3,052.12)
+'usman_2014_rt_n0_somsc' Change: -69.68 g C / m² (End value: 3,152.92)
+'usman_2014_rt_n100_somsc' Change: -69.57 g C / m² (End value: 3,153.04)
+'usman_2014_rt_n150_somsc' Change: -69.58 g C / m² (End value: 3,153.03)
+'usman_2014_rt_n200_somsc' Change: -69.55 g C / m² (End value: 3,153.05)
+'usman_2014_rt_n50_somsc' Change: -69.58 g C / m² (End value: 3,153.02)
+'usman_2014_zt_n0_somsc' Change: -33.29 g C / m² (End value: 3,189.32)
+'usman_2014_zt_n100_somsc' Change: -32.03 g C / m² (End value: 3,190.57)
+'usman_2014_zt_n150_somsc' Change: -32.04 g C / m² (End value: 3,190.57)
+'usman_2014_zt_n200_somsc' Change: -32.00 g C / m² (End value: 3,190.61)
+'usman_2014_zt_n50_somsc' Change: -32.03 g C / m² (End value: 3,190.57)
+
+Average SOMSC at end of all experimental phases: 3,131.82 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking zt (Years: 2011, Day: 326)... SUCCESS: 3190.10
+ -> Checking rt (Years: 2011, Day: 326)... SUCCESS: 3152.77
+ -> Checking ct (Years: 2011, Day: 326)... SUCCESS: 3051.87
+ -> Checking zt_n0 (Years: 2011, Day: 326)... SUCCESS: 3189.11
+ -> Checking zt_n50 (Years: 2011, Day: 326)... SUCCESS: 3190.32
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Usman_2014/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

@@ -1,0 +1,93 @@
+SOMSC Check Summary for Site: Surendran_2016
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-81.65%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,923.21 g C / m²
+Change during Equilibrium Phase: +658.22 g C / m²
+Change during Base Phase: -1,421.87 g C / m²
+Final SOMSC at end of Base Phase: 1,188.34 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 6,476.71 g C / m²
+Model is 81.65% lower than observation.
+(Difference: -5,288.37 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 6, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + TRT_T1_S1 (+134.52)
+  + TRT_T1_S2 (+405.60)
+  + TRT_T2_S1 (+105.73)
+  + TRT_T2_S2 (+450.08)
+  + TRT_T3_S1 (+120.90)
+  + TRT_T3_S2 (+299.92)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'surendran_2016_trt_t1_s1_somsc' Change: +134.52 g C / m² (End value: 6,611.20)
+'surendran_2016_trt_t1_s2_somsc' Change: +405.60 g C / m² (End value: 6,882.29)
+'surendran_2016_trt_t2_s1_somsc' Change: +105.73 g C / m² (End value: 6,582.42)
+'surendran_2016_trt_t2_s2_somsc' Change: +450.08 g C / m² (End value: 6,926.77)
+'surendran_2016_trt_t3_s1_somsc' Change: +120.90 g C / m² (End value: 6,597.59)
+'surendran_2016_trt_t3_s2_somsc' Change: +299.92 g C / m² (End value: 6,776.61)
+
+Average SOMSC at end of all experimental phases: 6,729.48 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2010, Day: 165)... SUCCESS: 6735.76
+ -> Checking t2 (Years: 2010, Day: 165)... SUCCESS: 6757.53
+ -> Checking t3 (Years: 2010, Day: 165)... SUCCESS: 6665.61
+ -> Checking s1 (Years: 2010, Day: 165)... SUCCESS: 6597.95
+ -> Checking s2 (Years: 2010, Day: 165)... SUCCESS: 6841.32
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 5
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+            Observation    Observed   Simulated Difference
+surendran_2016_t1_somsc 1459.046989 6735.763400   +361.66%
+surendran_2016_t2_somsc 1368.644902 6757.529300   +393.74%
+surendran_2016_t3_somsc 1372.462204 6665.610600   +385.67%
+surendran_2016_s1_somsc  974.033764 6597.949667   +577.38%
+surendran_2016_s2_somsc 1219.341094 6841.319200   +461.07%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.1939
+RMSE: 5443.09 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Surendran_2016_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+surendran_2016_t1_somsc,t1,2010,165,1459.046989,6735.763400000001
+surendran_2016_t2_somsc,t2,2010,165,1368.644902,6757.5293
+surendran_2016_t3_somsc,t3,2010,165,1372.462204,6665.6106
+surendran_2016_s1_somsc,s1,2010,165,974.0337643,6597.949666666667
+surendran_2016_s2_somsc,s2,2010,165,1219.341094,6841.319200000001

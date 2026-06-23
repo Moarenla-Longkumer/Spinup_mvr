@@ -1,0 +1,101 @@
+SOMSC Check Summary for Site: Biswakarma_2019
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-77.62%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,892.40 g C / m²
+Change during Equilibrium Phase: +701.63 g C / m²
+Change during Base Phase: -1,884.66 g C / m²
+Final SOMSC at end of Base Phase: 743.31 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,321.06 g C / m²
+Model is 77.62% lower than observation.
+(Difference: -2,577.75 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 6, SOMSC decrease: 6
+
+SOMSC Increase (g C / m²):
+  + CT_half RFA + CR (+12.63)
+  + PNB_half RFA + CR (+12.63)
+  + ZT-FB_FFP (+21.49)
+  + ZT-FB_NE (+41.63)
+  + ZT-FB_RFA (+41.75)
+  + ZT-FB_half RFA + CR (+67.45)
+
+SOMSC Decrease (g C / m²):
+  - CT_FFP (-43.84)
+  - CT_NE (-23.84)
+  - CT_RFA (-24.13)
+  - PNB_FFP (-43.84)
+  - PNB_NE (-23.84)
+  - PNB_RFA (-24.13)
+
+--- Experimental Analysis ---
+'biswakarma_2019_ct_ffp_somsc' Change: -43.84 g C / m² (End value: 3,277.23)
+'biswakarma_2019_ct_ne_somsc' Change: -23.84 g C / m² (End value: 3,297.23)
+'biswakarma_2019_ct_rfa_somsc' Change: -24.13 g C / m² (End value: 3,296.94)
+'biswakarma_2019_ct_half rfa + cr_somsc' Change: +12.63 g C / m² (End value: 3,333.70)
+'biswakarma_2019_pnb_ffp_somsc' Change: -43.84 g C / m² (End value: 3,277.23)
+'biswakarma_2019_pnb_ne_somsc' Change: -23.84 g C / m² (End value: 3,297.23)
+'biswakarma_2019_pnb_rfa_somsc' Change: -24.13 g C / m² (End value: 3,296.94)
+'biswakarma_2019_pnb_half rfa + cr_somsc' Change: +12.63 g C / m² (End value: 3,333.70)
+'biswakarma_2019_zt-fb_ffp_somsc' Change: +21.49 g C / m² (End value: 3,342.56)
+'biswakarma_2019_zt-fb_ne_somsc' Change: +41.63 g C / m² (End value: 3,362.70)
+'biswakarma_2019_zt-fb_rfa_somsc' Change: +41.75 g C / m² (End value: 3,362.82)
+'biswakarma_2019_zt-fb_half rfa + cr_somsc' Change: +67.45 g C / m² (End value: 3,388.52)
+
+Average SOMSC at end of all experimental phases: 3,322.23 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking pnb (Years: 2021, Day: 98)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_FFP_output/soilc.out SUCCESS: 3300.08
+ -> Checking zt-fb (Years: 2021, Day: 98)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output/soilc.out SUCCESS: 3367.54
+ -> Checking ct (Years: 2021, Day: 98)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_NE_output/soilc.out SUCCESS: 3300.08
+ -> Checking ffp (Years: 2021, Day: 98)... SUCCESS: 3310.83
+ -> Checking rfa (Years: 2021, Day: 98)... SUCCESS: 3322.47
+ -> Checking ne (Years: 2021, Day: 98)... SUCCESS: 3328.72
+ -> Checking half rfa + cr (Years: 2021, Day: 98)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

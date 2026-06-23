@@ -1,0 +1,61 @@
+SOMSC Check Summary for Site: Khan_2021
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-5.21%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,957.39 g C / m²
+Change during Equilibrium Phase: +355.19 g C / m²
+Change during Base Phase: +705.20 g C / m²
+Final SOMSC at end of Base Phase: 3,054.54 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,222.49 g C / m²
+Model is 5.21% lower than observation.
+(Difference: -167.95 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 4, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + ZTsas_F1 (+16.44)
+  + ZTsas_F2 (+17.34)
+  + ZTsas_F3 (+17.78)
+  + ZTsas_F4 (+17.96)
+
+SOMSC Decrease (g C / m²):
+  - MTsi_F1 (-57.01)
+  - MTsi_F2 (-57.41)
+  - MTsi_F3 (-57.39)
+  - MTsi_F4 (-57.40)
+
+--- Experimental Analysis ---
+'khan_2021_mtsi_f1_somsc' Change: -57.01 g C / m² (End value: 3,165.62)
+'khan_2021_mtsi_f2_somsc' Change: -57.41 g C / m² (End value: 3,165.22)
+'khan_2021_mtsi_f3_somsc' Change: -57.39 g C / m² (End value: 3,165.24)
+'khan_2021_mtsi_f4_somsc' Change: -57.40 g C / m² (End value: 3,165.23)
+'khan_2021_ztsas_f1_somsc' Change: +16.44 g C / m² (End value: 3,239.07)
+'khan_2021_ztsas_f2_somsc' Change: +17.34 g C / m² (End value: 3,239.97)
+'khan_2021_ztsas_f3_somsc' Change: +17.78 g C / m² (End value: 3,240.41)
+'khan_2021_ztsas_f4_somsc' Change: +17.96 g C / m² (End value: 3,240.59)
+
+Average SOMSC at end of all experimental phases: 3,202.67 g C / m²
+
+--- Calibration Script Test ---
+Status: FAILED
+Reason: Script exited with error code 1
+
+--- Error Output ---
+Traceback (most recent call last):
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Khan_2021/scripts/extract_somsc.py", line 402, in <module>
+    main()
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Khan_2021/scripts/extract_somsc.py", line 251, in main
+    target_day = int(row['target_day'])
+ValueError: cannot convert float NaN to integer
+
+
+--- Averaged SOMSC Comparison Data ---
+NOTE: 'averaged_somsc_comparison.csv' not found. This may be because the 'extract_somsc.py' script failed or does not produce this file.

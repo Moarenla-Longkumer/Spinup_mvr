@@ -1,0 +1,98 @@
+SOMSC Check Summary for Site: Jat_2024
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-74.70%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,907.09 g C / m²
+Change during Equilibrium Phase: +1,049.37 g C / m²
+Change during Base Phase: -1,997.75 g C / m²
+Final SOMSC at end of Base Phase: 973.21 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,846.84 g C / m²
+Model is 74.70% lower than observation.
+(Difference: -2,873.63 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 18
+Experiments with SOMSC increase: 10, SOMSC decrease: 8
+
+SOMSC Increase (g C / m²):
+  + CT − R × Mz–M (+216.23)
+  + CT − R × PM–M (+156.21)
+  + PB + R × Mz–M (+295.61)
+  + PB + R × PM–M (+213.09)
+  + ZT + R × CB–M (+38.22)
+  + ZT + R × F–M (+22.42)
+  + ZT + R × GG–M (+46.91)
+  + ZT + R × Mz–M (+429.56)
+  + ZT + R × PM–M (+342.57)
+  + ZT + R × S–M (+70.00)
+
+SOMSC Decrease (g C / m²):
+  - CT − R × CB–M (-158.97)
+  - CT − R × F–M (-89.17)
+  - CT − R × GG–M (-159.74)
+  - CT − R × S–M (-130.21)
+  - PB + R × CB–M (-99.50)
+  - PB + R × F–M (-23.27)
+  - PB + R × GG–M (-90.53)
+  - PB + R × S–M (-66.03)
+
+--- Experimental Analysis ---
+'jat_2024_ct − r × cb–m_somsc' Change: -158.97 g C / m² (End value: 3,687.86)
+'jat_2024_ct − r × f–m_somsc' Change: -89.17 g C / m² (End value: 3,757.67)
+'jat_2024_ct − r × gg–m_somsc' Change: -159.74 g C / m² (End value: 3,687.10)
+'jat_2024_ct − r × mz–m_somsc' Change: +216.23 g C / m² (End value: 4,063.07)
+'jat_2024_ct − r × pm–m_somsc' Change: +156.21 g C / m² (End value: 4,003.05)
+'jat_2024_ct − r × s–m_somsc' Change: -130.21 g C / m² (End value: 3,716.63)
+'jat_2024_pb + r × cb–m_somsc' Change: -99.50 g C / m² (End value: 3,747.34)
+'jat_2024_pb + r × f–m_somsc' Change: -23.27 g C / m² (End value: 3,823.57)
+'jat_2024_pb + r × gg–m_somsc' Change: -90.53 g C / m² (End value: 3,756.31)
+'jat_2024_pb + r × mz–m_somsc' Change: +295.61 g C / m² (End value: 4,142.45)
+'jat_2024_pb + r × pm–m_somsc' Change: +213.09 g C / m² (End value: 4,059.93)
+'jat_2024_pb + r × s–m_somsc' Change: -66.03 g C / m² (End value: 3,780.81)
+'jat_2024_zt + r × cb–m_somsc' Change: +38.22 g C / m² (End value: 3,885.06)
+'jat_2024_zt + r × f–m_somsc' Change: +22.42 g C / m² (End value: 3,869.26)
+'jat_2024_zt + r × gg–m_somsc' Change: +46.91 g C / m² (End value: 3,893.75)
+'jat_2024_zt + r × mz–m_somsc' Change: +429.56 g C / m² (End value: 4,276.40)
+'jat_2024_zt + r × pm–m_somsc' Change: +342.57 g C / m² (End value: 4,189.41)
+'jat_2024_zt + r × s–m_somsc' Change: +70.00 g C / m² (End value: 3,916.84)
+
+Average SOMSC at end of all experimental phases: 3,903.14 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking pb + r (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_pb + r_output/soilc.out FAILED: No matching data found.
+ -> Checking zt + r (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_zt + r_output/soilc.out FAILED: No matching data found.
+ -> Checking ct − r (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_ct − r_output/soilc.out FAILED: No matching data found.
+ -> Checking f–m (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_f–m_output/soilc.out FAILED: No matching data found.
+ -> Checking cb–m (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_cb–m_output/soilc.out FAILED: No matching data found.
+ -> Checking gg–m (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_gg–m_output/soilc.out FAILED: No matching data found.
+ -> Checking mz–m (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_mz–m_output/soilc.out FAILED: No matching data found.
+ -> Checking pm–m (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_pm–m_output/soilc.out FAILED: No matching data found.
+ -> Checking s–m (Years: 2021, Day: 99)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/Jat_2024_out/Jat_2024_s–m_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jat_2024/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

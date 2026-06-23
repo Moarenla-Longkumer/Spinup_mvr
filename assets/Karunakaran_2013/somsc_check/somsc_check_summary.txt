@@ -1,0 +1,76 @@
+SOMSC Check Summary for Site: Karunakaran_2013
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-49.96%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,904.49 g C / m²
+Change during Equilibrium Phase: +849.37 g C / m²
+Change during Base Phase: -1,276.68 g C / m²
+Final SOMSC at end of Base Phase: 1,492.81 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 2,983.38 g C / m²
+Model is 49.96% lower than observation.
+(Difference: -1,490.57 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 16
+Experiments with SOMSC increase: 0, SOMSC decrease: 16
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - CT-B_ZT-B_No_r (-142.92)
+  - CT-B_ZT-B_S_r (-134.24)
+  - CT-B_ZT-B_W_S_r (-106.77)
+  - CT-B_ZT-B_W_r (-116.66)
+  - CT-F_ ZT-F_No_r (-78.04)
+  - CT-F_ ZT-F_S_r (-72.99)
+  - CT-F_ ZT-F_W_S_r (-47.52)
+  - CT-F_ ZT-F_W_r (-52.65)
+  - ZT-B_CT-B_No_r (-142.92)
+  - ZT-B_CT-B_S_r (-134.04)
+  - ZT-B_CT-B_W_S_r (-107.51)
+  - ZT-B_CT-B_W_r (-116.68)
+  - ZT-F_ CT-F_No_r (-79.51)
+  - ZT-F_ CT-F_S_r (-70.33)
+  - ZT-F_ CT-F_W_S_r (-43.69)
+  - ZT-F_ CT-F_W_r (-52.89)
+
+--- Experimental Analysis ---
+'karunakaran_2013_ct-b_zt-b_no_r_somsc' Change: -142.92 g C / m² (End value: 2,840.45)
+'karunakaran_2013_ct-b_zt-b_s_r_somsc' Change: -134.24 g C / m² (End value: 2,849.13)
+'karunakaran_2013_ct-b_zt-b_w_s_r_somsc' Change: -106.77 g C / m² (End value: 2,876.60)
+'karunakaran_2013_ct-b_zt-b_w_r_somsc' Change: -116.66 g C / m² (End value: 2,866.71)
+'karunakaran_2013_ct-f_ zt-f_no_r_somsc' Change: -78.04 g C / m² (End value: 2,905.32)
+'karunakaran_2013_ct-f_ zt-f_s_r_somsc' Change: -72.99 g C / m² (End value: 2,910.38)
+'karunakaran_2013_ct-f_ zt-f_w_s_r_somsc' Change: -47.52 g C / m² (End value: 2,935.85)
+'karunakaran_2013_ct-f_ zt-f_w_r_somsc' Change: -52.65 g C / m² (End value: 2,930.72)
+'karunakaran_2013_zt-b_ct-b_no_r_somsc' Change: -142.92 g C / m² (End value: 2,840.45)
+'karunakaran_2013_zt-b_ct-b_s_r_somsc' Change: -134.04 g C / m² (End value: 2,849.33)
+'karunakaran_2013_zt-b_ct-b_w_s_r_somsc' Change: -107.51 g C / m² (End value: 2,875.86)
+'karunakaran_2013_zt-b_ct-b_w_r_somsc' Change: -116.68 g C / m² (End value: 2,866.69)
+'karunakaran_2013_zt-f_ ct-f_no_r_somsc' Change: -79.51 g C / m² (End value: 2,903.86)
+'karunakaran_2013_zt-f_ ct-f_s_r_somsc' Change: -70.33 g C / m² (End value: 2,913.04)
+'karunakaran_2013_zt-f_ ct-f_w_s_r_somsc' Change: -43.69 g C / m² (End value: 2,939.68)
+'karunakaran_2013_zt-f_ ct-f_w_r_somsc' Change: -52.89 g C / m² (End value: 2,930.48)
+
+Average SOMSC at end of all experimental phases: 2,889.66 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+[INFO] No SOMSC observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Karunakaran_2013/observed_vs_modeled_somsc.png'
+[INFO] Observed-vs-modelled metrics skipped because observed SOMSC data is missing.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

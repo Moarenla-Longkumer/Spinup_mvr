@@ -1,0 +1,97 @@
+SOMSC Check Summary for Site: Yang_2024
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,961.19 g C / m²
+Change during Equilibrium Phase: +1,844.44 g C / m²
+Change during Base Phase: -1,303.04 g C / m²
+Final SOMSC at end of Base Phase: 2,573.58 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 2,553.46 g C / m²
+Model is 0.79% higher than observation.
+(Difference: +20.12 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 6, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + MW (+480.96)
+  + PWM (+110.48)
+  + RSWM (+93.53)
+  + SWM (+122.88)
+  + SmWM (+155.40)
+  + SpWM (+282.85)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'yang_2024_mw_somsc' Change: +480.96 g C / m² (End value: 3,034.42)
+'yang_2024_pwm_somsc' Change: +110.48 g C / m² (End value: 2,663.94)
+'yang_2024_rswm_somsc' Change: +93.53 g C / m² (End value: 2,646.99)
+'yang_2024_swm_somsc' Change: +122.88 g C / m² (End value: 2,676.34)
+'yang_2024_smwm_somsc' Change: +155.40 g C / m² (End value: 2,708.86)
+'yang_2024_spwm_somsc' Change: +282.85 g C / m² (End value: 2,836.30)
+
+Average SOMSC at end of all experimental phases: 2,761.14 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking mw (Years: 2022, Day: 277)... SUCCESS: 3024.09
+ -> Checking spwm (Years: 2022, Day: 277)... SUCCESS: 2830.30
+ -> Checking pwm (Years: 2022, Day: 277)... SUCCESS: 2657.39
+ -> Checking swm (Years: 2022, Day: 277)... SUCCESS: 2669.85
+ -> Checking smwm (Years: 2022, Day: 277)... SUCCESS: 2702.43
+ -> Checking rswm (Years: 2022, Day: 277)... SUCCESS: 2637.31
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yang_2024/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yang_2024/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yang_2024/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 6
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+         Observation  Observed  Simulated          Difference
+  yang_2024_mw_somsc    4269.0  3024.0877 -29.16% [SHORTFALL]
+yang_2024_spwm_somsc    4508.0  2830.3029 -37.22% [SHORTFALL]
+ yang_2024_pwm_somsc    4635.0  2657.3943 -42.67% [SHORTFALL]
+ yang_2024_swm_somsc    4735.0  2669.8488 -43.61% [SHORTFALL]
+yang_2024_smwm_somsc    4202.0  2702.4321 -35.69% [SHORTFALL]
+yang_2024_rswm_somsc    4066.0  2637.3099 -35.14% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Yang_2024_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.0215
+RMSE: 1674.82 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Yang_2024_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+yang_2024_mw_somsc,mw,2022,277,4269.0,3024.0877
+yang_2024_spwm_somsc,spwm,2022,277,4508.0,2830.3028999999997
+yang_2024_pwm_somsc,pwm,2022,277,4635.0,2657.3943
+yang_2024_swm_somsc,swm,2022,277,4735.0,2669.8488
+yang_2024_smwm_somsc,smwm,2022,277,4202.0,2702.4321
+yang_2024_rswm_somsc,rswm,2022,277,4066.0,2637.3099

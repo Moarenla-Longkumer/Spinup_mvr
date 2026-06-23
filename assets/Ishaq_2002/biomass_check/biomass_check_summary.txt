@@ -1,0 +1,471 @@
+Biomass Check Summary for Site: Ishaq_2002
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 72
+Rows passing delta rule (sim >= obs): 22
+Rows with shortfall (sim < obs): 50
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                  Observation  Observed  Simulated          Difference
+          ishaq_2002_mt_low_cgrain_sw3eg_1996     160.0   125.0525 -21.84% [SHORTFALL]
+          ishaq_2002_ct_low_cgrain_sw3eg_1996     148.0   125.0415 -15.51% [SHORTFALL]
+          ishaq_2002_dt_low_cgrain_sw3eg_1996     160.0   125.0415 -21.85% [SHORTFALL]
+       ishaq_2002_mt_medium_cgrain_sw3eg_1996     168.0   170.1574              +1.28%
+       ishaq_2002_ct_medium_cgrain_sw3eg_1996     172.0   170.1590  -1.07% [SHORTFALL]
+       ishaq_2002_dt_medium_cgrain_sw3eg_1996     156.0   170.1590              +9.08%
+         ishaq_2002_mt_high_cgrain_sw3eg_1996     160.0   170.1574              +6.35%
+         ishaq_2002_ct_high_cgrain_sw3eg_1996     164.0   170.1590              +3.76%
+         ishaq_2002_dt_high_cgrain_sw3eg_1996     164.0   170.1590              +3.76%
+          ishaq_2002_mt_low_cgrain_sw3eg_1997      88.0    77.8894 -11.49% [SHORTFALL]
+          ishaq_2002_ct_low_cgrain_sw3eg_1997     112.0    77.7118 -30.61% [SHORTFALL]
+          ishaq_2002_dt_low_cgrain_sw3eg_1997     100.0    77.7118 -22.29% [SHORTFALL]
+       ishaq_2002_mt_medium_cgrain_sw3eg_1997     108.0   135.9278             +25.86%
+       ishaq_2002_ct_medium_cgrain_sw3eg_1997     156.0   135.8757 -12.90% [SHORTFALL]
+       ishaq_2002_dt_medium_cgrain_sw3eg_1997     132.0   135.8757              +2.94%
+         ishaq_2002_mt_high_cgrain_sw3eg_1997     152.0   136.7008 -10.07% [SHORTFALL]
+         ishaq_2002_ct_high_cgrain_sw3eg_1997     144.0   136.7155  -5.06% [SHORTFALL]
+         ishaq_2002_dt_high_cgrain_sw3eg_1997     144.0   136.7155  -5.06% [SHORTFALL]
+          ishaq_2002_mt_low_cgrain_sw3eg_1998     140.0    82.2305 -41.26% [SHORTFALL]
+          ishaq_2002_ct_low_cgrain_sw3eg_1998     124.0    81.8300 -34.01% [SHORTFALL]
+          ishaq_2002_dt_low_cgrain_sw3eg_1998     140.0    81.8300 -41.55% [SHORTFALL]
+       ishaq_2002_mt_medium_cgrain_sw3eg_1998     152.0   152.9608              +0.63%
+       ishaq_2002_ct_medium_cgrain_sw3eg_1998     184.0   152.8317 -16.94% [SHORTFALL]
+       ishaq_2002_dt_medium_cgrain_sw3eg_1998     168.0   152.8317  -9.03% [SHORTFALL]
+         ishaq_2002_mt_high_cgrain_sw3eg_1998     176.0   157.0213 -10.78% [SHORTFALL]
+         ishaq_2002_ct_high_cgrain_sw3eg_1998     184.0   157.0215 -14.66% [SHORTFALL]
+         ishaq_2002_dt_high_cgrain_sw3eg_1998     188.0   157.0215 -16.48% [SHORTFALL]
+   ishaq_2002_mt_low_aglivc-cgrain_sw3eg_1996     212.0   180.1978 -15.00% [SHORTFALL]
+   ishaq_2002_ct_low_aglivc-cgrain_sw3eg_1996     216.0   180.1829 -16.58% [SHORTFALL]
+   ishaq_2002_dt_low_aglivc-cgrain_sw3eg_1996     212.0   180.1829 -15.01% [SHORTFALL]
+ishaq_2002_mt_medium_aglivc-cgrain_sw3eg_1996     228.0   243.3399              +6.73%
+ishaq_2002_ct_medium_aglivc-cgrain_sw3eg_1996     240.0   243.3423              +1.39%
+ishaq_2002_dt_medium_aglivc-cgrain_sw3eg_1996     232.0   243.3423              +4.89%
+  ishaq_2002_mt_high_aglivc-cgrain_sw3eg_1996     244.0   243.3399  -0.27% [SHORTFALL]
+  ishaq_2002_ct_high_aglivc-cgrain_sw3eg_1996     256.0   243.3423  -4.94% [SHORTFALL]
+  ishaq_2002_dt_high_aglivc-cgrain_sw3eg_1996     244.0   243.3423  -0.27% [SHORTFALL]
+   ishaq_2002_mt_low_aglivc-cgrain_sw3eg_1997     120.0   149.8038             +24.84%
+   ishaq_2002_ct_low_aglivc-cgrain_sw3eg_1997     160.0   149.4649  -6.58% [SHORTFALL]
+   ishaq_2002_dt_low_aglivc-cgrain_sw3eg_1997     132.0   149.4649             +13.23%
+ishaq_2002_mt_medium_aglivc-cgrain_sw3eg_1997     148.0   259.5768             +75.39%
+ishaq_2002_ct_medium_aglivc-cgrain_sw3eg_1997     220.0   259.4965             +17.95%
+ishaq_2002_dt_medium_aglivc-cgrain_sw3eg_1997     204.0   259.4965             +27.20%
+  ishaq_2002_mt_high_aglivc-cgrain_sw3eg_1997     212.0   260.5207             +22.89%
+  ishaq_2002_ct_high_aglivc-cgrain_sw3eg_1997     228.0   260.5491             +14.28%
+  ishaq_2002_dt_high_aglivc-cgrain_sw3eg_1997     204.0   260.5491             +27.72%
+   ishaq_2002_mt_low_aglivc-cgrain_sw3eg_1998     188.0   131.2609 -30.18% [SHORTFALL]
+   ishaq_2002_ct_low_aglivc-cgrain_sw3eg_1998     188.0   130.6220 -30.52% [SHORTFALL]
+   ishaq_2002_dt_low_aglivc-cgrain_sw3eg_1998     204.0   130.6220 -35.97% [SHORTFALL]
+ishaq_2002_mt_medium_aglivc-cgrain_sw3eg_1998     220.0   242.6836             +10.31%
+ishaq_2002_ct_medium_aglivc-cgrain_sw3eg_1998     268.0   242.5091  -9.51% [SHORTFALL]
+ishaq_2002_dt_medium_aglivc-cgrain_sw3eg_1998     280.0   242.5091 -13.39% [SHORTFALL]
+  ishaq_2002_mt_high_aglivc-cgrain_sw3eg_1998     288.0   245.6753 -14.70% [SHORTFALL]
+  ishaq_2002_ct_high_aglivc-cgrain_sw3eg_1998     288.0   245.6756 -14.70% [SHORTFALL]
+  ishaq_2002_dt_high_aglivc-cgrain_sw3eg_1998     296.0   245.6756 -17.00% [SHORTFALL]
+            ishaq_2002_mt_low_cgrain_cot_1996      92.0    76.1173 -17.26% [SHORTFALL]
+            ishaq_2002_ct_low_cgrain_cot_1996      96.0    75.5173 -21.34% [SHORTFALL]
+            ishaq_2002_dt_low_cgrain_cot_1996     108.0    75.5173 -30.08% [SHORTFALL]
+         ishaq_2002_mt_medium_cgrain_cot_1996     112.0   102.6552  -8.34% [SHORTFALL]
+         ishaq_2002_ct_medium_cgrain_cot_1996     100.0   102.9270              +2.93%
+         ishaq_2002_dt_medium_cgrain_cot_1996     112.0   102.9270  -8.10% [SHORTFALL]
+           ishaq_2002_mt_high_cgrain_cot_1996     104.0   102.8818  -1.08% [SHORTFALL]
+           ishaq_2002_ct_high_cgrain_cot_1996     108.0   103.2960  -4.36% [SHORTFALL]
+           ishaq_2002_dt_high_cgrain_cot_1996     116.0   103.2960 -10.95% [SHORTFALL]
+            ishaq_2002_mt_low_cgrain_cot_1997      52.0    63.6600             +22.42%
+            ishaq_2002_ct_low_cgrain_cot_1997      80.0    63.1219 -21.10% [SHORTFALL]
+            ishaq_2002_dt_low_cgrain_cot_1997      64.0    63.1219  -1.37% [SHORTFALL]
+         ishaq_2002_mt_medium_cgrain_cot_1997      88.0    83.2832  -5.36% [SHORTFALL]
+         ishaq_2002_ct_medium_cgrain_cot_1997      96.0    82.9212 -13.62% [SHORTFALL]
+         ishaq_2002_dt_medium_cgrain_cot_1997      88.0    82.9212  -5.77% [SHORTFALL]
+           ishaq_2002_mt_high_cgrain_cot_1997      96.0    87.9648  -8.37% [SHORTFALL]
+           ishaq_2002_ct_high_cgrain_cot_1997      96.0    87.6489  -8.70% [SHORTFALL]
+           ishaq_2002_dt_high_cgrain_cot_1997     104.0    87.6489 -15.72% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Ishaq_2002_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 72
+R²: 0.7799
+RMSE: 31.40 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'nobs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 72
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_aglivc-cgrain_sw3eg_1996'
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_aglivc-cgrain_sw3eg_1997'
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_aglivc-cgrain_sw3eg_1998'
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_cgrain_cot_1996'
+    [DEBUG] Checking Treatment Sch: MT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_low
+Successfully processed: 'ishaq_2002_mt_low_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: CT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_low
+Successfully processed: 'ishaq_2002_ct_low_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: DT_low
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_low_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_low
+Successfully processed: 'ishaq_2002_dt_low_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: MT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_medium
+Successfully processed: 'ishaq_2002_mt_medium_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: CT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_medium
+Successfully processed: 'ishaq_2002_ct_medium_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: DT_medium
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_medium_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_medium
+Successfully processed: 'ishaq_2002_dt_medium_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: MT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_MT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_high
+Successfully processed: 'ishaq_2002_mt_high_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: CT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_CT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_high
+Successfully processed: 'ishaq_2002_ct_high_cgrain_cot_1997'
+    [DEBUG] Checking Treatment Sch: DT_high
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/Ishaq_2002_out/Ishaq_2002_DT_high_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in DT_high
+Successfully processed: 'ishaq_2002_dt_high_cgrain_cot_1997'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ishaq_2002/observed_vs_modeled_biomass.png'
+--- Script finished. ---

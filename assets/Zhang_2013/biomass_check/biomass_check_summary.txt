@@ -1,0 +1,33 @@
+Biomass Check Summary for Site: Zhang_2013
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+Fix observations / re-run extract_biomass.py.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 3
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Zhang_2013/Zhang_2013_out/Zhang_2013_CT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005,2006,2007,2008,2009
+-! WARNING: Calculation failed for 'zhang_2013_ct_cgrain_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: RT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Zhang_2013/Zhang_2013_out/Zhang_2013_RT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005,2006,2007,2008,2009
+-! WARNING: Calculation failed for 'zhang_2013_rt_cgrain_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: NT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Zhang_2013/Zhang_2013_out/Zhang_2013_NT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005,2006,2007,2008,2009
+-! WARNING: Calculation failed for 'zhang_2013_nt_cgrain_sw3eg'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Zhang_2013/output_biomass.txt'
+
+No data available to plot or save.
+--- Script finished. ---

@@ -1,0 +1,236 @@
+Biomass Check Summary for Site: Suman_2009
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 16
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 16
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                          Observation  Observed  Simulated          Difference
+suman_2009_trt_control_cgrain_sc_2004    569.53     0.4237 -99.93% [SHORTFALL]
+    suman_2009_trt_npk_cgrain_sc_2004   1031.22     0.4237 -99.96% [SHORTFALL]
+     suman_2009_trt_vc_cgrain_sc_2004   1027.85     0.4237 -99.96% [SHORTFALL]
+    suman_2009_trt_fym_cgrain_sc_2004    933.49     0.4237 -99.95% [SHORTFALL]
+    suman_2009_trt_bgs_cgrain_sc_2004    930.12     0.4237 -99.95% [SHORTFALL]
+   suman_2009_trt_spmc_cgrain_sc_2004   1031.22     0.4237 -99.96% [SHORTFALL]
+     suman_2009_trt_vc_cgrain_sc_2006    862.72     0.1269 -99.99% [SHORTFALL]
+    suman_2009_trt_fym_cgrain_sc_2006    852.61     0.1269 -99.99% [SHORTFALL]
+    suman_2009_trt_bgs_cgrain_sc_2006    859.35     0.1269 -99.99% [SHORTFALL]
+   suman_2009_trt_spmc_cgrain_sc_2006    893.05     0.1269 -99.99% [SHORTFALL]
+suman_2009_trt_control_cgrain_sc_2007    498.76   336.1172 -32.61% [SHORTFALL]
+    suman_2009_trt_npk_cgrain_sc_2007    882.94   444.9379 -49.61% [SHORTFALL]
+     suman_2009_trt_vc_cgrain_sc_2007    835.76   357.5694 -57.22% [SHORTFALL]
+    suman_2009_trt_fym_cgrain_sc_2007    842.50   358.8618 -57.41% [SHORTFALL]
+    suman_2009_trt_bgs_cgrain_sc_2007    829.02   354.1769 -57.28% [SHORTFALL]
+   suman_2009_trt_spmc_cgrain_sc_2007    879.57   359.7599 -59.10% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Suman_2009_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 16
+R²: 0.1035
+RMSE: 767.40 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Suman_2009_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 30
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'suman_2009_trt_control_cgrain_sc_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'suman_2009_trt_npk_cgrain_sc_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_VC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_VC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'suman_2009_trt_vc_cgrain_sc_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_FYM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'suman_2009_trt_fym_cgrain_sc_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_BGS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_BGS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'suman_2009_trt_bgs_cgrain_sc_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_SPMC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_SPMC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'suman_2009_trt_spmc_cgrain_sc_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_CONTROL
+Successfully processed: 'suman_2009_trt_control_cgrain_sc_2004'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_NPK
+Successfully processed: 'suman_2009_trt_npk_cgrain_sc_2004'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_VC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_VC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_VC
+Successfully processed: 'suman_2009_trt_vc_cgrain_sc_2004'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_FYM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM
+Successfully processed: 'suman_2009_trt_fym_cgrain_sc_2004'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_BGS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_BGS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_BGS
+Successfully processed: 'suman_2009_trt_bgs_cgrain_sc_2004'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_SPMC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_SPMC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_SPMC
+Successfully processed: 'suman_2009_trt_spmc_cgrain_sc_2004'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'suman_2009_trt_control_cgrain_sc_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'suman_2009_trt_npk_cgrain_sc_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_VC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_VC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'suman_2009_trt_vc_cgrain_sc_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_FYM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'suman_2009_trt_fym_cgrain_sc_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_BGS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_BGS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'suman_2009_trt_bgs_cgrain_sc_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_SPMC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_SPMC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'suman_2009_trt_spmc_cgrain_sc_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'suman_2009_trt_control_cgrain_sc_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'suman_2009_trt_npk_cgrain_sc_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_VC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_VC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_VC
+Successfully processed: 'suman_2009_trt_vc_cgrain_sc_2006'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_FYM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM
+Successfully processed: 'suman_2009_trt_fym_cgrain_sc_2006'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_BGS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_BGS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_BGS
+Successfully processed: 'suman_2009_trt_bgs_cgrain_sc_2006'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_SPMC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_SPMC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_SPMC
+Successfully processed: 'suman_2009_trt_spmc_cgrain_sc_2006'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_CONTROL
+Successfully processed: 'suman_2009_trt_control_cgrain_sc_2007'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_NPK
+Successfully processed: 'suman_2009_trt_npk_cgrain_sc_2007'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_VC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_VC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_VC
+Successfully processed: 'suman_2009_trt_vc_cgrain_sc_2007'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_FYM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM
+Successfully processed: 'suman_2009_trt_fym_cgrain_sc_2007'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_BGS
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_BGS_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_BGS
+Successfully processed: 'suman_2009_trt_bgs_cgrain_sc_2007'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_SPMC
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/Suman_2009_out/Suman_2009_TRT_SPMC_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_SPMC
+Successfully processed: 'suman_2009_trt_spmc_cgrain_sc_2007'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/observed_vs_modeled_biomass.png'
+--- Script finished. ---

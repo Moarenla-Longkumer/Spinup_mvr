@@ -1,0 +1,103 @@
+Biomass Check Summary for Site: Babu_2016
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 9
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 9
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                         Observation  Observed  Simulated          Difference
+   babu_2016_trt_control_cgrain_gnut     285.2  27.355795 -90.41% [SHORTFALL]
+    babu_2016_trt_rdf100_cgrain_gnut     368.0  27.305850 -92.58% [SHORTFALL]
+     babu_2016_trt_rdf50_cgrain_gnut     342.0  27.305570 -92.02% [SHORTFALL]
+      babu_2016_trt_gns4_cgrain_gnut     327.6  27.222740 -91.69% [SHORTFALL]
+      babu_2016_trt_fym4_cgrain_gnut     351.6  27.299370 -92.24% [SHORTFALL]
+babu_2016_trt_rdf50_gns4_cgrain_gnut     340.0  27.223025 -91.99% [SHORTFALL]
+babu_2016_trt_rdf50_fym4_cgrain_gnut     374.8  27.305685 -92.71% [SHORTFALL]
+ babu_2016_trt_rdf100_zn_cgrain_gnut     358.4  27.300725 -92.38% [SHORTFALL]
+      babu_2016_trt_fym5_cgrain_gnut     349.6  27.300725 -92.19% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Babu_2016_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 9
+R²: 0.0238
+RMSE: 317.82 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Babu_2016_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'Comment', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 9
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 19 data points in TRT_CONTROL
+Successfully processed: 'babu_2016_trt_control_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_RDF100
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_RDF100_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_RDF100
+Successfully processed: 'babu_2016_trt_rdf100_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_RDF50
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_RDF50_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_RDF50
+Successfully processed: 'babu_2016_trt_rdf50_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GNS4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_GNS4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_GNS4
+Successfully processed: 'babu_2016_trt_gns4_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_FYM4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_FYM4
+Successfully processed: 'babu_2016_trt_fym4_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_RDF50_GNS4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_RDF50_GNS4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_RDF50_GNS4
+Successfully processed: 'babu_2016_trt_rdf50_gns4_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_RDF50_FYM4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_RDF50_FYM4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_RDF50_FYM4
+Successfully processed: 'babu_2016_trt_rdf50_fym4_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_RDF100_ZN
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_RDF100_ZN_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_RDF100_ZN
+Successfully processed: 'babu_2016_trt_rdf100_zn_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/Babu_2016_out/Babu_2016_TRT_FYM5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 20 data points in TRT_FYM5
+Successfully processed: 'babu_2016_trt_fym5_cgrain_gnut'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Babu_2016/observed_vs_modeled_biomass.png'
+--- Script finished. ---

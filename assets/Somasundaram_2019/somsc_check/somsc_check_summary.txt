@@ -1,0 +1,105 @@
+SOMSC Check Summary for Site: Somasundaram_2019
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-94.25%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,960.62 g C / m²
+Change during Equilibrium Phase: +2,934.57 g C / m²
+Change during Base Phase: -4,769.65 g C / m²
+Final SOMSC at end of Base Phase: 191.72 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,332.52 g C / m²
+Model is 94.25% lower than observation.
+(Difference: -3,140.80 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 5, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + CT_MC_SF_MC (+5.49)
+  + CT_SW_SW_SW (+23.06)
+  + RT_MC_SF_MC (+35.85)
+  + RT_SF_MC_SF (+4.84)
+  + RT_SW_SW_SW (+31.23)
+
+SOMSC Decrease (g C / m²):
+  - CT_SF_MC_SF (-16.95)
+  - CT_SF_SF_SF (-35.11)
+  - RT_SF_SF_SF (-23.39)
+
+--- Experimental Analysis ---
+'somasundaram_2019_ct_mc_sf_mc_somsc' Change: +5.49 g C / m² (End value: 3,337.99)
+'somasundaram_2019_ct_sf_mc_sf_somsc' Change: -16.95 g C / m² (End value: 3,315.55)
+'somasundaram_2019_ct_sf_sf_sf_somsc' Change: -35.11 g C / m² (End value: 3,297.40)
+'somasundaram_2019_ct_sw_sw_sw_somsc' Change: +23.06 g C / m² (End value: 3,355.57)
+'somasundaram_2019_rt_mc_sf_mc_somsc' Change: +35.85 g C / m² (End value: 3,368.36)
+'somasundaram_2019_rt_sf_mc_sf_somsc' Change: +4.84 g C / m² (End value: 3,337.34)
+'somasundaram_2019_rt_sf_sf_sf_somsc' Change: -23.39 g C / m² (End value: 3,309.11)
+'somasundaram_2019_rt_sw_sw_sw_somsc' Change: +31.23 g C / m² (End value: 3,363.73)
+
+Average SOMSC at end of all experimental phases: 3,335.63 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct_sw_sw_sw (Years: 2013, Day: 76)... SUCCESS: 3354.06
+ -> Checking ct_sf_mc_sf (Years: 2013, Day: 76)... SUCCESS: 3326.84
+ -> Checking ct_sf_sf_sf (Years: 2013, Day: 76)... SUCCESS: 3307.86
+ -> Checking ct_mc_sf_mc (Years: 2013, Day: 76)... SUCCESS: 3347.79
+ -> Checking rt_sw_sw_sw (Years: 2013, Day: 76)... SUCCESS: 3362.01
+ -> Checking rt_sf_mc_sf (Years: 2013, Day: 76)... SUCCESS: 3347.20
+ -> Checking rt_sf_sf_sf (Years: 2013, Day: 76)... SUCCESS: 3318.96
+ -> Checking rt_mc_sf_mc (Years: 2013, Day: 76)... SUCCESS: 3374.25
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Somasundaram_2019/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Somasundaram_2019/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Somasundaram_2019/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 8
+Rows passing delta rule (sim >= obs): 8
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                        Observation  Observed  Simulated Difference
+somasundaram_2019_ct_sw_sw_sw_somsc  2152.425  3354.0645    +55.83%
+somasundaram_2019_ct_sf_mc_sf_somsc  2309.025  3326.8350    +44.08%
+somasundaram_2019_ct_sf_sf_sf_somsc  2478.525  3307.8561    +33.46%
+somasundaram_2019_ct_mc_sf_mc_somsc  2435.925  3347.7943    +37.43%
+somasundaram_2019_rt_sw_sw_sw_somsc  2205.225  3362.0121    +52.46%
+somasundaram_2019_rt_sf_mc_sf_somsc  2413.425  3347.2040    +38.69%
+somasundaram_2019_rt_sf_sf_sf_somsc  2497.725  3318.9602    +32.88%
+somasundaram_2019_rt_mc_sf_mc_somsc  2481.525  3374.2463    +35.97%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 8
+R²: 0.1243
+RMSE: 979.84 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Somasundaram_2019_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+somasundaram_2019_ct_sw_sw_sw_somsc,ct_sw_sw_sw,2013,76,2152.425,3354.0645
+somasundaram_2019_ct_sf_mc_sf_somsc,ct_sf_mc_sf,2013,76,2309.025,3326.835
+somasundaram_2019_ct_sf_sf_sf_somsc,ct_sf_sf_sf,2013,76,2478.525,3307.8561
+somasundaram_2019_ct_mc_sf_mc_somsc,ct_mc_sf_mc,2013,76,2435.925,3347.7943
+somasundaram_2019_rt_sw_sw_sw_somsc,rt_sw_sw_sw,2013,76,2205.225,3362.0121
+somasundaram_2019_rt_sf_mc_sf_somsc,rt_sf_mc_sf,2013,76,2413.425,3347.204
+somasundaram_2019_rt_sf_sf_sf_somsc,rt_sf_sf_sf,2013,76,2497.725,3318.9602
+somasundaram_2019_rt_mc_sf_mc_somsc,rt_mc_sf_mc,2013,76,2481.525,3374.2463

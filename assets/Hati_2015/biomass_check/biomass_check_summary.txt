@@ -1,0 +1,1508 @@
+Biomass Check Summary for Site: Hati_2015
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 91
+Rows passing delta rule (sim >= obs): 29
+Rows with shortfall (sim < obs): 62
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                        Observation  Observed  Simulated          Difference
+     hati_2015_nt_cgrain_sbean_2000     57.28  26.193300 -54.27% [SHORTFALL]
+     hati_2015_rt_cgrain_sbean_2000     59.16  26.212700 -55.69% [SHORTFALL]
+     hati_2015_mb_cgrain_sbean_2000     61.12  26.412800 -56.79% [SHORTFALL]
+     hati_2015_ct_cgrain_sbean_2000     59.52  26.353000 -55.72% [SHORTFALL]
+ hati_2015_n50per_cgrain_sbean_2000     55.16  26.292950 -52.33% [SHORTFALL]
+hati_2015_n100per_cgrain_sbean_2000     58.92  26.312750 -55.34% [SHORTFALL]
+hati_2015_n150per_cgrain_sbean_2000     63.72  26.292950 -58.74% [SHORTFALL]
+     hati_2015_nt_cgrain_sbean_2001     42.48  20.982200 -50.61% [SHORTFALL]
+     hati_2015_rt_cgrain_sbean_2001     42.64  20.903500 -50.98% [SHORTFALL]
+     hati_2015_mb_cgrain_sbean_2001     42.48  21.262300 -49.95% [SHORTFALL]
+     hati_2015_ct_cgrain_sbean_2001     44.04  21.278000 -51.68% [SHORTFALL]
+ hati_2015_n50per_cgrain_sbean_2001     39.04  21.097725 -45.96% [SHORTFALL]
+hati_2015_n100per_cgrain_sbean_2001     43.56  21.085100 -51.60% [SHORTFALL]
+hati_2015_n150per_cgrain_sbean_2001     46.12  21.114175 -54.22% [SHORTFALL]
+     hati_2015_nt_cgrain_sbean_2002     42.72  24.011150 -43.79% [SHORTFALL]
+     hati_2015_rt_cgrain_sbean_2002     42.84  24.434600 -42.96% [SHORTFALL]
+     hati_2015_mb_cgrain_sbean_2002     43.72  24.331633 -44.35% [SHORTFALL]
+     hati_2015_ct_cgrain_sbean_2002     45.64  24.341850 -46.67% [SHORTFALL]
+ hati_2015_n50per_cgrain_sbean_2002     39.40  24.384075 -38.11% [SHORTFALL]
+hati_2015_n100per_cgrain_sbean_2002     44.68  24.390250 -45.41% [SHORTFALL]
+hati_2015_n150per_cgrain_sbean_2002     47.08  24.171975 -48.66% [SHORTFALL]
+     hati_2015_nt_cgrain_sbean_2003     57.52  32.936050 -42.74% [SHORTFALL]
+     hati_2015_rt_cgrain_sbean_2003     57.20  32.896967 -42.49% [SHORTFALL]
+     hati_2015_mb_cgrain_sbean_2003     55.24  32.868767 -40.50% [SHORTFALL]
+     hati_2015_ct_cgrain_sbean_2003     58.84  32.868150 -44.14% [SHORTFALL]
+ hati_2015_n50per_cgrain_sbean_2003     46.04  32.882675 -28.58% [SHORTFALL]
+hati_2015_n100per_cgrain_sbean_2003     60.56  32.884550 -45.70% [SHORTFALL]
+hati_2015_n150per_cgrain_sbean_2003     64.96  32.901450 -49.35% [SHORTFALL]
+     hati_2015_nt_cgrain_sbean_2004     26.36  24.489700  -7.10% [SHORTFALL]
+     hati_2015_rt_cgrain_sbean_2004     26.52  24.191800  -8.78% [SHORTFALL]
+     hati_2015_mb_cgrain_sbean_2004     27.12  24.194533 -10.79% [SHORTFALL]
+     hati_2015_ct_cgrain_sbean_2004     24.36  24.191900  -0.69% [SHORTFALL]
+ hati_2015_n50per_cgrain_sbean_2004     24.04  24.193375              +0.64%
+hati_2015_n100per_cgrain_sbean_2004     27.48  24.192400 -11.96% [SHORTFALL]
+hati_2015_n150per_cgrain_sbean_2004     29.76  24.340975 -18.21% [SHORTFALL]
+     hati_2015_nt_cgrain_sbean_2005     50.04  29.657650 -40.73% [SHORTFALL]
+     hati_2015_rt_cgrain_sbean_2005     52.24  28.961233 -44.56% [SHORTFALL]
+     hati_2015_mb_cgrain_sbean_2005     50.24  29.323367 -41.63% [SHORTFALL]
+     hati_2015_ct_cgrain_sbean_2005     55.44  29.333150 -47.09% [SHORTFALL]
+ hati_2015_n50per_cgrain_sbean_2005     47.72  29.149700 -38.92% [SHORTFALL]
+hati_2015_n100per_cgrain_sbean_2005     52.04  29.133350 -44.02% [SHORTFALL]
+hati_2015_n150per_cgrain_sbean_2005     56.20  29.492475 -47.52% [SHORTFALL]
+     hati_2015_nt_cgrain_sbean_2006     44.12  28.166450 -36.16% [SHORTFALL]
+     hati_2015_rt_cgrain_sbean_2006     45.32  28.083800 -38.03% [SHORTFALL]
+     hati_2015_mb_cgrain_sbean_2006     47.52  28.077433 -40.91% [SHORTFALL]
+     hati_2015_ct_cgrain_sbean_2006     48.40  28.078750 -41.99% [SHORTFALL]
+ hati_2015_n50per_cgrain_sbean_2006     40.12  28.082225 -30.00% [SHORTFALL]
+hati_2015_n100per_cgrain_sbean_2006     48.36  28.079850 -41.94% [SHORTFALL]
+hati_2015_n150per_cgrain_sbean_2006     50.60  28.121375 -44.42% [SHORTFALL]
+     hati_2015_nt_cgrain_sw3eg_2001     95.56 119.082550             +24.62%
+     hati_2015_rt_cgrain_sw3eg_2001     94.72 126.772567             +33.84%
+     hati_2015_mb_cgrain_sw3eg_2001     95.08 124.550267             +31.00%
+     hati_2015_ct_cgrain_sw3eg_2001     97.32 127.948700             +31.47%
+ hati_2015_n50per_cgrain_sw3eg_2001     80.08 105.723975             +32.02%
+hati_2015_n100per_cgrain_sw3eg_2001    100.92 137.522050             +36.27%
+hati_2015_n150per_cgrain_sw3eg_2001    106.00 137.522750             +29.74%
+     hati_2015_nt_cgrain_sw3eg_2002    118.48 107.453500  -9.31% [SHORTFALL]
+     hati_2015_rt_cgrain_sw3eg_2002    117.44 111.028533  -5.46% [SHORTFALL]
+     hati_2015_mb_cgrain_sw3eg_2002    117.88 126.513600              +7.32%
+     hati_2015_ct_cgrain_sw3eg_2002    120.68 118.444450  -1.85% [SHORTFALL]
+ hati_2015_n50per_cgrain_sw3eg_2002     99.28  76.598425 -22.85% [SHORTFALL]
+hati_2015_n100per_cgrain_sw3eg_2002    125.16 132.619150              +5.96%
+hati_2015_n150per_cgrain_sw3eg_2002    131.44 148.197575             +12.75%
+     hati_2015_nt_cgrain_sw3eg_2004    142.40  89.839500 -36.91% [SHORTFALL]
+     hati_2015_rt_cgrain_sw3eg_2004    143.16  91.411300 -36.15% [SHORTFALL]
+     hati_2015_mb_cgrain_sw3eg_2004    143.96 109.302367 -24.07% [SHORTFALL]
+     hati_2015_ct_cgrain_sw3eg_2004    139.24 100.665550 -27.70% [SHORTFALL]
+ hati_2015_n50per_cgrain_sw3eg_2004    126.76  57.243575 -54.84% [SHORTFALL]
+hati_2015_n100per_cgrain_sw3eg_2004    147.00 113.225400 -22.98% [SHORTFALL]
+hati_2015_n150per_cgrain_sw3eg_2004    152.80 131.931500 -13.66% [SHORTFALL]
+     hati_2015_nt_cgrain_sw3eg_2005     89.52 104.516350             +16.75%
+     hati_2015_rt_cgrain_sw3eg_2005     85.96 107.666567             +25.25%
+     hati_2015_mb_cgrain_sw3eg_2005     89.80 123.880500             +37.95%
+     hati_2015_ct_cgrain_sw3eg_2005     92.44 113.012400             +22.25%
+ hati_2015_n50per_cgrain_sw3eg_2005     78.88  69.282075 -12.17% [SHORTFALL]
+hati_2015_n100per_cgrain_sw3eg_2005     92.36 130.484000             +41.28%
+hati_2015_n150per_cgrain_sw3eg_2005     97.04 147.900600             +52.41%
+     hati_2015_nt_cgrain_sw3eg_2006     74.64 122.374300             +63.95%
+     hati_2015_rt_cgrain_sw3eg_2006     76.76 125.219933             +63.13%
+     hati_2015_mb_cgrain_sw3eg_2006     74.56 142.707800             +91.40%
+     hati_2015_ct_cgrain_sw3eg_2006     78.40 132.294750             +68.74%
+ hati_2015_n50per_cgrain_sw3eg_2006     68.56  84.104450             +22.67%
+hati_2015_n100per_cgrain_sw3eg_2006     77.80 151.140850             +94.27%
+hati_2015_n150per_cgrain_sw3eg_2006     82.00 168.605450            +105.62%
+     hati_2015_nt_cgrain_sw3eg_2007     95.56 101.503650              +6.22%
+     hati_2015_rt_cgrain_sw3eg_2007     94.72 104.489367             +10.31%
+     hati_2015_mb_cgrain_sw3eg_2007     95.08 122.490300             +28.83%
+     hati_2015_ct_cgrain_sw3eg_2007     97.32 109.573200             +12.59%
+ hati_2015_n50per_cgrain_sw3eg_2007    116.92  63.182725 -45.96% [SHORTFALL]
+hati_2015_n100per_cgrain_sw3eg_2007    133.80 128.661000  -3.84% [SHORTFALL]
+hati_2015_n150per_cgrain_sw3eg_2007    139.76 148.259950              +6.08%
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Hati_2015_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 91
+R²: 0.6256
+RMSE: 30.00 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 91
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sbean_2000'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sbean_2000'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sbean_2000'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sbean_2000'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sbean_2000'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sbean_2000'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sbean_2000'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sbean_2001'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sbean_2001'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sbean_2001'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sbean_2001'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sbean_2001'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sbean_2001'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sbean_2001'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sbean_2002'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sbean_2002'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sbean_2002'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sbean_2002'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sbean_2002'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sbean_2002'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sbean_2002'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sbean_2003'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sbean_2003'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sbean_2003'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sbean_2003'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sbean_2003'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sbean_2003'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sbean_2003'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sbean_2004'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sbean_2004'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sbean_2004'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sbean_2004'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sbean_2004'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sbean_2004'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sbean_2004'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sbean_2005'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sbean_2005'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sbean_2005'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sbean_2005'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sbean_2005'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sbean_2005'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sbean_2005'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sbean_2006'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sbean_2006'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sbean_2006'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sbean_2006'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sbean_2006'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sbean_2006'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sbean_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sw3eg_2001'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sw3eg_2002'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sw3eg_2002'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sw3eg_2002'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sw3eg_2002'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sw3eg_2002'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sw3eg_2002'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sw3eg_2002'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sw3eg_2004'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sw3eg_2004'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sw3eg_2004'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sw3eg_2004'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sw3eg_2004'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sw3eg_2004'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sw3eg_2004'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sw3eg_2005'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sw3eg_2005'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sw3eg_2005'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sw3eg_2005'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sw3eg_2005'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sw3eg_2005'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sw3eg_2005'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sw3eg_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sw3eg_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sw3eg_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sw3eg_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sw3eg_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sw3eg_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sw3eg_2006'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+Successfully processed: 'hati_2015_nt_cgrain_sw3eg_2007'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_rt_cgrain_sw3eg_2007'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+Successfully processed: 'hati_2015_mb_cgrain_sw3eg_2007'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+Successfully processed: 'hati_2015_ct_cgrain_sw3eg_2007'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N50Per
+    [DEBUG] Checking Treatment Sch: MB_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N50Per
+    [DEBUG] Checking Treatment Sch: RT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N50Per
+    [DEBUG] Checking Treatment Sch: NT_N50Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N50Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N50Per
+Successfully processed: 'hati_2015_n50per_cgrain_sw3eg_2007'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: MB_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N100Per
+    [DEBUG] Checking Treatment Sch: RT_N100Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N100Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N100Per
+    [DEBUG] Checking Treatment Sch: NT_N100Per
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'hati_2015_n100per_cgrain_sw3eg_2007'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_N150Per
+    [DEBUG] Checking Treatment Sch: MB_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_MB_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MB_N150Per
+    [DEBUG] Checking Treatment Sch: NT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT_N150Per
+    [DEBUG] Checking Treatment Sch: RT_N150Per
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_RT_N150Per_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT_N150Per
+Successfully processed: 'hati_2015_n150per_cgrain_sw3eg_2007'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/observed_vs_modeled_biomass.png'
+--- Script finished. ---

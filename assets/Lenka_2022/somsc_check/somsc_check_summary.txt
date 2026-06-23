@@ -1,0 +1,56 @@
+SOMSC Check Summary for Site: Lenka_2022
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-70.03%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,960.62 g C / m²
+Change during Equilibrium Phase: +2,934.57 g C / m²
+Change during Base Phase: -3,924.31 g C / m²
+Final SOMSC at end of Base Phase: 998.91 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,332.52 g C / m²
+Model is 70.03% lower than observation.
+(Difference: -2,333.61 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 6, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + NT-T1 (+77.27)
+  + NT-T2 (+439.41)
+  + NT-T3 (+801.59)
+  + RT-T1 (+3.36)
+  + RT-T2 (+385.46)
+  + RT-T3 (+767.89)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'lenka_2022_nt-t1_somsc' Change: +77.27 g C / m² (End value: 3,409.79)
+'lenka_2022_nt-t2_somsc' Change: +439.41 g C / m² (End value: 3,771.92)
+'lenka_2022_nt-t3_somsc' Change: +801.59 g C / m² (End value: 4,134.10)
+'lenka_2022_rt-t1_somsc' Change: +3.36 g C / m² (End value: 3,335.88)
+'lenka_2022_rt-t2_somsc' Change: +385.46 g C / m² (End value: 3,717.97)
+'lenka_2022_rt-t3_somsc' Change: +767.89 g C / m² (End value: 4,100.40)
+
+Average SOMSC at end of all experimental phases: 3,745.01 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+[INFO] No SOMSC observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/observed_vs_modeled_somsc.png'
+[INFO] Observed-vs-modelled metrics skipped because observed SOMSC data is missing.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

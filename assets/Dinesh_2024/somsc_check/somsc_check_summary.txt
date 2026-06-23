@@ -1,0 +1,85 @@
+SOMSC Check Summary for Site: Dinesh_2024
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-63.41%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,886.59 g C / m²
+Change during Equilibrium Phase: +426.91 g C / m²
+Change during Base Phase: -1,051.36 g C / m²
+Final SOMSC at end of Base Phase: 1,278.35 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,493.82 g C / m²
+Model is 63.41% lower than observation.
+(Difference: -2,215.47 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 8, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + TRT_ZT_NR_33GS (+513.08)
+  + TRT_ZT_NR_50GS (+435.17)
+  + TRT_ZT_NR_70GS (+500.57)
+  + TRT_ZT_NR_RDN (+586.06)
+  + TRT_ZT_R_33GS (+544.59)
+  + TRT_ZT_R_50GS (+456.06)
+  + TRT_ZT_R_70GS (+460.31)
+  + TRT_ZT_R_RDN (+540.90)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'dinesh_2024_trt_zt_nr_33gs_somsc' Change: +513.08 g C / m² (End value: 4,006.89)
+'dinesh_2024_trt_zt_nr_50gs_somsc' Change: +435.17 g C / m² (End value: 3,928.97)
+'dinesh_2024_trt_zt_nr_70gs_somsc' Change: +500.57 g C / m² (End value: 3,994.38)
+'dinesh_2024_trt_zt_nr_rdn_somsc' Change: +586.06 g C / m² (End value: 4,079.87)
+'dinesh_2024_trt_zt_r_33gs_somsc' Change: +544.59 g C / m² (End value: 4,038.40)
+'dinesh_2024_trt_zt_r_50gs_somsc' Change: +456.06 g C / m² (End value: 3,949.87)
+'dinesh_2024_trt_zt_r_70gs_somsc' Change: +460.31 g C / m² (End value: 3,954.12)
+'dinesh_2024_trt_zt_r_rdn_somsc' Change: +540.90 g C / m² (End value: 4,034.71)
+
+Average SOMSC at end of all experimental phases: 3,998.40 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_zt_nr (Years: 2018, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_trt_zt_nr_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_zt_r (Years: 2018, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_trt_zt_r_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_zt_nr (Years: 2019, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_trt_zt_nr_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_zt_r (Years: 2019, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_trt_zt_r_output/soilc.out FAILED: No matching data found.
+ -> Checking rdn (Years: 2018, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_rdn_output/soilc.out FAILED: No matching data found.
+ -> Checking 33%bn + gs (Years: 2018, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_33%bn + gs_output/soilc.out FAILED: No matching data found.
+ -> Checking 50%bn + gs (Years: 2018, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_50%bn + gs_output/soilc.out FAILED: No matching data found.
+ -> Checking 70%bn + gs (Years: 2018, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_70%bn + gs_output/soilc.out FAILED: No matching data found.
+ -> Checking rdn (Years: 2019, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_rdn_output/soilc.out FAILED: No matching data found.
+ -> Checking 33%bn + gs (Years: 2019, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_33%bn + gs_output/soilc.out FAILED: No matching data found.
+ -> Checking 50%bn + gs (Years: 2019, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_50%bn + gs_output/soilc.out FAILED: No matching data found.
+ -> Checking 70%bn + gs (Years: 2019, Day: 185.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/Dinesh_2024_out/Dinesh_2024_70%bn + gs_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

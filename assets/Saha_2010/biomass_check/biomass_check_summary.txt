@@ -1,0 +1,50 @@
+Biomass Check Summary for Site: Saha_2010
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+Fix observations / re-run extract_biomass.py.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'Comment', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 8
+    [DEBUG] Checking Treatment Sch: TRT_CT_RI
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_CT_RI_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_ct_ri_cgrain_c6_2006'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CT_RM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_CT_RM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_ct_rm_cgrain_c6_2006'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_ZT_RR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_zt_rr_cgrain_c6_2006'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_ZT_RM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_zt_rm_cgrain_c6_2006'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CT_RI
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_CT_RI_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_ct_ri_cgrain_ms_2007'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CT_RM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_CT_RM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_ct_rm_cgrain_ms_2007'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_ZT_RR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_zt_rr_cgrain_ms_2007'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/Saha_2010_out/Saha_2010_TRT_ZT_RM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'saha_2010_trt_zt_rm_cgrain_ms_2007'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2010/output_biomass.txt'
+
+No data available to plot or save.
+--- Script finished. ---

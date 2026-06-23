@@ -1,0 +1,50 @@
+SOMSC Check Summary for Site: Bhattacharyya_2018
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,882.54 g C / m²
+Change during Equilibrium Phase: +389.80 g C / m²
+Change during Base Phase: +1,969.72 g C / m²
+Final SOMSC at end of Base Phase: 4,286.82 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,238.07 g C / m²
+Model is 32.39% higher than observation.
+(Difference: +1,048.75 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 3
+Experiments with SOMSC increase: 0, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - CT (-527.34)
+  - PNBB (-221.65)
+  - PNBB_R (-40.21)
+
+--- Experimental Analysis ---
+'bhattacharyya_2018_ct_somsc' Change: -527.34 g C / m² (End value: 2,710.96)
+'bhattacharyya_2018_pnbb_somsc' Change: -221.65 g C / m² (End value: 3,016.65)
+'bhattacharyya_2018_pnbb_r_somsc' Change: -40.21 g C / m² (End value: 3,198.09)
+
+Average SOMSC at end of all experimental phases: 2,975.24 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+[INFO] No SOMSC observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Bhattacharyya_2018/observed_vs_modeled_somsc.png'
+[INFO] Observed-vs-modelled metrics skipped because observed SOMSC data is missing.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

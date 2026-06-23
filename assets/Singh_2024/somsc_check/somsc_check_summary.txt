@@ -1,0 +1,147 @@
+SOMSC Check Summary for Site: Singh_2024
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-57.14%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,934.86 g C / m²
+Change during Equilibrium Phase: +856.09 g C / m²
+Change during Base Phase: -1,271.72 g C / m²
+Final SOMSC at end of Base Phase: 1,534.36 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,580.28 g C / m²
+Model is 57.14% lower than observation.
+(Difference: -2,045.92 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 16
+Experiments with SOMSC increase: 0, SOMSC decrease: 16
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - TRT_M1_S1 (-38.72)
+  - TRT_M1_S2 (-38.72)
+  - TRT_M1_S3 (-8.39)
+  - TRT_M1_S4 (-23.55)
+  - TRT_M2_S1 (-37.99)
+  - TRT_M2_S2 (-37.99)
+  - TRT_M2_S3 (-7.82)
+  - TRT_M2_S4 (-22.91)
+  - TRT_M3_S1 (-37.53)
+  - TRT_M3_S2 (-37.53)
+  - TRT_M3_S3 (-7.36)
+  - TRT_M3_S4 (-22.44)
+  - TRT_M4_S1 (-37.12)
+  - TRT_M4_S2 (-37.12)
+  - TRT_M4_S3 (-6.96)
+  - TRT_M4_S4 (-22.04)
+
+--- Experimental Analysis ---
+'singh_2024_trt_m1_s1_somsc' Change: -38.72 g C / m² (End value: 3,541.54)
+'singh_2024_trt_m1_s2_somsc' Change: -38.72 g C / m² (End value: 3,541.54)
+'singh_2024_trt_m1_s3_somsc' Change: -8.39 g C / m² (End value: 3,571.87)
+'singh_2024_trt_m1_s4_somsc' Change: -23.55 g C / m² (End value: 3,556.71)
+'singh_2024_trt_m2_s1_somsc' Change: -37.99 g C / m² (End value: 3,542.26)
+'singh_2024_trt_m2_s2_somsc' Change: -37.99 g C / m² (End value: 3,542.26)
+'singh_2024_trt_m2_s3_somsc' Change: -7.82 g C / m² (End value: 3,572.44)
+'singh_2024_trt_m2_s4_somsc' Change: -22.91 g C / m² (End value: 3,557.35)
+'singh_2024_trt_m3_s1_somsc' Change: -37.53 g C / m² (End value: 3,542.73)
+'singh_2024_trt_m3_s2_somsc' Change: -37.53 g C / m² (End value: 3,542.73)
+'singh_2024_trt_m3_s3_somsc' Change: -7.36 g C / m² (End value: 3,572.89)
+'singh_2024_trt_m3_s4_somsc' Change: -22.44 g C / m² (End value: 3,557.81)
+'singh_2024_trt_m4_s1_somsc' Change: -37.12 g C / m² (End value: 3,543.14)
+'singh_2024_trt_m4_s2_somsc' Change: -37.12 g C / m² (End value: 3,543.14)
+'singh_2024_trt_m4_s3_somsc' Change: -6.96 g C / m² (End value: 3,573.30)
+'singh_2024_trt_m4_s4_somsc' Change: -22.04 g C / m² (End value: 3,558.22)
+
+Average SOMSC at end of all experimental phases: 3,553.74 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking m₁ – 50% rnpks (Years: 2023, Day: 63)... SUCCESS: 3565.93
+ -> Checking m₂ – 75% rnpks (Years: 2023, Day: 63)... SUCCESS: 3566.02
+ -> Checking m₃ – 100% rnpks (Years: 2023, Day: 63)... SUCCESS: 3566.03
+ -> Checking m₄ – 125% rnpks (Years: 2023, Day: 63)... SUCCESS: 3566.03
+ -> Checking s₁ – 2.5 kg zn + 0.5 kg b (Years: 2023, Day: 63)... SUCCESS: 3565.62
+ -> Checking s₂ – 5 kg zn + 1 kg b (Years: 2023, Day: 63)... SUCCESS: 3565.62
+ -> Checking s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost (Years: 2023, Day: 63)... SUCCESS: 3566.64
+ -> Checking s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost (Years: 2023, Day: 63)... SUCCESS: 3566.12
+ -> Checking m₁ – 50% rnpks (Years: 2024, Day: 63)... SUCCESS: 3558.50
+ -> Checking m₂ – 75% rnpks (Years: 2024, Day: 63)... SUCCESS: 3558.94
+ -> Checking m₃ – 100% rnpks (Years: 2024, Day: 63)... SUCCESS: 3559.19
+ -> Checking m₄ – 125% rnpks (Years: 2024, Day: 63)... SUCCESS: 3559.40
+ -> Checking s₁ – 2.5 kg zn + 0.5 kg b (Years: 2024, Day: 63)... SUCCESS: 3552.66
+ -> Checking s₂ – 5 kg zn + 1 kg b (Years: 2024, Day: 63)... SUCCESS: 3552.66
+ -> Checking s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost (Years: 2024, Day: 63)... SUCCESS: 3569.59
+ -> Checking s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost (Years: 2024, Day: 63)... SUCCESS: 3561.00
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2024/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2024/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2024/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 16
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 16
+
+                                                              Observation  Observed   Simulated         Difference
+                                          singh_2024_m₁ – 50% rnpks_somsc       0.0 3565.931175 FLAG (invalid obs)
+                                          singh_2024_m₂ – 75% rnpks_somsc       0.0 3566.024050 FLAG (invalid obs)
+                                         singh_2024_m₃ – 100% rnpks_somsc       0.0 3566.028725 FLAG (invalid obs)
+                                         singh_2024_m₄ – 125% rnpks_somsc       0.0 3566.028750 FLAG (invalid obs)
+                               singh_2024_s₁ – 2.5 kg zn + 0.5 kg b_somsc       0.0 3565.619275 FLAG (invalid obs)
+                                   singh_2024_s₂ – 5 kg zn + 1 kg b_somsc       0.0 3565.619275 FLAG (invalid obs)
+singh_2024_s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost_somsc       0.0 3566.643050 FLAG (invalid obs)
+    singh_2024_s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost_somsc       0.0 3566.122667 FLAG (invalid obs)
+                                          singh_2024_m₁ – 50% rnpks_somsc       0.0 3558.499250 FLAG (invalid obs)
+                                          singh_2024_m₂ – 75% rnpks_somsc       0.0 3558.942250 FLAG (invalid obs)
+                                         singh_2024_m₃ – 100% rnpks_somsc       0.0 3559.188125 FLAG (invalid obs)
+                                         singh_2024_m₄ – 125% rnpks_somsc       0.0 3559.396700 FLAG (invalid obs)
+                               singh_2024_s₁ – 2.5 kg zn + 0.5 kg b_somsc       0.0 3552.656400 FLAG (invalid obs)
+                                   singh_2024_s₂ – 5 kg zn + 1 kg b_somsc       0.0 3552.656400 FLAG (invalid obs)
+singh_2024_s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost_somsc       0.0 3569.589850 FLAG (invalid obs)
+    singh_2024_s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost_somsc       0.0 3560.996100 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Singh_2024_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 16
+R²: 0.0000 (flat observations or flat model)
+RMSE: 3562.50 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Singh_2024_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+singh_2024_m₁ – 50% rnpks_somsc,m₁ – 50% rnpks,2023,63,0.0,3565.9311749999997
+singh_2024_m₂ – 75% rnpks_somsc,m₂ – 75% rnpks,2023,63,0.0,3566.02405
+singh_2024_m₃ – 100% rnpks_somsc,m₃ – 100% rnpks,2023,63,0.0,3566.028725
+singh_2024_m₄ – 125% rnpks_somsc,m₄ – 125% rnpks,2023,63,0.0,3566.02875
+singh_2024_s₁ – 2.5 kg zn + 0.5 kg b_somsc,s₁ – 2.5 kg zn + 0.5 kg b,2023,63,0.0,3565.619275
+singh_2024_s₂ – 5 kg zn + 1 kg b_somsc,s₂ – 5 kg zn + 1 kg b,2023,63,0.0,3565.619275
+singh_2024_s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost_somsc,s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost,2023,63,0.0,3566.6430499999997
+singh_2024_s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost_somsc,s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost,2023,63,0.0,3566.122666666666
+singh_2024_m₁ – 50% rnpks_somsc,m₁ – 50% rnpks,2024,63,0.0,3558.4992500000003
+singh_2024_m₂ – 75% rnpks_somsc,m₂ – 75% rnpks,2024,63,0.0,3558.94225
+singh_2024_m₃ – 100% rnpks_somsc,m₃ – 100% rnpks,2024,63,0.0,3559.188125
+singh_2024_m₄ – 125% rnpks_somsc,m₄ – 125% rnpks,2024,63,0.0,3559.3967000000002
+singh_2024_s₁ – 2.5 kg zn + 0.5 kg b_somsc,s₁ – 2.5 kg zn + 0.5 kg b,2024,63,0.0,3552.6564000000003
+singh_2024_s₂ – 5 kg zn + 1 kg b_somsc,s₂ – 5 kg zn + 1 kg b,2024,63,0.0,3552.6564000000003
+singh_2024_s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost_somsc,s₃ – 2.5 kg zn + 0.5 kg b + 500 kg enriched vermicompost,2024,63,0.0,3569.5898500000003
+singh_2024_s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost_somsc,s₄ – 5 kg zn + 1 kg b + 250 kg enriched vermicompost,2024,63,0.0,3560.9961000000003

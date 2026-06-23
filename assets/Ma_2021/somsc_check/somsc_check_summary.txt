@@ -1,0 +1,53 @@
+SOMSC Check Summary for Site: Ma_2021
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-45.07%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 2,034.75 g C / m²
+Change during Equilibrium Phase: +2,692.06 g C / m²
+Change during Base Phase: -1,732.89 g C / m²
+Final SOMSC at end of Base Phase: 3,040.50 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 5,534.95 g C / m²
+Model is 45.07% lower than observation.
+(Difference: -2,494.45 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 4, SOMSC decrease: 1
+
+SOMSC Increase (g C / m²):
+  + S (+257.52)
+  + SB (+244.00)
+  + SI (+257.52)
+  + SM (+257.52)
+
+SOMSC Decrease (g C / m²):
+  - CK (-29.25)
+
+--- Experimental Analysis ---
+'ma_2021_ck_somsc' Change: -29.25 g C / m² (End value: 5,505.81)
+'ma_2021_s_somsc' Change: +257.52 g C / m² (End value: 5,792.58)
+'ma_2021_sb_somsc' Change: +244.00 g C / m² (End value: 5,779.06)
+'ma_2021_si_somsc' Change: +257.52 g C / m² (End value: 5,792.58)
+'ma_2021_sm_somsc' Change: +257.52 g C / m² (End value: 5,792.58)
+
+Average SOMSC at end of all experimental phases: 5,732.53 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+[INFO] No SOMSC observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/observed_vs_modeled_somsc.png'
+[INFO] Observed-vs-modelled metrics skipped because observed SOMSC data is missing.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

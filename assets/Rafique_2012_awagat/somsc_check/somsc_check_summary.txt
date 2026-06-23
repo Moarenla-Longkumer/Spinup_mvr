@@ -1,0 +1,92 @@
+SOMSC Check Summary for Site: Rafique_2012_awagat
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-76.84%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,901.29 g C / m²
+Change during Equilibrium Phase: -642.51 g C / m²
+Change during Base Phase: -583.73 g C / m²
+Final SOMSC at end of Base Phase: 734.26 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,170.56 g C / m²
+Model is 76.84% lower than observation.
+(Difference: -2,436.30 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 16
+Experiments with SOMSC increase: 12, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + BNM_GM_Res_Flatbed (+443.71)
+  + BNM_GM_Res_Raisedbed (+443.71)
+  + BNM_GM_noRes_Flatbed (+21.62)
+  + BNM_GM_noRes_Raisedbed (+21.62)
+  + BNM_Res_Flatbed (+519.12)
+  + BNM_Res_Raisedbed (+519.12)
+  + FFU_Res_Flatbed (+379.66)
+  + FFU_Res_Raisedbed (+379.66)
+  + INM_Res_Flatbed (+641.22)
+  + INM_Res_Raisedbed (+641.22)
+  + INM_noRes_Flatbed (+192.96)
+  + INM_noRes_Raisedbed (+192.96)
+
+SOMSC Decrease (g C / m²):
+  - BNM_noRes_Flatbed (-5.68)
+  - BNM_noRes_Raisedbed (-5.68)
+  - FFU_noRes_Flatbed (-12.78)
+  - FFU_noRes_Raisedbed (-12.78)
+
+--- Experimental Analysis ---
+'rafique_2012_awagat_bnm_gm_res_flatbed_somsc' Change: +443.71 g C / m² (End value: 3,614.48)
+'rafique_2012_awagat_bnm_gm_res_raisedbed_somsc' Change: +443.71 g C / m² (End value: 3,614.48)
+'rafique_2012_awagat_bnm_gm_nores_flatbed_somsc' Change: +21.62 g C / m² (End value: 3,192.39)
+'rafique_2012_awagat_bnm_gm_nores_raisedbed_somsc' Change: +21.62 g C / m² (End value: 3,192.39)
+'rafique_2012_awagat_bnm_res_flatbed_somsc' Change: +519.12 g C / m² (End value: 3,689.89)
+'rafique_2012_awagat_bnm_res_raisedbed_somsc' Change: +519.12 g C / m² (End value: 3,689.89)
+'rafique_2012_awagat_bnm_nores_flatbed_somsc' Change: -5.68 g C / m² (End value: 3,165.09)
+'rafique_2012_awagat_bnm_nores_raisedbed_somsc' Change: -5.68 g C / m² (End value: 3,165.09)
+'rafique_2012_awagat_ffu_res_flatbed_somsc' Change: +379.66 g C / m² (End value: 3,550.43)
+'rafique_2012_awagat_ffu_res_raisedbed_somsc' Change: +379.66 g C / m² (End value: 3,550.43)
+'rafique_2012_awagat_ffu_nores_flatbed_somsc' Change: -12.78 g C / m² (End value: 3,157.99)
+'rafique_2012_awagat_ffu_nores_raisedbed_somsc' Change: -12.78 g C / m² (End value: 3,157.99)
+'rafique_2012_awagat_inm_res_flatbed_somsc' Change: +641.22 g C / m² (End value: 3,811.99)
+'rafique_2012_awagat_inm_res_raisedbed_somsc' Change: +641.22 g C / m² (End value: 3,811.99)
+'rafique_2012_awagat_inm_nores_flatbed_somsc' Change: +192.96 g C / m² (End value: 3,363.73)
+'rafique_2012_awagat_inm_nores_raisedbed_somsc' Change: +192.96 g C / m² (End value: 3,363.73)
+
+Average SOMSC at end of all experimental phases: 3,443.25 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ffu_res_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking ffu_nores_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking ffu_res_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking ffu_nores_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_res_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_nores_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_res_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_nores_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking inm_res_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking inm_nores_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking inm_res_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking inm_nores_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_gm_res_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_gm_nores_flatbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_gm_res_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+ -> Checking bnm_gm_nores_raisedbed (Years: , Day: nan)... FAILED: No valid target years.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rafique_2012_awagat/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

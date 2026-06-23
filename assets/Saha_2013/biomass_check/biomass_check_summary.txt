@@ -1,0 +1,172 @@
+Biomass Check Summary for Site: Saha_2013
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 12
+Rows passing delta rule (sim >= obs): 4
+Rows with shortfall (sim < obs): 8
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+           Observation  Observed  Simulated          Difference
+saha_2013_m0_cgrain_c6   44.2640  78.157883             +76.57%
+saha_2013_m1_cgrain_c6   63.9320  75.800183             +18.56%
+saha_2013_m2_cgrain_c6   72.9960  78.917267              +8.11%
+saha_2013_m3_cgrain_c6   85.2720  74.555733 -12.57% [SHORTFALL]
+saha_2013_m4_cgrain_c6  110.1320  79.004133 -28.26% [SHORTFALL]
+saha_2013_m5_cgrain_c6  100.0560  76.959433 -23.08% [SHORTFALL]
+saha_2013_m0_cgrain_ms   21.4830  35.347650             +64.54%
+saha_2013_m1_cgrain_ms   72.2106  34.155117 -52.70% [SHORTFALL]
+saha_2013_m2_cgrain_ms   79.7874  36.094233 -54.76% [SHORTFALL]
+saha_2013_m3_cgrain_ms   96.2346  37.060017 -61.49% [SHORTFALL]
+saha_2013_m4_cgrain_ms  111.7116  36.179567 -67.61% [SHORTFALL]
+saha_2013_m5_cgrain_ms  104.5506  34.932200 -66.59% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Saha_2013_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 12
+R²: 0.0004
+RMSE: 41.38 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Saha_2013_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 12
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M0_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M0_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M0_T1
+    [DEBUG] Checking Treatment Sch: TRT_M0_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M0_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M0_T2
+Successfully processed: 'saha_2013_m0_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M1_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M1_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M1_T1
+    [DEBUG] Checking Treatment Sch: TRT_M1_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M1_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M1_T2
+Successfully processed: 'saha_2013_m1_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M2_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M2_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M2_T1
+    [DEBUG] Checking Treatment Sch: TRT_M2_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M2_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M2_T2
+Successfully processed: 'saha_2013_m2_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M3_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M3_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M3_T1
+    [DEBUG] Checking Treatment Sch: TRT_M3_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M3_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M3_T2
+Successfully processed: 'saha_2013_m3_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M4_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M4_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M4_T1
+    [DEBUG] Checking Treatment Sch: TRT_M4_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M4_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M4_T2
+Successfully processed: 'saha_2013_m4_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M5_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M5_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M5_T1
+    [DEBUG] Checking Treatment Sch: TRT_M5_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M5_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M5_T2
+Successfully processed: 'saha_2013_m5_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M0_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M0_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M0_T1
+    [DEBUG] Checking Treatment Sch: TRT_M0_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M0_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M0_T2
+Successfully processed: 'saha_2013_m0_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M1_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M1_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M1_T1
+    [DEBUG] Checking Treatment Sch: TRT_M1_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M1_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M1_T2
+Successfully processed: 'saha_2013_m1_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M2_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M2_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M2_T1
+    [DEBUG] Checking Treatment Sch: TRT_M2_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M2_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M2_T2
+Successfully processed: 'saha_2013_m2_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M3_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M3_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M3_T1
+    [DEBUG] Checking Treatment Sch: TRT_M3_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M3_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M3_T2
+Successfully processed: 'saha_2013_m3_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M4_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M4_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M4_T1
+    [DEBUG] Checking Treatment Sch: TRT_M4_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M4_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M4_T2
+Successfully processed: 'saha_2013_m4_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_M5_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M5_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M5_T1
+    [DEBUG] Checking Treatment Sch: TRT_M5_T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/Saha_2013_out/Saha_2013_TRT_M5_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in TRT_M5_T2
+Successfully processed: 'saha_2013_m5_cgrain_ms'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/observed_vs_modeled_biomass.png'
+--- Script finished. ---

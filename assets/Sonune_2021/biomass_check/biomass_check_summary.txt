@@ -1,0 +1,1429 @@
+Biomass Check Summary for Site: Sonune_2021
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 90
+Rows passing delta rule (sim >= obs): 65
+Rows with shortfall (sim < obs): 25
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                          Observation  Observed  Simulated          Difference
+       sonune_2021_mt_cgrain_cot_2011     48.52  70.242971             +44.77%
+       sonune_2021_ct_cgrain_cot_2011     47.08  65.302071             +38.70%
+       sonune_2021_mt_cgrain_cot_2012     57.24  42.977286 -24.92% [SHORTFALL]
+       sonune_2021_ct_cgrain_cot_2012     49.36  44.419186 -10.01% [SHORTFALL]
+       sonune_2021_mt_cgrain_cot_2013     60.40  37.920186 -37.22% [SHORTFALL]
+       sonune_2021_ct_cgrain_cot_2013     52.80  38.540400 -27.01% [SHORTFALL]
+       sonune_2021_mt_cgrain_cot_2014     43.20  38.810729 -10.16% [SHORTFALL]
+       sonune_2021_ct_cgrain_cot_2014     46.36  38.879329 -16.14% [SHORTFALL]
+       sonune_2021_mt_cgrain_cot_2016     40.48  47.444186             +17.20%
+       sonune_2021_ct_cgrain_cot_2016     39.04  50.900443             +30.38%
+sonune_2021_mt_aglivc-cgrain_cot_2011    115.28 262.042900            +127.31%
+sonune_2021_ct_aglivc-cgrain_cot_2011    113.08 243.628729            +115.45%
+sonune_2021_mt_aglivc-cgrain_cot_2012    132.64 192.302686             +44.98%
+sonune_2021_ct_aglivc-cgrain_cot_2012    111.24 198.764271             +78.68%
+sonune_2021_mt_aglivc-cgrain_cot_2013    146.88 171.781543             +16.95%
+sonune_2021_ct_aglivc-cgrain_cot_2013    117.92 174.596500             +48.06%
+sonune_2021_mt_aglivc-cgrain_cot_2014    102.04 161.631600             +58.40%
+sonune_2021_ct_aglivc-cgrain_cot_2014    103.36 161.940686             +56.68%
+sonune_2021_mt_aglivc-cgrain_cot_2016     87.60 183.558014            +109.54%
+sonune_2021_ct_aglivc-cgrain_cot_2016     80.96 201.625557            +149.04%
+       sonune_2021_t1_cgrain_cot_2011     54.88  79.149600             +44.22%
+       sonune_2021_t3_cgrain_cot_2011     52.80  63.771750             +20.78%
+       sonune_2021_t4_cgrain_cot_2011     45.40  62.939200             +38.63%
+       sonune_2021_t5_cgrain_cot_2011     48.40  70.890950             +46.47%
+       sonune_2021_t6_cgrain_cot_2011     40.20  63.159650             +57.11%
+       sonune_2021_t7_cgrain_cot_2011     44.88  67.248250             +49.84%
+       sonune_2021_t8_cgrain_cot_2011     45.36  67.248250             +48.25%
+       sonune_2021_t1_cgrain_cot_2012     47.08  59.081750             +25.49%
+       sonune_2021_t3_cgrain_cot_2012     59.72  39.078600 -34.56% [SHORTFALL]
+       sonune_2021_t4_cgrain_cot_2012     52.24  37.606550 -28.01% [SHORTFALL]
+       sonune_2021_t5_cgrain_cot_2012     55.28  47.050050 -14.89% [SHORTFALL]
+       sonune_2021_t6_cgrain_cot_2012     54.96  37.961600 -30.93% [SHORTFALL]
+       sonune_2021_t7_cgrain_cot_2012     54.60  42.554550 -22.06% [SHORTFALL]
+       sonune_2021_t8_cgrain_cot_2012     54.20  42.554550 -21.49% [SHORTFALL]
+       sonune_2021_t1_cgrain_cot_2013     47.72  53.472850             +12.06%
+       sonune_2021_t3_cgrain_cot_2013     62.32  35.202750 -43.51% [SHORTFALL]
+       sonune_2021_t4_cgrain_cot_2013     56.20  33.254600 -40.83% [SHORTFALL]
+       sonune_2021_t5_cgrain_cot_2013     60.60  42.893350 -29.22% [SHORTFALL]
+       sonune_2021_t6_cgrain_cot_2013     59.36  33.765000 -43.12% [SHORTFALL]
+       sonune_2021_t7_cgrain_cot_2013     58.32  34.677550 -40.54% [SHORTFALL]
+       sonune_2021_t8_cgrain_cot_2013     58.32  34.345950 -41.11% [SHORTFALL]
+       sonune_2021_t1_cgrain_cot_2014     39.36  51.380150             +30.54%
+       sonune_2021_t3_cgrain_cot_2014     51.36  35.836500 -30.22% [SHORTFALL]
+       sonune_2021_t4_cgrain_cot_2014     42.16  33.295450 -21.03% [SHORTFALL]
+       sonune_2021_t5_cgrain_cot_2014     50.16  42.483700 -15.30% [SHORTFALL]
+       sonune_2021_t6_cgrain_cot_2014     45.52  33.687850 -25.99% [SHORTFALL]
+       sonune_2021_t7_cgrain_cot_2014     43.72  37.791250 -13.56% [SHORTFALL]
+       sonune_2021_t8_cgrain_cot_2014     41.28  37.440300  -9.30% [SHORTFALL]
+       sonune_2021_t1_cgrain_cot_2016     34.76  66.968400             +92.66%
+       sonune_2021_t3_cgrain_cot_2016     44.60  46.170200              +3.52%
+       sonune_2021_t4_cgrain_cot_2016     41.84  40.325950  -3.62% [SHORTFALL]
+       sonune_2021_t5_cgrain_cot_2016     44.40  54.901250             +23.65%
+       sonune_2021_t6_cgrain_cot_2016     38.72  41.544650              +7.30%
+       sonune_2021_t7_cgrain_cot_2016     38.32  46.112200             +20.33%
+       sonune_2021_t8_cgrain_cot_2016     35.96  48.183550             +33.99%
+sonune_2021_t1_aglivc-cgrain_cot_2011    140.52 295.281900            +110.14%
+sonune_2021_t3_aglivc-cgrain_cot_2011    124.24 237.909650             +91.49%
+sonune_2021_t4_aglivc-cgrain_cot_2011    108.16 234.803350            +117.09%
+sonune_2021_t5_aglivc-cgrain_cot_2011    109.76 264.469800            +140.95%
+sonune_2021_t6_aglivc-cgrain_cot_2011     97.24 235.626100            +142.31%
+sonune_2021_t7_aglivc-cgrain_cot_2011    104.56 250.879950            +139.94%
+sonune_2021_t8_aglivc-cgrain_cot_2011    104.00 250.879950            +141.23%
+sonune_2021_t1_aglivc-cgrain_cot_2012    109.12 264.375550            +142.28%
+sonune_2021_t3_aglivc-cgrain_cot_2012    137.76 174.860950             +26.93%
+sonune_2021_t4_aglivc-cgrain_cot_2012    117.48 168.273700             +43.24%
+sonune_2021_t5_aglivc-cgrain_cot_2012    124.64 210.530200             +68.91%
+sonune_2021_t6_aglivc-cgrain_cot_2012    122.88 169.863150             +38.23%
+sonune_2021_t7_aglivc-cgrain_cot_2012    123.84 190.415400             +53.76%
+sonune_2021_t8_aglivc-cgrain_cot_2012    124.44 190.415400             +53.02%
+sonune_2021_t1_aglivc-cgrain_cot_2013    110.36 242.247150            +119.51%
+sonune_2021_t3_aglivc-cgrain_cot_2013    150.24 159.472150              +6.14%
+sonune_2021_t4_aglivc-cgrain_cot_2013    131.12 150.646500             +14.89%
+sonune_2021_t5_aglivc-cgrain_cot_2013    139.08 194.312600             +39.71%
+sonune_2021_t6_aglivc-cgrain_cot_2013    138.04 152.959550             +10.81%
+sonune_2021_t7_aglivc-cgrain_cot_2013    127.68 157.093600             +23.04%
+sonune_2021_t8_aglivc-cgrain_cot_2013    138.08 155.591600             +12.68%
+sonune_2021_t1_aglivc-cgrain_cot_2014     91.64 214.047200            +133.57%
+sonune_2021_t3_aglivc-cgrain_cot_2014    122.76 149.238800             +21.57%
+sonune_2021_t4_aglivc-cgrain_cot_2014     88.84 138.658200             +56.08%
+sonune_2021_t5_aglivc-cgrain_cot_2014    109.48 176.933000             +61.61%
+sonune_2021_t6_aglivc-cgrain_cot_2014    106.52 140.300200             +31.71%
+sonune_2021_t7_aglivc-cgrain_cot_2014    100.76 157.393600             +56.21%
+sonune_2021_t8_aglivc-cgrain_cot_2014    100.40 155.932000             +55.31%
+sonune_2021_t1_aglivc-cgrain_cot_2016     67.36 259.108100            +284.66%
+sonune_2021_t3_aglivc-cgrain_cot_2016    100.88 178.630050             +77.07%
+sonune_2021_t4_aglivc-cgrain_cot_2016     88.92 156.016950             +75.46%
+sonune_2021_t5_aglivc-cgrain_cot_2016     89.64 212.407000            +136.96%
+sonune_2021_t6_aglivc-cgrain_cot_2016     83.64 160.734200             +92.17%
+sonune_2021_t7_aglivc-cgrain_cot_2016     87.84 178.406650            +103.10%
+sonune_2021_t8_aglivc-cgrain_cot_2016     73.52 202.839550            +175.90%
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Sonune_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 90
+R²: 0.6664
+RMSE: 68.92 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'nobs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 90
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_mt_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+Successfully processed: 'sonune_2021_ct_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_aglivc-cgrain_cot_2011'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_aglivc-cgrain_cot_2012'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_aglivc-cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_aglivc-cgrain_cot_2014'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T1
+    [DEBUG] Checking Treatment Sch: MT_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T1
+Successfully processed: 'sonune_2021_t1_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T3
+    [DEBUG] Checking Treatment Sch: MT_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T3
+Successfully processed: 'sonune_2021_t3_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T4
+    [DEBUG] Checking Treatment Sch: MT_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T4
+Successfully processed: 'sonune_2021_t4_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T5
+    [DEBUG] Checking Treatment Sch: MT_T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T5
+Successfully processed: 'sonune_2021_t5_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T6
+    [DEBUG] Checking Treatment Sch: MT_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T6
+Successfully processed: 'sonune_2021_t6_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T7
+    [DEBUG] Checking Treatment Sch: MT_T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T7
+Successfully processed: 'sonune_2021_t7_aglivc-cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_CT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_T8
+    [DEBUG] Checking Treatment Sch: MT_T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/Sonune_2021_out/Sonune_2021_MT_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in MT_T8
+Successfully processed: 'sonune_2021_t8_aglivc-cgrain_cot_2016'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/observed_vs_modeled_biomass.png'
+--- Script finished. ---

@@ -1,0 +1,76 @@
+SOMSC Check Summary for Site: Govindasamy_2020
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-59.14%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,978.55 g C / m²
+Change during Equilibrium Phase: +1,307.59 g C / m²
+Change during Base Phase: -453.75 g C / m²
+Final SOMSC at end of Base Phase: 2,907.73 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 7,117.11 g C / m²
+Model is 59.14% lower than observation.
+(Difference: -4,209.38 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 2
+Experiments with SOMSC increase: 0, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - CT (-1383.83)
+  - NT (-1356.41)
+
+--- Experimental Analysis ---
+'govindasamy_2020_ct_somsc' Change: -1,383.83 g C / m² (End value: 5,733.17)
+'govindasamy_2020_nt_somsc' Change: -1,356.41 g C / m² (End value: 5,760.59)
+
+Average SOMSC at end of all experimental phases: 5,746.88 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking nt (Years: 2017, Day: 215)... SUCCESS: 5773.37
+ -> Checking nt (Years: 2017, Day: 215)... SUCCESS: 5773.37
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Govindasamy_2020/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Govindasamy_2020/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Govindasamy_2020/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 2
+Rows passing delta rule (sim >= obs): 2
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+              Observation  Observed  Simulated Difference
+govindasamy_2020_nt_somsc     969.0  5773.3674   +495.81%
+govindasamy_2020_nt_somsc     815.0  5773.3674   +608.39%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 2
+R²: 0.0000 (flat observations or flat model)
+RMSE: 4881.97 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Govindasamy_2020_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+govindasamy_2020_nt_somsc,nt,2017,215,969.0,5773.3674
+govindasamy_2020_nt_somsc,nt,2017,215,815.0,5773.3674

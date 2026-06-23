@@ -1,0 +1,80 @@
+SOMSC Check Summary for Site: Nath_2022
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-68.80%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,877.77 g C / m²
+Change during Equilibrium Phase: +411.94 g C / m²
+Change during Base Phase: -1,294.95 g C / m²
+Final SOMSC at end of Base Phase: 1,038.44 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,327.95 g C / m²
+Model is 68.80% lower than observation.
+(Difference: -2,289.51 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 4
+Experiments with SOMSC increase: 2, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  + CT + R + 100 N (+121.86)
+  + ZT + R + 100 N (+81.78)
+
+SOMSC Decrease (g C / m²):
+  - CT – R + 100 N (-36.29)
+  - ZT – R + 100 N (-5.31)
+
+--- Experimental Analysis ---
+'nath_2022_ct + r + 100 n_somsc' Change: +121.86 g C / m² (End value: 3,449.89)
+'nath_2022_ct – r + 100 n_somsc' Change: -36.29 g C / m² (End value: 3,291.74)
+'nath_2022_zt + r + 100 n_somsc' Change: +81.78 g C / m² (End value: 3,409.81)
+'nath_2022_zt – r + 100 n_somsc' Change: -5.31 g C / m² (End value: 3,322.72)
+
+Average SOMSC at end of all experimental phases: 3,368.54 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct – r + 100 n (Years: 2015, Day: 77)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output/soilc.out FAILED: No matching data found.
+ -> Checking ct + r + 100 n (Years: 2015, Day: 77)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output/soilc.out FAILED: No matching data found.
+ -> Checking zt – r + 100 n (Years: 2015, Day: 77)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output/soilc.out FAILED: No matching data found.
+ -> Checking zt + r + 100 n (Years: 2015, Day: 77)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

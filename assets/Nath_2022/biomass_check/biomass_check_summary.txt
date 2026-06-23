@@ -1,0 +1,322 @@
+Biomass Check Summary for Site: Nath_2022
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+Fix observations / re-run extract_biomass.py.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'Comment', 'depth', 'value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 16
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct – r + 100 n_cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct + r + 100 n_cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt – r + 100 n_cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt + r + 100 n_cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct – r + 100 n_aglivc-cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct + r + 100 n_aglivc-cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt – r + 100 n_aglivc-cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt + r + 100 n_aglivc-cgrain_sw3eg_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct – r + 100 n_cgrain_sw3eg_2015'. No data found.
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct + r + 100 n_cgrain_sw3eg_2015'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt – r + 100 n_cgrain_sw3eg_2015'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt + r + 100 n_cgrain_sw3eg_2015'. No data found.
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct – r + 100 n_aglivc-cgrain_sw3eg_2015'. No data found.
+    [DEBUG] Checking Treatment Sch: CT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_CT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_ct + r + 100 n_aglivc-cgrain_sw3eg_2015'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: –
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_–_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt – r + 100 n_aglivc-cgrain_sw3eg_2015'. No data found.
+    [DEBUG] Checking Treatment Sch: ZT
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_ZT_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: R
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_R_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: 100
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_100_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: N
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/Nath_2022_out/Nath_2022_N_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'nath_2022_zt + r + 100 n_aglivc-cgrain_sw3eg_2015'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Nath_2022/output_biomass.txt'
+
+No data available to plot or save.
+--- Script finished. ---

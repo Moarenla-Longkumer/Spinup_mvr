@@ -1,0 +1,430 @@
+Biomass Check Summary for Site: Gudadhe_2015
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 18
+Rows passing delta rule (sim >= obs): 7
+Rows with shortfall (sim < obs): 11
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                Observation  Observed  Simulated          Difference
+ gudadhe_2015_t1_cgrain_cot     85.60 112.267750             +31.15%
+ gudadhe_2015_t2_cgrain_cot     73.40 111.866088             +52.41%
+ gudadhe_2015_t3_cgrain_cot     65.96 111.566275             +69.14%
+ gudadhe_2015_t4_cgrain_cot     56.88 111.246700             +95.58%
+ gudadhe_2015_t5_cgrain_cot     51.72 110.835150            +114.30%
+ gudadhe_2015_t6_cgrain_cot     95.24 112.267750             +17.88%
+ gudadhe_2015_t7_cgrain_cot     41.08  83.468175            +103.18%
+gudadhe_2015_t1_cgrain_cpea     97.64  37.761538 -61.33% [SHORTFALL]
+gudadhe_2015_t2_cgrain_cpea     72.60  37.763000 -47.98% [SHORTFALL]
+gudadhe_2015_t3_cgrain_cpea     84.96  37.764150 -55.55% [SHORTFALL]
+gudadhe_2015_t4_cgrain_cpea     88.36  37.765600 -57.26% [SHORTFALL]
+gudadhe_2015_t5_cgrain_cpea     95.72  37.766550 -60.54% [SHORTFALL]
+gudadhe_2015_t6_cgrain_cpea     84.80  37.761550 -55.47% [SHORTFALL]
+gudadhe_2015_t7_cgrain_cpea     56.88  37.759663 -33.62% [SHORTFALL]
+gudadhe_2015_v1_cgrain_cpea     61.48  37.762336 -38.58% [SHORTFALL]
+gudadhe_2015_v2_cgrain_cpea     81.16  37.763421 -53.47% [SHORTFALL]
+gudadhe_2015_v3_cgrain_cpea     92.76  37.763421 -59.29% [SHORTFALL]
+gudadhe_2015_v4_cgrain_cpea     96.64  37.763421 -60.92% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Gudadhe_2015_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 18
+R²: 0.1395
+RMSE: 45.50 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Gudadhe_2015_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 18
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V1
+    [DEBUG] Checking Treatment Sch: T1V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V2
+    [DEBUG] Checking Treatment Sch: T1V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V3
+    [DEBUG] Checking Treatment Sch: T1V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V4
+Successfully processed: 'gudadhe_2015_t1_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V1
+    [DEBUG] Checking Treatment Sch: T2V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V2
+    [DEBUG] Checking Treatment Sch: T2V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V3
+    [DEBUG] Checking Treatment Sch: T2V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V4
+Successfully processed: 'gudadhe_2015_t2_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V1
+    [DEBUG] Checking Treatment Sch: T3V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V2
+    [DEBUG] Checking Treatment Sch: T3V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V3
+    [DEBUG] Checking Treatment Sch: T3V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V4
+Successfully processed: 'gudadhe_2015_t3_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V1
+    [DEBUG] Checking Treatment Sch: T4V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V2
+    [DEBUG] Checking Treatment Sch: T4V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V3
+    [DEBUG] Checking Treatment Sch: T4V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V4
+Successfully processed: 'gudadhe_2015_t4_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T5V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V1
+    [DEBUG] Checking Treatment Sch: T5V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V2
+    [DEBUG] Checking Treatment Sch: T5V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V3
+    [DEBUG] Checking Treatment Sch: T5V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V4
+Successfully processed: 'gudadhe_2015_t5_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T6V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V1
+    [DEBUG] Checking Treatment Sch: T6V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V2
+    [DEBUG] Checking Treatment Sch: T6V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V3
+    [DEBUG] Checking Treatment Sch: T6V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V4
+Successfully processed: 'gudadhe_2015_t6_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T7V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V1
+    [DEBUG] Checking Treatment Sch: T7V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V2
+    [DEBUG] Checking Treatment Sch: T7V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V3
+    [DEBUG] Checking Treatment Sch: T7V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V4
+Successfully processed: 'gudadhe_2015_t7_cgrain_cot'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V1
+    [DEBUG] Checking Treatment Sch: T1V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V2
+    [DEBUG] Checking Treatment Sch: T1V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V3
+    [DEBUG] Checking Treatment Sch: T1V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V4
+Successfully processed: 'gudadhe_2015_t1_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V1
+    [DEBUG] Checking Treatment Sch: T2V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V2
+    [DEBUG] Checking Treatment Sch: T2V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V3
+    [DEBUG] Checking Treatment Sch: T2V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V4
+Successfully processed: 'gudadhe_2015_t2_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V1
+    [DEBUG] Checking Treatment Sch: T3V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V2
+    [DEBUG] Checking Treatment Sch: T3V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V3
+    [DEBUG] Checking Treatment Sch: T3V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V4
+Successfully processed: 'gudadhe_2015_t3_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V1
+    [DEBUG] Checking Treatment Sch: T4V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V2
+    [DEBUG] Checking Treatment Sch: T4V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V3
+    [DEBUG] Checking Treatment Sch: T4V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V4
+Successfully processed: 'gudadhe_2015_t4_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T5V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V1
+    [DEBUG] Checking Treatment Sch: T5V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V2
+    [DEBUG] Checking Treatment Sch: T5V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V3
+    [DEBUG] Checking Treatment Sch: T5V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V4
+Successfully processed: 'gudadhe_2015_t5_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T6V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V1
+    [DEBUG] Checking Treatment Sch: T6V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V2
+    [DEBUG] Checking Treatment Sch: T6V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V3
+    [DEBUG] Checking Treatment Sch: T6V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V4
+Successfully processed: 'gudadhe_2015_t6_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T7V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V1
+    [DEBUG] Checking Treatment Sch: T7V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V2
+    [DEBUG] Checking Treatment Sch: T7V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V3
+    [DEBUG] Checking Treatment Sch: T7V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V4
+Successfully processed: 'gudadhe_2015_t7_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V1
+    [DEBUG] Checking Treatment Sch: T2V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V1
+    [DEBUG] Checking Treatment Sch: T3V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V1
+    [DEBUG] Checking Treatment Sch: T4V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V1
+    [DEBUG] Checking Treatment Sch: T5V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V1
+    [DEBUG] Checking Treatment Sch: T6V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V1
+    [DEBUG] Checking Treatment Sch: T7V1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V1
+Successfully processed: 'gudadhe_2015_v1_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V2
+    [DEBUG] Checking Treatment Sch: T2V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V2
+    [DEBUG] Checking Treatment Sch: T3V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V2
+    [DEBUG] Checking Treatment Sch: T4V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V2
+    [DEBUG] Checking Treatment Sch: T5V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V2
+    [DEBUG] Checking Treatment Sch: T6V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V2
+    [DEBUG] Checking Treatment Sch: T7V2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V2
+Successfully processed: 'gudadhe_2015_v2_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V3
+    [DEBUG] Checking Treatment Sch: T2V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V3
+    [DEBUG] Checking Treatment Sch: T3V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V3
+    [DEBUG] Checking Treatment Sch: T4V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V3
+    [DEBUG] Checking Treatment Sch: T5V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V3
+    [DEBUG] Checking Treatment Sch: T6V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V3
+    [DEBUG] Checking Treatment Sch: T7V3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V3
+Successfully processed: 'gudadhe_2015_v3_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T1V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1V4
+    [DEBUG] Checking Treatment Sch: T2V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T2V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2V4
+    [DEBUG] Checking Treatment Sch: T3V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T3V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3V4
+    [DEBUG] Checking Treatment Sch: T4V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T4V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4V4
+    [DEBUG] Checking Treatment Sch: T5V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T5V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5V4
+    [DEBUG] Checking Treatment Sch: T6V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T6V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6V4
+    [DEBUG] Checking Treatment Sch: T7V4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/Gudadhe_2015_out/Gudadhe_2015_T7V4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7V4
+Successfully processed: 'gudadhe_2015_v4_cgrain_cpea'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/observed_vs_modeled_biomass.png'
+--- Script finished. ---

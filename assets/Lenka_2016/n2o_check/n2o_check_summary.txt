@@ -1,0 +1,49 @@
+N2O Check Summary for Site: Lenka_2016
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 6
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 6
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                     Observation  Observed  Simulated             Difference
+lenka_2016_onm_n2oflux_2012_2013      1.20   190.5428 +15778.57% [OVER >50%]
+lenka_2016_npk_n2oflux_2012_2013      1.02   470.5595 +46033.28% [OVER >50%]
+lenka_2016_inm_n2oflux_2012_2013      1.36   257.2146 +18812.84% [OVER >50%]
+lenka_2016_onm_n2oflux_2012_2013      1.22   190.5428 +15518.26% [OVER >50%]
+lenka_2016_npk_n2oflux_2012_2013      1.15   470.5595 +40818.22% [OVER >50%]
+lenka_2016_inm_n2oflux_2012_2013      1.36   257.2146 +18812.84% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Lenka_2016_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.4304
+RMSE: 327.47
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and period dates in `observations/Lenka_2016_obs.csv`.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 6
+ -> onm period 2012-312 to 2013-72... SUCCESS: sim=190.5428
+ -> npk period 2012-312 to 2013-72... SUCCESS: sim=470.5595
+ -> inm period 2012-312 to 2013-72... SUCCESS: sim=257.2146
+ -> onm period 2012-312 to 2013-72... SUCCESS: sim=190.5428
+ -> npk period 2012-312 to 2013-72... SUCCESS: sim=470.5595
+ -> inm period 2012-312 to 2013-72... SUCCESS: sim=257.2146
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2016/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2016/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2016/observed_vs_modeled_n2o.png'

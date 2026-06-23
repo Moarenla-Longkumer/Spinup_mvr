@@ -1,0 +1,105 @@
+SOMSC Check Summary for Site: Chaudhari_2020
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-88.39%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,911.99 g C / m²
+Change during Equilibrium Phase: +2,410.44 g C / m²
+Change during Base Phase: -3,907.37 g C / m²
+Final SOMSC at end of Base Phase: 501.98 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,325.40 g C / m²
+Model is 88.39% lower than observation.
+(Difference: -3,823.42 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 0, SOMSC decrease: 5
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - TRT_T1_CT-CT (-36.84)
+  - TRT_T2_CT-ZT (-36.45)
+  - TRT_T3_ZT-ZT (-36.07)
+  - TRT_T4_ZT-ZT+R (-36.06)
+  - TRT_T5_ZT+R-ZT+R (-23.74)
+
+--- Experimental Analysis ---
+'chaudhari_2020_trt_t1_ct-ct_somsc' Change: -36.84 g C / m² (End value: 4,288.51)
+'chaudhari_2020_trt_t2_ct-zt_somsc' Change: -36.45 g C / m² (End value: 4,288.90)
+'chaudhari_2020_trt_t3_zt-zt_somsc' Change: -36.07 g C / m² (End value: 4,289.28)
+'chaudhari_2020_trt_t4_zt-zt+r_somsc' Change: -36.06 g C / m² (End value: 4,289.29)
+'chaudhari_2020_trt_t5_zt+r-zt+r_somsc' Change: -23.74 g C / m² (End value: 4,301.61)
+
+Average SOMSC at end of all experimental phases: 4,291.52 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_t1_ct-ct (Years: 2017, Day: 292)... SUCCESS: 4293.90
+ -> Checking trt_t2_ct-zt (Years: 2017, Day: 292)... SUCCESS: 4294.31
+ -> Checking trt_t3_zt-zt (Years: 2017, Day: 292)... SUCCESS: 4294.68
+ -> Checking trt_t4_zt-zt+r (Years: 2017, Day: 292)... SUCCESS: 4294.69
+ -> Checking trt_t5_zt+r-zt+r (Years: 2017, Day: 292)... SUCCESS: 4306.32
+ -> Checking trt_t1_ct-ct (Years: 2017, Day: 150)... SUCCESS: 4305.05
+ -> Checking trt_t2_ct-zt (Years: 2017, Day: 150)... SUCCESS: 4305.62
+ -> Checking trt_t3_zt-zt (Years: 2017, Day: 150)... SUCCESS: 4305.96
+ -> Checking trt_t4_zt-zt+r (Years: 2017, Day: 150)... SUCCESS: 4305.96
+ -> Checking trt_t5_zt+r-zt+r (Years: 2017, Day: 150)... SUCCESS: 4314.77
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 10
+Rows passing delta rule (sim >= obs): 10
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                          Observation  Observed  Simulated   Difference
+    chaudhari_2020_trt_t1_ct-ct_somsc      0.31  4293.8959 +1385027.71%
+    chaudhari_2020_trt_t2_ct-zt_somsc      0.32  4294.3060 +1341870.62%
+    chaudhari_2020_trt_t3_zt-zt_somsc      0.29  4294.6828 +1480825.10%
+  chaudhari_2020_trt_t4_zt-zt+r_somsc      0.33  4294.6906 +1301321.39%
+chaudhari_2020_trt_t5_zt+r-zt+r_somsc      0.37  4306.3222 +1163770.86%
+    chaudhari_2020_trt_t1_ct-ct_somsc      0.32  4305.0517 +1345228.66%
+    chaudhari_2020_trt_t2_ct-zt_somsc      0.35  4305.6187 +1230076.77%
+    chaudhari_2020_trt_t3_zt-zt_somsc      0.34  4305.9633 +1266359.79%
+  chaudhari_2020_trt_t4_zt-zt+r_somsc      0.36  4305.9627 +1196000.75%
+chaudhari_2020_trt_t5_zt+r-zt+r_somsc      0.40  4314.7729 +1078593.23%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 10
+R²: 0.7361
+RMSE: 4301.79 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+chaudhari_2020_trt_t1_ct-ct_somsc,trt_t1_ct-ct,2017,292,0.31,4293.8959
+chaudhari_2020_trt_t2_ct-zt_somsc,trt_t2_ct-zt,2017,292,0.32,4294.306
+chaudhari_2020_trt_t3_zt-zt_somsc,trt_t3_zt-zt,2017,292,0.29,4294.6828000000005
+chaudhari_2020_trt_t4_zt-zt+r_somsc,trt_t4_zt-zt+r,2017,292,0.33,4294.6906
+chaudhari_2020_trt_t5_zt+r-zt+r_somsc,trt_t5_zt+r-zt+r,2017,292,0.37,4306.3222
+chaudhari_2020_trt_t1_ct-ct_somsc,trt_t1_ct-ct,2017,150,0.32,4305.0517
+chaudhari_2020_trt_t2_ct-zt_somsc,trt_t2_ct-zt,2017,150,0.35,4305.6187
+chaudhari_2020_trt_t3_zt-zt_somsc,trt_t3_zt-zt,2017,150,0.34,4305.963299999999
+chaudhari_2020_trt_t4_zt-zt+r_somsc,trt_t4_zt-zt+r,2017,150,0.36,4305.9627
+chaudhari_2020_trt_t5_zt+r-zt+r_somsc,trt_t5_zt+r-zt+r,2017,150,0.4,4314.7729

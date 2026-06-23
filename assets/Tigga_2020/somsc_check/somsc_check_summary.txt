@@ -1,0 +1,75 @@
+SOMSC Check Summary for Site: Tigga_2020
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-78.04%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,941.93 g C / m²
+Change during Equilibrium Phase: +1,220.88 g C / m²
+Change during Base Phase: -2,227.35 g C / m²
+Final SOMSC at end of Base Phase: 976.12 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,445.90 g C / m²
+Model is 78.04% lower than observation.
+(Difference: -3,469.78 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 9, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + CT+RI+GI-FFP (+97.88)
+  + CT+RI+GI-RDF (+99.37)
+  + CT+RI+GI-SSNM (+97.20)
+  + PB+RR+GR-FFP (+125.99)
+  + PB+RR+GR-RDF (+126.46)
+  + PB+RR+GR-SSNM (+126.15)
+  + PB+RR-FFP (+109.19)
+  + PB+RR-RDF (+109.68)
+  + PB+RR-SSNM (+108.50)
+
+SOMSC Decrease (g C / m²):
+  - CT-RR-FFP (-23.60)
+  - CT-RR-RDF (-23.21)
+  - CT-RR-SSNM (-23.65)
+
+--- Experimental Analysis ---
+'tigga_2020_ct+ri+gi-ffp_somsc' Change: +97.88 g C / m² (End value: 4,544.10)
+'tigga_2020_ct+ri+gi-rdf_somsc' Change: +99.37 g C / m² (End value: 4,545.60)
+'tigga_2020_ct+ri+gi-ssnm_somsc' Change: +97.20 g C / m² (End value: 4,543.43)
+'tigga_2020_ct-rr-ffp_somsc' Change: -23.60 g C / m² (End value: 4,422.62)
+'tigga_2020_ct-rr-rdf_somsc' Change: -23.21 g C / m² (End value: 4,423.01)
+'tigga_2020_ct-rr-ssnm_somsc' Change: -23.65 g C / m² (End value: 4,422.57)
+'tigga_2020_pb+rr+gr-ffp_somsc' Change: +125.99 g C / m² (End value: 4,572.21)
+'tigga_2020_pb+rr+gr-rdf_somsc' Change: +126.46 g C / m² (End value: 4,572.68)
+'tigga_2020_pb+rr+gr-ssnm_somsc' Change: +126.15 g C / m² (End value: 4,572.37)
+'tigga_2020_pb+rr-ffp_somsc' Change: +109.19 g C / m² (End value: 4,555.41)
+'tigga_2020_pb+rr-rdf_somsc' Change: +109.68 g C / m² (End value: 4,555.91)
+'tigga_2020_pb+rr-ssnm_somsc' Change: +108.50 g C / m² (End value: 4,554.73)
+
+Average SOMSC at end of all experimental phases: 4,523.72 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct-rr (Years: 2015, Day: 80)... SUCCESS: 4434.17
+ -> Checking ct+ri+gi (Years: 2015, Day: 80)... SUCCESS: 4560.41
+ -> Checking pb+rr (Years: 2015, Day: 80)... SUCCESS: 4560.10
+ -> Checking pb+rr+gr (Years: 2015, Day: 80)... SUCCESS: 4577.09
+ -> Checking ffp (Years: 2015, Day: 80)... SUCCESS: 4532.84
+ -> Checking rdf (Years: 2015, Day: 80)... SUCCESS: 4533.51
+ -> Checking ssnm (Years: 2015, Day: 80)... SUCCESS: 4532.48
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Tigga_2020/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

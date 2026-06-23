@@ -1,0 +1,106 @@
+SOMSC Check Summary for Site: Jayaraman_2020
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-75.59%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,963.43 g C / m²
+Change during Equilibrium Phase: +3,000.26 g C / m²
+Change during Base Phase: -4,184.60 g C / m²
+Final SOMSC at end of Base Phase: 813.08 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,330.86 g C / m²
+Model is 75.59% lower than observation.
+(Difference: -2,517.78 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 5, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + CT-CS1 (+3.16)
+  + CT-CS6 (+14.07)
+  + RT-CS1 (+103.35)
+  + RT-CS5 (+52.55)
+  + RT-CS6 (+9.88)
+
+SOMSC Decrease (g C / m²):
+  - CT-CS3 (-49.26)
+  - CT-CS5 (-18.28)
+  - RT-CS3 (-24.81)
+
+--- Experimental Analysis ---
+'jayaraman_2020_ct-cs1_somsc' Change: +3.16 g C / m² (End value: 3,334.02)
+'jayaraman_2020_ct-cs3_somsc' Change: -49.26 g C / m² (End value: 3,281.60)
+'jayaraman_2020_ct-cs5_somsc' Change: -18.28 g C / m² (End value: 3,312.58)
+'jayaraman_2020_ct-cs6_somsc' Change: +14.07 g C / m² (End value: 3,344.93)
+'jayaraman_2020_rt-cs1_somsc' Change: +103.35 g C / m² (End value: 3,434.21)
+'jayaraman_2020_rt-cs3_somsc' Change: -24.81 g C / m² (End value: 3,306.05)
+'jayaraman_2020_rt-cs5_somsc' Change: +52.55 g C / m² (End value: 3,383.41)
+'jayaraman_2020_rt-cs6_somsc' Change: +9.88 g C / m² (End value: 3,340.74)
+
+Average SOMSC at end of all experimental phases: 3,342.19 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct (Years: 2014, Day: 76)... SUCCESS: 3327.66
+ -> Checking rt (Years: 2014, Day: 76)... SUCCESS: 3368.32
+ -> Checking ct (Years: 2014, Day: 76)... SUCCESS: 3327.66
+ -> Checking rt (Years: 2014, Day: 76)... SUCCESS: 3368.32
+ -> Checking ct (Years: 2014, Day: 76)... SUCCESS: 3327.66
+ -> Checking rt (Years: 2014, Day: 76)... SUCCESS: 3368.32
+ -> Checking ct (Years: 2014, Day: 76)... SUCCESS: 3327.66
+ -> Checking rt (Years: 2014, Day: 76)... SUCCESS: 3368.32
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jayaraman_2020/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jayaraman_2020/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jayaraman_2020/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 8
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 8
+
+            Observation  Observed   Simulated         Difference
+jayaraman_2020_ct_somsc       0.0 3327.657025 FLAG (invalid obs)
+jayaraman_2020_rt_somsc       0.0 3368.323825 FLAG (invalid obs)
+jayaraman_2020_ct_somsc       0.0 3327.657025 FLAG (invalid obs)
+jayaraman_2020_rt_somsc       0.0 3368.323825 FLAG (invalid obs)
+jayaraman_2020_ct_somsc       0.0 3327.657025 FLAG (invalid obs)
+jayaraman_2020_rt_somsc       0.0 3368.323825 FLAG (invalid obs)
+jayaraman_2020_ct_somsc       0.0 3327.657025 FLAG (invalid obs)
+jayaraman_2020_rt_somsc       0.0 3368.323825 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Jayaraman_2020_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 8
+R²: 0.0000 (flat observations or flat model)
+RMSE: 3348.05 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Jayaraman_2020_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+jayaraman_2020_ct_somsc,ct,2014,76,0.0,3327.657025
+jayaraman_2020_rt_somsc,rt,2014,76,0.0,3368.323825
+jayaraman_2020_ct_somsc,ct,2014,76,0.0,3327.657025
+jayaraman_2020_rt_somsc,rt,2014,76,0.0,3368.323825
+jayaraman_2020_ct_somsc,ct,2014,76,0.0,3327.657025
+jayaraman_2020_rt_somsc,rt,2014,76,0.0,3368.323825
+jayaraman_2020_ct_somsc,ct,2014,76,0.0,3327.657025
+jayaraman_2020_rt_somsc,rt,2014,76,0.0,3368.323825

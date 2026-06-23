@@ -1,0 +1,17 @@
+Biomass Check Summary for Site: Dinesh_2024
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+This is likely because the 'extract_biomass.py' script failed.
+
+
+--- Biomass Extraction Script ---
+Status: FAILED
+Reason: Script exited with error code 1
+
+--- Error Output ---
+Traceback (most recent call last):
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/scripts/extract_biomass.py", line 516, in <module>
+    main()
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2024/scripts/extract_biomass.py", line 385, in main
+    for sch_name in [s.strip() for s in row['treatment_sch_file_name'].replace(",", " ").split()]:
+AttributeError: 'float' object has no attribute 'replace'

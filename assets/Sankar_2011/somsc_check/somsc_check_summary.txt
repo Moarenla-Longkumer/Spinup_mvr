@@ -1,0 +1,75 @@
+SOMSC Check Summary for Site: Sankar_2011
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-97.87%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,868.23 g C / m²
+Change during Equilibrium Phase: +290.24 g C / m²
+Change during Base Phase: -2,014.08 g C / m²
+Final SOMSC at end of Base Phase: 151.03 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 7,078.00 g C / m²
+Model is 97.87% lower than observation.
+(Difference: -6,926.97 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 10
+Experiments with SOMSC increase: 0, SOMSC decrease: 10
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - TRT_FYM_100NPK (-643.22)
+  - TRT_FYM_10T (-616.06)
+  - TRT_FYM_10T_100NPK (-614.58)
+  - TRT_FYM_10T_50NPK (-615.07)
+  - TRT_FYM_CONTROL (-644.78)
+  - TRT_MR_100NPK (-643.22)
+  - TRT_MR_5T (-582.32)
+  - TRT_MR_5T_100NPK (-580.74)
+  - TRT_MR_5T_50NPK (-581.28)
+  - TRT_MR_CONTROL (-644.78)
+
+--- Experimental Analysis ---
+'sankar_2011_trt_fym_100npk_somsc' Change: -643.22 g C / m² (End value: 6,434.84)
+'sankar_2011_trt_fym_10t_somsc' Change: -616.06 g C / m² (End value: 6,462.00)
+'sankar_2011_trt_fym_10t_100npk_somsc' Change: -614.58 g C / m² (End value: 6,463.48)
+'sankar_2011_trt_fym_10t_50npk_somsc' Change: -615.07 g C / m² (End value: 6,462.98)
+'sankar_2011_trt_fym_control_somsc' Change: -644.78 g C / m² (End value: 6,433.28)
+'sankar_2011_trt_mr_100npk_somsc' Change: -643.22 g C / m² (End value: 6,434.84)
+'sankar_2011_trt_mr_5t_somsc' Change: -582.32 g C / m² (End value: 6,495.74)
+'sankar_2011_trt_mr_5t_100npk_somsc' Change: -580.74 g C / m² (End value: 6,497.32)
+'sankar_2011_trt_mr_5t_50npk_somsc' Change: -581.28 g C / m² (End value: 6,496.78)
+'sankar_2011_trt_mr_control_somsc' Change: -644.78 g C / m² (End value: 6,433.28)
+
+Average SOMSC at end of all experimental phases: 6,461.45 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_fym_control (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6746.71
+ -> Checking trt_fym_10t (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6800.92
+ -> Checking trt_fym_10t_50npk (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6802.20
+ -> Checking trt_fym_10t_100npk (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6802.85
+ -> Checking trt_fym_100npk (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6748.73
+ -> Checking trt_mr_control (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6746.71
+ -> Checking trt_mr_5t (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6865.83
+ -> Checking trt_mr_5t_50npk (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6867.19
+ -> Checking trt_mr_5t_100npk (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6867.89
+ -> Checking trt_mr_100npk (Years: 1984,1985,1986,1987,1988,1989,1990,1991,1992,1993,1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008, Day: 366)... SUCCESS: 6748.73
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

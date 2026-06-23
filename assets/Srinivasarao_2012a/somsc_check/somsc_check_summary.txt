@@ -1,0 +1,90 @@
+SOMSC Check Summary for Site: Srinivasarao_2012a
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-97.90%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,909.61 g C / m²
+Change during Equilibrium Phase: +1,508.53 g C / m²
+Change during Base Phase: -3,376.30 g C / m²
+Final SOMSC at end of Base Phase: 98.70 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,691.51 g C / m²
+Model is 97.90% lower than observation.
+(Difference: -4,592.81 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 0, SOMSC decrease: 5
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - Control (-351.82)
+  - FYM (-284.02)
+  - RDF (-351.82)
+  - RDF_FYM (-297.70)
+  - RDF_GNS (-324.01)
+
+--- Experimental Analysis ---
+'srinivasarao_2012a_control_somsc' Change: -351.82 g C / m² (End value: 4,339.66)
+'srinivasarao_2012a_fym_somsc' Change: -284.02 g C / m² (End value: 4,407.46)
+'srinivasarao_2012a_rdf_somsc' Change: -351.82 g C / m² (End value: 4,339.66)
+'srinivasarao_2012a_rdf_fym_somsc' Change: -297.70 g C / m² (End value: 4,393.77)
+'srinivasarao_2012a_rdf_gns_somsc' Change: -324.01 g C / m² (End value: 4,367.47)
+
+Average SOMSC at end of all experimental phases: 4,369.60 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking control (Years: 2004, Day: 281)... SUCCESS: 4343.64
+ -> Checking rdf (Years: 2004, Day: 281)... SUCCESS: 4343.64
+ -> Checking rdf_fym (Years: 2004, Day: 281)... SUCCESS: 4398.17
+ -> Checking rdf_gns (Years: 2004, Day: 281)... SUCCESS: 4371.53
+ -> Checking fym (Years: 2004, Day: 281)... SUCCESS: 4411.94
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012a/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012a/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012a/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 5
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                     Observation  Observed  Simulated Difference
+srinivasarao_2012a_control_somsc    1252.8  4343.6376   +246.71%
+    srinivasarao_2012a_rdf_somsc    1484.8  4343.6373   +192.54%
+srinivasarao_2012a_rdf_fym_somsc    2219.2  4398.1685    +98.19%
+srinivasarao_2012a_rdf_gns_somsc    2113.4  4371.5288   +106.85%
+    srinivasarao_2012a_fym_somsc    2003.4  4411.9366   +120.22%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.6781
+RMSE: 2583.58 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+srinivasarao_2012a_control_somsc,control,2004,281,1252.8,4343.6376
+srinivasarao_2012a_rdf_somsc,rdf,2004,281,1484.8,4343.6373
+srinivasarao_2012a_rdf_fym_somsc,rdf_fym,2004,281,2219.2,4398.1685
+srinivasarao_2012a_rdf_gns_somsc,rdf_gns,2004,281,2113.4,4371.5288
+srinivasarao_2012a_fym_somsc,fym,2004,281,2003.4,4411.9366

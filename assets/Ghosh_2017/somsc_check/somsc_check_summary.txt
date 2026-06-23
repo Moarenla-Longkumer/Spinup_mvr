@@ -1,0 +1,61 @@
+SOMSC Check Summary for Site: Ghosh_2017
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-78.90%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,943.68 g C / m²
+Change during Equilibrium Phase: +1,110.66 g C / m²
+Change during Base Phase: -2,130.14 g C / m²
+Final SOMSC at end of Base Phase: 950.75 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,505.14 g C / m²
+Model is 78.90% lower than observation.
+(Difference: -3,554.39 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 2, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + M–W–M–C–ORG (+127.52)
+  + M–W–ORG (+146.64)
+
+SOMSC Decrease (g C / m²):
+  - M–W–CT (-210.83)
+  - M–W–M–C–CT (-197.62)
+  - M–W–M–C–RDF (-68.58)
+  - M–W–RDF (-43.27)
+
+--- Experimental Analysis ---
+'ghosh_2017_m–w–ct_somsc' Change: -210.83 g C / m² (End value: 4,294.32)
+'ghosh_2017_m–w–m–c–ct_somsc' Change: -197.62 g C / m² (End value: 4,307.53)
+'ghosh_2017_m–w–m–c–org_somsc' Change: +127.52 g C / m² (End value: 4,632.67)
+'ghosh_2017_m–w–m–c–rdf_somsc' Change: -68.58 g C / m² (End value: 4,436.58)
+'ghosh_2017_m–w–org_somsc' Change: +146.64 g C / m² (End value: 4,651.79)
+'ghosh_2017_m–w–rdf_somsc' Change: -43.27 g C / m² (End value: 4,461.88)
+
+Average SOMSC at end of all experimental phases: 4,464.13 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking m–w (Years: 2011, Day: 157)... SUCCESS: 4482.55
+ -> Checking m–w–m–c (Years: 2011, Day: 157)... SUCCESS: 4473.43
+ -> Checking ct (Years: 2011, Day: 157)... SUCCESS: 4312.95
+ -> Checking rdf (Years: 2011, Day: 157)... SUCCESS: 4462.30
+ -> Checking org (Years: 2011, Day: 157)... SUCCESS: 4658.72
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2017/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

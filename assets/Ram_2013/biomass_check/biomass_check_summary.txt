@@ -1,0 +1,98 @@
+Biomass Check Summary for Site: Ram_2013
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+Fix observations / re-run extract_biomass.py.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 16
+    [DEBUG] Checking Treatment Sch: TRT_CTS_CTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_CTS_CTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_cts_ctw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CTS_NTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_CTS_NTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_cts_ntw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_NTS_NTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_NTS_NTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_nts_ntw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_NTS_SM_NTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_NTS_SM_NTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_nts_sm_ntw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CTS_FBW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_CTS_FBW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_cts_fbw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_FBS_CTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_FBS_CTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_fbs_ctw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_PBS_PBW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_PBS_PBW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_pbs_pbw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_PBS_SM_PBW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_PBS_SM_PBW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2003,2004,2005,2006,2007
+-! WARNING: Calculation failed for 'ram_2013_trt_pbs_sm_pbw_nan_sbean'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CTS_CTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_CTS_CTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_cts_ctw_nan_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CTS_NTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_CTS_NTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_cts_ntw_nan_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_NTS_NTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_NTS_NTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_nts_ntw_nan_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_NTS_SM_NTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_NTS_SM_NTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_nts_sm_ntw_nan_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_CTS_FBW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_CTS_FBW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_cts_fbw_nan_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_FBS_CTW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_FBS_CTW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_fbs_ctw_nan_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_PBS_PBW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_PBS_PBW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_pbs_pbw_nan_sw3eg'. No data found.
+    [DEBUG] Checking Treatment Sch: TRT_PBS_SM_PBW
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/Ram_2013_out/Ram_2013_TRT_PBS_SM_PBW_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for nan in Year(s) 2004,2005,2006,2007,2008
+-! WARNING: Calculation failed for 'ram_2013_trt_pbs_sm_pbw_nan_sw3eg'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/output_biomass.txt'
+
+No data available to plot or save.
+--- Script finished. ---

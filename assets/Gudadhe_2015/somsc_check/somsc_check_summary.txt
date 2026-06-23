@@ -1,0 +1,154 @@
+SOMSC Check Summary for Site: Gudadhe_2015
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-86.50%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,960.65 g C / m²
+Change during Equilibrium Phase: +4,117.07 g C / m²
+Change during Base Phase: -5,456.27 g C / m²
+Final SOMSC at end of Base Phase: 710.37 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 5,261.78 g C / m²
+Model is 86.50% lower than observation.
+(Difference: -4,551.41 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 28
+Experiments with SOMSC increase: 16, SOMSC decrease: 12
+
+SOMSC Increase (g C / m²):
+  + T1V1 (+146.85)
+  + T1V2 (+146.85)
+  + T1V3 (+146.85)
+  + T1V4 (+146.85)
+  + T3V1 (+3.61)
+  + T3V2 (+3.61)
+  + T3V3 (+3.61)
+  + T3V4 (+3.62)
+  + T4V1 (+13.29)
+  + T4V2 (+13.30)
+  + T4V3 (+13.31)
+  + T4V4 (+13.31)
+  + T5V1 (+22.80)
+  + T5V2 (+22.82)
+  + T5V3 (+22.83)
+  + T5V4 (+22.84)
+
+SOMSC Decrease (g C / m²):
+  - T2V1 (-6.26)
+  - T2V2 (-6.26)
+  - T2V3 (-6.26)
+  - T2V4 (-6.26)
+  - T6V1 (-16.28)
+  - T6V2 (-16.28)
+  - T6V3 (-16.28)
+  - T6V4 (-16.28)
+  - T7V1 (-17.54)
+  - T7V2 (-17.45)
+  - T7V3 (-17.36)
+  - T7V4 (-17.31)
+
+--- Experimental Analysis ---
+'gudadhe_2015_t1v1_somsc' Change: +146.85 g C / m² (End value: 5,408.63)
+'gudadhe_2015_t1v2_somsc' Change: +146.85 g C / m² (End value: 5,408.63)
+'gudadhe_2015_t1v3_somsc' Change: +146.85 g C / m² (End value: 5,408.63)
+'gudadhe_2015_t1v4_somsc' Change: +146.85 g C / m² (End value: 5,408.63)
+'gudadhe_2015_t2v1_somsc' Change: -6.26 g C / m² (End value: 5,255.52)
+'gudadhe_2015_t2v2_somsc' Change: -6.26 g C / m² (End value: 5,255.52)
+'gudadhe_2015_t2v3_somsc' Change: -6.26 g C / m² (End value: 5,255.52)
+'gudadhe_2015_t2v4_somsc' Change: -6.26 g C / m² (End value: 5,255.52)
+'gudadhe_2015_t3v1_somsc' Change: +3.61 g C / m² (End value: 5,265.38)
+'gudadhe_2015_t3v2_somsc' Change: +3.61 g C / m² (End value: 5,265.39)
+'gudadhe_2015_t3v3_somsc' Change: +3.61 g C / m² (End value: 5,265.39)
+'gudadhe_2015_t3v4_somsc' Change: +3.62 g C / m² (End value: 5,265.39)
+'gudadhe_2015_t4v1_somsc' Change: +13.29 g C / m² (End value: 5,275.07)
+'gudadhe_2015_t4v2_somsc' Change: +13.30 g C / m² (End value: 5,275.08)
+'gudadhe_2015_t4v3_somsc' Change: +13.31 g C / m² (End value: 5,275.09)
+'gudadhe_2015_t4v4_somsc' Change: +13.31 g C / m² (End value: 5,275.09)
+'gudadhe_2015_t5v1_somsc' Change: +22.80 g C / m² (End value: 5,284.58)
+'gudadhe_2015_t5v2_somsc' Change: +22.82 g C / m² (End value: 5,284.60)
+'gudadhe_2015_t5v3_somsc' Change: +22.83 g C / m² (End value: 5,284.61)
+'gudadhe_2015_t5v4_somsc' Change: +22.84 g C / m² (End value: 5,284.62)
+'gudadhe_2015_t6v1_somsc' Change: -16.28 g C / m² (End value: 5,245.50)
+'gudadhe_2015_t6v2_somsc' Change: -16.28 g C / m² (End value: 5,245.50)
+'gudadhe_2015_t6v3_somsc' Change: -16.28 g C / m² (End value: 5,245.50)
+'gudadhe_2015_t6v4_somsc' Change: -16.28 g C / m² (End value: 5,245.50)
+'gudadhe_2015_t7v1_somsc' Change: -17.54 g C / m² (End value: 5,244.24)
+'gudadhe_2015_t7v2_somsc' Change: -17.45 g C / m² (End value: 5,244.33)
+'gudadhe_2015_t7v3_somsc' Change: -17.36 g C / m² (End value: 5,244.42)
+'gudadhe_2015_t7v4_somsc' Change: -17.31 g C / m² (End value: 5,244.47)
+
+Average SOMSC at end of all experimental phases: 5,282.73 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2008, Day: 66)... SUCCESS: 5423.27
+ -> Checking t2 (Years: 2008, Day: 66)... SUCCESS: 5263.87
+ -> Checking t3 (Years: 2008, Day: 66)... SUCCESS: 5273.50
+ -> Checking t4 (Years: 2008, Day: 66)... SUCCESS: 5282.98
+ -> Checking t5 (Years: 2008, Day: 66)... SUCCESS: 5292.31
+ -> Checking t6 (Years: 2008, Day: 66)... SUCCESS: 5254.09
+ -> Checking t7 (Years: 2008, Day: 66)... SUCCESS: 5252.96
+ -> Checking v1 (Years: 2008, Day: 66)... SUCCESS: 5291.83
+ -> Checking v2 (Years: 2008, Day: 66)... SUCCESS: 5291.85
+ -> Checking v3 (Years: 2008, Day: 66)... SUCCESS: 5291.86
+ -> Checking v4 (Years: 2008, Day: 66)... SUCCESS: 5291.88
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gudadhe_2015/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 11
+Rows passing delta rule (sim >= obs): 11
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+          Observation  Observed   Simulated Difference
+gudadhe_2015_t1_somsc   1386.90 5423.267200   +291.04%
+gudadhe_2015_t2_somsc   1122.00 5263.866275   +369.15%
+gudadhe_2015_t3_somsc   1275.75 5273.496700   +313.36%
+gudadhe_2015_t4_somsc   1286.40 5282.983925   +310.68%
+gudadhe_2015_t5_somsc   1386.90 5292.310225   +281.59%
+gudadhe_2015_t6_somsc   1014.30 5254.094250   +418.00%
+gudadhe_2015_t7_somsc    883.65 5252.962675   +494.46%
+gudadhe_2015_v1_somsc   1122.00 5291.829271   +371.64%
+gudadhe_2015_v2_somsc   1183.20 5291.848557   +347.25%
+gudadhe_2015_v3_somsc   1113.75 5291.864243   +375.14%
+gudadhe_2015_v4_somsc   1235.25 5291.875786   +328.41%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 11
+R²: 0.3839
+RMSE: 4110.99 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Gudadhe_2015_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+gudadhe_2015_t1_somsc,t1,2008,66,1386.9,5423.2672
+gudadhe_2015_t2_somsc,t2,2008,66,1122.0,5263.866275
+gudadhe_2015_t3_somsc,t3,2008,66,1275.75,5273.4967
+gudadhe_2015_t4_somsc,t4,2008,66,1286.4,5282.983925
+gudadhe_2015_t5_somsc,t5,2008,66,1386.9,5292.310224999999
+gudadhe_2015_t6_somsc,t6,2008,66,1014.3,5254.09425
+gudadhe_2015_t7_somsc,t7,2008,66,883.65,5252.962675
+gudadhe_2015_v1_somsc,v1,2008,66,1122.0,5291.829271428572
+gudadhe_2015_v2_somsc,v2,2008,66,1183.2,5291.848557142858
+gudadhe_2015_v3_somsc,v3,2008,66,1113.75,5291.864242857143
+gudadhe_2015_v4_somsc,v4,2008,66,1235.25,5291.8757857142855

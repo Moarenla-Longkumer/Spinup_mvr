@@ -1,0 +1,99 @@
+SOMSC Check Summary for Site: Borah_2023
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-92.38%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,780.82 g C / m²
+Change during Equilibrium Phase: +469.77 g C / m²
+Change during Base Phase: -1,852.81 g C / m²
+Final SOMSC at end of Base Phase: 369.75 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,852.08 g C / m²
+Model is 92.38% lower than observation.
+(Difference: -4,482.33 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 4, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + F1FL0 (+86.25)
+  + F1FL1 (+143.74)
+  + F1FL2 (+166.78)
+  + F1FL3 (+178.07)
+
+SOMSC Decrease (g C / m²):
+  - F0FL0 (-435.35)
+  - F0FL1 (-332.76)
+  - F0FL2 (-305.20)
+  - F0FL3 (-290.93)
+
+--- Experimental Analysis ---
+'borah_2023_f0fl0_somsc' Change: -435.35 g C / m² (End value: 4,416.73)
+'borah_2023_f0fl1_somsc' Change: -332.76 g C / m² (End value: 4,519.32)
+'borah_2023_f0fl2_somsc' Change: -305.20 g C / m² (End value: 4,546.88)
+'borah_2023_f0fl3_somsc' Change: -290.93 g C / m² (End value: 4,561.15)
+'borah_2023_f1fl0_somsc' Change: +86.25 g C / m² (End value: 4,938.34)
+'borah_2023_f1fl1_somsc' Change: +143.74 g C / m² (End value: 4,995.82)
+'borah_2023_f1fl2_somsc' Change: +166.78 g C / m² (End value: 5,018.86)
+'borah_2023_f1fl3_somsc' Change: +178.07 g C / m² (End value: 5,030.15)
+
+Average SOMSC at end of all experimental phases: 4,753.41 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking f0 (Years: 2018, Day: 164)... SUCCESS: 4524.18
+ -> Checking f1 (Years: 2018, Day: 164)... SUCCESS: 5025.17
+ -> Checking fl0 (Years: 2018, Day: 164)... SUCCESS: 4696.04
+ -> Checking fl1 (Years: 2018, Day: 164)... SUCCESS: 4778.68
+ -> Checking fl2 (Years: 2018, Day: 164)... SUCCESS: 4805.25
+ -> Checking fl3 (Years: 2018, Day: 164)... SUCCESS: 4818.73
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Borah_2023/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Borah_2023/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Borah_2023/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 6
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+         Observation  Observed  Simulated Difference
+ borah_2023_f0_somsc    2653.0 4524.18105    +70.53%
+ borah_2023_f1_somsc    2180.0 5025.16770   +130.51%
+borah_2023_fl0_somsc    2064.0 4696.03595   +127.52%
+borah_2023_fl1_somsc    2265.0 4778.68420   +110.98%
+borah_2023_fl2_somsc    2369.0 4805.24690   +102.84%
+borah_2023_fl3_somsc    2448.0 4818.73045    +96.84%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.2860
+RMSE: 2463.00 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Borah_2023_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+borah_2023_f0_somsc,f0,2018,164,2653.0,4524.181049999999
+borah_2023_f1_somsc,f1,2018,164,2180.0,5025.1677
+borah_2023_fl0_somsc,fl0,2018,164,2064.0,4696.03595
+borah_2023_fl1_somsc,fl1,2018,164,2265.0,4778.6842
+borah_2023_fl2_somsc,fl2,2018,164,2369.0,4805.2469
+borah_2023_fl3_somsc,fl3,2018,164,2448.0,4818.73045

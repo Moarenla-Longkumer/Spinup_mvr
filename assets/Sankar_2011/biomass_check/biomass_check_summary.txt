@@ -1,0 +1,1545 @@
+Biomass Check Summary for Site: Sankar_2011
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 5
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                        Observation    Observed  Simulated          Difference
+   sankar_2011_trt_fym_control_cgrain_fig_mill_1984 1173.773249    30.9237 -97.37% [SHORTFALL]
+       sankar_2011_trt_fym_10t_cgrain_fig_mill_1984 3072.445895    32.9268 -98.93% [SHORTFALL]
+ sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1984 3712.458708    45.5819 -98.77% [SHORTFALL]
+sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1984 4501.839877    56.0623 -98.75% [SHORTFALL]
+    sankar_2011_trt_fym_100npk_cgrain_fig_mill_1984 2709.804000    54.1582 -98.00% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Sankar_2011_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.4606
+RMSE: 3187.73 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Sankar_2011_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 250
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM_CONTROL
+Successfully processed: 'sankar_2011_trt_fym_control_cgrain_fig_mill_1984'
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_control_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM_10T
+Successfully processed: 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1984'
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM_10T_50NPK
+Successfully processed: 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1984'
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_50npk_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM_10T_100NPK
+Successfully processed: 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1984'
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_10T_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_10T_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_10t_100npk_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_FYM_100NPK
+Successfully processed: 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1984'
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_FYM_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_FYM_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_fym_100npk_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1984
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1984'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_control_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1984
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1984'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1984
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1984'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_5T_50NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_5T_50NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_5t_50npk_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1984
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1984'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1984
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1984'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1985
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1985'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1986
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1986'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1987
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1987'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1988
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1988'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1989
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1989'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1990
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1990'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1991
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1991'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1992'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1993'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1994
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1994'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1995
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1995'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1996
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1996'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1997
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1997'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1998
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1998'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1999
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_1999'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2000
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2000'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2001
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2001'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2002
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2002'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2003
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2003'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2004
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2004'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2005
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2006
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2007
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'FIG_MILL' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MR_100NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/Sankar_2011_out/Sankar_2011_TRT_MR_100NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2008
+-! WARNING: Calculation failed for 'sankar_2011_trt_mr_100npk_cgrain_fig_mill_2008'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/observed_vs_modeled_biomass.png'
+--- Script finished. ---

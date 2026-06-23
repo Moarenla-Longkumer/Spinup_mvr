@@ -1,0 +1,105 @@
+SOMSC Check Summary for Site: Srivastava_2018
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,945.14 g C / m²
+Change during Equilibrium Phase: +1,054.29 g C / m²
+Change during Base Phase: +12,400.66 g C / m²
+Final SOMSC at end of Base Phase: 15,487.55 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,810.74 g C / m²
+Model is 221.94% higher than observation.
+(Difference: +10,676.81 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 0, SOMSC decrease: 6
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - TRT_BS (-6.76)
+  - TRT_CONTROL (-3566.88)
+  - TRT_FYM (-589.22)
+  - TRT_RDF (-3563.07)
+  - TRT_SPMC (-977.32)
+  - TRT_VC (-977.41)
+
+--- Experimental Analysis ---
+'srivastava_2018_trt_bs_somsc' Change: -6.76 g C / m² (End value: 4,803.78)
+'srivastava_2018_trt_control_somsc' Change: -3,566.88 g C / m² (End value: 1,243.67)
+'srivastava_2018_trt_fym_somsc' Change: -589.22 g C / m² (End value: 4,221.32)
+'srivastava_2018_trt_rdf_somsc' Change: -3,563.07 g C / m² (End value: 1,247.47)
+'srivastava_2018_trt_spmc_somsc' Change: -977.32 g C / m² (End value: 3,833.23)
+'srivastava_2018_trt_vc_somsc' Change: -977.41 g C / m² (End value: 3,833.14)
+
+Average SOMSC at end of all experimental phases: 3,197.10 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_control (Years: 2013, Day: 20)... SUCCESS: 1570.94
+ -> Checking trt_rdf (Years: 2013, Day: 20)... SUCCESS: 1574.90
+ -> Checking trt_vc (Years: 2013, Day: 20)... SUCCESS: 4199.47
+ -> Checking trt_fym (Years: 2013, Day: 20)... SUCCESS: 4593.56
+ -> Checking trt_bs (Years: 2013, Day: 20)... SUCCESS: 5184.82
+ -> Checking trt_spmc (Years: 2013, Day: 20)... SUCCESS: 4199.56
+ -> Checking trt_vc_gd (Years: 2013, Day: 20)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srivastava_2018/Srivastava_2018_out/Srivastava_2018_TRT_VC_GD_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_fym_gd (Years: 2013, Day: 20)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srivastava_2018/Srivastava_2018_out/Srivastava_2018_TRT_FYM_GD_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_bs_gd (Years: 2013, Day: 20)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srivastava_2018/Srivastava_2018_out/Srivastava_2018_TRT_BS_GD_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_spmc_gd (Years: 2013, Day: 20)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srivastava_2018/Srivastava_2018_out/Srivastava_2018_TRT_SPMC_GD_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srivastava_2018/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srivastava_2018/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srivastava_2018/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 4
+Rows with shortfall (sim < obs): 2
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                      Observation  Observed  Simulated          Difference
+srivastava_2018_trt_control_somsc    1668.0  1570.9400  -5.82% [SHORTFALL]
+    srivastava_2018_trt_rdf_somsc    1974.0  1574.9019 -20.22% [SHORTFALL]
+     srivastava_2018_trt_vc_somsc    2046.0  4199.4678            +105.25%
+    srivastava_2018_trt_fym_somsc    2046.0  4593.5634            +124.51%
+     srivastava_2018_trt_bs_somsc    2046.0  5184.8209            +153.41%
+   srivastava_2018_trt_spmc_somsc    2583.0  4199.5604             +62.58%
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Srivastava_2018_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.2839
+RMSE: 1990.04 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Srivastava_2018_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+srivastava_2018_trt_control_somsc,trt_control,2013,20,1668.0,1570.9400000000005
+srivastava_2018_trt_rdf_somsc,trt_rdf,2013,20,1974.0,1574.9019000000008
+srivastava_2018_trt_vc_somsc,trt_vc,2013,20,2046.0,4199.467800000001
+srivastava_2018_trt_fym_somsc,trt_fym,2013,20,2046.0,4593.5634
+srivastava_2018_trt_bs_somsc,trt_bs,2013,20,2046.0,5184.820900000001
+srivastava_2018_trt_spmc_somsc,trt_spmc,2013,20,2583.0,4199.5604

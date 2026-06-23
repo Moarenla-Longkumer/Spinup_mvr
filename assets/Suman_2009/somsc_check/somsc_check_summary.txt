@@ -1,0 +1,95 @@
+SOMSC Check Summary for Site: Suman_2009
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,945.14 g C / m²
+Change during Equilibrium Phase: +1,054.29 g C / m²
+Change during Base Phase: +11,414.28 g C / m²
+Final SOMSC at end of Base Phase: 14,480.50 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,810.74 g C / m²
+Model is 201.00% higher than observation.
+(Difference: +9,669.76 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 6, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + TRT_BGS (+1802.99)
+  + TRT_CONTROL (+174.99)
+  + TRT_FYM (+1536.68)
+  + TRT_NPK (+273.85)
+  + TRT_SPMC (+1357.65)
+  + TRT_VC (+1356.27)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'suman_2009_trt_bgs_somsc' Change: +1,802.99 g C / m² (End value: 6,613.72)
+'suman_2009_trt_control_somsc' Change: +174.99 g C / m² (End value: 4,985.72)
+'suman_2009_trt_fym_somsc' Change: +1,536.68 g C / m² (End value: 6,347.42)
+'suman_2009_trt_npk_somsc' Change: +273.85 g C / m² (End value: 5,084.58)
+'suman_2009_trt_spmc_somsc' Change: +1,357.65 g C / m² (End value: 6,168.38)
+'suman_2009_trt_vc_somsc' Change: +1,356.27 g C / m² (End value: 6,167.00)
+
+Average SOMSC at end of all experimental phases: 5,894.47 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_control (Years: 2007, Day: 365)... SUCCESS: 4985.72
+ -> Checking trt_npk (Years: 2007, Day: 365)... SUCCESS: 5084.58
+ -> Checking trt_vc (Years: 2007, Day: 365)... SUCCESS: 6167.00
+ -> Checking trt_fym (Years: 2007, Day: 365)... SUCCESS: 6347.42
+ -> Checking trt_bgs (Years: 2007, Day: 365)... SUCCESS: 6613.72
+ -> Checking trt_spmc (Years: 2007, Day: 365)... SUCCESS: 6168.38
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Suman_2009/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 6
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                 Observation  Observed  Simulated Difference
+suman_2009_trt_control_somsc    2240.0  4985.7202   +122.58%
+    suman_2009_trt_npk_somsc    2800.0  5084.5786    +81.59%
+     suman_2009_trt_vc_somsc    3470.0  6167.0033    +77.72%
+    suman_2009_trt_fym_somsc    3640.0  6347.4171    +74.38%
+    suman_2009_trt_bgs_somsc    3530.0  6613.7207    +87.36%
+   suman_2009_trt_spmc_somsc    3720.0  6168.3795    +65.82%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.8442
+RMSE: 2672.89 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+suman_2009_trt_control_somsc,trt_control,2007,365,2240.0,4985.7202
+suman_2009_trt_npk_somsc,trt_npk,2007,365,2800.0,5084.578600000001
+suman_2009_trt_vc_somsc,trt_vc,2007,365,3470.0,6167.0033
+suman_2009_trt_fym_somsc,trt_fym,2007,365,3640.0,6347.417100000001
+suman_2009_trt_bgs_somsc,trt_bgs,2007,365,3530.0,6613.7207
+suman_2009_trt_spmc_somsc,trt_spmc,2007,365,3720.0,6168.379499999999

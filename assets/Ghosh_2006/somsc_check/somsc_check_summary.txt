@@ -1,0 +1,124 @@
+SOMSC Check Summary for Site: Ghosh_2006
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-68.45%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,921.28 g C / m²
+Change during Equilibrium Phase: +2,878.74 g C / m²
+Change during Base Phase: -3,202.20 g C / m²
+Final SOMSC at end of Base Phase: 1,607.37 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 5,094.10 g C / m²
+Model is 68.45% lower than observation.
+(Difference: -3,486.73 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 40
+Experiments with SOMSC increase: 0, SOMSC decrease: 40
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - TRT_FALLOW_CHICKPEA_0.5NP (-273.18)
+  - TRT_FALLOW_CHICKPEA_0NP (-273.91)
+  - TRT_FALLOW_CHICKPEA_1.0NP (-271.69)
+  - TRT_FALLOW_CHICKPEA_1.5NP (-272.56)
+  - TRT_FALLOW_MUSTARD_0.5NP (-221.15)
+  - TRT_FALLOW_MUSTARD_0NP (-255.47)
+  - TRT_FALLOW_MUSTARD_1.0NP (-221.15)
+  - TRT_FALLOW_MUSTARD_1.5NP (-221.15)
+  - TRT_FALLOW_SUMMERGROUNDNUT_0.5NP (-333.28)
+  - TRT_FALLOW_SUMMERGROUNDNUT_0NP (-333.28)
+  - TRT_FALLOW_SUMMERGROUNDNUT_1.0NP (-333.28)
+  - TRT_FALLOW_SUMMERGROUNDNUT_1.5NP (-333.28)
+  - TRT_FALLOW_SUNFLOWER_0.5NP (-233.16)
+  - TRT_FALLOW_SUNFLOWER_0NP (-233.16)
+  - TRT_FALLOW_SUNFLOWER_1.0NP (-233.16)
+  - TRT_FALLOW_SUNFLOWER_1.5NP (-233.16)
+  - TRT_FALLOW_WHEAT_0.5NP (-237.71)
+  - TRT_FALLOW_WHEAT_0NP (-290.29)
+  - TRT_FALLOW_WHEAT_1.0NP (-233.11)
+  - TRT_FALLOW_WHEAT_1.5NP (-232.90)
+  - TRT_GROUNDNUT_CHICKPEA_0.5NP (-489.27)
+  - TRT_GROUNDNUT_CHICKPEA_0NP (-490.44)
+  - TRT_GROUNDNUT_CHICKPEA_1.0NP (-490.11)
+  - TRT_GROUNDNUT_CHICKPEA_1.5NP (-489.13)
+  - TRT_GROUNDNUT_MUSTARD_0.5NP (-424.16)
+  - TRT_GROUNDNUT_MUSTARD_0NP (-492.27)
+  - TRT_GROUNDNUT_MUSTARD_1.0NP (-424.16)
+  - TRT_GROUNDNUT_MUSTARD_1.5NP (-424.16)
+  - TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP (-394.16)
+  - TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP (-394.16)
+  - TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP (-394.16)
+  - TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP (-394.16)
+  - TRT_GROUNDNUT_SUNFLOWER_0.5NP (-276.87)
+  - TRT_GROUNDNUT_SUNFLOWER_0NP (-329.01)
+  - TRT_GROUNDNUT_SUNFLOWER_1.0NP (-276.87)
+  - TRT_GROUNDNUT_SUNFLOWER_1.5NP (-276.87)
+  - TRT_GROUNDNUT_WHEAT_0.5NP (-290.80)
+  - TRT_GROUNDNUT_WHEAT_0NP (-368.06)
+  - TRT_GROUNDNUT_WHEAT_1.0NP (-283.41)
+  - TRT_GROUNDNUT_WHEAT_1.5NP (-281.88)
+
+--- Experimental Analysis ---
+'ghosh_2006_trt_fallow_chickpea_0.5np_somsc' Change: -273.18 g C / m² (End value: 4,820.90)
+'ghosh_2006_trt_fallow_chickpea_0np_somsc' Change: -273.91 g C / m² (End value: 4,820.17)
+'ghosh_2006_trt_fallow_chickpea_1.0np_somsc' Change: -271.69 g C / m² (End value: 4,822.39)
+'ghosh_2006_trt_fallow_chickpea_1.5np_somsc' Change: -272.56 g C / m² (End value: 4,821.52)
+'ghosh_2006_trt_fallow_mustard_0.5np_somsc' Change: -221.15 g C / m² (End value: 4,872.93)
+'ghosh_2006_trt_fallow_mustard_0np_somsc' Change: -255.47 g C / m² (End value: 4,838.60)
+'ghosh_2006_trt_fallow_mustard_1.0np_somsc' Change: -221.15 g C / m² (End value: 4,872.93)
+'ghosh_2006_trt_fallow_mustard_1.5np_somsc' Change: -221.15 g C / m² (End value: 4,872.93)
+'ghosh_2006_trt_fallow_summergroundnut_0.5np_somsc' Change: -333.28 g C / m² (End value: 4,760.80)
+'ghosh_2006_trt_fallow_summergroundnut_0np_somsc' Change: -333.28 g C / m² (End value: 4,760.80)
+'ghosh_2006_trt_fallow_summergroundnut_1.0np_somsc' Change: -333.28 g C / m² (End value: 4,760.80)
+'ghosh_2006_trt_fallow_summergroundnut_1.5np_somsc' Change: -333.28 g C / m² (End value: 4,760.80)
+'ghosh_2006_trt_fallow_sunflower_0.5np_somsc' Change: -233.16 g C / m² (End value: 4,860.92)
+'ghosh_2006_trt_fallow_sunflower_0np_somsc' Change: -233.16 g C / m² (End value: 4,860.92)
+'ghosh_2006_trt_fallow_sunflower_1.0np_somsc' Change: -233.16 g C / m² (End value: 4,860.92)
+'ghosh_2006_trt_fallow_sunflower_1.5np_somsc' Change: -233.16 g C / m² (End value: 4,860.92)
+'ghosh_2006_trt_fallow_wheat_0.5np_somsc' Change: -237.71 g C / m² (End value: 4,856.37)
+'ghosh_2006_trt_fallow_wheat_0np_somsc' Change: -290.29 g C / m² (End value: 4,803.79)
+'ghosh_2006_trt_fallow_wheat_1.0np_somsc' Change: -233.11 g C / m² (End value: 4,860.97)
+'ghosh_2006_trt_fallow_wheat_1.5np_somsc' Change: -232.90 g C / m² (End value: 4,861.18)
+'ghosh_2006_trt_groundnut_chickpea_0.5np_somsc' Change: -489.27 g C / m² (End value: 4,604.81)
+'ghosh_2006_trt_groundnut_chickpea_0np_somsc' Change: -490.44 g C / m² (End value: 4,603.63)
+'ghosh_2006_trt_groundnut_chickpea_1.0np_somsc' Change: -490.11 g C / m² (End value: 4,603.97)
+'ghosh_2006_trt_groundnut_chickpea_1.5np_somsc' Change: -489.13 g C / m² (End value: 4,604.95)
+'ghosh_2006_trt_groundnut_mustard_0.5np_somsc' Change: -424.16 g C / m² (End value: 4,669.91)
+'ghosh_2006_trt_groundnut_mustard_0np_somsc' Change: -492.27 g C / m² (End value: 4,601.80)
+'ghosh_2006_trt_groundnut_mustard_1.0np_somsc' Change: -424.16 g C / m² (End value: 4,669.91)
+'ghosh_2006_trt_groundnut_mustard_1.5np_somsc' Change: -424.16 g C / m² (End value: 4,669.91)
+'ghosh_2006_trt_groundnut_summergroundnut_0.5np_somsc' Change: -394.16 g C / m² (End value: 4,699.91)
+'ghosh_2006_trt_groundnut_summergroundnut_0np_somsc' Change: -394.16 g C / m² (End value: 4,699.91)
+'ghosh_2006_trt_groundnut_summergroundnut_1.0np_somsc' Change: -394.16 g C / m² (End value: 4,699.91)
+'ghosh_2006_trt_groundnut_summergroundnut_1.5np_somsc' Change: -394.16 g C / m² (End value: 4,699.91)
+'ghosh_2006_trt_groundnut_sunflower_0.5np_somsc' Change: -276.87 g C / m² (End value: 4,817.20)
+'ghosh_2006_trt_groundnut_sunflower_0np_somsc' Change: -329.01 g C / m² (End value: 4,765.06)
+'ghosh_2006_trt_groundnut_sunflower_1.0np_somsc' Change: -276.87 g C / m² (End value: 4,817.20)
+'ghosh_2006_trt_groundnut_sunflower_1.5np_somsc' Change: -276.87 g C / m² (End value: 4,817.20)
+'ghosh_2006_trt_groundnut_wheat_0.5np_somsc' Change: -290.80 g C / m² (End value: 4,803.28)
+'ghosh_2006_trt_groundnut_wheat_0np_somsc' Change: -368.06 g C / m² (End value: 4,726.01)
+'ghosh_2006_trt_groundnut_wheat_1.0np_somsc' Change: -283.41 g C / m² (End value: 4,810.66)
+'ghosh_2006_trt_groundnut_wheat_1.5np_somsc' Change: -281.88 g C / m² (End value: 4,812.20)
+
+Average SOMSC at end of all experimental phases: 4,770.22 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+[INFO] No SOMSC observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/observed_vs_modeled_somsc.png'
+[INFO] Observed-vs-modelled metrics skipped because observed SOMSC data is missing.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

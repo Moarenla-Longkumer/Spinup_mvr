@@ -1,0 +1,83 @@
+Biomass Check Summary for Site: Banerjee_2018
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 4
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 4
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+               Observation  Observed  Simulated          Difference
+banerjee_2018_t1_cgrain_sc   770.985 230.843500 -70.06% [SHORTFALL]
+banerjee_2018_t2_cgrain_sc   888.165 401.601333 -54.78% [SHORTFALL]
+banerjee_2018_t3_cgrain_sc   974.025 383.298900 -60.65% [SHORTFALL]
+banerjee_2018_t4_cgrain_sc  1069.470 358.304367 -66.50% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Banerjee_2018_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 4
+R²: 0.4311
+RMSE: 588.05 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Banerjee_2018_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 7
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in T1
+Successfully processed: 'banerjee_2018_t1_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in T2
+Successfully processed: 'banerjee_2018_t2_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in T3
+Successfully processed: 'banerjee_2018_t3_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 3 data points in T4
+Successfully processed: 'banerjee_2018_t4_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'banerjee_2018_t5_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'banerjee_2018_t6_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/Banerjee_2018_out/Banerjee_2018_T7_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'banerjee_2018_t7_cgrain_sc'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Banerjee_2018/observed_vs_modeled_biomass.png'
+--- Script finished. ---

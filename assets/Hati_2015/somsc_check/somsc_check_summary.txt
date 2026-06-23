@@ -1,0 +1,110 @@
+SOMSC Check Summary for Site: Hati_2015
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,963.43 g C / m²
+Change during Equilibrium Phase: +2,999.08 g C / m²
+Change during Base Phase: +2,137.96 g C / m²
+Final SOMSC at end of Base Phase: 7,099.61 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,346.83 g C / m²
+Model is 112.13% higher than observation.
+(Difference: +3,752.78 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 10
+Experiments with SOMSC increase: 5, SOMSC decrease: 5
+
+SOMSC Increase (g C / m²):
+  + NT_N150Per (+185.13)
+  + NT_N50Per (+46.32)
+  + RT_N100Per (+270.42)
+  + RT_N150Per (+359.49)
+  + RT_N50Per (+99.37)
+
+SOMSC Decrease (g C / m²):
+  - CT_N150Per (-666.02)
+  - CT_N50Per (-689.11)
+  - MB_N100Per (-234.95)
+  - MB_N150Per (-236.14)
+  - MB_N50Per (-468.98)
+
+--- Experimental Analysis ---
+'hati_2015_ct_n150per_somsc' Change: -666.02 g C / m² (End value: 2,680.81)
+'hati_2015_ct_n50per_somsc' Change: -689.11 g C / m² (End value: 2,657.72)
+'hati_2015_mb_n100per_somsc' Change: -234.95 g C / m² (End value: 3,111.88)
+'hati_2015_mb_n150per_somsc' Change: -236.14 g C / m² (End value: 3,110.69)
+'hati_2015_mb_n50per_somsc' Change: -468.98 g C / m² (End value: 2,877.85)
+'hati_2015_nt_n150per_somsc' Change: +185.13 g C / m² (End value: 3,531.95)
+'hati_2015_nt_n50per_somsc' Change: +46.32 g C / m² (End value: 3,393.15)
+'hati_2015_rt_n100per_somsc' Change: +270.42 g C / m² (End value: 3,617.25)
+'hati_2015_rt_n150per_somsc' Change: +359.49 g C / m² (End value: 3,706.32)
+'hati_2015_rt_n50per_somsc' Change: +99.37 g C / m² (End value: 3,446.20)
+
+Average SOMSC at end of all experimental phases: 3,213.38 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct (Years: 2007, Day: 110.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output/soilc.out SUCCESS: 2686.92
+ -> Checking mb (Years: 2007, Day: 110.0)... SUCCESS: 3045.60
+ -> Checking rt (Years: 2007, Day: 110.0)... SUCCESS: 3593.54
+ -> Checking nt (Years: 2007, Day: 110.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output/soilc.out SUCCESS: 3441.62
+ -> Checking n50per (Years: 2007, Day: 110.0)... SUCCESS: 3105.61
+ -> Checking n100per (Years: 2007, Day: 110.0)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_CT_N100Per_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/Hati_2015_out/Hati_2015_NT_N100Per_output/soilc.out SUCCESS: 3370.81
+ -> Checking n150per (Years: 2007, Day: 110.0)... SUCCESS: 3252.62
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hati_2015/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 7
+Rows passing delta rule (sim >= obs): 7
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+            Observation  Observed   Simulated Difference
+     hati_2015_ct_somsc    2326.0 2686.923050    +15.52%
+     hati_2015_mb_somsc    2608.0 3045.603533    +16.78%
+     hati_2015_rt_somsc    2485.0 3593.541200    +44.61%
+     hati_2015_nt_somsc    2496.0 3441.624400    +37.89%
+ hati_2015_n50per_somsc    2369.0 3105.608325    +31.09%
+hati_2015_n100per_somsc    2531.0 3370.812650    +33.18%
+hati_2015_n150per_somsc    2536.0 3252.617625    +28.26%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 7
+R²: 0.2419
+RMSE: 775.17 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Hati_2015_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+hati_2015_ct_somsc,ct,2007,110,2326.0,2686.9230500000003
+hati_2015_mb_somsc,mb,2007,110,2608.0,3045.603533333333
+hati_2015_rt_somsc,rt,2007,110,2485.0,3593.5411999999997
+hati_2015_nt_somsc,nt,2007,110,2496.0,3441.6243999999997
+hati_2015_n50per_somsc,n50per,2007,110,2369.0,3105.6083249999997
+hati_2015_n100per_somsc,n100per,2007,110,2531.0,3370.81265
+hati_2015_n150per_somsc,n150per,2007,110,2536.0,3252.617625

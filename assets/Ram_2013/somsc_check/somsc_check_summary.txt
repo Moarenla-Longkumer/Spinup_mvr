@@ -1,0 +1,130 @@
+SOMSC Check Summary for Site: Ram_2013
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-89.50%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,919.55 g C / m²
+Change during Equilibrium Phase: +729.22 g C / m²
+Change during Base Phase: -2,225.34 g C / m²
+Final SOMSC at end of Base Phase: 453.67 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,322.55 g C / m²
+Model is 89.50% lower than observation.
+(Difference: -3,868.88 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 8, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + TRT_CTS_CTW (+283.92)
+  + TRT_CTS_FBW (+283.92)
+  + TRT_CTS_NTW (+342.54)
+  + TRT_FBS_CTW (+279.73)
+  + TRT_NTS_NTW (+340.48)
+  + TRT_NTS_SM_NTW (+422.50)
+  + TRT_PBS_PBW (+283.92)
+  + TRT_PBS_SM_PBW (+377.04)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'ram_2013_trt_cts_ctw_somsc' Change: +283.92 g C / m² (End value: 4,606.47)
+'ram_2013_trt_cts_fbw_somsc' Change: +283.92 g C / m² (End value: 4,606.47)
+'ram_2013_trt_cts_ntw_somsc' Change: +342.54 g C / m² (End value: 4,665.09)
+'ram_2013_trt_fbs_ctw_somsc' Change: +279.73 g C / m² (End value: 4,602.28)
+'ram_2013_trt_nts_ntw_somsc' Change: +340.48 g C / m² (End value: 4,663.03)
+'ram_2013_trt_nts_sm_ntw_somsc' Change: +422.50 g C / m² (End value: 4,745.05)
+'ram_2013_trt_pbs_pbw_somsc' Change: +283.92 g C / m² (End value: 4,606.47)
+'ram_2013_trt_pbs_sm_pbw_somsc' Change: +377.04 g C / m² (End value: 4,699.59)
+
+Average SOMSC at end of all experimental phases: 4,649.31 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_cts_ctw (Years: 2005, Day: 100)... SUCCESS: 4481.80
+ -> Checking trt_cts_ctw (Years: 2008, Day: 100)... SUCCESS: 4625.22
+ -> Checking trt_cts_ntw (Years: 2005, Day: 100)... SUCCESS: 4503.26
+ -> Checking trt_cts_ntw (Years: 2008, Day: 100)... SUCCESS: 4687.05
+ -> Checking trt_nts_ntw (Years: 2005, Day: 100)... SUCCESS: 4443.34
+ -> Checking trt_nts_ntw (Years: 2008, Day: 100)... SUCCESS: 4671.55
+ -> Checking trt_nts_sm_ntw (Years: 2005, Day: 100)... SUCCESS: 4459.22
+ -> Checking trt_nts_sm_ntw (Years: 2008, Day: 100)... SUCCESS: 4749.31
+ -> Checking trt_cts_fbw (Years: 2005, Day: 100)... SUCCESS: 4481.80
+ -> Checking trt_cts_fbw (Years: 2008, Day: 100)... SUCCESS: 4625.22
+ -> Checking trt_fbs_ctw (Years: 2005, Day: 100)... SUCCESS: 4481.80
+ -> Checking trt_fbs_ctw (Years: 2008, Day: 100)... SUCCESS: 4629.65
+ -> Checking trt_pbs_pbw (Years: 2005, Day: 100)... SUCCESS: 4481.80
+ -> Checking trt_pbs_pbw (Years: 2008, Day: 100)... SUCCESS: 4625.22
+ -> Checking trt_pbs_sm_pbw (Years: 2005, Day: 100)... SUCCESS: 4527.26
+ -> Checking trt_pbs_sm_pbw (Years: 2008, Day: 100)... SUCCESS: 4719.77
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ram_2013/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 16
+Rows passing delta rule (sim >= obs): 16
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                  Observation  Observed  Simulated Difference
+   ram_2013_trt_cts_ctw_somsc    777.60  4481.7957   +476.36%
+   ram_2013_trt_cts_ctw_somsc    804.75  4625.2217   +474.74%
+   ram_2013_trt_cts_ntw_somsc    788.40  4503.2607   +471.19%
+   ram_2013_trt_cts_ntw_somsc    815.85  4687.0498   +474.50%
+   ram_2013_trt_nts_ntw_somsc    843.60  4443.3449   +426.71%
+   ram_2013_trt_nts_ntw_somsc    877.50  4671.5458   +432.37%
+ram_2013_trt_nts_sm_ntw_somsc    926.10  4459.2162   +381.50%
+ram_2013_trt_nts_sm_ntw_somsc    970.20  4749.3091   +389.52%
+   ram_2013_trt_cts_fbw_somsc    777.60  4481.7957   +476.36%
+   ram_2013_trt_cts_fbw_somsc    804.75  4625.2217   +474.74%
+   ram_2013_trt_fbs_ctw_somsc    756.00  4481.7957   +492.83%
+   ram_2013_trt_fbs_ctw_somsc    782.55  4629.6530   +491.61%
+   ram_2013_trt_pbs_pbw_somsc    793.65  4481.7957   +464.71%
+   ram_2013_trt_pbs_pbw_somsc    820.80  4625.2217   +463.50%
+ram_2013_trt_pbs_sm_pbw_somsc    900.90  4527.2637   +402.53%
+ram_2013_trt_pbs_sm_pbw_somsc    943.80  4719.7721   +400.08%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 16
+R²: 0.1953
+RMSE: 3739.19 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Ram_2013_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+ram_2013_trt_cts_ctw_somsc,trt_cts_ctw,2005,100,777.6,4481.795700000001
+ram_2013_trt_cts_ctw_somsc,trt_cts_ctw,2008,100,804.75,4625.2217
+ram_2013_trt_cts_ntw_somsc,trt_cts_ntw,2005,100,788.4,4503.260700000001
+ram_2013_trt_cts_ntw_somsc,trt_cts_ntw,2008,100,815.85,4687.0498
+ram_2013_trt_nts_ntw_somsc,trt_nts_ntw,2005,100,843.6,4443.3449
+ram_2013_trt_nts_ntw_somsc,trt_nts_ntw,2008,100,877.5,4671.5458
+ram_2013_trt_nts_sm_ntw_somsc,trt_nts_sm_ntw,2005,100,926.1,4459.216200000001
+ram_2013_trt_nts_sm_ntw_somsc,trt_nts_sm_ntw,2008,100,970.2,4749.3091
+ram_2013_trt_cts_fbw_somsc,trt_cts_fbw,2005,100,777.6,4481.795700000001
+ram_2013_trt_cts_fbw_somsc,trt_cts_fbw,2008,100,804.75,4625.2217
+ram_2013_trt_fbs_ctw_somsc,trt_fbs_ctw,2005,100,756.0,4481.795700000001
+ram_2013_trt_fbs_ctw_somsc,trt_fbs_ctw,2008,100,782.55,4629.653
+ram_2013_trt_pbs_pbw_somsc,trt_pbs_pbw,2005,100,793.65,4481.795700000001
+ram_2013_trt_pbs_pbw_somsc,trt_pbs_pbw,2008,100,820.8,4625.2217
+ram_2013_trt_pbs_sm_pbw_somsc,trt_pbs_sm_pbw,2005,100,900.9,4527.2637
+ram_2013_trt_pbs_sm_pbw_somsc,trt_pbs_sm_pbw,2008,100,943.8,4719.7721

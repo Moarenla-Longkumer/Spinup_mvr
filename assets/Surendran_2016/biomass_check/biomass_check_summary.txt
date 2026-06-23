@@ -1,0 +1,156 @@
+Biomass Check Summary for Site: Surendran_2016
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 6
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                       Observation  Observed  Simulated          Difference
+surendran_2016_trt_t1_s1_cgrain_sc    4008.0  351.18145 -91.24% [SHORTFALL]
+surendran_2016_trt_t1_s2_cgrain_sc    4496.0  421.60835 -90.62% [SHORTFALL]
+surendran_2016_trt_t2_s1_cgrain_sc    3776.0  343.28810 -90.91% [SHORTFALL]
+surendran_2016_trt_t2_s2_cgrain_sc    4328.0  382.37175 -91.17% [SHORTFALL]
+surendran_2016_trt_t3_s1_cgrain_sc    3592.0  352.19160 -90.20% [SHORTFALL]
+surendran_2016_trt_t3_s2_cgrain_sc    4192.0  418.72105 -90.01% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Surendran_2016_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.6661
+RMSE: 3698.16 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 21
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_S1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T1_S1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in TRT_T1_S1
+Successfully processed: 'surendran_2016_trt_t1_s1_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_S2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T1_S2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in TRT_T1_S2
+Successfully processed: 'surendran_2016_trt_t1_s2_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_S3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T1_S3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t1_s3_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_S4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T1_S4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t1_s4_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_S5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T1_S5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t1_s5_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_S6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T1_S6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t1_s6_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_S7
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T1_S7_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t1_s7_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_S1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T2_S1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in TRT_T2_S1
+Successfully processed: 'surendran_2016_trt_t2_s1_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_S2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T2_S2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in TRT_T2_S2
+Successfully processed: 'surendran_2016_trt_t2_s2_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_S3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T2_S3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t2_s3_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_S4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T2_S4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t2_s4_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_S5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T2_S5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t2_s5_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_S6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T2_S6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t2_s6_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_S7
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T2_S7_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t2_s7_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_S1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T3_S1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in TRT_T3_S1
+Successfully processed: 'surendran_2016_trt_t3_s1_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_S2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T3_S2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in TRT_T3_S2
+Successfully processed: 'surendran_2016_trt_t3_s2_cgrain_sc'
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_S3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T3_S3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t3_s3_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_S4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T3_S4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t3_s4_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_S5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T3_S5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t3_s5_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_S6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T3_S6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t3_s6_cgrain_sc'. No data found.
+    [WARN] Non-numeric target_crop_num 'SC' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_S7
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/Surendran_2016_out/Surendran_2016_TRT_T3_S7_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'surendran_2016_trt_t3_s7_cgrain_sc'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Surendran_2016/observed_vs_modeled_biomass.png'
+--- Script finished. ---

@@ -1,0 +1,144 @@
+Biomass Check Summary for Site: Yadav_2021
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+Fix observations / re-run extract_biomass.py.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 9
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sbean_2014'. No data found.
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sbean_2015'. No data found.
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sbean_2016'. No data found.
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sbean_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sbean_2018'. No data found.
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sw3eg_2015'. No data found.
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sw3eg_2016'. No data found.
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sw3eg_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR0
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR30
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR60
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_ZT_RR90
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'yadav_2021_trt_zt_aglivc-cgrain_sw3eg_2018'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/output_biomass.txt'
+
+No data available to plot or save.
+--- Script finished. ---

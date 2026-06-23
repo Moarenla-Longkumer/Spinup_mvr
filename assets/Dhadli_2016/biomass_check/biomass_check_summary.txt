@@ -1,0 +1,171 @@
+Biomass Check Summary for Site: Dhadli_2016
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 16
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 16
+
+                            Observation  Observed  Simulated         Difference
+          dhadli_2016_t1_cgrain_c6_2013       NaN   145.8274 FLAG (invalid obs)
+          dhadli_2016_t2_cgrain_c6_2013       NaN   170.7448 FLAG (invalid obs)
+          dhadli_2016_t4_cgrain_c6_2013       NaN   179.6927 FLAG (invalid obs)
+          dhadli_2016_t5_cgrain_c6_2013       NaN    19.1712 FLAG (invalid obs)
+       dhadli_2016_t1_cgrain_sw3eg_2014       NaN   140.6544 FLAG (invalid obs)
+       dhadli_2016_t2_cgrain_sw3eg_2014       NaN   148.4908 FLAG (invalid obs)
+       dhadli_2016_t4_cgrain_sw3eg_2014       NaN   148.4908 FLAG (invalid obs)
+       dhadli_2016_t5_cgrain_sw3eg_2014       NaN    12.7051 FLAG (invalid obs)
+   dhadli_2016_t1_aglivc-cgrain_c6_2013       NaN   154.0923 FLAG (invalid obs)
+   dhadli_2016_t2_aglivc-cgrain_c6_2013       NaN   179.2937 FLAG (invalid obs)
+   dhadli_2016_t4_aglivc-cgrain_c6_2013       NaN   186.1681 FLAG (invalid obs)
+   dhadli_2016_t5_aglivc-cgrain_c6_2013       NaN    18.3729 FLAG (invalid obs)
+dhadli_2016_t1_aglivc-cgrain_sw3eg_2014       NaN   266.4630 FLAG (invalid obs)
+dhadli_2016_t2_aglivc-cgrain_sw3eg_2014       NaN   277.5468 FLAG (invalid obs)
+dhadli_2016_t4_aglivc-cgrain_sw3eg_2014       NaN   277.5469 FLAG (invalid obs)
+dhadli_2016_t5_aglivc-cgrain_sw3eg_2014       NaN    21.8354 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Dhadli_2016_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 0
+R²: undefined
+RMSE: undefined
+Status: CANNOT ASSESS - R² is undefined (need at least 2 paired points). Fix observations / extraction.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'depth', 'value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 20
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'dhadli_2016_t1_cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'dhadli_2016_t2_cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'dhadli_2016_t3_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'dhadli_2016_t4_cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'dhadli_2016_t5_cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'dhadli_2016_t1_cgrain_sw3eg_2014'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'dhadli_2016_t2_cgrain_sw3eg_2014'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'dhadli_2016_t3_cgrain_sw3eg_2014'. No data found.
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'dhadli_2016_t4_cgrain_sw3eg_2014'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'dhadli_2016_t5_cgrain_sw3eg_2014'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'dhadli_2016_t1_aglivc-cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'dhadli_2016_t2_aglivc-cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'dhadli_2016_t3_aglivc-cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'dhadli_2016_t4_aglivc-cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'dhadli_2016_t5_aglivc-cgrain_c6_2013'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'dhadli_2016_t1_aglivc-cgrain_sw3eg_2014'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'dhadli_2016_t2_aglivc-cgrain_sw3eg_2014'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'dhadli_2016_t3_aglivc-cgrain_sw3eg_2014'. No data found.
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'dhadli_2016_t4_aglivc-cgrain_sw3eg_2014'
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'dhadli_2016_t5_aglivc-cgrain_sw3eg_2014'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/observed_vs_modeled_biomass.png'
+--- Script finished. ---

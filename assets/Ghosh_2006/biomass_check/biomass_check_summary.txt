@@ -1,0 +1,473 @@
+Biomass Check Summary for Site: Ghosh_2006
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 11
+Rows passing delta rule (sim >= obs): 4
+Rows with shortfall (sim < obs): 7
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                           Observation  Observed  Simulated          Difference
+         ghosh_2006_wheat_cgrain_sw3eg    83.160  95.776785             +15.17%
+          ghosh_2006_mustard_cgrain_ms    41.580  49.306321             +18.58%
+       ghosh_2006_chickpea_cgrain_cpea    44.600  38.633146 -13.38% [SHORTFALL]
+       ghosh_2006_sunflower_cgrain_sun    31.360  57.048917             +81.92%
+ghosh_2006_summergroundnut_cgrain_gnut    53.560  33.350971 -37.73% [SHORTFALL]
+  ghosh_2006_trt_groundnut_cgrain_gnut    77.456  33.351100 -56.94% [SHORTFALL]
+          ghosh_2006_wheat_cgrain_gnut    49.440  61.065308             +23.51%
+        ghosh_2006_mustard_cgrain_gnut    51.912   0.072571 -99.86% [SHORTFALL]
+       ghosh_2006_chickpea_cgrain_gnut    51.912   0.035575 -99.93% [SHORTFALL]
+      ghosh_2006_sunflower_cgrain_gnut    54.384   0.038687 -99.93% [SHORTFALL]
+ghosh_2006_summergroundnut_cgrain_gnut    48.204  19.477550 -59.59% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Ghosh_2006_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 11
+R²: 0.0640
+RMSE: 33.79 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Ghosh_2006_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 11
+    [WARN] Non-numeric target_crop_num 'SW3EG' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_1.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_WHEAT_0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_WHEAT_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_WHEAT_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_WHEAT_1.5NP
+Successfully processed: 'ghosh_2006_wheat_cgrain_sw3eg'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_MUSTARD_0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_MUSTARD_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_MUSTARD_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_MUSTARD_1.5NP
+Successfully processed: 'ghosh_2006_mustard_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'CPEA' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_CHICKPEA_0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_CHICKPEA_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_CHICKPEA_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_CHICKPEA_1.5NP
+Successfully processed: 'ghosh_2006_chickpea_cgrain_cpea'
+    [WARN] Non-numeric target_crop_num 'SUN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUNFLOWER_0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUNFLOWER_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUNFLOWER_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUNFLOWER_1.5NP
+Successfully processed: 'ghosh_2006_sunflower_cgrain_sun'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUMMERGROUNDNUT_0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_FALLOW_SUMMERGROUNDNUT_1.5NP
+Successfully processed: 'ghosh_2006_summergroundnut_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1993,1994,1995,1996,1997,1998
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP
+Successfully processed: 'ghosh_2006_trt_groundnut_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_WHEAT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_WHEAT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_WHEAT_1.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_WHEAT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_WHEAT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+Successfully processed: 'ghosh_2006_wheat_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_MUSTARD_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_MUSTARD_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_MUSTARD_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_MUSTARD_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_MUSTARD_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_MUSTARD_1.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_MUSTARD_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_MUSTARD_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+Successfully processed: 'ghosh_2006_mustard_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_CHICKPEA_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_CHICKPEA_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_CHICKPEA_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_CHICKPEA_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_CHICKPEA_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_CHICKPEA_1.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_CHICKPEA_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_CHICKPEA_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+Successfully processed: 'ghosh_2006_chickpea_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUNFLOWER_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUNFLOWER_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUNFLOWER_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUNFLOWER_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUNFLOWER_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUNFLOWER_1.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUNFLOWER_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUNFLOWER_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+Successfully processed: 'ghosh_2006_sunflower_cgrain_gnut'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Checking Treatment Sch: TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_GROUNDNUT_SUMMERGROUNDNUT_1.5NP
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_0.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_0.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_1.0NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_1.0NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+    [DEBUG] Checking Treatment Sch: TRT_FALLOW_SUMMERGROUNDNUT_1.5NP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/Ghosh_2006_out/Ghosh_2006_TRT_FALLOW_SUMMERGROUNDNUT_1.5NP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 1992,1993,1994,1995,1996,1997
+Successfully processed: 'ghosh_2006_summergroundnut_cgrain_gnut'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2006/observed_vs_modeled_biomass.png'
+--- Script finished. ---

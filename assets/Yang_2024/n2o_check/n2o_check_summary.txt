@@ -1,0 +1,16 @@
+N2O Check Summary for Site: Yang_2024
+
+RESULT: CANNOT ASSESS - Comparison CSV not found (extract_N2O failed).
+
+
+--- N2O Extraction Script ---
+Status: FAILED
+Reason: exit code 1
+
+--- Error Output ---
+Traceback (most recent call last):
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yang_2024/scripts/extract_N2O.py", line 337, in <module>
+    main()
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yang_2024/scripts/extract_N2O.py", line 227, in main
+    sy = int(row["start_target_year"])
+ValueError: cannot convert float NaN to integer

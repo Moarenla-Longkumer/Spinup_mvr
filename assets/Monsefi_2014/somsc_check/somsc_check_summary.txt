@@ -1,0 +1,125 @@
+SOMSC Check Summary for Site: Monsefi_2014
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-92.03%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,886.59 g C / m²
+Change during Equilibrium Phase: +426.91 g C / m²
+Change during Base Phase: -2,065.11 g C / m²
+Final SOMSC at end of Base Phase: 278.36 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,493.82 g C / m²
+Model is 92.03% lower than observation.
+(Difference: -3,215.46 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 10, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  + SCTWS_WZT (+40.36)
+  + SCTWS_WZTSR (+52.84)
+  + SCT_WZTSR (+5.77)
+  + SZTWS_WCT (+41.67)
+  + SZTWS_WCTSR (+61.53)
+  + SZTWS_WZT (+26.71)
+  + SZTWS_WZTSR (+34.33)
+  + SZT_WCTSR (+14.16)
+  + SZT_WZT (+5.64)
+  + SZT_WZTSR (+13.54)
+
+SOMSC Decrease (g C / m²):
+  - SCT_WCT (-18.76)
+  - SCT_WZT (-6.29)
+
+--- Experimental Analysis ---
+'monsefi_2014_sctws_wzt_somsc' Change: +40.36 g C / m² (End value: 3,534.20)
+'monsefi_2014_sctws_wztsr_somsc' Change: +52.84 g C / m² (End value: 3,546.67)
+'monsefi_2014_sct_wct_somsc' Change: -18.76 g C / m² (End value: 3,475.08)
+'monsefi_2014_sct_wzt_somsc' Change: -6.29 g C / m² (End value: 3,487.55)
+'monsefi_2014_sct_wztsr_somsc' Change: +5.77 g C / m² (End value: 3,499.61)
+'monsefi_2014_sztws_wct_somsc' Change: +41.67 g C / m² (End value: 3,535.51)
+'monsefi_2014_sztws_wctsr_somsc' Change: +61.53 g C / m² (End value: 3,555.37)
+'monsefi_2014_sztws_wzt_somsc' Change: +26.71 g C / m² (End value: 3,520.55)
+'monsefi_2014_sztws_wztsr_somsc' Change: +34.33 g C / m² (End value: 3,528.17)
+'monsefi_2014_szt_wctsr_somsc' Change: +14.16 g C / m² (End value: 3,508.00)
+'monsefi_2014_szt_wzt_somsc' Change: +5.64 g C / m² (End value: 3,499.48)
+'monsefi_2014_szt_wztsr_somsc' Change: +13.54 g C / m² (End value: 3,507.38)
+
+Average SOMSC at end of all experimental phases: 3,516.46 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking sct_wct (Years: 2012, Day: 77)... SUCCESS: 3479.07
+ -> Checking sct_wzt (Years: 2012, Day: 77)... SUCCESS: 3492.29
+ -> Checking szt_wzt (Years: 2012, Day: 77)... SUCCESS: 3504.27
+ -> Checking sctws_wzt (Years: 2012, Day: 77)... SUCCESS: 3538.40
+ -> Checking sct_wztsr (Years: 2012, Day: 77)... SUCCESS: 3503.90
+ -> Checking sctws_wztsr (Years: 2012, Day: 77)... SUCCESS: 3549.99
+ -> Checking sztws_wct (Years: 2012, Day: 77)... SUCCESS: 3537.67
+ -> Checking szt_wctsr (Years: 2012, Day: 77)... SUCCESS: 3511.69
+ -> Checking sztws_wctsr (Years: 2012, Day: 77)... SUCCESS: 3556.35
+ -> Checking sztws_wzt (Years: 2012, Day: 77)... SUCCESS: 3520.27
+ -> Checking szt_wztsr (Years: 2012, Day: 77)... SUCCESS: 3510.91
+ -> Checking sztws_wztsr (Years: 2012, Day: 77)... SUCCESS: 3526.64
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 12
+Rows passing delta rule (sim >= obs): 12
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                   Observation  Observed  Simulated Difference
+    monsefi_2014_sct_wct_somsc  1039.350  3479.0685   +234.74%
+    monsefi_2014_sct_wzt_somsc  1019.535  3492.2897   +242.54%
+    monsefi_2014_szt_wzt_somsc  1039.920  3504.2726   +236.98%
+  monsefi_2014_sctws_wzt_somsc  1047.925  3538.3998   +237.66%
+  monsefi_2014_sct_wztsr_somsc  1047.460  3503.8954   +234.51%
+monsefi_2014_sctws_wztsr_somsc  1034.280  3549.9901   +243.23%
+  monsefi_2014_sztws_wct_somsc  1044.120  3537.6724   +238.82%
+  monsefi_2014_szt_wctsr_somsc  1035.010  3511.6870   +239.29%
+monsefi_2014_sztws_wctsr_somsc  1049.120  3556.3525   +238.98%
+  monsefi_2014_sztws_wzt_somsc  1062.955  3520.2722   +231.18%
+  monsefi_2014_szt_wztsr_somsc  1018.080  3510.9057   +244.86%
+monsefi_2014_sztws_wztsr_somsc  1031.520  3526.6373   +241.89%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 12
+R²: 0.1013
+RMSE: 2480.28 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Monsefi_2014_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+monsefi_2014_sct_wct_somsc,sct_wct,2012,77,1039.35,3479.0685
+monsefi_2014_sct_wzt_somsc,sct_wzt,2012,77,1019.535,3492.2897
+monsefi_2014_szt_wzt_somsc,szt_wzt,2012,77,1039.92,3504.2726000000002
+monsefi_2014_sctws_wzt_somsc,sctws_wzt,2012,77,1047.925,3538.3997999999997
+monsefi_2014_sct_wztsr_somsc,sct_wztsr,2012,77,1047.46,3503.8954
+monsefi_2014_sctws_wztsr_somsc,sctws_wztsr,2012,77,1034.28,3549.9901
+monsefi_2014_sztws_wct_somsc,sztws_wct,2012,77,1044.12,3537.6724
+monsefi_2014_szt_wctsr_somsc,szt_wctsr,2012,77,1035.01,3511.687
+monsefi_2014_sztws_wctsr_somsc,sztws_wctsr,2012,77,1049.12,3556.3525
+monsefi_2014_sztws_wzt_somsc,sztws_wzt,2012,77,1062.955,3520.2722000000003
+monsefi_2014_szt_wztsr_somsc,szt_wztsr,2012,77,1018.08,3510.9057
+monsefi_2014_sztws_wztsr_somsc,sztws_wztsr,2012,77,1031.52,3526.6373

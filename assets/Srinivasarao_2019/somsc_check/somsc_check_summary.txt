@@ -1,0 +1,110 @@
+SOMSC Check Summary for Site: Srinivasarao_2019
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-95.10%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,943.71 g C / m²
+Change during Equilibrium Phase: +1,133.18 g C / m²
+Change during Base Phase: -2,778.56 g C / m²
+Final SOMSC at end of Base Phase: 320.18 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 6,531.41 g C / m²
+Model is 95.10% lower than observation.
+(Difference: -6,211.23 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 9
+Experiments with SOMSC increase: 6, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + T3 (+528.28)
+  + T4 (+291.37)
+  + T5 (+177.09)
+  + T6 (+142.55)
+  + T7 (+167.35)
+  + T8 (+96.26)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-98.57)
+  - T2 (-68.70)
+  - T9 (-68.70)
+
+--- Experimental Analysis ---
+'srinivasarao_2019_t1_somsc' Change: -98.57 g C / m² (End value: 6,432.84)
+'srinivasarao_2019_t2_somsc' Change: -68.70 g C / m² (End value: 6,462.72)
+'srinivasarao_2019_t3_somsc' Change: +528.28 g C / m² (End value: 7,059.70)
+'srinivasarao_2019_t4_somsc' Change: +291.37 g C / m² (End value: 6,822.79)
+'srinivasarao_2019_t5_somsc' Change: +177.09 g C / m² (End value: 6,708.50)
+'srinivasarao_2019_t6_somsc' Change: +142.55 g C / m² (End value: 6,673.97)
+'srinivasarao_2019_t7_somsc' Change: +167.35 g C / m² (End value: 6,698.77)
+'srinivasarao_2019_t8_somsc' Change: +96.26 g C / m² (End value: 6,627.67)
+'srinivasarao_2019_t9_somsc' Change: -68.70 g C / m² (End value: 6,462.72)
+
+Average SOMSC at end of all experimental phases: 6,661.08 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2012, Day: 364)... SUCCESS: 6432.73
+ -> Checking t2 (Years: 2012, Day: 364)... SUCCESS: 6462.56
+ -> Checking t3 (Years: 2012, Day: 364)... SUCCESS: 7059.66
+ -> Checking t4 (Years: 2012, Day: 364)... SUCCESS: 6822.71
+ -> Checking t5 (Years: 2012, Day: 364)... SUCCESS: 6708.39
+ -> Checking t6 (Years: 2012, Day: 364)... SUCCESS: 6673.86
+ -> Checking t7 (Years: 2012, Day: 364)... SUCCESS: 6698.67
+ -> Checking t8 (Years: 2012, Day: 364)... SUCCESS: 6627.55
+ -> Checking t9 (Years: 2012, Day: 364)... SUCCESS: 6462.56
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 9
+Rows passing delta rule (sim >= obs): 9
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+               Observation  Observed  Simulated Difference
+srinivasarao_2019_t1_somsc    3048.0  6432.7277   +111.05%
+srinivasarao_2019_t2_somsc    3110.0  6462.5589   +107.80%
+srinivasarao_2019_t3_somsc    3136.0  7059.6576   +125.12%
+srinivasarao_2019_t4_somsc    3130.0  6822.7053   +117.98%
+srinivasarao_2019_t5_somsc    3186.0  6708.3941   +110.56%
+srinivasarao_2019_t6_somsc    3243.0  6673.8597   +105.79%
+srinivasarao_2019_t7_somsc    3196.0  6698.6673   +109.60%
+srinivasarao_2019_t8_somsc    3140.0  6627.5544   +111.07%
+srinivasarao_2019_t9_somsc    3079.0  6462.5589   +109.89%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 9
+R²: 0.1844
+RMSE: 3524.29 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Srinivasarao_2019_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+srinivasarao_2019_t1_somsc,t1,2012,364,3048.0,6432.7277
+srinivasarao_2019_t2_somsc,t2,2012,364,3110.0,6462.5589
+srinivasarao_2019_t3_somsc,t3,2012,364,3136.0,7059.6576000000005
+srinivasarao_2019_t4_somsc,t4,2012,364,3130.0,6822.7053
+srinivasarao_2019_t5_somsc,t5,2012,364,3186.0,6708.3941
+srinivasarao_2019_t6_somsc,t6,2012,364,3243.0,6673.8597
+srinivasarao_2019_t7_somsc,t7,2012,364,3196.0,6698.6673
+srinivasarao_2019_t8_somsc,t8,2012,364,3140.0,6627.5544
+srinivasarao_2019_t9_somsc,t9,2012,364,3079.0,6462.5589

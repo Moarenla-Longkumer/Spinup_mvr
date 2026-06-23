@@ -1,0 +1,111 @@
+SOMSC Check Summary for Site: Chaudhary_2017
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-35.13%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,826.83 g C / m²
+Change during Equilibrium Phase: +1,329.04 g C / m²
+Change during Base Phase: -747.14 g C / m²
+Final SOMSC at end of Base Phase: 2,442.83 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,765.84 g C / m²
+Model is 35.13% lower than observation.
+(Difference: -1,323.01 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 8, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + PB_MCS (+120.85)
+  + PB_MMS (+215.24)
+  + PB_MMuMb (+93.31)
+  + PB_MWMb (+149.72)
+  + ZT_MCS (+110.97)
+  + ZT_MMS (+178.03)
+  + ZT_MMuMb (+92.76)
+  + ZT_MWMb (+126.93)
+
+SOMSC Decrease (g C / m²):
+  - CT_MCS (-203.59)
+  - CT_MMS (-211.12)
+  - CT_MMuMb (-377.57)
+  - CT_MWMb (-416.22)
+
+--- Experimental Analysis ---
+'chaudhary_2017_ct_mcs_somsc' Change: -203.59 g C / m² (End value: 3,562.37)
+'chaudhary_2017_ct_mms_somsc' Change: -211.12 g C / m² (End value: 3,554.83)
+'chaudhary_2017_ct_mmumb_somsc' Change: -377.57 g C / m² (End value: 3,388.39)
+'chaudhary_2017_ct_mwmb_somsc' Change: -416.22 g C / m² (End value: 3,349.73)
+'chaudhary_2017_pb_mcs_somsc' Change: +120.85 g C / m² (End value: 3,886.81)
+'chaudhary_2017_pb_mms_somsc' Change: +215.24 g C / m² (End value: 3,981.20)
+'chaudhary_2017_pb_mmumb_somsc' Change: +93.31 g C / m² (End value: 3,859.26)
+'chaudhary_2017_pb_mwmb_somsc' Change: +149.72 g C / m² (End value: 3,915.67)
+'chaudhary_2017_zt_mcs_somsc' Change: +110.97 g C / m² (End value: 3,876.92)
+'chaudhary_2017_zt_mms_somsc' Change: +178.03 g C / m² (End value: 3,943.99)
+'chaudhary_2017_zt_mmumb_somsc' Change: +92.76 g C / m² (End value: 3,858.71)
+'chaudhary_2017_zt_mwmb_somsc' Change: +126.93 g C / m² (End value: 3,892.89)
+
+Average SOMSC at end of all experimental phases: 3,755.90 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct (Years: 2015, Day: 293)... SUCCESS: 3456.39
+ -> Checking pb (Years: 2015, Day: 293)... SUCCESS: 3904.86
+ -> Checking zt (Years: 2015, Day: 293)... SUCCESS: 3887.16
+ -> Checking mwmb (Years: 2015, Day: 293)... SUCCESS: 3711.87
+ -> Checking mcs (Years: 2015, Day: 293)... SUCCESS: 3770.13
+ -> Checking mmumb (Years: 2015, Day: 293)... SUCCESS: 3694.68
+ -> Checking mms (Years: 2015, Day: 293)... SUCCESS: 3821.18
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhary_2017/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhary_2017/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhary_2017/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 7
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 7
+
+               Observation  Observed   Simulated         Difference
+   chaudhary_2017_ct_somsc       0.0 3456.385225 FLAG (invalid obs)
+   chaudhary_2017_pb_somsc       0.0 3904.856275 FLAG (invalid obs)
+   chaudhary_2017_zt_somsc       0.0 3887.157375 FLAG (invalid obs)
+ chaudhary_2017_mwmb_somsc       0.0 3711.869067 FLAG (invalid obs)
+  chaudhary_2017_mcs_somsc       0.0 3770.132733 FLAG (invalid obs)
+chaudhary_2017_mmumb_somsc       0.0 3694.678500 FLAG (invalid obs)
+  chaudhary_2017_mms_somsc       0.0 3821.184867 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Chaudhary_2017_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 7
+R²: 0.0000 (flat observations or flat model)
+RMSE: 3752.11 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Chaudhary_2017_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+chaudhary_2017_ct_somsc,ct,2015,293,0.0,3456.385225
+chaudhary_2017_pb_somsc,pb,2015,293,0.0,3904.856275
+chaudhary_2017_zt_somsc,zt,2015,293,0.0,3887.1573750000002
+chaudhary_2017_mwmb_somsc,mwmb,2015,293,0.0,3711.8690666666666
+chaudhary_2017_mcs_somsc,mcs,2015,293,0.0,3770.1327333333334
+chaudhary_2017_mmumb_somsc,mmumb,2015,293,0.0,3694.6785
+chaudhary_2017_mms_somsc,mms,2015,293,0.0,3821.1848666666665

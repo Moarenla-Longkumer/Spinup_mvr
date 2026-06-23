@@ -1,0 +1,98 @@
+SOMSC Check Summary for Site: Peng-peng_2019
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-81.31%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,995.21 g C / m²
+Change during Equilibrium Phase: +2,323.22 g C / m²
+Change during Base Phase: -3,431.46 g C / m²
+Final SOMSC at end of Base Phase: 909.64 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,865.88 g C / m²
+Model is 81.31% lower than observation.
+(Difference: -3,956.24 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 4, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  + NS_OM (+3916.04)
+  + S_CK (+39.01)
+  + S_NPK (+396.05)
+  + S_OM (+4351.05)
+
+SOMSC Decrease (g C / m²):
+  - NS_CK (-69.16)
+  - NS_NPK (-21.95)
+
+--- Experimental Analysis ---
+'peng-peng_2019_ns_ck_somsc' Change: -69.16 g C / m² (End value: 4,796.74)
+'peng-peng_2019_ns_npk_somsc' Change: -21.95 g C / m² (End value: 4,843.96)
+'peng-peng_2019_ns_om_somsc' Change: +3,916.04 g C / m² (End value: 8,781.94)
+'peng-peng_2019_s_ck_somsc' Change: +39.01 g C / m² (End value: 4,904.92)
+'peng-peng_2019_s_npk_somsc' Change: +396.05 g C / m² (End value: 5,261.96)
+'peng-peng_2019_s_om_somsc' Change: +4,351.05 g C / m² (End value: 9,216.96)
+
+Average SOMSC at end of all experimental phases: 6,301.08 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ns_ck (Years: 2015,2016, Day: 277)... SUCCESS: 4801.41
+ -> Checking ns_om (Years: 2015,2016, Day: 277)... SUCCESS: 8454.49
+ -> Checking ns_npk (Years: 2015,2016, Day: 277)... SUCCESS: 4842.67
+ -> Checking ns_npk_om (Years: 2015,2016, Day: 277)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_NPK_OM_output/soilc.out FAILED: No matching data found.
+ -> Checking s_ck (Years: 2015,2016, Day: 277)... SUCCESS: 4901.11
+ -> Checking s_om (Years: 2015,2016, Day: 277)... SUCCESS: 8847.08
+ -> Checking s_npk (Years: 2015,2016, Day: 277)... SUCCESS: 5219.61
+ -> Checking s_npk_om (Years: 2015,2016, Day: 277)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_NPK_OM_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 6
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                Observation  Observed  Simulated Difference
+ peng-peng_2019_ns_ck_somsc  4241.750 4801.41005    +13.19%
+ peng-peng_2019_ns_om_somsc  4839.415 8454.48825    +74.70%
+peng-peng_2019_ns_npk_somsc  4491.260 4842.67405     +7.82%
+  peng-peng_2019_s_ck_somsc  4299.080 4901.11000    +14.00%
+  peng-peng_2019_s_om_somsc  5011.420 8847.08375    +76.54%
+ peng-peng_2019_s_npk_somsc  4632.680 5219.61145    +12.67%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.8191
+RMSE: 2195.63 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+peng-peng_2019_ns_ck_somsc,ns_ck,"2015,2016",277,4241.75,4801.41005
+peng-peng_2019_ns_om_somsc,ns_om,"2015,2016",277,4839.415,8454.48825
+peng-peng_2019_ns_npk_somsc,ns_npk,"2015,2016",277,4491.26,4842.67405
+peng-peng_2019_s_ck_somsc,s_ck,"2015,2016",277,4299.08,4901.11
+peng-peng_2019_s_om_somsc,s_om,"2015,2016",277,5011.42,8847.08375
+peng-peng_2019_s_npk_somsc,s_npk,"2015,2016",277,4632.68,5219.61145

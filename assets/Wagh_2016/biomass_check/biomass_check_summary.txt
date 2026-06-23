@@ -1,0 +1,126 @@
+Biomass Check Summary for Site: Wagh_2016
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 6
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                     Observation  Observed  Simulated          Difference
+ wagh_2016_set_i_cgrain_cot_2013     60.00  26.806750 -55.32% [SHORTFALL]
+wagh_2016_set_ii_cgrain_cot_2013     52.28  26.788767 -48.76% [SHORTFALL]
+    wagh_2016_t1_cgrain_cot_2013     62.28  48.689500 -21.82% [SHORTFALL]
+    wagh_2016_t3_cgrain_cot_2013     59.36  20.878700 -64.83% [SHORTFALL]
+    wagh_2016_t4_cgrain_cot_2013     57.00  22.218050 -61.02% [SHORTFALL]
+    wagh_2016_t6_cgrain_cot_2013     57.44  28.163600 -50.97% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Wagh_2016_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.2656
+RMSE: 30.23 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Wagh_2016_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'Comment', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 6
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: Set_I_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T1
+    [DEBUG] Checking Treatment Sch: Set_I_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T3
+    [DEBUG] Checking Treatment Sch: Set_I_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T4
+    [DEBUG] Checking Treatment Sch: Set_I_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T6
+Successfully processed: 'wagh_2016_set_i_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: Set_II
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: _T1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016__T1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: Set_II_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_II_T3
+    [DEBUG] Checking Treatment Sch: Set_II_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_II_T6
+    [DEBUG] Checking Treatment Sch: Set_I_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T4
+Successfully processed: 'wagh_2016_set_ii_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: Set_I_T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T1
+    [DEBUG] Checking Treatment Sch: Set_II
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: _T1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016__T1_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'wagh_2016_t1_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: Set_I_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T3
+    [DEBUG] Checking Treatment Sch: Set_II_T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_II_T3
+Successfully processed: 'wagh_2016_t3_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: Set_I_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T4
+    [DEBUG] Checking Treatment Sch: Set_II_T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_II_T4
+Successfully processed: 'wagh_2016_t4_cgrain_cot_2013'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: Set_I_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_I_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_I_T6
+    [DEBUG] Checking Treatment Sch: Set_II_T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in Set_II_T6
+Successfully processed: 'wagh_2016_t6_cgrain_cot_2013'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/observed_vs_modeled_biomass.png'
+--- Script finished. ---

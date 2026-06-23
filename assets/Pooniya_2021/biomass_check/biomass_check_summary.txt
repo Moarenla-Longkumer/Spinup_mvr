@@ -1,0 +1,399 @@
+Biomass Check Summary for Site: Pooniya_2021
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 24
+Rows passing delta rule (sim >= obs): 11
+Rows with shortfall (sim < obs): 13
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                               Observation  Observed  Simulated          Difference
+       pooniya_2021_trt_ztfb_avg_cgrain_c6   184.360 173.669078  -5.80% [SHORTFALL]
+        pooniya_2021_trt_pnb_avg_cgrain_c6   181.720 173.937017  -4.28% [SHORTFALL]
+         pooniya_2021_trt_ct_avg_cgrain_c6   132.000 173.930883             +31.77%
+pooniya_2021_trt_ztfb_avg_aglivc-cgrain_c6   311.080 206.889767 -33.49% [SHORTFALL]
+ pooniya_2021_trt_pnb_avg_aglivc-cgrain_c6   304.480 207.203733 -31.95% [SHORTFALL]
+  pooniya_2021_trt_ct_avg_aglivc-cgrain_c6   264.000 207.194883 -21.52% [SHORTFALL]
+       pooniya_2021_trt_ztfb_avg_cgrain_ms    81.312 111.406288             +37.01%
+        pooniya_2021_trt_pnb_avg_cgrain_ms    81.312 138.678922             +70.55%
+         pooniya_2021_trt_ct_avg_cgrain_ms    74.844 138.850194             +85.52%
+pooniya_2021_trt_ztfb_avg_aglivc-cgrain_ms   290.598 236.907929 -18.48% [SHORTFALL]
+ pooniya_2021_trt_pnb_avg_aglivc-cgrain_ms   293.832 294.989383              +0.39%
+  pooniya_2021_trt_ct_avg_aglivc-cgrain_ms   252.252 295.343133             +17.08%
+        pooniya_2021_trt_avg_ffp_cgrain_c6   143.000 173.915111             +21.62%
+        pooniya_2021_trt_avg_rdf_cgrain_c6   190.080 173.813606  -8.56% [SHORTFALL]
+         pooniya_2021_trt_avg_ne_cgrain_c6   197.120 173.808261 -11.83% [SHORTFALL]
+ pooniya_2021_trt_avg_ffp_aglivc-cgrain_c6   241.560 207.180467 -14.23% [SHORTFALL]
+ pooniya_2021_trt_avg_rdf_aglivc-cgrain_c6   289.520 207.057211 -28.48% [SHORTFALL]
+  pooniya_2021_trt_avg_ne_aglivc-cgrain_c6   336.600 207.050706 -38.49% [SHORTFALL]
+        pooniya_2021_trt_avg_ffp_cgrain_ms    66.066 129.918935             +96.65%
+        pooniya_2021_trt_avg_rdf_cgrain_ms    85.008 130.019439             +52.95%
+         pooniya_2021_trt_avg_ne_cgrain_ms    86.394 130.025511             +50.50%
+ pooniya_2021_trt_avg_ffp_aglivc-cgrain_ms   239.316 277.320065             +15.88%
+ pooniya_2021_trt_avg_rdf_aglivc-cgrain_ms   280.434 276.075878  -1.55% [SHORTFALL]
+  pooniya_2021_trt_avg_ne_aglivc-cgrain_ms   317.394 276.089622 -13.01% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Pooniya_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 24
+R²: 0.6550
+RMSE: 56.35 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 24
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_ztfb_avg_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+Successfully processed: 'pooniya_2021_trt_pnb_avg_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+Successfully processed: 'pooniya_2021_trt_ct_avg_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_ztfb_avg_aglivc-cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+Successfully processed: 'pooniya_2021_trt_pnb_avg_aglivc-cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+Successfully processed: 'pooniya_2021_trt_ct_avg_aglivc-cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in TRT_ZTFB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_ztfb_avg_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+Successfully processed: 'pooniya_2021_trt_pnb_avg_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+Successfully processed: 'pooniya_2021_trt_ct_avg_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in TRT_ZTFB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_ztfb_avg_aglivc-cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+Successfully processed: 'pooniya_2021_trt_pnb_avg_aglivc-cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+Successfully processed: 'pooniya_2021_trt_ct_avg_aglivc-cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_FFP
+Successfully processed: 'pooniya_2021_trt_avg_ffp_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_avg_rdf_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+Successfully processed: 'pooniya_2021_trt_avg_ne_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_FFP
+Successfully processed: 'pooniya_2021_trt_avg_ffp_aglivc-cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_avg_rdf_aglivc-cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+Successfully processed: 'pooniya_2021_trt_avg_ne_aglivc-cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in TRT_ZTFB_FFP
+Successfully processed: 'pooniya_2021_trt_avg_ffp_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_avg_rdf_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+Successfully processed: 'pooniya_2021_trt_avg_ne_cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_FFP
+    [DEBUG] Checking Treatment Sch: TRT_PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_FFP
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 5 data points in TRT_ZTFB_FFP
+Successfully processed: 'pooniya_2021_trt_avg_ffp_aglivc-cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_RDF
+    [DEBUG] Checking Treatment Sch: TRT_PNB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_RDF
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_RDF
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_RDF_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_RDF
+Successfully processed: 'pooniya_2021_trt_avg_rdf_aglivc-cgrain_ms'
+    [WARN] Non-numeric target_crop_num 'MS' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_CT_NE
+    [DEBUG] Checking Treatment Sch: TRT_PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_PNB_NE
+    [DEBUG] Checking Treatment Sch: TRT_ZTFB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/Pooniya_2021_out/Pooniya_2021_TRT_ZTFB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in TRT_ZTFB_NE
+Successfully processed: 'pooniya_2021_trt_avg_ne_aglivc-cgrain_ms'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/observed_vs_modeled_biomass.png'
+--- Script finished. ---

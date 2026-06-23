@@ -1,0 +1,77 @@
+SOMSC Check Summary for Site: Dinesh_2022
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,837.06 g C / m²
+Change during Equilibrium Phase: +120.47 g C / m²
+Change during Base Phase: +4,317.70 g C / m²
+Final SOMSC at end of Base Phase: 6,310.06 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,493.82 g C / m²
+Model is 80.61% higher than observation.
+(Difference: +2,816.24 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 0, SOMSC decrease: 8
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - TRT_ZT_NR_33GS (-368.05)
+  - TRT_ZT_NR_50GS (-419.19)
+  - TRT_ZT_NR_70GS (-377.35)
+  - TRT_ZT_NR_RDN (-317.60)
+  - TRT_ZT_R_33GS (-346.42)
+  - TRT_ZT_R_50GS (-406.42)
+  - TRT_ZT_R_70GS (-403.97)
+  - TRT_ZT_R_RDN (-346.43)
+
+--- Experimental Analysis ---
+'dinesh_2022_trt_zt_nr_33gs_somsc' Change: -368.05 g C / m² (End value: 3,126.42)
+'dinesh_2022_trt_zt_nr_50gs_somsc' Change: -419.19 g C / m² (End value: 3,075.29)
+'dinesh_2022_trt_zt_nr_70gs_somsc' Change: -377.35 g C / m² (End value: 3,117.12)
+'dinesh_2022_trt_zt_nr_rdn_somsc' Change: -317.60 g C / m² (End value: 3,176.87)
+'dinesh_2022_trt_zt_r_33gs_somsc' Change: -346.42 g C / m² (End value: 3,148.06)
+'dinesh_2022_trt_zt_r_50gs_somsc' Change: -406.42 g C / m² (End value: 3,088.06)
+'dinesh_2022_trt_zt_r_70gs_somsc' Change: -403.97 g C / m² (End value: 3,090.50)
+'dinesh_2022_trt_zt_r_rdn_somsc' Change: -346.43 g C / m² (End value: 3,148.04)
+
+Average SOMSC at end of all experimental phases: 3,121.29 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_zt_nr_rdn (Years: 2018, Day: 182)... SUCCESS: 3388.81
+ -> Checking trt_zt_nr_33gs (Years: 2018, Day: 182)... SUCCESS: 3351.10
+ -> Checking trt_zt_nr_50gs (Years: 2018, Day: 182)... SUCCESS: 3312.21
+ -> Checking trt_zt_nr_70gs (Years: 2018, Day: 182)... SUCCESS: 3343.85
+ -> Checking trt_zt_r_rdn (Years: 2018, Day: 182)... SUCCESS: 3368.17
+ -> Checking trt_zt_r_33gs (Years: 2018, Day: 182)... SUCCESS: 3367.38
+ -> Checking trt_zt_r_50gs (Years: 2018, Day: 182)... SUCCESS: 3322.27
+ -> Checking trt_zt_r_70gs (Years: 2018, Day: 182)... SUCCESS: 3323.49
+ -> Checking trt_zt_nr_rdn (Years: 2020, Day: 182)... SUCCESS: 3282.82
+ -> Checking trt_zt_nr_33gs (Years: 2020, Day: 182)... SUCCESS: 3231.98
+ -> Checking trt_zt_nr_50gs (Years: 2020, Day: 182)... SUCCESS: 3180.37
+ -> Checking trt_zt_nr_70gs (Years: 2020, Day: 182)... SUCCESS: 3222.37
+ -> Checking trt_zt_r_rdn (Years: 2020, Day: 182)... SUCCESS: 3253.77
+ -> Checking trt_zt_r_33gs (Years: 2020, Day: 182)... SUCCESS: 3253.71
+ -> Checking trt_zt_r_50gs (Years: 2020, Day: 182)... SUCCESS: 3193.22
+ -> Checking trt_zt_r_70gs (Years: 2020, Day: 182)... SUCCESS: 3195.47
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dinesh_2022/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

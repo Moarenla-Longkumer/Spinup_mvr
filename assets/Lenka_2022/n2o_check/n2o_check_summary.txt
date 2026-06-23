@@ -1,0 +1,61 @@
+N2O Check Summary for Site: Lenka_2022
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 12
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 12
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                       Observation  Observed  Simulated              Difference
+lenka_2022_rt-t1_n2oflux_2012_2012     0.085   461.8725 +543279.41% [OVER >50%]
+lenka_2022_rt-t2_n2oflux_2012_2012     0.111   477.9943 +430525.50% [OVER >50%]
+lenka_2022_rt-t3_n2oflux_2012_2012     0.166   494.1066 +297554.58% [OVER >50%]
+lenka_2022_nt-t1_n2oflux_2012_2012     0.115   493.4295 +428969.13% [OVER >50%]
+lenka_2022_nt-t2_n2oflux_2012_2012     0.143   498.9055 +348784.97% [OVER >50%]
+lenka_2022_nt-t3_n2oflux_2012_2012     0.173   504.6828 +291624.16% [OVER >50%]
+lenka_2022_rt-t1_n2oflux_2012_2013     0.131   672.6760 +513393.13% [OVER >50%]
+lenka_2022_rt-t2_n2oflux_2012_2013     0.161   672.0467 +417320.31% [OVER >50%]
+lenka_2022_rt-t3_n2oflux_2012_2013     0.197   673.4522 +341753.91% [OVER >50%]
+lenka_2022_nt-t1_n2oflux_2012_2013     0.119   707.2433 +594222.10% [OVER >50%]
+lenka_2022_nt-t2_n2oflux_2012_2013     0.154   710.4444 +461227.53% [OVER >50%]
+lenka_2022_nt-t3_n2oflux_2012_2013     0.166   713.3639 +429637.29% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Lenka_2022_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 12
+R²: 0.1642
+RMSE: 598.78
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and period dates in `observations/Lenka_2022_obs.csv`.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 12
+ -> rt-t1 period 2012-185 to 2012-296... SUCCESS: sim=461.8725
+ -> rt-t2 period 2012-185 to 2012-296... SUCCESS: sim=477.9943
+ -> rt-t3 period 2012-185 to 2012-296... SUCCESS: sim=494.1066
+ -> nt-t1 period 2012-185 to 2012-296... SUCCESS: sim=493.4295
+ -> nt-t2 period 2012-185 to 2012-296... SUCCESS: sim=498.9055
+ -> nt-t3 period 2012-185 to 2012-296... SUCCESS: sim=504.6828
+ -> rt-t1 period 2012-312 to 2013-170... SUCCESS: sim=672.6760
+ -> rt-t2 period 2012-312 to 2013-170... SUCCESS: sim=672.0467
+ -> rt-t3 period 2012-312 to 2013-170... SUCCESS: sim=673.4522
+ -> nt-t1 period 2012-312 to 2013-170... SUCCESS: sim=707.2433
+ -> nt-t2 period 2012-312 to 2013-170... SUCCESS: sim=710.4444
+ -> nt-t3 period 2012-312 to 2013-170... SUCCESS: sim=713.3639
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/observed_vs_modeled_n2o.png'

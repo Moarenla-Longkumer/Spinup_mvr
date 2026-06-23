@@ -1,0 +1,122 @@
+SOMSC Check Summary for Site: Sonune_2021
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-86.88%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,966.88 g C / m²
+Change during Equilibrium Phase: +3,353.11 g C / m²
+Change during Base Phase: -4,866.21 g C / m²
+Final SOMSC at end of Base Phase: 494.62 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,770.48 g C / m²
+Model is 86.88% lower than observation.
+(Difference: -3,275.86 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 14
+Experiments with SOMSC increase: 14, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + CT_T1 (+8.83)
+  + CT_T3 (+231.38)
+  + CT_T4 (+872.66)
+  + CT_T5 (+73.64)
+  + CT_T6 (+359.76)
+  + CT_T7 (+57.30)
+  + CT_T8 (+116.46)
+  + MT_T1 (+47.08)
+  + MT_T3 (+300.05)
+  + MT_T4 (+1031.04)
+  + MT_T5 (+122.63)
+  + MT_T6 (+469.82)
+  + MT_T7 (+97.51)
+  + MT_T8 (+162.95)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'sonune_2021_ct_t1_somsc' Change: +8.83 g C / m² (End value: 3,779.31)
+'sonune_2021_ct_t3_somsc' Change: +231.38 g C / m² (End value: 4,001.86)
+'sonune_2021_ct_t4_somsc' Change: +872.66 g C / m² (End value: 4,643.14)
+'sonune_2021_ct_t5_somsc' Change: +73.64 g C / m² (End value: 3,844.12)
+'sonune_2021_ct_t6_somsc' Change: +359.76 g C / m² (End value: 4,130.24)
+'sonune_2021_ct_t7_somsc' Change: +57.30 g C / m² (End value: 3,827.78)
+'sonune_2021_ct_t8_somsc' Change: +116.46 g C / m² (End value: 3,886.94)
+'sonune_2021_mt_t1_somsc' Change: +47.08 g C / m² (End value: 3,817.56)
+'sonune_2021_mt_t3_somsc' Change: +300.05 g C / m² (End value: 4,070.53)
+'sonune_2021_mt_t4_somsc' Change: +1,031.04 g C / m² (End value: 4,801.52)
+'sonune_2021_mt_t5_somsc' Change: +122.63 g C / m² (End value: 3,893.11)
+'sonune_2021_mt_t6_somsc' Change: +469.82 g C / m² (End value: 4,240.30)
+'sonune_2021_mt_t7_somsc' Change: +97.51 g C / m² (End value: 3,867.99)
+'sonune_2021_mt_t8_somsc' Change: +162.95 g C / m² (End value: 3,933.43)
+
+Average SOMSC at end of all experimental phases: 4,052.70 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking mt (Years: 2016, Day: 30)... SUCCESS: 4103.65
+ -> Checking ct (Years: 2016, Day: 30)... SUCCESS: 4025.16
+ -> Checking t1 (Years: 2016, Day: 30)... SUCCESS: 3806.57
+ -> Checking t3 (Years: 2016, Day: 30)... SUCCESS: 4048.12
+ -> Checking t4 (Years: 2016, Day: 30)... SUCCESS: 4742.93
+ -> Checking t5 (Years: 2016, Day: 30)... SUCCESS: 3878.13
+ -> Checking t6 (Years: 2016, Day: 30)... SUCCESS: 4202.52
+ -> Checking t7 (Years: 2016, Day: 30)... SUCCESS: 3856.65
+ -> Checking t8 (Years: 2016, Day: 30)... SUCCESS: 3915.94
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sonune_2021/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 9
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 9
+
+         Observation  Observed  Simulated         Difference
+sonune_2021_mt_somsc       0.0 4103.65330 FLAG (invalid obs)
+sonune_2021_ct_somsc       0.0 4025.16240 FLAG (invalid obs)
+sonune_2021_t1_somsc       0.0 3806.57165 FLAG (invalid obs)
+sonune_2021_t3_somsc       0.0 4048.12140 FLAG (invalid obs)
+sonune_2021_t4_somsc       0.0 4742.93160 FLAG (invalid obs)
+sonune_2021_t5_somsc       0.0 3878.12545 FLAG (invalid obs)
+sonune_2021_t6_somsc       0.0 4202.52105 FLAG (invalid obs)
+sonune_2021_t7_somsc       0.0 3856.64805 FLAG (invalid obs)
+sonune_2021_t8_somsc       0.0 3915.93575 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Sonune_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 9
+R²: 0.0000 (flat observations or flat model)
+RMSE: 4073.27 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Sonune_2021_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+sonune_2021_mt_somsc,mt,2016,30,0.0,4103.6533
+sonune_2021_ct_somsc,ct,2016,30,0.0,4025.1624
+sonune_2021_t1_somsc,t1,2016,30,0.0,3806.57165
+sonune_2021_t3_somsc,t3,2016,30,0.0,4048.1214
+sonune_2021_t4_somsc,t4,2016,30,0.0,4742.9316
+sonune_2021_t5_somsc,t5,2016,30,0.0,3878.12545
+sonune_2021_t6_somsc,t6,2016,30,0.0,4202.521049999999
+sonune_2021_t7_somsc,t7,2016,30,0.0,3856.64805
+sonune_2021_t8_somsc,t8,2016,30,0.0,3915.93575

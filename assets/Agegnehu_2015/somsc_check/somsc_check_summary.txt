@@ -1,0 +1,90 @@
+SOMSC Check Summary for Site: Agegnehu_2015
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-88.32%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,909.63 g C / m²
+Change during Equilibrium Phase: -956.84 g C / m²
+Change during Base Phase: -497.66 g C / m²
+Final SOMSC at end of Base Phase: 491.02 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,203.30 g C / m²
+Model is 88.32% lower than observation.
+(Difference: -3,712.28 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 4, SOMSC decrease: 1
+
+SOMSC Increase (g C / m²):
+  + TRT_B10_F (+414.90)
+  + TRT_B2_5_COM25_F (+672.94)
+  + TRT_COM25_F (+672.94)
+  + TRT_COMBI25_F (+668.49)
+
+SOMSC Decrease (g C / m²):
+  - TRT_F_CTRL (-7.68)
+
+--- Experimental Analysis ---
+'agegnehu_2015_trt_b10_f_somsc' Change: +414.90 g C / m² (End value: 4,618.15)
+'agegnehu_2015_trt_b2_5_com25_f_somsc' Change: +672.94 g C / m² (End value: 4,876.19)
+'agegnehu_2015_trt_com25_f_somsc' Change: +672.94 g C / m² (End value: 4,876.19)
+'agegnehu_2015_trt_combi25_f_somsc' Change: +668.49 g C / m² (End value: 4,871.74)
+'agegnehu_2015_trt_f_ctrl_somsc' Change: -7.68 g C / m² (End value: 4,195.57)
+
+Average SOMSC at end of all experimental phases: 4,687.57 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_f_ctrl (Years: 2014, Day: 172)... SUCCESS: 4196.60
+ -> Checking trt_b10_f (Years: 2014, Day: 172)... SUCCESS: 4628.68
+ -> Checking trt_com25_f (Years: 2014, Day: 172)... SUCCESS: 4892.49
+ -> Checking trt_b2_5_com25_f (Years: 2014, Day: 172)... SUCCESS: 4892.49
+ -> Checking trt_combi25_f (Years: 2014, Day: 172)... SUCCESS: 4887.94
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Agegnehu_2015/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Agegnehu_2015/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Agegnehu_2015/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 5
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                         Observation  Observed  Simulated Difference
+      agegnehu_2015_trt_f_ctrl_somsc    2204.1  4196.6039    +90.40%
+       agegnehu_2015_trt_b10_f_somsc    2400.0  4628.6790    +92.86%
+     agegnehu_2015_trt_com25_f_somsc    2553.0  4892.4866    +91.64%
+agegnehu_2015_trt_b2_5_com25_f_somsc    2070.6  4892.4866   +136.28%
+   agegnehu_2015_trt_combi25_f_somsc    3025.8  4887.9391    +61.54%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.1646
+RMSE: 2273.36 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Agegnehu_2015_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+agegnehu_2015_trt_f_ctrl_somsc,trt_f_ctrl,2014,172,2204.1,4196.6039
+agegnehu_2015_trt_b10_f_somsc,trt_b10_f,2014,172,2400.0,4628.679
+agegnehu_2015_trt_com25_f_somsc,trt_com25_f,2014,172,2553.0,4892.4866
+agegnehu_2015_trt_b2_5_com25_f_somsc,trt_b2_5_com25_f,2014,172,2070.6,4892.4866
+agegnehu_2015_trt_combi25_f_somsc,trt_combi25_f,2014,172,3025.8,4887.9391

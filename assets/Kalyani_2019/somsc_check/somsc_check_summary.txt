@@ -1,0 +1,94 @@
+SOMSC Check Summary for Site: Kalyani_2019
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-72.48%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,966.47 g C / m²
+Change during Equilibrium Phase: +3,492.29 g C / m²
+Change during Base Phase: -4,587.29 g C / m²
+Final SOMSC at end of Base Phase: 939.20 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,412.65 g C / m²
+Model is 72.48% lower than observation.
+(Difference: -2,473.45 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 5, SOMSC decrease: 1
+
+SOMSC Increase (g C / m²):
+  + T1 (+248.49)
+  + T2 (+154.24)
+  + T3 (+497.85)
+  + T4 (+307.48)
+  + T6 (+164.38)
+
+SOMSC Decrease (g C / m²):
+  - T8 (-0.89)
+
+--- Experimental Analysis ---
+'kalyani_2019_t1_somsc' Change: +248.49 g C / m² (End value: 3,661.15)
+'kalyani_2019_t2_somsc' Change: +154.24 g C / m² (End value: 3,566.89)
+'kalyani_2019_t3_somsc' Change: +497.85 g C / m² (End value: 3,910.50)
+'kalyani_2019_t4_somsc' Change: +307.48 g C / m² (End value: 3,720.13)
+'kalyani_2019_t6_somsc' Change: +164.38 g C / m² (End value: 3,577.04)
+'kalyani_2019_t8_somsc' Change: -0.89 g C / m² (End value: 3,411.76)
+
+Average SOMSC at end of all experimental phases: 3,641.25 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2018, Day: 330)... SUCCESS: 3664.39
+ -> Checking t2 (Years: 2018, Day: 330)... SUCCESS: 3569.75
+ -> Checking t3 (Years: 2018, Day: 330)... SUCCESS: 3914.52
+ -> Checking t4 (Years: 2018, Day: 330)... SUCCESS: 3723.49
+ -> Checking t6 (Years: 2018, Day: 330)... SUCCESS: 3579.87
+ -> Checking t8 (Years: 2018, Day: 330)... SUCCESS: 3414.14
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 6
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+          Observation  Observed  Simulated Difference
+kalyani_2019_t1_somsc   2158.70  3664.3861    +69.75%
+kalyani_2019_t2_somsc   2129.88  3569.7470    +67.60%
+kalyani_2019_t3_somsc   2202.12  3914.5225    +77.76%
+kalyani_2019_t4_somsc   2175.77  3723.4870    +71.13%
+kalyani_2019_t6_somsc   2175.29  3579.8686    +64.57%
+kalyani_2019_t8_somsc   1937.68  3414.1436    +76.20%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.6301
+RMSE: 1517.72 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+kalyani_2019_t1_somsc,t1,2018,330,2158.7,3664.3861
+kalyani_2019_t2_somsc,t2,2018,330,2129.88,3569.7470000000003
+kalyani_2019_t3_somsc,t3,2018,330,2202.12,3914.5225
+kalyani_2019_t4_somsc,t4,2018,330,2175.77,3723.4869999999996
+kalyani_2019_t6_somsc,t6,2018,330,2175.29,3579.8686000000002
+kalyani_2019_t8_somsc,t8,2018,330,1937.68,3414.1436

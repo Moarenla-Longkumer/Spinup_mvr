@@ -1,0 +1,616 @@
+Biomass Check Summary for Site: Kundu_2013
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 96
+Rows passing delta rule (sim >= obs): 17
+Rows with shortfall (sim < obs): 79
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                Observation  Observed  Simulated          Difference
+       kundu_2013_cs_control_cgrain_c6_2010  57.64000   25.82120 -55.20% [SHORTFALL]
+       kundu_2013_cs_npksznb_cgrain_c6_2010 211.64000   88.60170 -58.14% [SHORTFALL]
+            kundu_2013_cs_-n_cgrain_c6_2010  92.40000   38.98650 -57.81% [SHORTFALL]
+            kundu_2013_cs_-p_cgrain_c6_2010 163.68000   88.60170 -45.87% [SHORTFALL]
+            kundu_2013_cs_-k_cgrain_c6_2010 171.60000   88.60170 -48.37% [SHORTFALL]
+            kundu_2013_cs_-s_cgrain_c6_2010 189.20000   88.60170 -53.17% [SHORTFALL]
+           kundu_2013_cs_-zn_cgrain_c6_2010 149.16000   88.60170 -40.60% [SHORTFALL]
+            kundu_2013_cs_-b_cgrain_c6_2010 198.88000   88.60170 -55.45% [SHORTFALL]
+       kundu_2013_cv_control_cgrain_c6_2010  52.80000   25.82120 -51.10% [SHORTFALL]
+       kundu_2013_cv_npksznb_cgrain_c6_2010 198.44000   88.60170 -55.35% [SHORTFALL]
+            kundu_2013_cv_-n_cgrain_c6_2010  84.04000   38.98650 -53.61% [SHORTFALL]
+            kundu_2013_cv_-p_cgrain_c6_2010 145.64000   88.60170 -39.16% [SHORTFALL]
+            kundu_2013_cv_-k_cgrain_c6_2010 175.56000   88.60170 -49.53% [SHORTFALL]
+            kundu_2013_cv_-s_cgrain_c6_2010 180.40000   88.60170 -50.89% [SHORTFALL]
+           kundu_2013_cv_-zn_cgrain_c6_2010 158.40000   88.60170 -44.06% [SHORTFALL]
+            kundu_2013_cv_-b_cgrain_c6_2010 184.36000   88.60170 -51.94% [SHORTFALL]
+       kundu_2013_cs_control_cgrain_c6_2011  48.40000   39.26160 -18.88% [SHORTFALL]
+       kundu_2013_cs_npksznb_cgrain_c6_2011 154.44000  135.56760 -12.22% [SHORTFALL]
+            kundu_2013_cs_-n_cgrain_c6_2011  75.68000   58.84310 -22.25% [SHORTFALL]
+            kundu_2013_cs_-p_cgrain_c6_2011 110.44000  135.56760             +22.75%
+            kundu_2013_cs_-k_cgrain_c6_2011 124.08000  135.56760              +9.26%
+            kundu_2013_cs_-s_cgrain_c6_2011 118.80000  135.56760             +14.11%
+           kundu_2013_cs_-zn_cgrain_c6_2011 128.92000  135.56760              +5.16%
+            kundu_2013_cs_-b_cgrain_c6_2011 144.32000  135.56760  -6.06% [SHORTFALL]
+       kundu_2013_cv_control_cgrain_c6_2011  52.80000   26.85280 -49.14% [SHORTFALL]
+       kundu_2013_cv_npksznb_cgrain_c6_2011 168.08000  122.62150 -27.05% [SHORTFALL]
+            kundu_2013_cv_-n_cgrain_c6_2011  79.64000   45.14860 -43.31% [SHORTFALL]
+            kundu_2013_cv_-p_cgrain_c6_2011 114.40000  122.62150              +7.19%
+            kundu_2013_cv_-k_cgrain_c6_2011 131.56000  122.62150  -6.79% [SHORTFALL]
+            kundu_2013_cv_-s_cgrain_c6_2011 128.04000  122.62150  -4.23% [SHORTFALL]
+           kundu_2013_cv_-zn_cgrain_c6_2011 134.64000  122.62150  -8.93% [SHORTFALL]
+            kundu_2013_cv_-b_cgrain_c6_2011 156.20000  122.62150 -21.50% [SHORTFALL]
+kundu_2013_cs_control_aglivc-cgrain_c6_2010 162.97000   20.23510 -87.58% [SHORTFALL]
+kundu_2013_cs_npksznb_aglivc-cgrain_c6_2010 309.17000   70.92830 -77.06% [SHORTFALL]
+     kundu_2013_cs_-n_aglivc-cgrain_c6_2010 227.90000   30.82390 -86.47% [SHORTFALL]
+     kundu_2013_cs_-p_aglivc-cgrain_c6_2010 257.14000   70.92830 -72.42% [SHORTFALL]
+     kundu_2013_cs_-k_aglivc-cgrain_c6_2010 227.90000   70.92830 -68.88% [SHORTFALL]
+     kundu_2013_cs_-s_aglivc-cgrain_c6_2010 308.31000   70.92830 -76.99% [SHORTFALL]
+    kundu_2013_cs_-zn_aglivc-cgrain_c6_2010 278.64000   70.92830 -74.54% [SHORTFALL]
+     kundu_2013_cs_-b_aglivc-cgrain_c6_2010 278.64000   70.92830 -74.54% [SHORTFALL]
+kundu_2013_cv_control_aglivc-cgrain_c6_2010 137.60000   20.23510 -85.29% [SHORTFALL]
+kundu_2013_cv_npksznb_aglivc-cgrain_c6_2010 295.41000   70.92830 -75.99% [SHORTFALL]
+     kundu_2013_cv_-n_aglivc-cgrain_c6_2010 243.38000   30.82390 -87.34% [SHORTFALL]
+     kundu_2013_cv_-p_aglivc-cgrain_c6_2010 282.51000   70.92830 -74.89% [SHORTFALL]
+     kundu_2013_cv_-k_aglivc-cgrain_c6_2010 240.37000   70.92830 -70.49% [SHORTFALL]
+     kundu_2013_cv_-s_aglivc-cgrain_c6_2010 313.90000   70.92830 -77.40% [SHORTFALL]
+    kundu_2013_cv_-zn_aglivc-cgrain_c6_2010 261.44000   70.92830 -72.87% [SHORTFALL]
+     kundu_2013_cv_-b_aglivc-cgrain_c6_2010 274.77000   70.92830 -74.19% [SHORTFALL]
+kundu_2013_cs_control_aglivc-cgrain_c6_2011 141.04000   37.34710 -73.52% [SHORTFALL]
+kundu_2013_cs_npksznb_aglivc-cgrain_c6_2011 227.47000  130.52180 -42.62% [SHORTFALL]
+     kundu_2013_cs_-n_aglivc-cgrain_c6_2011 159.10000   56.30820 -64.61% [SHORTFALL]
+     kundu_2013_cs_-p_aglivc-cgrain_c6_2011 196.08000  130.52180 -33.43% [SHORTFALL]
+     kundu_2013_cs_-k_aglivc-cgrain_c6_2011 187.48000  130.52180 -30.38% [SHORTFALL]
+     kundu_2013_cs_-s_aglivc-cgrain_c6_2011 205.97000  130.52180 -36.63% [SHORTFALL]
+    kundu_2013_cs_-zn_aglivc-cgrain_c6_2011 179.31000  130.52180 -27.21% [SHORTFALL]
+     kundu_2013_cs_-b_aglivc-cgrain_c6_2011 200.81000  130.52180 -35.00% [SHORTFALL]
+kundu_2013_cv_control_aglivc-cgrain_c6_2011 167.70000   25.34160 -84.89% [SHORTFALL]
+kundu_2013_cv_npksznb_aglivc-cgrain_c6_2011 248.97000  118.16380 -52.54% [SHORTFALL]
+     kundu_2013_cv_-n_aglivc-cgrain_c6_2011 176.30000   43.14750 -75.53% [SHORTFALL]
+     kundu_2013_cv_-p_aglivc-cgrain_c6_2011 216.72000  118.16380 -45.48% [SHORTFALL]
+     kundu_2013_cv_-k_aglivc-cgrain_c6_2011 214.57000  118.16380 -44.93% [SHORTFALL]
+     kundu_2013_cv_-s_aglivc-cgrain_c6_2011 269.61000  118.16380 -56.17% [SHORTFALL]
+    kundu_2013_cv_-zn_aglivc-cgrain_c6_2011 192.64000  118.16380 -38.66% [SHORTFALL]
+     kundu_2013_cv_-b_aglivc-cgrain_c6_2011 213.71000  118.16380 -44.71% [SHORTFALL]
+         kundu_2013_cs_control_cgrain_hgram  10.66680   23.46525            +119.98%
+         kundu_2013_cs_npksznb_cgrain_hgram  20.01640   23.48090             +17.31%
+              kundu_2013_cs_-n_cgrain_hgram  16.59240   23.49325             +41.59%
+              kundu_2013_cs_-p_cgrain_hgram  17.11920   23.48090             +37.16%
+              kundu_2013_cs_-k_cgrain_hgram  15.27560   23.48090             +53.72%
+              kundu_2013_cs_-s_cgrain_hgram  17.90960   23.48090             +31.11%
+             kundu_2013_cs_-zn_cgrain_hgram  14.61720   23.48090             +60.64%
+              kundu_2013_cs_-b_cgrain_hgram  13.30040   23.48090             +76.54%
+         kundu_2013_cv_control_cgrain_hgram  16.72440   23.49925             +40.51%
+         kundu_2013_cv_npksznb_cgrain_hgram  28.97120   23.52225 -18.81% [SHORTFALL]
+              kundu_2013_cv_-n_cgrain_hgram  23.04520   23.51060              +2.02%
+              kundu_2013_cv_-p_cgrain_hgram  20.01640   23.52225             +17.51%
+              kundu_2013_cv_-k_cgrain_hgram  20.54320   23.52225             +14.50%
+              kundu_2013_cv_-s_cgrain_hgram  25.81080   23.52225  -8.87% [SHORTFALL]
+             kundu_2013_cv_-zn_cgrain_hgram  24.36200   23.52225  -3.45% [SHORTFALL]
+              kundu_2013_cv_-b_cgrain_hgram  24.75720   23.52225  -4.99% [SHORTFALL]
+         kundu_2013_cs_control_cgrain_hgram  33.40238   23.46525 -29.75% [SHORTFALL]
+         kundu_2013_cs_npksznb_cgrain_hgram  48.03960   23.48090 -51.12% [SHORTFALL]
+              kundu_2013_cs_-n_cgrain_hgram  38.65664   23.49325 -39.23% [SHORTFALL]
+              kundu_2013_cs_-p_cgrain_hgram  43.41082   23.48090 -45.91% [SHORTFALL]
+              kundu_2013_cs_-k_cgrain_hgram  45.16224   23.48090 -48.01% [SHORTFALL]
+              kundu_2013_cs_-s_cgrain_hgram  44.03630   23.48090 -46.68% [SHORTFALL]
+             kundu_2013_cs_-zn_cgrain_hgram  42.40990   23.48090 -44.63% [SHORTFALL]
+              kundu_2013_cs_-b_cgrain_hgram  42.65994   23.48090 -44.96% [SHORTFALL]
+         kundu_2013_cv_control_cgrain_hgram  36.02970   23.49925 -34.78% [SHORTFALL]
+         kundu_2013_cv_npksznb_cgrain_hgram  55.79578   23.52225 -57.84% [SHORTFALL]
+              kundu_2013_cv_-n_cgrain_hgram  47.66416   23.51060 -50.67% [SHORTFALL]
+              kundu_2013_cv_-p_cgrain_hgram  45.03722   23.52225 -47.77% [SHORTFALL]
+              kundu_2013_cv_-k_cgrain_hgram  50.29148   23.52225 -53.23% [SHORTFALL]
+              kundu_2013_cv_-s_cgrain_hgram  44.28634   23.52225 -46.89% [SHORTFALL]
+             kundu_2013_cv_-zn_cgrain_hgram  46.78864   23.52225 -49.73% [SHORTFALL]
+              kundu_2013_cv_-b_cgrain_hgram  43.03538   23.52225 -45.34% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Kundu_2013_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 96
+R²: 0.3605
+RMSE: 97.97 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Kundu_2013_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 96
+    [DEBUG] Checking Treatment Sch: CS_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_Control
+Successfully processed: 'kundu_2013_cs_control_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_NPKSZnB
+Successfully processed: 'kundu_2013_cs_npksznb_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-N
+Successfully processed: 'kundu_2013_cs_-n_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-P
+Successfully processed: 'kundu_2013_cs_-p_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-K
+Successfully processed: 'kundu_2013_cs_-k_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-S
+Successfully processed: 'kundu_2013_cs_-s_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-Zn
+Successfully processed: 'kundu_2013_cs_-zn_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-B
+Successfully processed: 'kundu_2013_cs_-b_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_Control
+Successfully processed: 'kundu_2013_cv_control_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_NPKSZnB
+Successfully processed: 'kundu_2013_cv_npksznb_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-N
+Successfully processed: 'kundu_2013_cv_-n_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-P
+Successfully processed: 'kundu_2013_cv_-p_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-K
+Successfully processed: 'kundu_2013_cv_-k_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-S
+Successfully processed: 'kundu_2013_cv_-s_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-Zn
+Successfully processed: 'kundu_2013_cv_-zn_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-B
+Successfully processed: 'kundu_2013_cv_-b_cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_Control
+Successfully processed: 'kundu_2013_cs_control_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_NPKSZnB
+Successfully processed: 'kundu_2013_cs_npksznb_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-N
+Successfully processed: 'kundu_2013_cs_-n_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-P
+Successfully processed: 'kundu_2013_cs_-p_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-K
+Successfully processed: 'kundu_2013_cs_-k_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-S
+Successfully processed: 'kundu_2013_cs_-s_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-Zn
+Successfully processed: 'kundu_2013_cs_-zn_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-B
+Successfully processed: 'kundu_2013_cs_-b_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_Control
+Successfully processed: 'kundu_2013_cv_control_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_NPKSZnB
+Successfully processed: 'kundu_2013_cv_npksznb_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-N
+Successfully processed: 'kundu_2013_cv_-n_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-P
+Successfully processed: 'kundu_2013_cv_-p_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-K
+Successfully processed: 'kundu_2013_cv_-k_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-S
+Successfully processed: 'kundu_2013_cv_-s_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-Zn
+Successfully processed: 'kundu_2013_cv_-zn_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-B
+Successfully processed: 'kundu_2013_cv_-b_cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_Control
+Successfully processed: 'kundu_2013_cs_control_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_NPKSZnB
+Successfully processed: 'kundu_2013_cs_npksznb_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-N
+Successfully processed: 'kundu_2013_cs_-n_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-P
+Successfully processed: 'kundu_2013_cs_-p_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-K
+Successfully processed: 'kundu_2013_cs_-k_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-S
+Successfully processed: 'kundu_2013_cs_-s_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-Zn
+Successfully processed: 'kundu_2013_cs_-zn_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-B
+Successfully processed: 'kundu_2013_cs_-b_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_Control
+Successfully processed: 'kundu_2013_cv_control_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_NPKSZnB
+Successfully processed: 'kundu_2013_cv_npksznb_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-N
+Successfully processed: 'kundu_2013_cv_-n_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-P
+Successfully processed: 'kundu_2013_cv_-p_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-K
+Successfully processed: 'kundu_2013_cv_-k_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-S
+Successfully processed: 'kundu_2013_cv_-s_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-Zn
+Successfully processed: 'kundu_2013_cv_-zn_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CV_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-B
+Successfully processed: 'kundu_2013_cv_-b_aglivc-cgrain_c6_2010'
+    [DEBUG] Checking Treatment Sch: CS_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_Control
+Successfully processed: 'kundu_2013_cs_control_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_NPKSZnB
+Successfully processed: 'kundu_2013_cs_npksznb_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-N
+Successfully processed: 'kundu_2013_cs_-n_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-P
+Successfully processed: 'kundu_2013_cs_-p_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-K
+Successfully processed: 'kundu_2013_cs_-k_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-S
+Successfully processed: 'kundu_2013_cs_-s_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-Zn
+Successfully processed: 'kundu_2013_cs_-zn_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CS_-B
+Successfully processed: 'kundu_2013_cs_-b_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_Control
+Successfully processed: 'kundu_2013_cv_control_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_NPKSZnB
+Successfully processed: 'kundu_2013_cv_npksznb_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-N
+Successfully processed: 'kundu_2013_cv_-n_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-P
+Successfully processed: 'kundu_2013_cv_-p_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-K
+Successfully processed: 'kundu_2013_cv_-k_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-S
+Successfully processed: 'kundu_2013_cv_-s_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-Zn
+Successfully processed: 'kundu_2013_cv_-zn_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CV_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CV_-B
+Successfully processed: 'kundu_2013_cv_-b_aglivc-cgrain_c6_2011'
+    [DEBUG] Checking Treatment Sch: CS_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_Control
+Successfully processed: 'kundu_2013_cs_control_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_NPKSZnB
+Successfully processed: 'kundu_2013_cs_npksznb_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-N
+Successfully processed: 'kundu_2013_cs_-n_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-P
+Successfully processed: 'kundu_2013_cs_-p_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-K
+Successfully processed: 'kundu_2013_cs_-k_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-S
+Successfully processed: 'kundu_2013_cs_-s_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-Zn
+Successfully processed: 'kundu_2013_cs_-zn_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-B
+Successfully processed: 'kundu_2013_cs_-b_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_Control
+Successfully processed: 'kundu_2013_cv_control_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_NPKSZnB
+Successfully processed: 'kundu_2013_cv_npksznb_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-N
+Successfully processed: 'kundu_2013_cv_-n_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-P
+Successfully processed: 'kundu_2013_cv_-p_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-K
+Successfully processed: 'kundu_2013_cv_-k_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-S
+Successfully processed: 'kundu_2013_cv_-s_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-Zn
+Successfully processed: 'kundu_2013_cv_-zn_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-B
+Successfully processed: 'kundu_2013_cv_-b_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_Control
+Successfully processed: 'kundu_2013_cs_control_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_NPKSZnB
+Successfully processed: 'kundu_2013_cs_npksznb_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-N
+Successfully processed: 'kundu_2013_cs_-n_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-P
+Successfully processed: 'kundu_2013_cs_-p_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-K
+Successfully processed: 'kundu_2013_cs_-k_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-S
+Successfully processed: 'kundu_2013_cs_-s_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-Zn
+Successfully processed: 'kundu_2013_cs_-zn_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CS_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CS_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CS_-B
+Successfully processed: 'kundu_2013_cs_-b_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_Control
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_Control_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_Control
+Successfully processed: 'kundu_2013_cv_control_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_NPKSZnB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_NPKSZnB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_NPKSZnB
+Successfully processed: 'kundu_2013_cv_npksznb_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-N
+Successfully processed: 'kundu_2013_cv_-n_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-P
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-P_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-P
+Successfully processed: 'kundu_2013_cv_-p_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-K
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-K_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-K
+Successfully processed: 'kundu_2013_cv_-k_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-S
+Successfully processed: 'kundu_2013_cv_-s_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-Zn
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-Zn_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-Zn
+Successfully processed: 'kundu_2013_cv_-zn_cgrain_hgram'
+    [DEBUG] Checking Treatment Sch: CV_-B
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/Kundu_2013_out/Kundu_2013_CV_-B_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in CV_-B
+Successfully processed: 'kundu_2013_cv_-b_cgrain_hgram'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/observed_vs_modeled_biomass.png'
+--- Script finished. ---

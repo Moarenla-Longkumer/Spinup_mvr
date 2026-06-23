@@ -1,0 +1,85 @@
+SOMSC Check Summary for Site: Srinivasarao_2021
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-92.65%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,920.27 g C / m²
+Change during Equilibrium Phase: +4,024.55 g C / m²
+Change during Base Phase: -5,730.51 g C / m²
+Final SOMSC at end of Base Phase: 281.46 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,827.92 g C / m²
+Model is 92.65% lower than observation.
+(Difference: -3,546.46 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 4
+Experiments with SOMSC increase: 2, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  + T3 (+1703.18)
+  + T4 (+808.41)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-127.73)
+  - T2 (-117.73)
+
+--- Experimental Analysis ---
+'srinivasarao_2021_t1_somsc' Change: -127.73 g C / m² (End value: 3,700.16)
+'srinivasarao_2021_t2_somsc' Change: -117.73 g C / m² (End value: 3,710.16)
+'srinivasarao_2021_t3_somsc' Change: +1,703.18 g C / m² (End value: 5,531.07)
+'srinivasarao_2021_t4_somsc' Change: +808.41 g C / m² (End value: 4,636.30)
+
+Average SOMSC at end of all experimental phases: 4,394.42 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2011, Day: 283)... SUCCESS: 3699.87
+ -> Checking t1 (Years: 2011, Day: 283)... SUCCESS: 3699.87
+ -> Checking t1 (Years: 2011, Day: 283)... SUCCESS: 3699.87
+ -> Checking t1 (Years: 2011, Day: 283)... SUCCESS: 3699.87
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 4
+Rows passing delta rule (sim >= obs): 4
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+               Observation  Observed  Simulated Difference
+srinivasarao_2021_t1_somsc    2082.9  3699.8744    +77.63%
+srinivasarao_2021_t1_somsc    2282.4  3699.8744    +62.10%
+srinivasarao_2021_t1_somsc    2513.2  3699.8744    +47.22%
+srinivasarao_2021_t1_somsc    2769.8  3699.8744    +33.58%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 4
+R²: 0.0000 (flat observations or flat model)
+RMSE: 1313.11 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Srinivasarao_2021_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+srinivasarao_2021_t1_somsc,t1,2011,283,2082.9,3699.8744
+srinivasarao_2021_t1_somsc,t1,2011,283,2282.4,3699.8744
+srinivasarao_2021_t1_somsc,t1,2011,283,2513.2,3699.8744
+srinivasarao_2021_t1_somsc,t1,2011,283,2769.8,3699.8744

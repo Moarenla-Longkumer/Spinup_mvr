@@ -1,0 +1,56 @@
+SOMSC Check Summary for Site: Meena_2023
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-84.87%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,893.98 g C / m²
+Change during Equilibrium Phase: +1,185.26 g C / m²
+Change during Base Phase: -2,571.69 g C / m²
+Final SOMSC at end of Base Phase: 513.08 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,392.07 g C / m²
+Model is 84.87% lower than observation.
+(Difference: -2,878.99 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 5, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + T1 (+1504.26)
+  + T2 (+451.50)
+  + T3 (+529.76)
+  + T4 (+2258.87)
+  + T5 (+230.54)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'meena_2023_t1_somsc' Change: +1,504.26 g C / m² (End value: 4,896.36)
+'meena_2023_t2_somsc' Change: +451.50 g C / m² (End value: 3,843.59)
+'meena_2023_t3_somsc' Change: +529.76 g C / m² (End value: 3,921.86)
+'meena_2023_t4_somsc' Change: +2,258.87 g C / m² (End value: 5,650.97)
+'meena_2023_t5_somsc' Change: +230.54 g C / m² (End value: 3,622.64)
+
+Average SOMSC at end of all experimental phases: 4,387.08 g C / m²
+
+--- Calibration Script Test ---
+Status: FAILED
+Reason: Script exited with error code 1
+
+--- Error Output ---
+Traceback (most recent call last):
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Meena_2023/scripts/extract_somsc.py", line 402, in <module>
+    main()
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Meena_2023/scripts/extract_somsc.py", line 251, in main
+    target_day = int(row['target_day'])
+ValueError: cannot convert float NaN to integer
+
+
+--- Averaged SOMSC Comparison Data ---
+NOTE: 'averaged_somsc_comparison.csv' not found. This may be because the 'extract_somsc.py' script failed or does not produce this file.

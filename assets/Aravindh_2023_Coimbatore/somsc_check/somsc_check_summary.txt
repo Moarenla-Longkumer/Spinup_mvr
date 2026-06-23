@@ -1,0 +1,57 @@
+SOMSC Check Summary for Site: Aravindh_2023_Coimbatore
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-94.13%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,873.77 g C / m²
+Change during Equilibrium Phase: +202.90 g C / m²
+Change during Base Phase: -1,791.88 g C / m²
+Final SOMSC at end of Base Phase: 314.61 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 5,363.65 g C / m²
+Model is 94.13% lower than observation.
+(Difference: -5,049.04 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 4
+Experiments with SOMSC increase: 0, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - C_1 (-2015.02)
+  - IC_1 (-2013.79)
+  - INM_1 (-2011.87)
+  - OM_1 (-2013.48)
+
+--- Experimental Analysis ---
+'aravindh_2023_coimbatore_c_1_somsc' Change: -2,015.02 g C / m² (End value: 3,348.58)
+'aravindh_2023_coimbatore_ic_1_somsc' Change: -2,013.79 g C / m² (End value: 3,349.81)
+'aravindh_2023_coimbatore_inm_1_somsc' Change: -2,011.87 g C / m² (End value: 3,351.72)
+'aravindh_2023_coimbatore_om_1_somsc' Change: -2,013.48 g C / m² (End value: 3,350.12)
+
+Average SOMSC at end of all experimental phases: 3,350.06 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking c_1 (Years: 2017, Day: 125.0)... SUCCESS: 3357.84
+ -> Checking ic_1 (Years: 2017, Day: 125.0)... SUCCESS: 3359.07
+ -> Checking om_1 (Years: 2017, Day: 125.0)... SUCCESS: 3359.39
+ -> Checking inm_1 (Years: 2017, Day: 125.0)... SUCCESS: 3361.00
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Aravindh_2023_Coimbatore/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

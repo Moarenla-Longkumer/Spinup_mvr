@@ -1,0 +1,375 @@
+Biomass Check Summary for Site: Monsefi_2014
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 48
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 48
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                      Observation  Observed  Simulated          Difference
+           monsefi_2014_sct_wct_cgrain_sbean_2010    87.006    19.0575 -78.10% [SHORTFALL]
+           monsefi_2014_sct_wzt_cgrain_sbean_2010    87.618    19.0738 -78.23% [SHORTFALL]
+           monsefi_2014_szt_wzt_cgrain_sbean_2010    76.806    19.2271 -74.97% [SHORTFALL]
+         monsefi_2014_sctws_wzt_cgrain_sbean_2010   100.215    19.0738 -80.97% [SHORTFALL]
+         monsefi_2014_sct_wztsr_cgrain_sbean_2010    92.514    19.0738 -79.38% [SHORTFALL]
+       monsefi_2014_sctws_wztsr_cgrain_sbean_2010   105.009    19.0738 -81.84% [SHORTFALL]
+         monsefi_2014_sztws_wct_cgrain_sbean_2010    95.574    19.2055 -79.91% [SHORTFALL]
+         monsefi_2014_szt_wctsr_cgrain_sbean_2010    97.971    19.2055 -80.40% [SHORTFALL]
+       monsefi_2014_sztws_wctsr_cgrain_sbean_2010    98.685    19.2055 -80.54% [SHORTFALL]
+         monsefi_2014_sztws_wzt_cgrain_sbean_2010    97.410    19.2271 -80.26% [SHORTFALL]
+         monsefi_2014_szt_wztsr_cgrain_sbean_2010    91.851    19.2271 -79.07% [SHORTFALL]
+       monsefi_2014_sztws_wztsr_cgrain_sbean_2010   106.233    19.2271 -81.90% [SHORTFALL]
+    monsefi_2014_sct_wct_aglivc-cgrain_sbean_2010   188.876    43.5655 -76.93% [SHORTFALL]
+    monsefi_2014_sct_wzt_aglivc-cgrain_sbean_2010   191.268    43.6060 -77.20% [SHORTFALL]
+    monsefi_2014_szt_wzt_aglivc-cgrain_sbean_2010   183.724    44.0382 -76.03% [SHORTFALL]
+  monsefi_2014_sctws_wzt_aglivc-cgrain_sbean_2010   181.010    43.6060 -75.91% [SHORTFALL]
+  monsefi_2014_sct_wztsr_aglivc-cgrain_sbean_2010   175.306    43.6060 -75.13% [SHORTFALL]
+monsefi_2014_sctws_wztsr_aglivc-cgrain_sbean_2010   178.434    43.6060 -75.56% [SHORTFALL]
+  monsefi_2014_sztws_wct_aglivc-cgrain_sbean_2010   178.296    43.9627 -75.34% [SHORTFALL]
+  monsefi_2014_szt_wctsr_aglivc-cgrain_sbean_2010   167.486    43.9627 -73.75% [SHORTFALL]
+monsefi_2014_sztws_wctsr_aglivc-cgrain_sbean_2010   198.490    43.9627 -77.85% [SHORTFALL]
+  monsefi_2014_sztws_wzt_aglivc-cgrain_sbean_2010   196.788    44.0382 -77.62% [SHORTFALL]
+  monsefi_2014_szt_wztsr_aglivc-cgrain_sbean_2010   170.154    44.0382 -74.12% [SHORTFALL]
+monsefi_2014_sztws_wztsr_aglivc-cgrain_sbean_2010   171.580    44.0382 -74.33% [SHORTFALL]
+           monsefi_2014_sct_wct_cgrain_sbean_2011    94.962    19.6701 -79.29% [SHORTFALL]
+           monsefi_2014_sct_wzt_cgrain_sbean_2011    94.962    19.6771 -79.28% [SHORTFALL]
+           monsefi_2014_szt_wzt_cgrain_sbean_2011    75.021    19.7027 -73.74% [SHORTFALL]
+         monsefi_2014_sctws_wzt_cgrain_sbean_2011    94.962    19.7192 -79.23% [SHORTFALL]
+         monsefi_2014_sct_wztsr_cgrain_sbean_2011    96.339    19.7270 -79.52% [SHORTFALL]
+       monsefi_2014_sctws_wztsr_cgrain_sbean_2011   107.100    19.7180 -81.59% [SHORTFALL]
+         monsefi_2014_sztws_wct_cgrain_sbean_2011   109.803    19.6636 -82.09% [SHORTFALL]
+         monsefi_2014_szt_wctsr_cgrain_sbean_2011   107.151    19.7187 -81.60% [SHORTFALL]
+       monsefi_2014_sztws_wctsr_cgrain_sbean_2011    95.472    19.6645 -79.40% [SHORTFALL]
+         monsefi_2014_sztws_wzt_cgrain_sbean_2011    94.962    19.6664 -79.29% [SHORTFALL]
+         monsefi_2014_szt_wztsr_cgrain_sbean_2011    96.900    19.6992 -79.67% [SHORTFALL]
+       monsefi_2014_sztws_wztsr_cgrain_sbean_2011   111.486    19.6746 -82.35% [SHORTFALL]
+    monsefi_2014_sct_wct_aglivc-cgrain_sbean_2011   188.876    47.0179 -75.11% [SHORTFALL]
+    monsefi_2014_sct_wzt_aglivc-cgrain_sbean_2011   208.104    47.0377 -77.40% [SHORTFALL]
+    monsefi_2014_szt_wzt_aglivc-cgrain_sbean_2011   178.710    47.2086 -73.58% [SHORTFALL]
+  monsefi_2014_sctws_wzt_aglivc-cgrain_sbean_2011   233.864    47.2653 -79.79% [SHORTFALL]
+  monsefi_2014_sct_wztsr_aglivc-cgrain_sbean_2011   197.708    47.1849 -76.13% [SHORTFALL]
+monsefi_2014_sctws_wztsr_aglivc-cgrain_sbean_2011   226.688    47.2676 -79.15% [SHORTFALL]
+  monsefi_2014_sztws_wct_aglivc-cgrain_sbean_2011   210.910    47.3188 -77.56% [SHORTFALL]
+  monsefi_2014_szt_wctsr_aglivc-cgrain_sbean_2011   204.654    47.2100 -76.93% [SHORTFALL]
+monsefi_2014_sztws_wctsr_aglivc-cgrain_sbean_2011   222.042    47.3180 -78.69% [SHORTFALL]
+  monsefi_2014_sztws_wzt_aglivc-cgrain_sbean_2011   249.412    47.3160 -81.03% [SHORTFALL]
+  monsefi_2014_szt_wztsr_aglivc-cgrain_sbean_2011   180.320    47.2869 -73.78% [SHORTFALL]
+monsefi_2014_sztws_wztsr_aglivc-cgrain_sbean_2011   208.380    47.3091 -77.30% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Monsefi_2014_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 48
+R²: 0.9292
+RMSE: 120.20 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'comment uncertainty units', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 48
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WCT
+Successfully processed: 'monsefi_2014_sct_wct_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZT
+Successfully processed: 'monsefi_2014_sct_wzt_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZT
+Successfully processed: 'monsefi_2014_szt_wzt_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZT
+Successfully processed: 'monsefi_2014_sctws_wzt_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZTSR
+Successfully processed: 'monsefi_2014_sct_wztsr_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZTSR
+Successfully processed: 'monsefi_2014_sctws_wztsr_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCT
+Successfully processed: 'monsefi_2014_sztws_wct_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WCTSR
+Successfully processed: 'monsefi_2014_szt_wctsr_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCTSR
+Successfully processed: 'monsefi_2014_sztws_wctsr_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZT
+Successfully processed: 'monsefi_2014_sztws_wzt_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZTSR
+Successfully processed: 'monsefi_2014_szt_wztsr_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZTSR
+Successfully processed: 'monsefi_2014_sztws_wztsr_cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WCT
+Successfully processed: 'monsefi_2014_sct_wct_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZT
+Successfully processed: 'monsefi_2014_sct_wzt_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZT
+Successfully processed: 'monsefi_2014_szt_wzt_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZT
+Successfully processed: 'monsefi_2014_sctws_wzt_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZTSR
+Successfully processed: 'monsefi_2014_sct_wztsr_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZTSR
+Successfully processed: 'monsefi_2014_sctws_wztsr_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCT
+Successfully processed: 'monsefi_2014_sztws_wct_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WCTSR
+Successfully processed: 'monsefi_2014_szt_wctsr_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCTSR
+Successfully processed: 'monsefi_2014_sztws_wctsr_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZT
+Successfully processed: 'monsefi_2014_sztws_wzt_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZTSR
+Successfully processed: 'monsefi_2014_szt_wztsr_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZTSR
+Successfully processed: 'monsefi_2014_sztws_wztsr_aglivc-cgrain_sbean_2010'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WCT
+Successfully processed: 'monsefi_2014_sct_wct_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZT
+Successfully processed: 'monsefi_2014_sct_wzt_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZT
+Successfully processed: 'monsefi_2014_szt_wzt_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZT
+Successfully processed: 'monsefi_2014_sctws_wzt_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZTSR
+Successfully processed: 'monsefi_2014_sct_wztsr_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZTSR
+Successfully processed: 'monsefi_2014_sctws_wztsr_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCT
+Successfully processed: 'monsefi_2014_sztws_wct_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WCTSR
+Successfully processed: 'monsefi_2014_szt_wctsr_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCTSR
+Successfully processed: 'monsefi_2014_sztws_wctsr_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZT
+Successfully processed: 'monsefi_2014_sztws_wzt_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZTSR
+Successfully processed: 'monsefi_2014_szt_wztsr_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZTSR
+Successfully processed: 'monsefi_2014_sztws_wztsr_cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WCT
+Successfully processed: 'monsefi_2014_sct_wct_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZT
+Successfully processed: 'monsefi_2014_sct_wzt_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZT
+Successfully processed: 'monsefi_2014_szt_wzt_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZT
+Successfully processed: 'monsefi_2014_sctws_wzt_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCT_WZTSR
+Successfully processed: 'monsefi_2014_sct_wztsr_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SCTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SCTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SCTWS_WZTSR
+Successfully processed: 'monsefi_2014_sctws_wztsr_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCT
+Successfully processed: 'monsefi_2014_sztws_wct_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WCTSR
+Successfully processed: 'monsefi_2014_szt_wctsr_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WCTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WCTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WCTSR
+Successfully processed: 'monsefi_2014_sztws_wctsr_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZT
+Successfully processed: 'monsefi_2014_sztws_wzt_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZT_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZT_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZT_WZTSR
+Successfully processed: 'monsefi_2014_szt_wztsr_aglivc-cgrain_sbean_2011'
+    [WARN] Non-numeric target_crop_num 'SBEAN' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: SZTWS_WZTSR
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/Monsefi_2014_out/Monsefi_2014_SZTWS_WZTSR_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SZTWS_WZTSR
+Successfully processed: 'monsefi_2014_sztws_wztsr_aglivc-cgrain_sbean_2011'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Monsefi_2014/observed_vs_modeled_biomass.png'
+--- Script finished. ---

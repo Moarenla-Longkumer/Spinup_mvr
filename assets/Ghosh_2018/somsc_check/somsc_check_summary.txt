@@ -1,0 +1,68 @@
+SOMSC Check Summary for Site: Ghosh_2018
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-58.66%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,953.57 g C / m²
+Change during Equilibrium Phase: +1,443.59 g C / m²
+Change during Base Phase: +40.30 g C / m²
+Final SOMSC at end of Base Phase: 3,452.42 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 8,351.00 g C / m²
+Model is 58.66% lower than observation.
+(Difference: -4,898.58 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 2, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + T3 (+2971.40)
+  + T4 (+1723.15)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-539.82)
+  - T2 (-473.45)
+  - T5 (-210.76)
+  - T6 (-151.15)
+
+--- Experimental Analysis ---
+'ghosh_2018_t1_somsc' Change: -539.82 g C / m² (End value: 7,811.10)
+'ghosh_2018_t2_somsc' Change: -473.45 g C / m² (End value: 7,877.47)
+'ghosh_2018_t3_somsc' Change: +2,971.40 g C / m² (End value: 11,322.32)
+'ghosh_2018_t4_somsc' Change: +1,723.15 g C / m² (End value: 10,074.07)
+'ghosh_2018_t5_somsc' Change: -210.76 g C / m² (End value: 8,140.16)
+'ghosh_2018_t6_somsc' Change: -151.15 g C / m² (End value: 8,199.77)
+
+Average SOMSC at end of all experimental phases: 8,904.15 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2014, Day: 114)... SUCCESS: 7840.35
+ -> Checking t2 (Years: 2014, Day: 114)... SUCCESS: 7903.98
+ -> Checking t3 (Years: 2014, Day: 114)... SUCCESS: 11397.97
+ -> Checking t4 (Years: 2014, Day: 114)... SUCCESS: 10131.69
+ -> Checking t5 (Years: 2014, Day: 114)... SUCCESS: 8171.42
+ -> Checking t6 (Years: 2014, Day: 114)... SUCCESS: 8231.81
+ -> Checking t1 (Years: 2014, Day: 114)... SUCCESS: 7840.35
+ -> Checking t2 (Years: 2014, Day: 114)... SUCCESS: 7903.98
+ -> Checking t3 (Years: 2014, Day: 114)... SUCCESS: 11397.97
+ -> Checking t4 (Years: 2014, Day: 114)... SUCCESS: 10131.69
+ -> Checking t5 (Years: 2014, Day: 114)... SUCCESS: 8171.42
+ -> Checking t6 (Years: 2014, Day: 114)... SUCCESS: 8231.81
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

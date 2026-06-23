@@ -1,0 +1,113 @@
+SOMSC Check Summary for Site: Saha_2013
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-92.74%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,961.26 g C / m²
+Change during Equilibrium Phase: -739.51 g C / m²
+Change during Base Phase: -620.99 g C / m²
+Final SOMSC at end of Base Phase: 612.15 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 8,436.06 g C / m²
+Model is 92.74% lower than observation.
+(Difference: -7,823.91 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 9, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + TRT_M1_T2 (+18.96)
+  + TRT_M2_T1 (+471.10)
+  + TRT_M2_T2 (+471.10)
+  + TRT_M3_T1 (+756.52)
+  + TRT_M3_T2 (+948.09)
+  + TRT_M4_T1 (+392.29)
+  + TRT_M4_T2 (+392.29)
+  + TRT_M5_T1 (+225.32)
+  + TRT_M5_T2 (+225.32)
+
+SOMSC Decrease (g C / m²):
+  - TRT_M0_T1 (-42.95)
+  - TRT_M0_T2 (-13.22)
+  - TRT_M1_T1 (-6.00)
+
+--- Experimental Analysis ---
+'saha_2013_trt_m0_t1_somsc' Change: -42.95 g C / m² (End value: 8,393.10)
+'saha_2013_trt_m0_t2_somsc' Change: -13.22 g C / m² (End value: 8,422.83)
+'saha_2013_trt_m1_t1_somsc' Change: -6.00 g C / m² (End value: 8,430.05)
+'saha_2013_trt_m1_t2_somsc' Change: +18.96 g C / m² (End value: 8,455.01)
+'saha_2013_trt_m2_t1_somsc' Change: +471.10 g C / m² (End value: 8,907.15)
+'saha_2013_trt_m2_t2_somsc' Change: +471.10 g C / m² (End value: 8,907.15)
+'saha_2013_trt_m3_t1_somsc' Change: +756.52 g C / m² (End value: 9,192.57)
+'saha_2013_trt_m3_t2_somsc' Change: +948.09 g C / m² (End value: 9,384.14)
+'saha_2013_trt_m4_t1_somsc' Change: +392.29 g C / m² (End value: 8,828.34)
+'saha_2013_trt_m4_t2_somsc' Change: +392.29 g C / m² (End value: 8,828.34)
+'saha_2013_trt_m5_t1_somsc' Change: +225.32 g C / m² (End value: 8,661.36)
+'saha_2013_trt_m5_t2_somsc' Change: +225.32 g C / m² (End value: 8,661.36)
+
+Average SOMSC at end of all experimental phases: 8,755.95 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking m0 (Years: 2007, Day: 63)... SUCCESS: 8437.25
+ -> Checking m1 (Years: 2007, Day: 63)... SUCCESS: 8455.46
+ -> Checking m2 (Years: 2007, Day: 63)... SUCCESS: 8743.90
+ -> Checking m3 (Years: 2007, Day: 63)... SUCCESS: 8975.49
+ -> Checking m4 (Years: 2007, Day: 63)... SUCCESS: 8694.40
+ -> Checking m5 (Years: 2007, Day: 63)... SUCCESS: 8593.61
+ -> Checking t1 (Years: 2007, Day: 63)... SUCCESS: 8638.09
+ -> Checking t2 (Years: 2007, Day: 63)... SUCCESS: 8661.95
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Saha_2013/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 8
+Rows passing delta rule (sim >= obs): 2
+Rows with shortfall (sim < obs): 6
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+       Observation  Observed   Simulated         Difference
+saha_2013_m0_somsc   7558.80 8437.254650            +11.62%
+saha_2013_m1_somsc   8512.35 8455.464200 -0.67% [SHORTFALL]
+saha_2013_m2_somsc   9097.20 8743.896100 -3.88% [SHORTFALL]
+saha_2013_m3_somsc   9129.75 8975.492650 -1.69% [SHORTFALL]
+saha_2013_m4_somsc   9178.20 8694.398500 -5.27% [SHORTFALL]
+saha_2013_m5_somsc   9025.20 8593.613300 -4.78% [SHORTFALL]
+saha_2013_t1_somsc   8564.85 8638.086083             +0.86%
+saha_2013_t2_somsc   8907.00 8661.953717 -2.75% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Saha_2013_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 8
+R²: 0.5133
+RMSE: 419.71 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+saha_2013_m0_somsc,m0,2007,63,7558.8,8437.254649999999
+saha_2013_m1_somsc,m1,2007,63,8512.35,8455.4642
+saha_2013_m2_somsc,m2,2007,63,9097.2,8743.8961
+saha_2013_m3_somsc,m3,2007,63,9129.75,8975.49265
+saha_2013_m4_somsc,m4,2007,63,9178.2,8694.3985
+saha_2013_m5_somsc,m5,2007,63,9025.2,8593.6133
+saha_2013_t1_somsc,t1,2007,63,8564.85,8638.086083333334
+saha_2013_t2_somsc,t2,2007,63,8907.0,8661.953716666665

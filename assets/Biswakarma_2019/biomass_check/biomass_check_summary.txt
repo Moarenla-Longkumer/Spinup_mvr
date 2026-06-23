@@ -1,0 +1,590 @@
+Biomass Check Summary for Site: Biswakarma_2019
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 30
+Rows passing delta rule (sim >= obs): 3
+Rows with shortfall (sim < obs): 27
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                    Observation  Observed  Simulated          Difference
+             biswakarma_2019_pnb_cgrain_c6_2020     167.2 134.337733 -19.65% [SHORTFALL]
+           biswakarma_2019_zt-fb_cgrain_c6_2020     171.2 140.958533 -17.66% [SHORTFALL]
+              biswakarma_2019_ct_cgrain_c6_2020     127.2 134.337733              +5.61%
+      biswakarma_2019_pnb_aglivc-cgrain_c6_2020     311.2 153.917033 -50.54% [SHORTFALL]
+    biswakarma_2019_zt-fb_aglivc-cgrain_c6_2020     288.0 161.075267 -44.07% [SHORTFALL]
+       biswakarma_2019_ct_aglivc-cgrain_c6_2020     248.8 153.917033 -38.14% [SHORTFALL]
+             biswakarma_2019_ffp_cgrain_c6_2020     134.4 104.251233 -22.43% [SHORTFALL]
+             biswakarma_2019_rfa_cgrain_c6_2020     164.4 134.303733 -18.31% [SHORTFALL]
+              biswakarma_2019_ne_cgrain_c6_2020     176.0 157.053067 -10.77% [SHORTFALL]
+      biswakarma_2019_ffp_aglivc-cgrain_c6_2020     230.8 119.761900 -48.11% [SHORTFALL]
+      biswakarma_2019_rfa_aglivc-cgrain_c6_2020     299.2 153.887433 -48.57% [SHORTFALL]
+       biswakarma_2019_ne_aglivc-cgrain_c6_2020     324.8 179.268400 -44.81% [SHORTFALL]
+         biswakarma_2019_pnb_ffp_cgrain_c6_2020     139.2 103.258100 -25.82% [SHORTFALL]
+         biswakarma_2019_pnb_rfa_cgrain_c6_2020     179.2 145.336000 -18.90% [SHORTFALL]
+          biswakarma_2019_pnb_ne_cgrain_c6_2020     200.0 154.419100 -22.79% [SHORTFALL]
+       biswakarma_2019_zt-fb_ffp_cgrain_c6_2020     146.4 106.237500 -27.43% [SHORTFALL]
+       biswakarma_2019_zt-fb_rfa_cgrain_c6_2020     177.6 154.317100 -13.11% [SHORTFALL]
+        biswakarma_2019_zt-fb_ne_cgrain_c6_2020     191.6 162.321000 -15.28% [SHORTFALL]
+          biswakarma_2019_ct_ffp_cgrain_c6_2020     121.2 103.258100 -14.80% [SHORTFALL]
+          biswakarma_2019_ct_rfa_cgrain_c6_2020     140.8 145.336000              +3.22%
+           biswakarma_2019_ct_ne_cgrain_c6_2020     140.4 154.419100              +9.99%
+  biswakarma_2019_pnb_ffp_aglivc-cgrain_c6_2020     268.0 118.635000 -55.73% [SHORTFALL]
+  biswakarma_2019_pnb_rfa_aglivc-cgrain_c6_2020     339.6 166.609800 -50.94% [SHORTFALL]
+   biswakarma_2019_pnb_ne_aglivc-cgrain_c6_2020     350.4 176.506300 -49.63% [SHORTFALL]
+biswakarma_2019_zt-fb_ffp_aglivc-cgrain_c6_2020     238.0 122.015700 -48.73% [SHORTFALL]
+biswakarma_2019_zt-fb_rfa_aglivc-cgrain_c6_2020     315.2 176.417500 -44.03% [SHORTFALL]
+ biswakarma_2019_zt-fb_ne_aglivc-cgrain_c6_2020     309.6 184.792600 -40.31% [SHORTFALL]
+   biswakarma_2019_ct_ffp_aglivc-cgrain_c6_2020     189.2 118.635000 -37.30% [SHORTFALL]
+   biswakarma_2019_ct_rfa_aglivc-cgrain_c6_2020     242.0 166.609800 -31.15% [SHORTFALL]
+    biswakarma_2019_ct_ne_aglivc-cgrain_c6_2020     314.4 176.506300 -43.86% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Biswakarma_2019_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 30
+R²: 0.4664
+RMSE: 96.13 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Biswakarma_2019_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'comment uncertainty units', 'Comment', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 38
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+    [DEBUG] Checking Treatment Sch: PNB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_RFA
+    [DEBUG] Checking Treatment Sch: PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_NE
+    [DEBUG] Checking Treatment Sch: PNB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: FFP
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_FFP_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'biswakarma_2019_pnb_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_FFP
+    [DEBUG] Checking Treatment Sch: ZT-FB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_RFA
+    [DEBUG] Checking Treatment Sch: ZT-FB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_NE
+    [DEBUG] Checking Treatment Sch: ZT-FB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'biswakarma_2019_zt-fb_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_FFP
+    [DEBUG] Checking Treatment Sch: CT_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_RFA
+    [DEBUG] Checking Treatment Sch: CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_NE
+    [DEBUG] Checking Treatment Sch: CT_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NE
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_NE_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'biswakarma_2019_ct_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+    [DEBUG] Checking Treatment Sch: PNB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_RFA
+    [DEBUG] Checking Treatment Sch: PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_NE
+    [DEBUG] Checking Treatment Sch: PNB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: FFP
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_FFP_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'biswakarma_2019_pnb_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_FFP
+    [DEBUG] Checking Treatment Sch: ZT-FB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_RFA
+    [DEBUG] Checking Treatment Sch: ZT-FB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_NE
+    [DEBUG] Checking Treatment Sch: ZT-FB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'biswakarma_2019_zt-fb_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_FFP
+    [DEBUG] Checking Treatment Sch: CT_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_RFA
+    [DEBUG] Checking Treatment Sch: CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_NE
+    [DEBUG] Checking Treatment Sch: CT_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: NE
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_NE_output
+    [DEBUG] Sch file exists: False
+Successfully processed: 'biswakarma_2019_ct_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_FFP
+    [DEBUG] Checking Treatment Sch: ZT-FB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_FFP
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+Successfully processed: 'biswakarma_2019_ffp_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_RFA
+    [DEBUG] Checking Treatment Sch: ZT-FB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_RFA
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+Successfully processed: 'biswakarma_2019_rfa_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_NE
+    [DEBUG] Checking Treatment Sch: ZT-FB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_NE
+    [DEBUG] Checking Treatment Sch: PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_NE
+Successfully processed: 'biswakarma_2019_ne_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: ZT-FB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: PNB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_half rfa + cr_cgrain_c6_2020'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_FFP
+    [DEBUG] Checking Treatment Sch: ZT-FB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_FFP
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+Successfully processed: 'biswakarma_2019_ffp_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_RFA
+    [DEBUG] Checking Treatment Sch: ZT-FB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_RFA
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+Successfully processed: 'biswakarma_2019_rfa_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_NE
+    [DEBUG] Checking Treatment Sch: ZT-FB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_NE
+    [DEBUG] Checking Treatment Sch: PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_NE
+Successfully processed: 'biswakarma_2019_ne_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: ZT-FB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: PNB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_half rfa + cr_aglivc-cgrain_c6_2020'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+Successfully processed: 'biswakarma_2019_pnb_ffp_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_RFA
+Successfully processed: 'biswakarma_2019_pnb_rfa_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_NE
+Successfully processed: 'biswakarma_2019_pnb_ne_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_pnb_half rfa + cr_cgrain_c6_2020'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_FFP
+Successfully processed: 'biswakarma_2019_zt-fb_ffp_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_RFA
+Successfully processed: 'biswakarma_2019_zt-fb_rfa_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_NE
+Successfully processed: 'biswakarma_2019_zt-fb_ne_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_zt-fb_half rfa + cr_cgrain_c6_2020'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_FFP
+Successfully processed: 'biswakarma_2019_ct_ffp_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_RFA
+Successfully processed: 'biswakarma_2019_ct_rfa_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_NE
+Successfully processed: 'biswakarma_2019_ct_ne_cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_ct_half rfa + cr_cgrain_c6_2020'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_FFP
+Successfully processed: 'biswakarma_2019_pnb_ffp_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_RFA
+Successfully processed: 'biswakarma_2019_pnb_rfa_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in PNB_NE
+Successfully processed: 'biswakarma_2019_pnb_ne_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: PNB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_PNB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_pnb_half rfa + cr_aglivc-cgrain_c6_2020'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_FFP
+Successfully processed: 'biswakarma_2019_zt-fb_ffp_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_RFA
+Successfully processed: 'biswakarma_2019_zt-fb_rfa_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in ZT-FB_NE
+Successfully processed: 'biswakarma_2019_zt-fb_ne_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: ZT-FB_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_ZT-FB_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_zt-fb_half rfa + cr_aglivc-cgrain_c6_2020'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_FFP
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_FFP_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_FFP
+Successfully processed: 'biswakarma_2019_ct_ffp_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_RFA
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_RFA_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_RFA
+Successfully processed: 'biswakarma_2019_ct_rfa_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_NE
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_NE_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CT_NE
+Successfully processed: 'biswakarma_2019_ct_ne_aglivc-cgrain_c6_2020'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: CT_half
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CT_half_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: RFA
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_RFA_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: +
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_+_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: CR
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/Biswakarma_2019_out/Biswakarma_2019_CR_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'biswakarma_2019_ct_half rfa + cr_aglivc-cgrain_c6_2020'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Biswakarma_2019/observed_vs_modeled_biomass.png'
+--- Script finished. ---

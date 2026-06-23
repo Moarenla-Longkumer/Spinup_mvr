@@ -1,0 +1,120 @@
+SOMSC Check Summary for Site: Jain_2018
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-96.26%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,922.43 g C / m²
+Change during Equilibrium Phase: +2,965.35 g C / m²
+Change during Base Phase: -4,798.23 g C / m²
+Final SOMSC at end of Base Phase: 140.30 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,751.33 g C / m²
+Model is 96.26% lower than observation.
+(Difference: -3,611.03 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 11
+Experiments with SOMSC increase: 8, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  + TRT_PW_CT_GM_GG (+3.02)
+  + TRT_PW_CT_GM_SE (+3.02)
+  + TRT_PW_CT_NR (+9.75)
+  + TRT_PW_CT_WSI (+65.11)
+  + TRT_PW_ZT_GM_GG (+7.15)
+  + TRT_PW_ZT_GM_SE (+7.15)
+  + TRT_PW_ZT_NR (+14.18)
+  + TRT_PW_ZT_WSI (+66.68)
+
+SOMSC Decrease (g C / m²):
+  - TRT_PN_GM_GG (-26.16)
+  - TRT_PN_GM_SE (-26.80)
+  - TRT_PN_NR (-20.07)
+
+--- Experimental Analysis ---
+'jain_2018_trt_pn_gm_gg_somsc' Change: -26.16 g C / m² (End value: 3,725.15)
+'jain_2018_trt_pn_gm_se_somsc' Change: -26.80 g C / m² (End value: 3,724.51)
+'jain_2018_trt_pn_nr_somsc' Change: -20.07 g C / m² (End value: 3,731.23)
+'jain_2018_trt_pw_ct_gm_gg_somsc' Change: +3.02 g C / m² (End value: 3,754.32)
+'jain_2018_trt_pw_ct_gm_se_somsc' Change: +3.02 g C / m² (End value: 3,754.32)
+'jain_2018_trt_pw_ct_nr_somsc' Change: +9.75 g C / m² (End value: 3,761.05)
+'jain_2018_trt_pw_ct_wsi_somsc' Change: +65.11 g C / m² (End value: 3,816.42)
+'jain_2018_trt_pw_zt_gm_gg_somsc' Change: +7.15 g C / m² (End value: 3,758.45)
+'jain_2018_trt_pw_zt_gm_se_somsc' Change: +7.15 g C / m² (End value: 3,758.45)
+'jain_2018_trt_pw_zt_nr_somsc' Change: +14.18 g C / m² (End value: 3,765.48)
+'jain_2018_trt_pw_zt_wsi_somsc' Change: +66.68 g C / m² (End value: 3,817.99)
+
+Average SOMSC at end of all experimental phases: 3,760.67 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_pn_nr (Years: 2012, Day: 300)... SUCCESS: 3736.16
+ -> Checking trt_pn_gm_se (Years: 2012, Day: 300)... SUCCESS: 3729.64
+ -> Checking trt_pn_gm_gg (Years: 2012, Day: 300)... SUCCESS: 3729.89
+ -> Checking trt_pw_ct_nr (Years: 2013, Day: 70)... SUCCESS: 3751.93
+ -> Checking trt_pw_ct_gm_se (Years: 2013, Day: 70)... SUCCESS: 3745.28
+ -> Checking trt_pw_ct_gm_gg (Years: 2013, Day: 70)... SUCCESS: 3745.28
+ -> Checking trt_pw_ct_wsi (Years: 2013, Day: 70)... SUCCESS: 3806.41
+ -> Checking trt_pw_zt_nr (Years: 2013, Day: 70)... SUCCESS: 3757.93
+ -> Checking trt_pw_zt_gm_se (Years: 2013, Day: 70)... SUCCESS: 3750.22
+ -> Checking trt_pw_zt_gm_gg (Years: 2013, Day: 70)... SUCCESS: 3750.22
+ -> Checking trt_pw_zt_wsi (Years: 2013, Day: 70)... SUCCESS: 3810.22
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jain_2018/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jain_2018/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Jain_2018/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 11
+Rows passing delta rule (sim >= obs): 11
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                    Observation  Observed  Simulated Difference
+      jain_2018_trt_pn_nr_somsc    2759.4  3736.1643    +35.40%
+   jain_2018_trt_pn_gm_se_somsc    3175.2  3729.6383    +17.46%
+   jain_2018_trt_pn_gm_gg_somsc    3175.2  3729.8925    +17.47%
+   jain_2018_trt_pw_ct_nr_somsc    3024.0  3751.9344    +24.07%
+jain_2018_trt_pw_ct_gm_se_somsc    3099.6  3745.2800    +20.83%
+jain_2018_trt_pw_ct_gm_gg_somsc    3061.8  3745.2800    +22.32%
+  jain_2018_trt_pw_ct_wsi_somsc    3061.8  3806.4142    +24.32%
+   jain_2018_trt_pw_zt_nr_somsc    3137.4  3757.9335    +19.78%
+jain_2018_trt_pw_zt_gm_se_somsc    3326.4  3750.2201    +12.74%
+jain_2018_trt_pw_zt_gm_gg_somsc    3213.0  3750.2201    +16.72%
+  jain_2018_trt_pw_zt_wsi_somsc    3175.2  3810.2161    +20.00%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 11
+R²: 0.0094
+RMSE: 660.17 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Jain_2018_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+jain_2018_trt_pn_nr_somsc,trt_pn_nr,2012,300,2759.4,3736.1643
+jain_2018_trt_pn_gm_se_somsc,trt_pn_gm_se,2012,300,3175.2,3729.6383
+jain_2018_trt_pn_gm_gg_somsc,trt_pn_gm_gg,2012,300,3175.2,3729.8925
+jain_2018_trt_pw_ct_nr_somsc,trt_pw_ct_nr,2013,70,3024.0,3751.9343999999996
+jain_2018_trt_pw_ct_gm_se_somsc,trt_pw_ct_gm_se,2013,70,3099.6,3745.2799999999997
+jain_2018_trt_pw_ct_gm_gg_somsc,trt_pw_ct_gm_gg,2013,70,3061.8,3745.2799999999997
+jain_2018_trt_pw_ct_wsi_somsc,trt_pw_ct_wsi,2013,70,3061.8,3806.4142
+jain_2018_trt_pw_zt_nr_somsc,trt_pw_zt_nr,2013,70,3137.4,3757.9335
+jain_2018_trt_pw_zt_gm_se_somsc,trt_pw_zt_gm_se,2013,70,3326.4,3750.2201
+jain_2018_trt_pw_zt_gm_gg_somsc,trt_pw_zt_gm_gg,2013,70,3213.0,3750.2201
+jain_2018_trt_pw_zt_wsi_somsc,trt_pw_zt_wsi,2013,70,3175.2,3810.2161

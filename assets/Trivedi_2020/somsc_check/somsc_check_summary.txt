@@ -1,0 +1,106 @@
+SOMSC Check Summary for Site: Trivedi_2020
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,971.42 g C / m²
+Change during Equilibrium Phase: +2,066.07 g C / m²
+Change during Base Phase: +3,095.85 g C / m²
+Final SOMSC at end of Base Phase: 7,163.09 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 5,203.61 g C / m²
+Model is 37.66% higher than observation.
+(Difference: +1,959.48 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 3, SOMSC decrease: 5
+
+SOMSC Increase (g C / m²):
+  + TRT_FYM (+1845.34)
+  + TRT_FYMPKL_ADJ (+1745.86)
+  + TRT_FYMPK_ADJ (+1914.85)
+
+SOMSC Decrease (g C / m²):
+  - TRT_CONTROL (-2443.33)
+  - TRT_N (-1963.53)
+  - TRT_NL (-1993.82)
+  - TRT_NPK (-1963.69)
+  - TRT_NPKL (-1993.92)
+
+--- Experimental Analysis ---
+'trivedi_2020_trt_control_somsc' Change: -2,443.33 g C / m² (End value: 2,760.19)
+'trivedi_2020_trt_fym_somsc' Change: +1,845.34 g C / m² (End value: 7,048.86)
+'trivedi_2020_trt_fympkl_adj_somsc' Change: +1,745.86 g C / m² (End value: 6,949.38)
+'trivedi_2020_trt_fympk_adj_somsc' Change: +1,914.85 g C / m² (End value: 7,118.37)
+'trivedi_2020_trt_n_somsc' Change: -1,963.53 g C / m² (End value: 3,239.99)
+'trivedi_2020_trt_nl_somsc' Change: -1,993.82 g C / m² (End value: 3,209.70)
+'trivedi_2020_trt_npk_somsc' Change: -1,963.69 g C / m² (End value: 3,239.83)
+'trivedi_2020_trt_npkl_somsc' Change: -1,993.92 g C / m² (End value: 3,209.60)
+
+Average SOMSC at end of all experimental phases: 4,596.99 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_control (Years: 2016, Day: 120)... SUCCESS: 2765.16
+ -> Checking trt_n (Years: 2016, Day: 120)... SUCCESS: 3240.18
+ -> Checking trt_fym (Years: 2016, Day: 120)... SUCCESS: 7129.40
+ -> Checking trt_npk (Years: 2016, Day: 120)... SUCCESS: 3240.01
+ -> Checking trt_fympk_adj (Years: 2016, Day: 120)... SUCCESS: 7200.70
+ -> Checking trt_fympkl_adj (Years: 2016, Day: 120)... SUCCESS: 7027.31
+ -> Checking trt_npkl (Years: 2016, Day: 120)... SUCCESS: 3210.15
+ -> Checking trt_nl (Years: 2016, Day: 120)... SUCCESS: 3210.24
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 8
+Rows passing delta rule (sim >= obs): 4
+Rows with shortfall (sim < obs): 4
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                      Observation  Observed  Simulated          Difference
+   trivedi_2020_trt_control_somsc    2777.0  2765.1595  -0.43% [SHORTFALL]
+         trivedi_2020_trt_n_somsc    2709.0  3240.1750             +19.61%
+       trivedi_2020_trt_fym_somsc    4232.0  7129.4046             +68.46%
+       trivedi_2020_trt_npk_somsc    3634.0  3240.0084 -10.84% [SHORTFALL]
+ trivedi_2020_trt_fympk_adj_somsc    4859.0  7200.7013             +48.19%
+trivedi_2020_trt_fympkl_adj_somsc    4686.0  7027.3101             +49.96%
+      trivedi_2020_trt_npkl_somsc    5076.0  3210.1488 -36.76% [SHORTFALL]
+        trivedi_2020_trt_nl_somsc    3632.0  3210.2385 -11.61% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Trivedi_2020_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 8
+R²: 0.3670
+RMSE: 1712.35 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Trivedi_2020_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+trivedi_2020_trt_control_somsc,trt_control,2016,120,2777.0,2765.1594999999998
+trivedi_2020_trt_n_somsc,trt_n,2016,120,2709.0,3240.175
+trivedi_2020_trt_fym_somsc,trt_fym,2016,120,4232.0,7129.4046
+trivedi_2020_trt_npk_somsc,trt_npk,2016,120,3634.0,3240.0084
+trivedi_2020_trt_fympk_adj_somsc,trt_fympk_adj,2016,120,4859.0,7200.7013
+trivedi_2020_trt_fympkl_adj_somsc,trt_fympkl_adj,2016,120,4686.0,7027.310100000001
+trivedi_2020_trt_npkl_somsc,trt_npkl,2016,120,5076.0,3210.1488
+trivedi_2020_trt_nl_somsc,trt_nl,2016,120,3632.0,3210.2385

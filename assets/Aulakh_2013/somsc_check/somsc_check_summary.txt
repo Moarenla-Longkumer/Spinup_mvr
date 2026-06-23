@@ -1,0 +1,192 @@
+SOMSC Check Summary for Site: Aulakh_2013
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-90.32%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,902.48 g C / m²
+Change during Equilibrium Phase: +503.97 g C / m²
+Change during Base Phase: -2,057.02 g C / m²
+Final SOMSC at end of Base Phase: 373.40 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,856.47 g C / m²
+Model is 90.32% lower than observation.
+(Difference: -3,483.07 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 16
+Experiments with SOMSC increase: 8, SOMSC decrease: 8
+
+SOMSC Increase (g C / m²):
+  + T12 (+479.98)
+  + T14 (+83.26)
+  + T15 (+83.21)
+  + T16 (+583.01)
+  + T4 (+541.50)
+  + T6 (+87.94)
+  + T7 (+88.04)
+  + T8 (+664.27)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-68.42)
+  - T10 (-17.23)
+  - T11 (-17.23)
+  - T13 (-25.20)
+  - T2 (-32.08)
+  - T3 (-32.05)
+  - T5 (-31.75)
+  - T9 (-55.42)
+
+--- Experimental Analysis ---
+'aulakh_2013_t1_somsc' Change: -68.42 g C / m² (End value: 3,788.03)
+'aulakh_2013_t10_somsc' Change: -17.23 g C / m² (End value: 3,839.22)
+'aulakh_2013_t11_somsc' Change: -17.23 g C / m² (End value: 3,839.22)
+'aulakh_2013_t12_somsc' Change: +479.98 g C / m² (End value: 4,336.43)
+'aulakh_2013_t13_somsc' Change: -25.20 g C / m² (End value: 3,831.25)
+'aulakh_2013_t14_somsc' Change: +83.26 g C / m² (End value: 3,939.71)
+'aulakh_2013_t15_somsc' Change: +83.21 g C / m² (End value: 3,939.66)
+'aulakh_2013_t16_somsc' Change: +583.01 g C / m² (End value: 4,439.45)
+'aulakh_2013_t2_somsc' Change: -32.08 g C / m² (End value: 3,824.37)
+'aulakh_2013_t3_somsc' Change: -32.05 g C / m² (End value: 3,824.40)
+'aulakh_2013_t4_somsc' Change: +541.50 g C / m² (End value: 4,397.95)
+'aulakh_2013_t5_somsc' Change: -31.75 g C / m² (End value: 3,824.70)
+'aulakh_2013_t6_somsc' Change: +87.94 g C / m² (End value: 3,944.39)
+'aulakh_2013_t7_somsc' Change: +88.04 g C / m² (End value: 3,944.49)
+'aulakh_2013_t8_somsc' Change: +664.27 g C / m² (End value: 4,520.72)
+'aulakh_2013_t9_somsc' Change: -55.42 g C / m² (End value: 3,801.03)
+
+Average SOMSC at end of all experimental phases: 4,002.19 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2007, Day: 88)... SUCCESS: 3836.33
+ -> Checking t2 (Years: 2007, Day: 88)... SUCCESS: 3846.46
+ -> Checking t3 (Years: 2007, Day: 88)... SUCCESS: 3846.46
+ -> Checking t4 (Years: 2007, Day: 88)... SUCCESS: 4133.25
+ -> Checking t5 (Years: 2007, Day: 88)... SUCCESS: 3850.99
+ -> Checking t6 (Years: 2007, Day: 88)... SUCCESS: 3889.01
+ -> Checking t7 (Years: 2007, Day: 88)... SUCCESS: 3888.98
+ -> Checking t8 (Years: 2007, Day: 88)... SUCCESS: 4176.26
+ -> Checking t9 (Years: 2007, Day: 88)... SUCCESS: 3842.50
+ -> Checking t10 (Years: 2007, Day: 88)... SUCCESS: 3852.77
+ -> Checking t11 (Years: 2007, Day: 88)... SUCCESS: 3852.75
+ -> Checking t12 (Years: 2007, Day: 88)... SUCCESS: 4052.10
+ -> Checking t13 (Years: 2007, Day: 88)... SUCCESS: 3851.94
+ -> Checking t14 (Years: 2007, Day: 88)... SUCCESS: 3879.51
+ -> Checking t15 (Years: 2007, Day: 88)... SUCCESS: 3879.41
+ -> Checking t16 (Years: 2007, Day: 88)... SUCCESS: 4079.05
+ -> Checking t1 (Years: 2009, Day: 88)... SUCCESS: 3799.54
+ -> Checking t2 (Years: 2009, Day: 88)... SUCCESS: 3828.98
+ -> Checking t3 (Years: 2009, Day: 88)... SUCCESS: 3829.04
+ -> Checking t4 (Years: 2009, Day: 88)... SUCCESS: 4417.88
+ -> Checking t5 (Years: 2009, Day: 88)... SUCCESS: 3835.67
+ -> Checking t6 (Years: 2009, Day: 88)... SUCCESS: 3948.69
+ -> Checking t7 (Years: 2009, Day: 88)... SUCCESS: 3948.79
+ -> Checking t8 (Years: 2009, Day: 88)... SUCCESS: 4539.33
+ -> Checking t9 (Years: 2009, Day: 88)... SUCCESS: 3813.38
+ -> Checking t10 (Years: 2009, Day: 88)... SUCCESS: 3844.33
+ -> Checking t11 (Years: 2009, Day: 88)... SUCCESS: 3844.35
+ -> Checking t12 (Years: 2009, Day: 88)... SUCCESS: 4340.95
+ -> Checking t13 (Years: 2009, Day: 88)... SUCCESS: 3842.29
+ -> Checking t14 (Years: 2009, Day: 88)... SUCCESS: 3940.70
+ -> Checking t15 (Years: 2009, Day: 88)... SUCCESS: 3940.64
+ -> Checking t16 (Years: 2009, Day: 88)... SUCCESS: 4439.18
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Aulakh_2013/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Aulakh_2013/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Aulakh_2013/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 32
+Rows passing delta rule (sim >= obs): 32
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+          Observation  Observed  Simulated Difference
+ aulakh_2013_t1_somsc     561.0  3836.3318   +583.84%
+ aulakh_2013_t2_somsc     618.0  3846.4597   +522.40%
+ aulakh_2013_t3_somsc     647.0  3846.4646   +494.51%
+ aulakh_2013_t4_somsc     685.0  4133.2528   +503.39%
+ aulakh_2013_t5_somsc     603.0  3850.9914   +538.64%
+ aulakh_2013_t6_somsc     664.0  3889.0148   +485.69%
+ aulakh_2013_t7_somsc     715.0  3888.9844   +443.91%
+ aulakh_2013_t8_somsc     801.0  4176.2610   +421.38%
+ aulakh_2013_t9_somsc     656.0  3842.5035   +485.75%
+aulakh_2013_t10_somsc     686.0  3852.7733   +461.63%
+aulakh_2013_t11_somsc     708.0  3852.7518   +444.17%
+aulakh_2013_t12_somsc     735.0  4052.1023   +451.31%
+aulakh_2013_t13_somsc     704.0  3851.9386   +447.15%
+aulakh_2013_t14_somsc     735.0  3879.5116   +427.82%
+aulakh_2013_t15_somsc     752.0  3879.4116   +415.88%
+aulakh_2013_t16_somsc     780.0  4079.0528   +422.96%
+ aulakh_2013_t1_somsc     570.0  3799.5426   +566.59%
+ aulakh_2013_t2_somsc     627.0  3828.9794   +510.68%
+ aulakh_2013_t3_somsc     686.0  3829.0438   +458.17%
+ aulakh_2013_t4_somsc     796.0  4417.8815   +455.01%
+ aulakh_2013_t5_somsc     682.0  3835.6672   +462.41%
+ aulakh_2013_t6_somsc     731.0  3948.6911   +440.18%
+ aulakh_2013_t7_somsc     815.0  3948.7912   +384.51%
+ aulakh_2013_t8_somsc     866.0  4539.3300   +424.17%
+ aulakh_2013_t9_somsc     663.0  3813.3842   +475.17%
+aulakh_2013_t10_somsc     701.0  3844.3299   +448.41%
+aulakh_2013_t11_somsc     730.0  3844.3525   +426.62%
+aulakh_2013_t12_somsc     827.0  4340.9467   +424.90%
+aulakh_2013_t13_somsc     724.0  3842.2921   +430.70%
+aulakh_2013_t14_somsc     768.0  3940.7008   +413.11%
+aulakh_2013_t15_somsc     829.0  3940.6387   +375.35%
+aulakh_2013_t16_somsc     900.0  4439.1777   +393.24%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 32
+R²: 0.5533
+RMSE: 3251.80 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+aulakh_2013_t1_somsc,t1,2007,88,561.0,3836.3318
+aulakh_2013_t2_somsc,t2,2007,88,618.0,3846.4597
+aulakh_2013_t3_somsc,t3,2007,88,647.0,3846.4646
+aulakh_2013_t4_somsc,t4,2007,88,685.0,4133.2528
+aulakh_2013_t5_somsc,t5,2007,88,603.0,3850.9914
+aulakh_2013_t6_somsc,t6,2007,88,664.0,3889.0148
+aulakh_2013_t7_somsc,t7,2007,88,715.0,3888.9844
+aulakh_2013_t8_somsc,t8,2007,88,801.0,4176.261
+aulakh_2013_t9_somsc,t9,2007,88,656.0,3842.5035
+aulakh_2013_t10_somsc,t10,2007,88,686.0,3852.7733
+aulakh_2013_t11_somsc,t11,2007,88,708.0,3852.7518
+aulakh_2013_t12_somsc,t12,2007,88,735.0,4052.1023
+aulakh_2013_t13_somsc,t13,2007,88,704.0,3851.9386
+aulakh_2013_t14_somsc,t14,2007,88,735.0,3879.5116
+aulakh_2013_t15_somsc,t15,2007,88,752.0,3879.4116000000004
+aulakh_2013_t16_somsc,t16,2007,88,780.0,4079.0528
+aulakh_2013_t1_somsc,t1,2009,88,570.0,3799.5425999999998
+aulakh_2013_t2_somsc,t2,2009,88,627.0,3828.9794
+aulakh_2013_t3_somsc,t3,2009,88,686.0,3829.0438000000004
+aulakh_2013_t4_somsc,t4,2009,88,796.0,4417.8814999999995
+aulakh_2013_t5_somsc,t5,2009,88,682.0,3835.6672000000003
+aulakh_2013_t6_somsc,t6,2009,88,731.0,3948.6911
+aulakh_2013_t7_somsc,t7,2009,88,815.0,3948.7912
+aulakh_2013_t8_somsc,t8,2009,88,866.0,4539.33
+aulakh_2013_t9_somsc,t9,2009,88,663.0,3813.3842
+aulakh_2013_t10_somsc,t10,2009,88,701.0,3844.3298999999997
+aulakh_2013_t11_somsc,t11,2009,88,730.0,3844.3525
+aulakh_2013_t12_somsc,t12,2009,88,827.0,4340.9466999999995
+aulakh_2013_t13_somsc,t13,2009,88,724.0,3842.2921
+aulakh_2013_t14_somsc,t14,2009,88,768.0,3940.7008
+aulakh_2013_t15_somsc,t15,2009,88,829.0,3940.6387
+aulakh_2013_t16_somsc,t16,2009,88,900.0,4439.1777

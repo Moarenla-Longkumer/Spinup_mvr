@@ -1,0 +1,57 @@
+N2O Check Summary for Site: Ma_2021
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 10
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 10
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+             Observation  Observed  Simulated             Difference
+ma_2021_ck_nan_2017_2017  8.909091  3829.3571 +42882.58% [OVER >50%]
+ma_2021_ck_nan_2018_2018 11.709091   118.3467   +910.72% [OVER >50%]
+ ma_2021_s_nan_2017_2017  6.172727  3459.7171 +55948.44% [OVER >50%]
+ ma_2021_s_nan_2018_2018  6.618182   202.9938  +2967.21% [OVER >50%]
+ma_2021_si_nan_2017_2017  6.872727  3459.7171 +50239.80% [OVER >50%]
+ma_2021_si_nan_2018_2018  7.890909   202.9938  +2472.50% [OVER >50%]
+ma_2021_sm_nan_2017_2017  7.254545  3459.7171 +47590.34% [OVER >50%]
+ma_2021_sm_nan_2018_2018  8.718182   202.9938  +2228.40% [OVER >50%]
+ma_2021_sb_nan_2017_2017  8.081818  2192.9786 +27034.72% [OVER >50%]
+ma_2021_sb_nan_2018_2018 10.563636  2032.4866 +19140.41% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Ma_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 10
+R²: 0.1261
+RMSE: 2436.23
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and period dates in `observations/Ma_2021_obs.csv`.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 10
+ -> ck period 2017-146 to 2017-300... SUCCESS: sim=3829.3571
+ -> ck period 2018-146 to 2018-300... SUCCESS: sim=118.3467
+ -> s period 2017-146 to 2017-300... SUCCESS: sim=3459.7171
+ -> s period 2018-146 to 2018-300... SUCCESS: sim=202.9938
+ -> si period 2017-146 to 2017-300... SUCCESS: sim=3459.7171
+ -> si period 2018-146 to 2018-300... SUCCESS: sim=202.9938
+ -> sm period 2017-146 to 2017-300... SUCCESS: sim=3459.7171
+ -> sm period 2018-146 to 2018-300... SUCCESS: sim=202.9938
+ -> sb period 2017-146 to 2017-300... SUCCESS: sim=2192.9786
+ -> sb period 2018-146 to 2018-300... SUCCESS: sim=2032.4866
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/observed_vs_modeled_n2o.png'

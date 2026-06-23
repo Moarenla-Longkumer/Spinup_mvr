@@ -1,0 +1,114 @@
+SOMSC Check Summary for Site: Purakayastha_2008
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-61.44%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,882.54 g C / m²
+Change during Equilibrium Phase: +382.79 g C / m²
+Change during Base Phase: -1,032.78 g C / m²
+Final SOMSC at end of Base Phase: 1,248.67 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,238.07 g C / m²
+Model is 61.44% lower than observation.
+(Difference: -1,989.40 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 1, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + 100_NPK_Manure (+3642.29)
+
+SOMSC Decrease (g C / m²):
+  - 100_NPK (-24.01)
+  - 150_NPK (-650.48)
+  - 50_NPK (-754.31)
+  - Control (-930.24)
+
+--- Experimental Analysis ---
+'purakayastha_2008_100_npk_somsc' Change: -24.01 g C / m² (End value: 3,214.04)
+'purakayastha_2008_100_npk_manure_somsc' Change: +3,642.29 g C / m² (End value: 6,880.34)
+'purakayastha_2008_150_npk_somsc' Change: -650.48 g C / m² (End value: 2,587.57)
+'purakayastha_2008_50_npk_somsc' Change: -754.31 g C / m² (End value: 2,483.74)
+'purakayastha_2008_control_somsc' Change: -930.24 g C / m² (End value: 2,307.82)
+
+Average SOMSC at end of all experimental phases: 3,494.70 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking 50_npk (Years: 1994, Day: 273)... SUCCESS: 2548.41
+ -> Checking 100_npk (Years: 1994, Day: 273)... SUCCESS: 3247.19
+ -> Checking 150_npk (Years: 1994, Day: 273)... SUCCESS: 2636.94
+ -> Checking 100_np (Years: 1994, Day: 273)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Purakayastha_2008/Purakayastha_2008_out/Purakayastha_2008_100_NP_output/soilc.out FAILED: No matching data found.
+ -> Checking 100_n (Years: 1994, Day: 273)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Purakayastha_2008/Purakayastha_2008_out/Purakayastha_2008_100_N_output/soilc.out FAILED: No matching data found.
+ -> Checking 100_npk_manure (Years: 1994, Day: 273)... SUCCESS: 6811.34
+ -> Checking control (Years: 1994, Day: 273)... SUCCESS: 2404.58
+ -> Checking 50_npk (Years: 2003, Day: 273)... SUCCESS: 2480.55
+ -> Checking 100_npk (Years: 2003, Day: 273)... SUCCESS: 3215.10
+ -> Checking 150_npk (Years: 2003, Day: 273)... SUCCESS: 2580.70
+ -> Checking 100_np (Years: 2003, Day: 273)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Purakayastha_2008/Purakayastha_2008_out/Purakayastha_2008_100_NP_output/soilc.out FAILED: No matching data found.
+ -> Checking 100_n (Years: 2003, Day: 273)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Purakayastha_2008/Purakayastha_2008_out/Purakayastha_2008_100_N_output/soilc.out FAILED: No matching data found.
+ -> Checking 100_npk_manure (Years: 2003, Day: 273)... SUCCESS: 6916.73
+ -> Checking control (Years: 2003, Day: 273)... SUCCESS: 2308.56
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Purakayastha_2008/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Purakayastha_2008/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Purakayastha_2008/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 10
+Rows passing delta rule (sim >= obs): 2
+Rows with shortfall (sim < obs): 8
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                           Observation    Observed  Simulated          Difference
+        purakayastha_2008_50_npk_somsc 3140.000000  2548.4064 -18.84% [SHORTFALL]
+       purakayastha_2008_100_npk_somsc 3266.666667  3247.1853  -0.60% [SHORTFALL]
+       purakayastha_2008_150_npk_somsc 3606.666667  2636.9382 -26.89% [SHORTFALL]
+purakayastha_2008_100_npk_manure_somsc 3886.666667  6811.3371             +75.25%
+       purakayastha_2008_control_somsc 2993.333333  2404.5829 -19.67% [SHORTFALL]
+        purakayastha_2008_50_npk_somsc 3433.333333  2480.5458 -27.75% [SHORTFALL]
+       purakayastha_2008_100_npk_somsc 3606.666667  3215.1041 -10.86% [SHORTFALL]
+       purakayastha_2008_150_npk_somsc 4233.333333  2580.6997 -39.04% [SHORTFALL]
+purakayastha_2008_100_npk_manure_somsc 4806.666667  6916.7285             +43.90%
+       purakayastha_2008_control_somsc 3246.666667  2308.5646 -28.89% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Purakayastha_2008_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 10
+R²: 0.4869
+RMSE: 1389.81 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Purakayastha_2008_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+purakayastha_2008_50_npk_somsc,50_npk,1994,273,3140.0,2548.4064
+purakayastha_2008_100_npk_somsc,100_npk,1994,273,3266.666667,3247.1852999999996
+purakayastha_2008_150_npk_somsc,150_npk,1994,273,3606.666667,2636.9382
+purakayastha_2008_100_npk_manure_somsc,100_npk_manure,1994,273,3886.666667,6811.337100000001
+purakayastha_2008_control_somsc,control,1994,273,2993.333333,2404.5829
+purakayastha_2008_50_npk_somsc,50_npk,2003,273,3433.333333,2480.5458
+purakayastha_2008_100_npk_somsc,100_npk,2003,273,3606.666667,3215.1041
+purakayastha_2008_150_npk_somsc,150_npk,2003,273,4233.333333,2580.6997
+purakayastha_2008_100_npk_manure_somsc,100_npk_manure,2003,273,4806.666667,6916.728499999999
+purakayastha_2008_control_somsc,control,2003,273,3246.666667,2308.5645999999997

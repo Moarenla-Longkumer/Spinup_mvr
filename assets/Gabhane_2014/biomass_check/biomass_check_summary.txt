@@ -1,0 +1,510 @@
+Biomass Check Summary for Site: Gabhane_2014
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+Fix observations / re-run extract_biomass.py.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 48
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_ct_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_mt_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f1_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f2_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f3_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f4_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f5_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F6_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f6_cgrain_cot'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_ct_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_mt_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f1_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f2_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f3_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f4_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f5_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F6_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f6_cgrain_cot_2005'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_ct_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_mt_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f1_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f2_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f3_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f4_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f5_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F6_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f6_cgrain_cot_2006'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_ct_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_mt_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f1_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f2_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f3_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f4_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f5_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F6_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f6_cgrain_cot_2007'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_ct_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_mt_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f1_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f2_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f3_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f4_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f5_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F6_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f6_cgrain_cot_2008'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_ct_cgrain_cot_2009'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_mt_cgrain_cot_2009'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F1
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f1_cgrain_cot_2009'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F2
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f2_cgrain_cot_2009'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F3
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f3_cgrain_cot_2009'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F4
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f4_cgrain_cot_2009'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_CT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_MT_F5
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f5_cgrain_cot_2009'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_MT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F6_output
+    [DEBUG] Sch file exists: False
+    [DEBUG] Checking Treatment Sch: TRT_CT_F6
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F6_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'gabhane_2014_trt_f6_cgrain_cot_2009'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/output_biomass.txt'
+
+No data available to plot or save.
+--- Script finished. ---

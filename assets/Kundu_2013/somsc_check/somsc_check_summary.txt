@@ -1,0 +1,92 @@
+SOMSC Check Summary for Site: Kundu_2013
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-84.56%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,893.77 g C / m²
+Change during Equilibrium Phase: +1,855.78 g C / m²
+Change during Base Phase: -3,115.69 g C / m²
+Final SOMSC at end of Base Phase: 661.86 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,285.76 g C / m²
+Model is 84.56% lower than observation.
+(Difference: -3,623.90 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 16
+Experiments with SOMSC increase: 6, SOMSC decrease: 10
+
+SOMSC Increase (g C / m²):
+  + CS_-B (+34.89)
+  + CS_-K (+34.89)
+  + CS_-P (+34.89)
+  + CS_-S (+34.89)
+  + CS_-Zn (+34.89)
+  + CS_NPKSZnB (+34.89)
+
+SOMSC Decrease (g C / m²):
+  - CS_-N (-3.08)
+  - CS_Control (-15.61)
+  - CV_-B (-25.92)
+  - CV_-K (-25.92)
+  - CV_-N (-39.25)
+  - CV_-P (-25.92)
+  - CV_-S (-25.92)
+  - CV_-Zn (-25.92)
+  - CV_Control (-45.52)
+  - CV_NPKSZnB (-25.92)
+
+--- Experimental Analysis ---
+'kundu_2013_cs_-b_somsc' Change: +34.89 g C / m² (End value: 4,320.66)
+'kundu_2013_cs_-k_somsc' Change: +34.89 g C / m² (End value: 4,320.66)
+'kundu_2013_cs_-n_somsc' Change: -3.08 g C / m² (End value: 4,282.69)
+'kundu_2013_cs_-p_somsc' Change: +34.89 g C / m² (End value: 4,320.66)
+'kundu_2013_cs_-s_somsc' Change: +34.89 g C / m² (End value: 4,320.66)
+'kundu_2013_cs_-zn_somsc' Change: +34.89 g C / m² (End value: 4,320.66)
+'kundu_2013_cs_control_somsc' Change: -15.61 g C / m² (End value: 4,270.16)
+'kundu_2013_cs_npksznb_somsc' Change: +34.89 g C / m² (End value: 4,320.66)
+'kundu_2013_cv_-b_somsc' Change: -25.92 g C / m² (End value: 4,259.86)
+'kundu_2013_cv_-k_somsc' Change: -25.92 g C / m² (End value: 4,259.86)
+'kundu_2013_cv_-n_somsc' Change: -39.25 g C / m² (End value: 4,246.52)
+'kundu_2013_cv_-p_somsc' Change: -25.92 g C / m² (End value: 4,259.86)
+'kundu_2013_cv_-s_somsc' Change: -25.92 g C / m² (End value: 4,259.86)
+'kundu_2013_cv_-zn_somsc' Change: -25.92 g C / m² (End value: 4,259.86)
+'kundu_2013_cv_control_somsc' Change: -45.52 g C / m² (End value: 4,240.25)
+'kundu_2013_cv_npksznb_somsc' Change: -25.92 g C / m² (End value: 4,259.86)
+
+Average SOMSC at end of all experimental phases: 4,282.67 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking cs_control (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cs_npksznb (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cs_-n (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cs_-p (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cs_-k (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cs_-s (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cs_-zn (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cs_-b (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_control (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_npksznb (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_-n (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_-p (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_-k (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_-s (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_-zn (Years: 2011, Day: 281364)... FAILED: No matching data found.
+ -> Checking cv_-b (Years: 2011, Day: 281364)... FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kundu_2013/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

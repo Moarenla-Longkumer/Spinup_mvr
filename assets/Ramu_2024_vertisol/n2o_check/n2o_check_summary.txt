@@ -1,0 +1,40 @@
+N2O Check Summary for Site: Ramu_2024_vertisol
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 2
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 2
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                     Observation  Observed  Simulated              Difference
+ramu_2024_vertisol_t1_vertisol_n2oflux_2010_2010    0.0825   816.3097 +989366.30% [OVER >50%]
+ramu_2024_vertisol_t2_vertisol_n2oflux_2010_2010    0.4000  1719.5401 +429785.02% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Ramu_2024_vertisol_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 2
+R²: 1.0000
+RMSE: 1345.67
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 2
+ -> t1_vertisol period 2010-161 to 2010-283... SUCCESS: sim=816.3097
+ -> t2_vertisol period 2010-161 to 2010-283... SUCCESS: sim=1719.5401
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ramu_2024_vertisol/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ramu_2024_vertisol/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ramu_2024_vertisol/observed_vs_modeled_n2o.png'

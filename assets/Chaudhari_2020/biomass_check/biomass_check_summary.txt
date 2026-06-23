@@ -1,0 +1,169 @@
+Biomass Check Summary for Site: Chaudhari_2020
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 10
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 10
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                                             Observation  Observed  Simulated          Difference
+           chaudhari_2020_trt_t1_ct-ct_cgrain_ggram_2017    26.415     0.7990 -96.98% [SHORTFALL]
+           chaudhari_2020_trt_t2_ct-zt_cgrain_ggram_2017    24.615     0.7986 -96.76% [SHORTFALL]
+           chaudhari_2020_trt_t3_zt-zt_cgrain_ggram_2017    24.795     0.7986 -96.78% [SHORTFALL]
+         chaudhari_2020_trt_t4_zt-zt+r_cgrain_ggram_2017    25.200     0.7986 -96.83% [SHORTFALL]
+       chaudhari_2020_trt_t5_zt+r-zt+r_cgrain_ggram_2017    30.465     0.7982 -97.38% [SHORTFALL]
+    chaudhari_2020_trt_t1_ct-ct_aglivc-cgrain_ggram_2017    41.715     1.7820 -95.73% [SHORTFALL]
+    chaudhari_2020_trt_t2_ct-zt_aglivc-cgrain_ggram_2017    40.410     1.7824 -95.59% [SHORTFALL]
+    chaudhari_2020_trt_t3_zt-zt_aglivc-cgrain_ggram_2017    40.545     1.7824 -95.60% [SHORTFALL]
+  chaudhari_2020_trt_t4_zt-zt+r_aglivc-cgrain_ggram_2017    41.535     1.7824 -95.71% [SHORTFALL]
+chaudhari_2020_trt_t5_zt+r-zt+r_aglivc-cgrain_ggram_2017    47.880     1.7826 -96.28% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Chaudhari_2020_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 10
+R²: 0.9124
+RMSE: 34.01 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 20
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_CT-CT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T1_CT-CT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t1_ct-ct_cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_CT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T2_CT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t2_ct-zt_cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_ZT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T3_ZT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t3_zt-zt_cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T4_ZT-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T4_ZT-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t4_zt-zt+r_cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T5_ZT+R-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T5_ZT+R-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t5_zt+r-zt+r_cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_CT-CT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T1_CT-CT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for aglivc-cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t1_ct-ct_aglivc-cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_CT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T2_CT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for aglivc-cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t2_ct-zt_aglivc-cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_ZT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T3_ZT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for aglivc-cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t3_zt-zt_aglivc-cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T4_ZT-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T4_ZT-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for aglivc-cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t4_zt-zt+r_aglivc-cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T5_ZT+R-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T5_ZT+R-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for aglivc-cgrain in Year(s) 2017
+-! WARNING: Calculation failed for 'chaudhari_2020_trt_t5_zt+r-zt+r_aglivc-cgrain_cot_2017'. No data found.
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_CT-CT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T1_CT-CT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T1_CT-CT
+Successfully processed: 'chaudhari_2020_trt_t1_ct-ct_cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_CT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T2_CT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T2_CT-ZT
+Successfully processed: 'chaudhari_2020_trt_t2_ct-zt_cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_ZT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T3_ZT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T3_ZT-ZT
+Successfully processed: 'chaudhari_2020_trt_t3_zt-zt_cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T4_ZT-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T4_ZT-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T4_ZT-ZT+R
+Successfully processed: 'chaudhari_2020_trt_t4_zt-zt+r_cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T5_ZT+R-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T5_ZT+R-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T5_ZT+R-ZT+R
+Successfully processed: 'chaudhari_2020_trt_t5_zt+r-zt+r_cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T1_CT-CT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T1_CT-CT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T1_CT-CT
+Successfully processed: 'chaudhari_2020_trt_t1_ct-ct_aglivc-cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T2_CT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T2_CT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T2_CT-ZT
+Successfully processed: 'chaudhari_2020_trt_t2_ct-zt_aglivc-cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T3_ZT-ZT
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T3_ZT-ZT_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T3_ZT-ZT
+Successfully processed: 'chaudhari_2020_trt_t3_zt-zt_aglivc-cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T4_ZT-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T4_ZT-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T4_ZT-ZT+R
+Successfully processed: 'chaudhari_2020_trt_t4_zt-zt+r_aglivc-cgrain_ggram_2017'
+    [WARN] Non-numeric target_crop_num 'GGRAM' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: TRT_T5_ZT+R-ZT+R
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/Chaudhari_2020_out/Chaudhari_2020_TRT_T5_ZT+R-ZT+R_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in TRT_T5_ZT+R-ZT+R
+Successfully processed: 'chaudhari_2020_trt_t5_zt+r-zt+r_aglivc-cgrain_ggram_2017'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chaudhari_2020/observed_vs_modeled_biomass.png'
+--- Script finished. ---

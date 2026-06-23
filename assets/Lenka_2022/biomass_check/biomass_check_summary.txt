@@ -1,0 +1,111 @@
+Biomass Check Summary for Site: Lenka_2022
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 12
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 12
+
+                       Observation  Observed  Simulated         Difference
+lenka_2022_rt-t1_cgrain_sbean_2012       NaN    22.2846 FLAG (invalid obs)
+lenka_2022_rt-t2_cgrain_sbean_2012       NaN    22.2855 FLAG (invalid obs)
+lenka_2022_rt-t3_cgrain_sbean_2012       NaN    22.2862 FLAG (invalid obs)
+lenka_2022_nt-t1_cgrain_sbean_2012       NaN    22.2414 FLAG (invalid obs)
+lenka_2022_nt-t2_cgrain_sbean_2012       NaN    22.2417 FLAG (invalid obs)
+lenka_2022_nt-t3_cgrain_sbean_2012       NaN    22.2419 FLAG (invalid obs)
+lenka_2022_rt-t1_cgrain_sw3eg_2013       NaN   112.1006 FLAG (invalid obs)
+lenka_2022_rt-t2_cgrain_sw3eg_2013       NaN   105.9445 FLAG (invalid obs)
+lenka_2022_rt-t3_cgrain_sw3eg_2013       NaN   101.5025 FLAG (invalid obs)
+lenka_2022_nt-t1_cgrain_sw3eg_2013       NaN   108.4903 FLAG (invalid obs)
+lenka_2022_nt-t2_cgrain_sw3eg_2013       NaN   106.6975 FLAG (invalid obs)
+lenka_2022_nt-t3_cgrain_sw3eg_2013       NaN   105.1425 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Lenka_2022_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 0
+R²: undefined
+RMSE: undefined
+Status: CANNOT ASSESS - R² is undefined (need at least 2 paired points). Fix observations / extraction.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'Comment', 'depth', 'value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 12
+    [DEBUG] Checking Treatment Sch: RT-T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_RT-T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT-T1
+Successfully processed: 'lenka_2022_rt-t1_cgrain_sbean_2012'
+    [DEBUG] Checking Treatment Sch: RT-T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_RT-T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT-T2
+Successfully processed: 'lenka_2022_rt-t2_cgrain_sbean_2012'
+    [DEBUG] Checking Treatment Sch: RT-T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_RT-T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT-T3
+Successfully processed: 'lenka_2022_rt-t3_cgrain_sbean_2012'
+    [DEBUG] Checking Treatment Sch: NT-T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_NT-T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT-T1
+Successfully processed: 'lenka_2022_nt-t1_cgrain_sbean_2012'
+    [DEBUG] Checking Treatment Sch: NT-T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_NT-T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT-T2
+Successfully processed: 'lenka_2022_nt-t2_cgrain_sbean_2012'
+    [DEBUG] Checking Treatment Sch: NT-T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_NT-T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT-T3
+Successfully processed: 'lenka_2022_nt-t3_cgrain_sbean_2012'
+    [DEBUG] Checking Treatment Sch: RT-T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_RT-T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT-T1
+Successfully processed: 'lenka_2022_rt-t1_cgrain_sw3eg_2013'
+    [DEBUG] Checking Treatment Sch: RT-T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_RT-T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT-T2
+Successfully processed: 'lenka_2022_rt-t2_cgrain_sw3eg_2013'
+    [DEBUG] Checking Treatment Sch: RT-T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_RT-T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in RT-T3
+Successfully processed: 'lenka_2022_rt-t3_cgrain_sw3eg_2013'
+    [DEBUG] Checking Treatment Sch: NT-T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_NT-T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT-T1
+Successfully processed: 'lenka_2022_nt-t1_cgrain_sw3eg_2013'
+    [DEBUG] Checking Treatment Sch: NT-T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_NT-T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT-T2
+Successfully processed: 'lenka_2022_nt-t2_cgrain_sw3eg_2013'
+    [DEBUG] Checking Treatment Sch: NT-T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/Lenka_2022_out/Lenka_2022_NT-T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NT-T3
+Successfully processed: 'lenka_2022_nt-t3_cgrain_sw3eg_2013'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2022/observed_vs_modeled_biomass.png'
+--- Script finished. ---

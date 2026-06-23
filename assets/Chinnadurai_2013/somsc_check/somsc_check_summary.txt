@@ -1,0 +1,57 @@
+SOMSC Check Summary for Site: Chinnadurai_2013
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-92.20%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,889.05 g C / m²
+Change during Equilibrium Phase: +487.53 g C / m²
+Change during Base Phase: -1,933.03 g C / m²
+Final SOMSC at end of Base Phase: 484.17 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 6,204.94 g C / m²
+Model is 92.20% lower than observation.
+(Difference: -5,720.77 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 3
+Experiments with SOMSC increase: 0, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - Control (-2188.17)
+  - IC (-2185.17)
+  - OM (-2254.76)
+
+--- Experimental Analysis ---
+'chinnadurai_2013_control_somsc' Change: -2,188.17 g C / m² (End value: 4,017.11)
+'chinnadurai_2013_ic_somsc' Change: -2,185.17 g C / m² (End value: 4,020.11)
+'chinnadurai_2013_om_somsc' Change: -2,254.76 g C / m² (End value: 4,019.63)
+
+Average SOMSC at end of all experimental phases: 4,018.95 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking control (Years: 2009, Day: 247)... SUCCESS: 4039.36
+ -> Checking om (Years: 2009, Day: 247)... SUCCESS: 4041.91
+ -> Checking ic (Years: 2009, Day: 247)... SUCCESS: 4042.38
+ -> Checking control (Years: 2010, Day: 247)... SUCCESS: 4022.51
+ -> Checking om (Years: 2010, Day: 247)... SUCCESS: 4025.04
+ -> Checking ic (Years: 2010, Day: 247)... SUCCESS: 4025.51
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chinnadurai_2013/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

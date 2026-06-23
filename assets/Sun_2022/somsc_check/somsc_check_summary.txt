@@ -1,0 +1,58 @@
+SOMSC Check Summary for Site: Sun_2022
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-92.95%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,975.33 g C / m²
+Change during Equilibrium Phase: +3,535.55 g C / m²
+Change during Base Phase: -4,734.82 g C / m²
+Final SOMSC at end of Base Phase: 807.14 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 11,443.93 g C / m²
+Model is 92.95% lower than observation.
+(Difference: -10,636.79 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 7
+Experiments with SOMSC increase: 0, SOMSC decrease: 7
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - FO_N1 (-47.07)
+  - FO_N2 (-46.92)
+  - FO_N3 (-46.92)
+  - SC_N0 (-62.07)
+  - SC_N1 (-49.72)
+  - SC_N2 (-49.50)
+  - SC_N3 (-49.43)
+
+--- Experimental Analysis ---
+'sun_2022_fo_n1_somsc' Change: -47.07 g C / m² (End value: 11,396.88)
+'sun_2022_fo_n2_somsc' Change: -46.92 g C / m² (End value: 11,397.03)
+'sun_2022_fo_n3_somsc' Change: -46.92 g C / m² (End value: 11,397.03)
+'sun_2022_sc_n0_somsc' Change: -62.07 g C / m² (End value: 11,381.88)
+'sun_2022_sc_n1_somsc' Change: -49.72 g C / m² (End value: 11,394.24)
+'sun_2022_sc_n2_somsc' Change: -49.50 g C / m² (End value: 11,394.45)
+'sun_2022_sc_n3_somsc' Change: -49.43 g C / m² (End value: 11,394.52)
+
+Average SOMSC at end of all experimental phases: 11,393.72 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+[INFO] No SOMSC observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sun_2022/observed_vs_modeled_somsc.png'
+[INFO] Observed-vs-modelled metrics skipped because observed SOMSC data is missing.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

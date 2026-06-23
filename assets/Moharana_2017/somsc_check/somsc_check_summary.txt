@@ -1,0 +1,63 @@
+SOMSC Check Summary for Site: Moharana_2017
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-88.51%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,856.74 g C / m²
+Change during Equilibrium Phase: -593.05 g C / m²
+Change during Base Phase: -977.10 g C / m²
+Final SOMSC at end of Base Phase: 295.25 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 2,569.04 g C / m²
+Model is 88.51% lower than observation.
+(Difference: -2,273.79 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 1, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + Wh_Pm (+60.61)
+
+SOMSC Decrease (g C / m²):
+  - Ba_F (-148.39)
+  - Ch_Gr (-220.60)
+  - Mu_Mo (-245.03)
+  - Wh_Gg (-132.43)
+
+--- Experimental Analysis ---
+'moharana_2017_ba_f_somsc' Change: -148.39 g C / m² (End value: 2,420.64)
+'moharana_2017_ch_gr_somsc' Change: -220.60 g C / m² (End value: 2,348.43)
+'moharana_2017_mu_mo_somsc' Change: -245.03 g C / m² (End value: 2,324.00)
+'moharana_2017_wh_gg_somsc' Change: -132.43 g C / m² (End value: 2,436.60)
+'moharana_2017_wh_pm_somsc' Change: +60.61 g C / m² (End value: 2,629.64)
+
+Average SOMSC at end of all experimental phases: 2,431.86 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking b (Years: 2014, Day: 118)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Moharana_2017/Moharana_2017_out/Moharana_2017_B_output/soilc.out FAILED: No matching data found.
+ -> Checking f (Years: 2014, Day: 118)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Moharana_2017/Moharana_2017_out/Moharana_2017_F_output/soilc.out FAILED: No matching data found.
+ -> Checking ba_f (Years: 2014, Day: 118)... SUCCESS: 2423.53
+ -> Checking mu_mo (Years: 2014, Day: 118)... SUCCESS: 2333.42
+ -> Checking ch_gr (Years: 2014, Day: 118)... SUCCESS: 2356.37
+ -> Checking wh_gg (Years: 2014, Day: 118)... SUCCESS: 2435.96
+ -> Checking wh_pm (Years: 2014, Day: 118)... SUCCESS: 2635.98
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Moharana_2017/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

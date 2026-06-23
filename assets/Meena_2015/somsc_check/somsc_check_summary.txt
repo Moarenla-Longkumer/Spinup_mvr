@@ -1,0 +1,120 @@
+SOMSC Check Summary for Site: Meena_2015
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-57.58%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,915.27 g C / m²
+Change during Equilibrium Phase: +1,078.63 g C / m²
+Change during Base Phase: -1,434.67 g C / m²
+Final SOMSC at end of Base Phase: 1,583.20 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,732.46 g C / m²
+Model is 57.58% lower than observation.
+(Difference: -2,149.26 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 16
+Experiments with SOMSC increase: 8, SOMSC decrease: 8
+
+SOMSC Increase (g C / m²):
+  + TRT_MCG_ZT_MUL (+94.67)
+  + TRT_MCG_ZT_REM (+12.76)
+  + TRT_MLG_ZT_MUL (+92.49)
+  + TRT_MLG_ZT_REM (+4.29)
+  + TRT_MMG_ZT_MUL (+84.74)
+  + TRT_MMG_ZT_REM (+17.12)
+  + TRT_MWG_ZT_MUL (+150.66)
+  + TRT_MWG_ZT_REM (+33.01)
+
+SOMSC Decrease (g C / m²):
+  - TRT_MCG_CT_INC (-162.24)
+  - TRT_MCG_CT_REM (-269.69)
+  - TRT_MLG_CT_INC (-138.59)
+  - TRT_MLG_CT_REM (-279.56)
+  - TRT_MMG_CT_INC (-176.15)
+  - TRT_MMG_CT_REM (-260.46)
+  - TRT_MWG_CT_INC (-69.86)
+  - TRT_MWG_CT_REM (-252.27)
+
+--- Experimental Analysis ---
+'meena_2015_trt_mcg_ct_inc_somsc' Change: -162.24 g C / m² (End value: 3,570.20)
+'meena_2015_trt_mcg_ct_rem_somsc' Change: -269.69 g C / m² (End value: 3,462.75)
+'meena_2015_trt_mcg_zt_mul_somsc' Change: +94.67 g C / m² (End value: 3,827.12)
+'meena_2015_trt_mcg_zt_rem_somsc' Change: +12.76 g C / m² (End value: 3,745.21)
+'meena_2015_trt_mlg_ct_inc_somsc' Change: -138.59 g C / m² (End value: 3,593.86)
+'meena_2015_trt_mlg_ct_rem_somsc' Change: -279.56 g C / m² (End value: 3,452.88)
+'meena_2015_trt_mlg_zt_mul_somsc' Change: +92.49 g C / m² (End value: 3,824.93)
+'meena_2015_trt_mlg_zt_rem_somsc' Change: +4.29 g C / m² (End value: 3,736.74)
+'meena_2015_trt_mmg_ct_inc_somsc' Change: -176.15 g C / m² (End value: 3,556.29)
+'meena_2015_trt_mmg_ct_rem_somsc' Change: -260.46 g C / m² (End value: 3,471.98)
+'meena_2015_trt_mmg_zt_mul_somsc' Change: +84.74 g C / m² (End value: 3,817.18)
+'meena_2015_trt_mmg_zt_rem_somsc' Change: +17.12 g C / m² (End value: 3,749.56)
+'meena_2015_trt_mwg_ct_inc_somsc' Change: -69.86 g C / m² (End value: 3,662.58)
+'meena_2015_trt_mwg_ct_rem_somsc' Change: -252.27 g C / m² (End value: 3,480.18)
+'meena_2015_trt_mwg_zt_mul_somsc' Change: +150.66 g C / m² (End value: 3,883.11)
+'meena_2015_trt_mwg_zt_rem_somsc' Change: +33.01 g C / m² (End value: 3,765.46)
+
+Average SOMSC at end of all experimental phases: 3,662.50 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_group_mmg (Years: 2007, Day: 176)... SUCCESS: 3674.85
+ -> Checking trt_group_mcg (Years: 2007, Day: 176)... SUCCESS: 3677.34
+ -> Checking trt_group_mlg (Years: 2007, Day: 176)... SUCCESS: 3677.44
+ -> Checking trt_group_mwg (Years: 2007, Day: 176)... SUCCESS: 3723.81
+ -> Checking trt_group_ct_rem (Years: 2007, Day: 176)... SUCCESS: 3489.78
+ -> Checking trt_group_ct_inc (Years: 2007, Day: 176)... SUCCESS: 3622.70
+ -> Checking trt_group_zt_rem (Years: 2007, Day: 176)... SUCCESS: 3778.60
+ -> Checking trt_group_zt_mul (Years: 2007, Day: 176)... SUCCESS: 3862.35
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Meena_2015/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Meena_2015/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Meena_2015/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 8
+Rows passing delta rule (sim >= obs): 8
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                      Observation  Observed   Simulated Difference
+   meena_2015_trt_group_mmg_somsc  1297.125 3674.851050   +183.31%
+   meena_2015_trt_group_mcg_somsc  1568.835 3677.337750   +134.40%
+   meena_2015_trt_group_mlg_somsc  1358.775 3677.440400   +170.64%
+   meena_2015_trt_group_mwg_somsc  1434.150 3723.809050   +159.65%
+meena_2015_trt_group_ct_rem_somsc  1209.360 3489.782825   +188.56%
+meena_2015_trt_group_ct_inc_somsc  1430.460 3622.700850   +153.25%
+meena_2015_trt_group_zt_rem_somsc  1480.500 3778.601850   +155.22%
+meena_2015_trt_group_zt_mul_somsc  1556.700 3862.352725   +148.11%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 8
+R²: 0.5660
+RMSE: 2272.71 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+meena_2015_trt_group_mmg_somsc,trt_group_mmg,2007,176,1297.125,3674.85105
+meena_2015_trt_group_mcg_somsc,trt_group_mcg,2007,176,1568.835,3677.33775
+meena_2015_trt_group_mlg_somsc,trt_group_mlg,2007,176,1358.775,3677.4404
+meena_2015_trt_group_mwg_somsc,trt_group_mwg,2007,176,1434.15,3723.80905
+meena_2015_trt_group_ct_rem_somsc,trt_group_ct_rem,2007,176,1209.36,3489.7828250000002
+meena_2015_trt_group_ct_inc_somsc,trt_group_ct_inc,2007,176,1430.46,3622.70085
+meena_2015_trt_group_zt_rem_somsc,trt_group_zt_rem,2007,176,1480.5,3778.60185
+meena_2015_trt_group_zt_mul_somsc,trt_group_zt_mul,2007,176,1556.7,3862.3527249999997

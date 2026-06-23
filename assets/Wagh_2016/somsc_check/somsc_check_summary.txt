@@ -1,0 +1,68 @@
+SOMSC Check Summary for Site: Wagh_2016
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-85.49%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,968.90 g C / m²
+Change during Equilibrium Phase: +3,211.68 g C / m²
+Change during Base Phase: -4,750.61 g C / m²
+Final SOMSC at end of Base Phase: 471.01 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,246.02 g C / m²
+Model is 85.49% lower than observation.
+(Difference: -2,775.01 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 7
+Experiments with SOMSC increase: 6, SOMSC decrease: 1
+
+SOMSC Increase (g C / m²):
+  + Set_II_T3 (+90.14)
+  + Set_II_T4 (+129.69)
+  + Set_II_T6 (+40.15)
+  + Set_I_T3 (+99.37)
+  + Set_I_T4 (+72.49)
+  + Set_I_T6 (+32.69)
+
+SOMSC Decrease (g C / m²):
+  - Set_I_T1 (-13.20)
+
+--- Experimental Analysis ---
+'wagh_2016_set_ii_t3_somsc' Change: +90.14 g C / m² (End value: 3,336.44)
+'wagh_2016_set_ii_t4_somsc' Change: +129.69 g C / m² (End value: 3,375.99)
+'wagh_2016_set_ii_t6_somsc' Change: +40.15 g C / m² (End value: 3,286.45)
+'wagh_2016_set_i_t1_somsc' Change: -13.20 g C / m² (End value: 3,233.11)
+'wagh_2016_set_i_t3_somsc' Change: +99.37 g C / m² (End value: 3,345.68)
+'wagh_2016_set_i_t4_somsc' Change: +72.49 g C / m² (End value: 3,318.79)
+'wagh_2016_set_i_t6_somsc' Change: +32.69 g C / m² (End value: 3,278.99)
+
+Average SOMSC at end of all experimental phases: 3,310.78 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking set_i (Years: 2013, Day: 354)... SUCCESS: 3294.06
+ -> Checking set_ii (Years: 2013, Day: 354)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016__T1_output/soilc.out SUCCESS: 3332.89
+ -> Checking t1 (Years: 2013, Day: 354)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016_Set_II_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/Wagh_2016_out/Wagh_2016__T1_output/soilc.out SUCCESS: 3233.02
+ -> Checking t3 (Years: 2013, Day: 354)... SUCCESS: 3340.99
+ -> Checking t4 (Years: 2013, Day: 354)... SUCCESS: 3347.31
+ -> Checking t6 (Years: 2013, Day: 354)... SUCCESS: 3282.65
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Wagh_2016/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

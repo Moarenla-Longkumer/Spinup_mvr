@@ -1,0 +1,193 @@
+SOMSC Check Summary for Site: Kumar_2016
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-2.82%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,902.48 g C / m²
+Change during Equilibrium Phase: +503.97 g C / m²
+Change during Base Phase: +1,317.44 g C / m²
+Final SOMSC at end of Base Phase: 3,747.78 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,856.47 g C / m²
+Model is 2.82% lower than observation.
+(Difference: -108.69 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 16
+Experiments with SOMSC increase: 7, SOMSC decrease: 9
+
+SOMSC Increase (g C / m²):
+  + TRT_CA_100NP_CR (+93.69)
+  + TRT_CA_100NP_FYM_CR (+518.66)
+  + TRT_CA_100NP_FYM_NOCR (+377.10)
+  + TRT_CA_125NP_CR (+97.49)
+  + TRT_CA_CONTROL_CR (+61.39)
+  + TRT_CT_100NP_FYM_CR (+406.21)
+  + TRT_CT_100NP_FYM_NOCR (+171.19)
+
+SOMSC Decrease (g C / m²):
+  - TRT_CA_100NP_NOCR (-72.66)
+  - TRT_CA_125NP_NOCR (-51.09)
+  - TRT_CA_CONTROL_NOCR (-90.67)
+  - TRT_CT_100NP_CR (-182.42)
+  - TRT_CT_100NP_NOCR (-384.80)
+  - TRT_CT_125NP_CR (-179.41)
+  - TRT_CT_125NP_NOCR (-381.09)
+  - TRT_CT_CONTROL_CR (-199.39)
+  - TRT_CT_CONTROL_NOCR (-403.27)
+
+--- Experimental Analysis ---
+'kumar_2016_trt_ca_100np_cr_somsc' Change: +93.69 g C / m² (End value: 3,950.13)
+'kumar_2016_trt_ca_100np_fym_cr_somsc' Change: +518.66 g C / m² (End value: 4,375.10)
+'kumar_2016_trt_ca_100np_fym_nocr_somsc' Change: +377.10 g C / m² (End value: 4,233.54)
+'kumar_2016_trt_ca_100np_nocr_somsc' Change: -72.66 g C / m² (End value: 3,783.78)
+'kumar_2016_trt_ca_125np_cr_somsc' Change: +97.49 g C / m² (End value: 3,953.94)
+'kumar_2016_trt_ca_125np_nocr_somsc' Change: -51.09 g C / m² (End value: 3,805.35)
+'kumar_2016_trt_ca_control_cr_somsc' Change: +61.39 g C / m² (End value: 3,917.84)
+'kumar_2016_trt_ca_control_nocr_somsc' Change: -90.67 g C / m² (End value: 3,765.77)
+'kumar_2016_trt_ct_100np_cr_somsc' Change: -182.42 g C / m² (End value: 3,674.02)
+'kumar_2016_trt_ct_100np_fym_cr_somsc' Change: +406.21 g C / m² (End value: 4,262.65)
+'kumar_2016_trt_ct_100np_fym_nocr_somsc' Change: +171.19 g C / m² (End value: 4,027.63)
+'kumar_2016_trt_ct_100np_nocr_somsc' Change: -384.80 g C / m² (End value: 3,471.65)
+'kumar_2016_trt_ct_125np_cr_somsc' Change: -179.41 g C / m² (End value: 3,677.03)
+'kumar_2016_trt_ct_125np_nocr_somsc' Change: -381.09 g C / m² (End value: 3,475.35)
+'kumar_2016_trt_ct_control_cr_somsc' Change: -199.39 g C / m² (End value: 3,657.06)
+'kumar_2016_trt_ct_control_nocr_somsc' Change: -403.27 g C / m² (End value: 3,453.17)
+
+Average SOMSC at end of all experimental phases: 3,842.75 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_ct_control_nocr (Years: 2007, Day: 154)... SUCCESS: 3660.07
+ -> Checking trt_ct_control_nocr (Years: 2009, Day: 154)... SUCCESS: 3474.14
+ -> Checking trt_ct_100np_nocr (Years: 2007, Day: 154)... SUCCESS: 3665.12
+ -> Checking trt_ct_100np_nocr (Years: 2009, Day: 154)... SUCCESS: 3489.12
+ -> Checking trt_ct_125np_nocr (Years: 2007, Day: 154)... SUCCESS: 3666.19
+ -> Checking trt_ct_125np_nocr (Years: 2009, Day: 154)... SUCCESS: 3491.70
+ -> Checking trt_ct_100np_fym_nocr (Years: 2007, Day: 154)... SUCCESS: 3967.28
+ -> Checking trt_ct_100np_fym_nocr (Years: 2009, Day: 154)... SUCCESS: 4059.07
+ -> Checking trt_ct_control_cr (Years: 2007, Day: 154)... SUCCESS: 3749.72
+ -> Checking trt_ct_control_cr (Years: 2009, Day: 154)... SUCCESS: 3680.36
+ -> Checking trt_ct_100np_cr (Years: 2007, Day: 154)... SUCCESS: 3754.43
+ -> Checking trt_ct_100np_cr (Years: 2009, Day: 154)... SUCCESS: 3694.23
+ -> Checking trt_ct_125np_cr (Years: 2007, Day: 154)... SUCCESS: 3755.31
+ -> Checking trt_ct_125np_cr (Years: 2009, Day: 154)... SUCCESS: 3696.26
+ -> Checking trt_ct_100np_fym_cr (Years: 2007, Day: 154)... SUCCESS: 4062.13
+ -> Checking trt_ct_100np_fym_cr (Years: 2009, Day: 154)... SUCCESS: 4294.41
+ -> Checking trt_ca_control_nocr (Years: 2007, Day: 154)... SUCCESS: 3829.96
+ -> Checking trt_ca_control_nocr (Years: 2009, Day: 154)... SUCCESS: 3795.09
+ -> Checking trt_ca_100np_nocr (Years: 2007, Day: 154)... SUCCESS: 3821.44
+ -> Checking trt_ca_100np_nocr (Years: 2009, Day: 154)... SUCCESS: 3808.43
+ -> Checking trt_ca_125np_nocr (Years: 2007, Day: 154)... SUCCESS: 3840.79
+ -> Checking trt_ca_125np_nocr (Years: 2009, Day: 154)... SUCCESS: 3828.82
+ -> Checking trt_ca_100np_fym_nocr (Years: 2007, Day: 154)... SUCCESS: 3990.64
+ -> Checking trt_ca_100np_fym_nocr (Years: 2009, Day: 154)... SUCCESS: 4239.42
+ -> Checking trt_ca_control_cr (Years: 2007, Day: 154)... SUCCESS: 3861.65
+ -> Checking trt_ca_control_cr (Years: 2009, Day: 154)... SUCCESS: 3934.03
+ -> Checking trt_ca_100np_cr (Years: 2007, Day: 154)... SUCCESS: 3870.54
+ -> Checking trt_ca_100np_cr (Years: 2009, Day: 154)... SUCCESS: 3960.90
+ -> Checking trt_ca_125np_cr (Years: 2007, Day: 154)... SUCCESS: 3871.66
+ -> Checking trt_ca_125np_cr (Years: 2009, Day: 154)... SUCCESS: 3963.71
+ -> Checking trt_ca_100np_fym_cr (Years: 2007, Day: 154)... SUCCESS: 4024.41
+ -> Checking trt_ca_100np_fym_cr (Years: 2009, Day: 154)... SUCCESS: 4362.17
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kumar_2016/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kumar_2016/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kumar_2016/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 32
+Rows passing delta rule (sim >= obs): 32
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                           Observation  Observed  Simulated Difference
+  kumar_2016_trt_ct_control_nocr_somsc     662.0  3660.0661   +452.88%
+  kumar_2016_trt_ct_control_nocr_somsc     761.0  3474.1355   +356.52%
+    kumar_2016_trt_ct_100np_nocr_somsc     824.0  3665.1193   +344.80%
+    kumar_2016_trt_ct_100np_nocr_somsc     854.0  3489.1222   +308.56%
+    kumar_2016_trt_ct_125np_nocr_somsc     862.0  3666.1887   +325.31%
+    kumar_2016_trt_ct_125np_nocr_somsc     970.0  3491.7019   +259.97%
+kumar_2016_trt_ct_100np_fym_nocr_somsc     912.0  3967.2763   +335.01%
+kumar_2016_trt_ct_100np_fym_nocr_somsc     966.0  4059.0705   +320.19%
+    kumar_2016_trt_ct_control_cr_somsc     770.0  3749.7167   +386.98%
+    kumar_2016_trt_ct_control_cr_somsc     834.0  3680.3593   +341.29%
+      kumar_2016_trt_ct_100np_cr_somsc     874.0  3754.4266   +329.57%
+      kumar_2016_trt_ct_100np_cr_somsc     922.0  3694.2330   +300.68%
+      kumar_2016_trt_ct_125np_cr_somsc     903.0  3755.3054   +315.87%
+      kumar_2016_trt_ct_125np_cr_somsc     972.0  3696.2607   +280.27%
+  kumar_2016_trt_ct_100np_fym_cr_somsc     971.0  4062.1307   +318.35%
+  kumar_2016_trt_ct_100np_fym_cr_somsc    1056.0  4294.4074   +306.67%
+  kumar_2016_trt_ca_control_nocr_somsc     782.0  3829.9557   +389.76%
+  kumar_2016_trt_ca_control_nocr_somsc     844.0  3795.0913   +349.66%
+    kumar_2016_trt_ca_100np_nocr_somsc     898.0  3821.4449   +325.55%
+    kumar_2016_trt_ca_100np_nocr_somsc     958.0  3808.4254   +297.54%
+    kumar_2016_trt_ca_125np_nocr_somsc     963.0  3840.7949   +298.84%
+    kumar_2016_trt_ca_125np_nocr_somsc     983.0  3828.8228   +289.50%
+kumar_2016_trt_ca_100np_fym_nocr_somsc     986.0  3990.6403   +304.73%
+kumar_2016_trt_ca_100np_fym_nocr_somsc    1023.0  4239.4180   +314.41%
+    kumar_2016_trt_ca_control_cr_somsc     837.0  3861.6539   +361.37%
+    kumar_2016_trt_ca_control_cr_somsc     882.0  3934.0261   +346.03%
+      kumar_2016_trt_ca_100np_cr_somsc    1018.0  3870.5356   +280.21%
+      kumar_2016_trt_ca_100np_cr_somsc    1012.0  3960.9033   +291.39%
+      kumar_2016_trt_ca_125np_cr_somsc    1048.0  3871.6552   +269.43%
+      kumar_2016_trt_ca_125np_cr_somsc    1108.0  3963.7067   +257.74%
+  kumar_2016_trt_ca_100np_fym_cr_somsc    1118.0  4024.4093   +259.97%
+  kumar_2016_trt_ca_100np_fym_cr_somsc    1156.0  4362.1660   +277.35%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 32
+R²: 0.4421
+RMSE: 2924.18 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Kumar_2016_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+kumar_2016_trt_ct_control_nocr_somsc,trt_ct_control_nocr,2007,154,662.0,3660.0661
+kumar_2016_trt_ct_control_nocr_somsc,trt_ct_control_nocr,2009,154,761.0,3474.1355
+kumar_2016_trt_ct_100np_nocr_somsc,trt_ct_100np_nocr,2007,154,824.0,3665.1193000000003
+kumar_2016_trt_ct_100np_nocr_somsc,trt_ct_100np_nocr,2009,154,854.0,3489.1222
+kumar_2016_trt_ct_125np_nocr_somsc,trt_ct_125np_nocr,2007,154,862.0,3666.1886999999997
+kumar_2016_trt_ct_125np_nocr_somsc,trt_ct_125np_nocr,2009,154,970.0,3491.7019
+kumar_2016_trt_ct_100np_fym_nocr_somsc,trt_ct_100np_fym_nocr,2007,154,912.0,3967.2763
+kumar_2016_trt_ct_100np_fym_nocr_somsc,trt_ct_100np_fym_nocr,2009,154,966.0,4059.0705
+kumar_2016_trt_ct_control_cr_somsc,trt_ct_control_cr,2007,154,770.0,3749.7167
+kumar_2016_trt_ct_control_cr_somsc,trt_ct_control_cr,2009,154,834.0,3680.3593
+kumar_2016_trt_ct_100np_cr_somsc,trt_ct_100np_cr,2007,154,874.0,3754.4266000000002
+kumar_2016_trt_ct_100np_cr_somsc,trt_ct_100np_cr,2009,154,922.0,3694.233
+kumar_2016_trt_ct_125np_cr_somsc,trt_ct_125np_cr,2007,154,903.0,3755.3054
+kumar_2016_trt_ct_125np_cr_somsc,trt_ct_125np_cr,2009,154,972.0,3696.2607
+kumar_2016_trt_ct_100np_fym_cr_somsc,trt_ct_100np_fym_cr,2007,154,971.0,4062.1307
+kumar_2016_trt_ct_100np_fym_cr_somsc,trt_ct_100np_fym_cr,2009,154,1056.0,4294.4074
+kumar_2016_trt_ca_control_nocr_somsc,trt_ca_control_nocr,2007,154,782.0,3829.9557
+kumar_2016_trt_ca_control_nocr_somsc,trt_ca_control_nocr,2009,154,844.0,3795.0913
+kumar_2016_trt_ca_100np_nocr_somsc,trt_ca_100np_nocr,2007,154,898.0,3821.4449
+kumar_2016_trt_ca_100np_nocr_somsc,trt_ca_100np_nocr,2009,154,958.0,3808.4254
+kumar_2016_trt_ca_125np_nocr_somsc,trt_ca_125np_nocr,2007,154,963.0,3840.7949
+kumar_2016_trt_ca_125np_nocr_somsc,trt_ca_125np_nocr,2009,154,983.0,3828.8228
+kumar_2016_trt_ca_100np_fym_nocr_somsc,trt_ca_100np_fym_nocr,2007,154,986.0,3990.6403
+kumar_2016_trt_ca_100np_fym_nocr_somsc,trt_ca_100np_fym_nocr,2009,154,1023.0,4239.418000000001
+kumar_2016_trt_ca_control_cr_somsc,trt_ca_control_cr,2007,154,837.0,3861.6539000000002
+kumar_2016_trt_ca_control_cr_somsc,trt_ca_control_cr,2009,154,882.0,3934.0261
+kumar_2016_trt_ca_100np_cr_somsc,trt_ca_100np_cr,2007,154,1018.0,3870.5356
+kumar_2016_trt_ca_100np_cr_somsc,trt_ca_100np_cr,2009,154,1012.0,3960.9033
+kumar_2016_trt_ca_125np_cr_somsc,trt_ca_125np_cr,2007,154,1048.0,3871.6552
+kumar_2016_trt_ca_125np_cr_somsc,trt_ca_125np_cr,2009,154,1108.0,3963.7067
+kumar_2016_trt_ca_100np_fym_cr_somsc,trt_ca_100np_fym_cr,2007,154,1118.0,4024.4093
+kumar_2016_trt_ca_100np_fym_cr_somsc,trt_ca_100np_fym_cr,2009,154,1156.0,4362.166

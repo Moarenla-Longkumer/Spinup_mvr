@@ -1,0 +1,109 @@
+SOMSC Check Summary for Site: Venkatesh_2013
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-82.28%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,945.89 g C / m²
+Change during Equilibrium Phase: +1,141.05 g C / m²
+Change during Base Phase: -2,361.59 g C / m²
+Final SOMSC at end of Base Phase: 727.90 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,107.64 g C / m²
+Model is 82.28% lower than observation.
+(Difference: -3,379.74 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 4, SOMSC decrease: 8
+
+SOMSC Increase (g C / m²):
+  + MWMC_O (+1535.00)
+  + MWMb_O (+1915.63)
+  + MW_O (+1440.64)
+  + PW_O (+1497.24)
+
+SOMSC Decrease (g C / m²):
+  - MWMC_C (-100.56)
+  - MWMC_I (-37.73)
+  - MWMb_C (-160.85)
+  - MWMb_I (-63.74)
+  - MW_C (-127.38)
+  - MW_I (-11.10)
+  - PW_C (-136.76)
+  - PW_I (-83.19)
+
+--- Experimental Analysis ---
+'venkatesh_2013_mwmc_c_somsc' Change: -100.56 g C / m² (End value: 4,007.08)
+'venkatesh_2013_mwmc_i_somsc' Change: -37.73 g C / m² (End value: 4,069.91)
+'venkatesh_2013_mwmc_o_somsc' Change: +1,535.00 g C / m² (End value: 5,642.65)
+'venkatesh_2013_mwmb_c_somsc' Change: -160.85 g C / m² (End value: 3,946.79)
+'venkatesh_2013_mwmb_i_somsc' Change: -63.74 g C / m² (End value: 4,043.90)
+'venkatesh_2013_mwmb_o_somsc' Change: +1,915.63 g C / m² (End value: 6,023.27)
+'venkatesh_2013_mw_c_somsc' Change: -127.38 g C / m² (End value: 3,980.26)
+'venkatesh_2013_mw_i_somsc' Change: -11.10 g C / m² (End value: 4,096.54)
+'venkatesh_2013_mw_o_somsc' Change: +1,440.64 g C / m² (End value: 5,548.28)
+'venkatesh_2013_pw_c_somsc' Change: -136.76 g C / m² (End value: 3,970.88)
+'venkatesh_2013_pw_i_somsc' Change: -83.19 g C / m² (End value: 4,024.45)
+'venkatesh_2013_pw_o_somsc' Change: +1,497.24 g C / m² (End value: 5,604.88)
+
+Average SOMSC at end of all experimental phases: 4,579.91 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking mw (Years: 2010, Day: 121)... SUCCESS: 4555.63
+ -> Checking mwmc (Years: 2010, Day: 121)... SUCCESS: 4591.71
+ -> Checking mwmb (Years: 2010, Day: 121)... SUCCESS: 4696.98
+ -> Checking pw (Years: 2010, Day: 121)... SUCCESS: 4545.21
+ -> Checking c (Years: 2010, Day: 121)... SUCCESS: 3986.22
+ -> Checking i (Years: 2010, Day: 121)... SUCCESS: 4067.02
+ -> Checking o (Years: 2010, Day: 121)... SUCCESS: 5738.91
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Venkatesh_2013/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Venkatesh_2013/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Venkatesh_2013/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 7
+Rows passing delta rule (sim >= obs): 7
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+              Observation  Observed   Simulated Difference
+  venkatesh_2013_mw_somsc    2043.0 4555.627600   +122.99%
+venkatesh_2013_mwmc_somsc    2244.0 4591.708033   +104.62%
+venkatesh_2013_mwmb_somsc    2312.0 4696.981933   +103.16%
+  venkatesh_2013_pw_somsc    2298.0 4545.208700    +97.79%
+   venkatesh_2013_c_somsc    1931.5 3986.217700   +106.38%
+   venkatesh_2013_i_somsc    2261.0 4067.018950    +79.88%
+   venkatesh_2013_o_somsc    2480.5 5738.908050   +131.36%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 7
+R²: 0.5490
+RMSE: 2410.21 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+venkatesh_2013_mw_somsc,mw,2010,121,2043.0,4555.627600000001
+venkatesh_2013_mwmc_somsc,mwmc,2010,121,2244.0,4591.708033333333
+venkatesh_2013_mwmb_somsc,mwmb,2010,121,2312.0,4696.9819333333335
+venkatesh_2013_pw_somsc,pw,2010,121,2298.0,4545.2087
+venkatesh_2013_c_somsc,c,2010,121,1931.5,3986.2177
+venkatesh_2013_i_somsc,i,2010,121,2261.0,4067.01895
+venkatesh_2013_o_somsc,o,2010,121,2480.5,5738.90805

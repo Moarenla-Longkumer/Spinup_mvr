@@ -1,0 +1,56 @@
+N2O Check Summary for Site: Dhadli_2016
+
+RESULT: NEEDS INVESTIGATION - One or more points overestimate observed N2O by more than 50% and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: PASS if percent_diff <= 50% (underestimation always passes); FLAG if percent_diff > 50% (overestimation). Invalid rows (sim=0, missing sim, obs=0/missing) are flagged separately.
+Overestimation limit (percent_diff > 50%): FLAG
+Rows in comparison file (n): 8
+Rows passing delta rule (percent_diff <= 50%): 0
+Rows overestimating by more than 50%: 8
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                     Observation  Observed  Simulated             Difference
+dhadli_2016_t1_n2oflux_2013_2013      5.55  1122.5979 +20126.99% [OVER >50%]
+dhadli_2016_t2_n2oflux_2013_2013      5.99  1964.3698 +32694.15% [OVER >50%]
+dhadli_2016_t4_n2oflux_2013_2013      5.90  1904.8520 +32185.63% [OVER >50%]
+dhadli_2016_t5_n2oflux_2013_2013      2.37    81.2119  +3326.66% [OVER >50%]
+dhadli_2016_t1_n2oflux_2013_2014      2.35   662.4471 +28089.24% [OVER >50%]
+dhadli_2016_t2_n2oflux_2013_2014      2.70  1003.8185 +37078.46% [OVER >50%]
+dhadli_2016_t4_n2oflux_2013_2014      2.65   929.1930 +34963.89% [OVER >50%]
+dhadli_2016_t5_n2oflux_2013_2014      1.66    29.1726  +1657.39% [OVER >50%]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files and period dates (start_target_year/day, target_year/day) in `observations/Dhadli_2016_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 8
+R²: 0.7758
+RMSE: 1172.20
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 10
+ -> t1 period 2013-150 to 2013-250... SUCCESS: sim=1122.5979
+ -> t2 period 2013-150 to 2013-250... SUCCESS: sim=1964.3698
+ -> t3 period 2013-150 to 2013-250... 
+    [WARN] Missing /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output/summary.out FAILED.
+ -> t4 period 2013-150 to 2013-250... SUCCESS: sim=1904.8520
+ -> t5 period 2013-150 to 2013-250... SUCCESS: sim=81.2119
+ -> t1 period 2013-325 to 2014-110... SUCCESS: sim=662.4471
+ -> t2 period 2013-325 to 2014-110... SUCCESS: sim=1003.8185
+ -> t3 period 2013-325 to 2014-110... 
+    [WARN] Missing /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/Dhadli_2016_out/Dhadli_2016_T3_output/summary.out FAILED.
+ -> t4 period 2013-325 to 2014-110... SUCCESS: sim=929.1930
+ -> t5 period 2013-325 to 2014-110... SUCCESS: sim=29.1726
+
+PEST++ output written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/output_n2o.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/averaged_n2o_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Dhadli_2016/observed_vs_modeled_n2o.png'

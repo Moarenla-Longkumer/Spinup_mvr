@@ -1,0 +1,56 @@
+SOMSC Check Summary for Site: Laskhman_2024
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-97.42%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,918.85 g C / m²
+Change during Equilibrium Phase: +2,684.92 g C / m²
+Change during Base Phase: -4,503.57 g C / m²
+Final SOMSC at end of Base Phase: 125.38 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,852.08 g C / m²
+Model is 97.42% lower than observation.
+(Difference: -4,726.70 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 4
+Experiments with SOMSC increase: 2, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  + T2 (+30.15)
+  + T4 (+20.22)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-6.09)
+  - T3 (-2.62)
+
+--- Experimental Analysis ---
+'laskhman_2024_t1_somsc' Change: -6.09 g C / m² (End value: 4,846.00)
+'laskhman_2024_t2_somsc' Change: +30.15 g C / m² (End value: 4,882.24)
+'laskhman_2024_t3_somsc' Change: -2.62 g C / m² (End value: 4,849.47)
+'laskhman_2024_t4_somsc' Change: +20.22 g C / m² (End value: 4,872.31)
+
+Average SOMSC at end of all experimental phases: 4,862.51 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2022, Day: 5)... FAILED: No matching data found.
+ -> Checking t2 (Years: 2022, Day: 5)... FAILED: No matching data found.
+ -> Checking t3 (Years: 2022, Day: 5)... FAILED: No matching data found.
+ -> Checking t4 (Years: 2022, Day: 5)... FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Laskhman_2024/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

@@ -1,0 +1,18 @@
+Biomass Check Summary for Site: Somasundaram_2018
+
+RESULT: MODEL ONLY - No biomass/grain observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled biomass plots were generated from DayCent output.
+Add biomass/grain rows to the Comparison Sheet if biomass calibration metrics are needed.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 0
+[DEBUG] ! Found 0 matching rows. No Biomass obs to process in column 'observation_type'
+[INFO] No Biomass observation rows found. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Somasundaram_2018/observed_vs_modeled_biomass.png'
+[INFO] Observed-vs-modelled metrics skipped because observed Biomass data is missing.

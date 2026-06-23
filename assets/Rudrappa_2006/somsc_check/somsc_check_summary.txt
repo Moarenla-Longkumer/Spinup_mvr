@@ -1,0 +1,95 @@
+SOMSC Check Summary for Site: Rudrappa_2006
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,882.54 g C / m²
+Change during Equilibrium Phase: +382.79 g C / m²
+Change during Base Phase: +1,729.64 g C / m²
+Final SOMSC at end of Base Phase: 4,032.26 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,238.07 g C / m²
+Model is 24.53% higher than observation.
+(Difference: +794.19 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 5
+Experiments with SOMSC increase: 1, SOMSC decrease: 4
+
+SOMSC Increase (g C / m²):
+  + 100_NPK_Manure (+3102.81)
+
+SOMSC Decrease (g C / m²):
+  - 100_NPK (-371.11)
+  - 150_NPK (-1190.25)
+  - 50_NPK (-1290.39)
+  - Control (-1452.95)
+
+--- Experimental Analysis ---
+'rudrappa_2006_100_npk_somsc' Change: -371.11 g C / m² (End value: 2,866.92)
+'rudrappa_2006_100_npk_manure_somsc' Change: +3,102.81 g C / m² (End value: 6,340.83)
+'rudrappa_2006_150_npk_somsc' Change: -1,190.25 g C / m² (End value: 2,047.77)
+'rudrappa_2006_50_npk_somsc' Change: -1,290.39 g C / m² (End value: 1,947.63)
+'rudrappa_2006_control_somsc' Change: -1,452.95 g C / m² (End value: 1,785.08)
+
+Average SOMSC at end of all experimental phases: 2,997.64 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking 50_npk (Years: 2003, Day: 273)... SUCCESS: 1944.18
+ -> Checking 100_npk (Years: 2003, Day: 273)... SUCCESS: 2869.58
+ -> Checking 150_npk (Years: 2003, Day: 273)... SUCCESS: 2040.64
+ -> Checking 100_np (Years: 2003, Day: 273)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rudrappa_2006/Rudrappa_2006_out/Rudrappa_2006_100_NP_output/soilc.out FAILED: No matching data found.
+ -> Checking 100_n (Years: 2003, Day: 273)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rudrappa_2006/Rudrappa_2006_out/Rudrappa_2006_100_N_output/soilc.out FAILED: No matching data found.
+ -> Checking 100_npk_manure (Years: 2003, Day: 273)... SUCCESS: 6376.97
+ -> Checking control (Years: 2003, Day: 273)... SUCCESS: 1785.58
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rudrappa_2006/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rudrappa_2006/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Rudrappa_2006/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 5
+
+                       Observation  Observed  Simulated         Difference
+        rudrappa_2006_50_npk_somsc       0.0  1944.1844 FLAG (invalid obs)
+       rudrappa_2006_100_npk_somsc       0.0  2869.5782 FLAG (invalid obs)
+       rudrappa_2006_150_npk_somsc       0.0  2040.6352 FLAG (invalid obs)
+rudrappa_2006_100_npk_manure_somsc       0.0  6376.9709 FLAG (invalid obs)
+       rudrappa_2006_control_somsc       0.0  1785.5808 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Rudrappa_2006_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.0000 (flat observations or flat model)
+RMSE: 3465.04 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Rudrappa_2006_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+rudrappa_2006_50_npk_somsc,50_npk,2003,273,0.0,1944.1844
+rudrappa_2006_100_npk_somsc,100_npk,2003,273,0.0,2869.5782
+rudrappa_2006_150_npk_somsc,150_npk,2003,273,0.0,2040.6352000000002
+rudrappa_2006_100_npk_manure_somsc,100_npk_manure,2003,273,0.0,6376.9709
+rudrappa_2006_control_somsc,control,2003,273,0.0,1785.5808

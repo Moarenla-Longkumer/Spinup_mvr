@@ -1,0 +1,111 @@
+Biomass Check Summary for Site: Kalyani_2019
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 12
+Rows passing delta rule (sim >= obs): 4
+Rows with shortfall (sim < obs): 8
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                    Observation  Observed  Simulated          Difference
+kalyani_2019_t1_cgrain_cot_2017    67.200    29.9585 -55.42% [SHORTFALL]
+kalyani_2019_t2_cgrain_cot_2017    60.800    33.7465 -44.50% [SHORTFALL]
+kalyani_2019_t3_cgrain_cot_2017    77.120    35.2013 -54.36% [SHORTFALL]
+kalyani_2019_t4_cgrain_cot_2017    70.880    42.0641 -40.65% [SHORTFALL]
+kalyani_2019_t6_cgrain_cot_2017    76.640    50.3622 -34.29% [SHORTFALL]
+kalyani_2019_t8_cgrain_cot_2017    15.200    24.6954             +62.47%
+kalyani_2019_t1_aglivc_cot_2017   163.128   125.9037 -22.82% [SHORTFALL]
+kalyani_2019_t2_aglivc_cot_2017   164.178   141.8305 -13.61% [SHORTFALL]
+kalyani_2019_t3_aglivc_cot_2017   199.122   147.9456 -25.70% [SHORTFALL]
+kalyani_2019_t4_aglivc_cot_2017   172.578   176.7952              +2.44%
+kalyani_2019_t6_aglivc_cot_2017   194.544   211.6653              +8.80%
+kalyani_2019_t8_aglivc_cot_2017    53.424   103.7633             +94.23%
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Kalyani_2019_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 12
+R²: 0.8001
+RMSE: 32.71 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'Notes', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 12
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'kalyani_2019_t1_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'kalyani_2019_t2_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'kalyani_2019_t3_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'kalyani_2019_t4_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'kalyani_2019_t6_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'kalyani_2019_t8_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'kalyani_2019_t1_aglivc_cot_2017'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'kalyani_2019_t2_aglivc_cot_2017'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'kalyani_2019_t3_aglivc_cot_2017'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'kalyani_2019_t4_aglivc_cot_2017'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'kalyani_2019_t6_aglivc_cot_2017'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/Kalyani_2019_out/Kalyani_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'kalyani_2019_t8_aglivc_cot_2017'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Kalyani_2019/observed_vs_modeled_biomass.png'
+--- Script finished. ---

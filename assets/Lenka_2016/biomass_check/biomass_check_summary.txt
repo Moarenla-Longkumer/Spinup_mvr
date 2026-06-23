@@ -1,0 +1,24 @@
+Biomass Check Summary for Site: Lenka_2016
+
+RESULT: CANNOT ASSESS - 'averaged_biomass_comparison.csv' was not found.
+Fix observations / re-run extract_biomass.py.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'Comments', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 6
+-! WARNING: Calculation failed for row 3. No valid target years.
+-! WARNING: Calculation failed for row 4. No valid target years.
+-! WARNING: Calculation failed for row 5. No valid target years.
+-! WARNING: Calculation failed for row 6. No valid target years.
+-! WARNING: Calculation failed for row 7. No valid target years.
+-! WARNING: Calculation failed for row 8. No valid target years.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Lenka_2016/output_biomass.txt'
+
+No data available to plot or save.
+--- Script finished. ---

@@ -1,0 +1,106 @@
+Biomass Check Summary for Site: Ghosh_2018
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 1
+Rows with shortfall (sim < obs): 5
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                    Observation   Observed  Simulated          Difference
+ghosh_2018_t1_cgrain_sw3eg_2014  58.765432    27.5168 -53.18% [SHORTFALL]
+ghosh_2018_t2_cgrain_sw3eg_2014  92.148148   106.3716             +15.44%
+ghosh_2018_t3_cgrain_sw3eg_2014  74.074074    36.1198 -51.24% [SHORTFALL]
+ghosh_2018_t4_cgrain_sw3eg_2014 123.950617    70.5003 -43.12% [SHORTFALL]
+ghosh_2018_t5_cgrain_sw3eg_2014 100.246914    75.9189 -24.27% [SHORTFALL]
+ghosh_2018_t6_cgrain_sw3eg_2014  94.320988    75.9944 -19.43% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Ghosh_2018_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.4026
+RMSE: 32.67 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Ghosh_2018_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'comment uncertainty units', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 12
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2014
+-! WARNING: Calculation failed for 'ghosh_2018_t1_cgrain_c6_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2014
+-! WARNING: Calculation failed for 'ghosh_2018_t2_cgrain_c6_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2014
+-! WARNING: Calculation failed for 'ghosh_2018_t3_cgrain_c6_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2014
+-! WARNING: Calculation failed for 'ghosh_2018_t4_cgrain_c6_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2014
+-! WARNING: Calculation failed for 'ghosh_2018_t5_cgrain_c6_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2014
+-! WARNING: Calculation failed for 'ghosh_2018_t6_cgrain_c6_2014'. No data found.
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'ghosh_2018_t1_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'ghosh_2018_t2_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'ghosh_2018_t3_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'ghosh_2018_t4_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'ghosh_2018_t5_cgrain_sw3eg_2014'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/Ghosh_2018_out/Ghosh_2018_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'ghosh_2018_t6_cgrain_sw3eg_2014'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ghosh_2018/observed_vs_modeled_biomass.png'
+--- Script finished. ---

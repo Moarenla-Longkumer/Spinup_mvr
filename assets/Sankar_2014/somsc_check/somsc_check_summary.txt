@@ -1,0 +1,180 @@
+SOMSC Check Summary for Site: Sankar_2014
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-88.38%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,966.88 g C / m²
+Change during Equilibrium Phase: +3,362.57 g C / m²
+Change during Base Phase: -4,966.36 g C / m²
+Final SOMSC at end of Base Phase: 438.03 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,770.48 g C / m²
+Model is 88.38% lower than observation.
+(Difference: -3,332.45 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 8
+Experiments with SOMSC increase: 2, SOMSC decrease: 6
+
+SOMSC Increase (g C / m²):
+  + T5 (+398.75)
+  + T7 (+442.60)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-221.39)
+  - T2 (-149.27)
+  - T3 (-167.46)
+  - T4 (-92.65)
+  - T6 (-64.76)
+  - T8 (-92.65)
+
+--- Experimental Analysis ---
+'sankar_2014_t1_somsc' Change: -221.39 g C / m² (End value: 3,549.10)
+'sankar_2014_t2_somsc' Change: -149.27 g C / m² (End value: 3,621.23)
+'sankar_2014_t3_somsc' Change: -167.46 g C / m² (End value: 3,603.03)
+'sankar_2014_t4_somsc' Change: -92.65 g C / m² (End value: 3,677.84)
+'sankar_2014_t5_somsc' Change: +398.75 g C / m² (End value: 4,169.24)
+'sankar_2014_t6_somsc' Change: -64.76 g C / m² (End value: 3,705.73)
+'sankar_2014_t7_somsc' Change: +442.60 g C / m² (End value: 4,213.09)
+'sankar_2014_t8_somsc' Change: -92.65 g C / m² (End value: 3,677.84)
+
+Average SOMSC at end of all experimental phases: 3,777.14 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2008, Day: 33)... SUCCESS: 3556.63
+ -> Checking t2 (Years: 2008, Day: 33)... SUCCESS: 3626.04
+ -> Checking t3 (Years: 2008, Day: 33)... SUCCESS: 3608.59
+ -> Checking t4 (Years: 2008, Day: 33)... SUCCESS: 3686.00
+ -> Checking t5 (Years: 2008, Day: 33)... SUCCESS: 4197.06
+ -> Checking t6 (Years: 2008, Day: 33)... SUCCESS: 3712.74
+ -> Checking t7 (Years: 2008, Day: 33)... SUCCESS: 4239.75
+ -> Checking t8 (Years: 2008, Day: 33)... SUCCESS: 3686.00
+ -> Checking t1 (Years: 2007, Day: 29)... SUCCESS: 3565.52
+ -> Checking t2 (Years: 2007, Day: 29)... SUCCESS: 3632.96
+ -> Checking t3 (Years: 2007, Day: 29)... SUCCESS: 3615.98
+ -> Checking t4 (Years: 2007, Day: 29)... SUCCESS: 3691.36
+ -> Checking t5 (Years: 2007, Day: 29)... SUCCESS: 4189.14
+ -> Checking t6 (Years: 2007, Day: 29)... SUCCESS: 3717.45
+ -> Checking t7 (Years: 2007, Day: 29)... SUCCESS: 4231.14
+ -> Checking t8 (Years: 2007, Day: 29)... SUCCESS: 3691.36
+ -> Checking t1 (Years: 2006, Day: 66)... SUCCESS: 3575.72
+ -> Checking t2 (Years: 2006, Day: 66)... SUCCESS: 3641.24
+ -> Checking t3 (Years: 2006, Day: 66)... SUCCESS: 3624.63
+ -> Checking t4 (Years: 2006, Day: 66)... SUCCESS: 3698.00
+ -> Checking t5 (Years: 2006, Day: 66)... SUCCESS: 4181.80
+ -> Checking t6 (Years: 2006, Day: 66)... SUCCESS: 3723.29
+ -> Checking t7 (Years: 2006, Day: 66)... SUCCESS: 4223.03
+ -> Checking t8 (Years: 2006, Day: 66)... SUCCESS: 3698.00
+ -> Checking t1 (Years: 2005, Day: 38)... SUCCESS: 3586.04
+ -> Checking t2 (Years: 2005, Day: 38)... SUCCESS: 3648.74
+ -> Checking t3 (Years: 2005, Day: 38)... SUCCESS: 3632.87
+ -> Checking t4 (Years: 2005, Day: 38)... SUCCESS: 3704.29
+ -> Checking t5 (Years: 2005, Day: 38)... SUCCESS: 4175.01
+ -> Checking t6 (Years: 2005, Day: 38)... SUCCESS: 3728.31
+ -> Checking t7 (Years: 2005, Day: 38)... SUCCESS: 4214.77
+ -> Checking t8 (Years: 2005, Day: 38)... SUCCESS: 3704.29
+ -> Checking t1 (Years: 2003, Day: 362)... SUCCESS: 3599.46
+ -> Checking t2 (Years: 2003, Day: 362)... SUCCESS: 3659.39
+ -> Checking t3 (Years: 2003, Day: 362)... SUCCESS: 3644.38
+ -> Checking t4 (Years: 2003, Day: 362)... SUCCESS: 3714.34
+ -> Checking t5 (Years: 2003, Day: 362)... SUCCESS: 4174.02
+ -> Checking t6 (Years: 2003, Day: 362)... SUCCESS: 3737.08
+ -> Checking t7 (Years: 2003, Day: 362)... SUCCESS: 4212.28
+ -> Checking t8 (Years: 2003, Day: 362)... SUCCESS: 3714.34
+ -> Checking t1 (Years: 2003, Day: 11)... SUCCESS: 3609.68
+ -> Checking t2 (Years: 2003, Day: 11)... SUCCESS: 3667.52
+ -> Checking t3 (Years: 2003, Day: 11)... SUCCESS: 3653.02
+ -> Checking t4 (Years: 2003, Day: 11)... SUCCESS: 3720.65
+ -> Checking t5 (Years: 2003, Day: 11)... SUCCESS: 4165.68
+ -> Checking t6 (Years: 2003, Day: 11)... SUCCESS: 3742.56
+ -> Checking t7 (Years: 2003, Day: 11)... SUCCESS: 4203.38
+ -> Checking t8 (Years: 2003, Day: 11)... SUCCESS: 3720.65
+ -> Checking t1 (Years: 2001, Day: 338)... SUCCESS: 3619.21
+ -> Checking t2 (Years: 2001, Day: 338)... SUCCESS: 3674.72
+ -> Checking t3 (Years: 2001, Day: 338)... SUCCESS: 3660.61
+ -> Checking t4 (Years: 2001, Day: 338)... SUCCESS: 3725.63
+ -> Checking t5 (Years: 2001, Day: 338)... SUCCESS: 4154.25
+ -> Checking t6 (Years: 2001, Day: 338)... SUCCESS: 3746.77
+ -> Checking t7 (Years: 2001, Day: 338)... SUCCESS: 4191.20
+ -> Checking t8 (Years: 2001, Day: 338)... SUCCESS: 3725.63
+ -> Checking t1 (Years: 2000, Day: 360)... SUCCESS: 3630.90
+ -> Checking t2 (Years: 2000, Day: 360)... SUCCESS: 3683.10
+ -> Checking t3 (Years: 2000, Day: 360)... SUCCESS: 3670.05
+ -> Checking t4 (Years: 2000, Day: 360)... SUCCESS: 3732.61
+ -> Checking t5 (Years: 2000, Day: 360)... SUCCESS: 4145.68
+ -> Checking t6 (Years: 2000, Day: 360)... SUCCESS: 3752.16
+ -> Checking t7 (Years: 2000, Day: 360)... SUCCESS: 4180.86
+ -> Checking t8 (Years: 2000, Day: 360)... SUCCESS: 3732.61
+ -> Checking t1 (Years: 2000, Day: 38)... SUCCESS: 3639.72
+ -> Checking t2 (Years: 2000, Day: 38)... SUCCESS: 3689.30
+ -> Checking t3 (Years: 2000, Day: 38)... SUCCESS: 3676.86
+ -> Checking t4 (Years: 2000, Day: 38)... SUCCESS: 3736.39
+ -> Checking t5 (Years: 2000, Day: 38)... SUCCESS: 4129.51
+ -> Checking t6 (Years: 2000, Day: 38)... SUCCESS: 3755.10
+ -> Checking t7 (Years: 2000, Day: 38)... SUCCESS: 4163.79
+ -> Checking t8 (Years: 2000, Day: 38)... SUCCESS: 3736.39
+ -> Checking t1 (Years: 1998, Day: 338)... SUCCESS: 3651.74
+ -> Checking t2 (Years: 1998, Day: 338)... SUCCESS: 3698.82
+ -> Checking t3 (Years: 1998, Day: 338)... SUCCESS: 3686.84
+ -> Checking t4 (Years: 1998, Day: 338)... SUCCESS: 3743.45
+ -> Checking t5 (Years: 1998, Day: 338)... SUCCESS: 4118.20
+ -> Checking t6 (Years: 1998, Day: 338)... SUCCESS: 3761.46
+ -> Checking t7 (Years: 1998, Day: 338)... SUCCESS: 4151.22
+ -> Checking t8 (Years: 1998, Day: 338)... SUCCESS: 3743.45
+ -> Checking t1 (Years: 1998, Day: 91)... SUCCESS: 3656.47
+ -> Checking t2 (Years: 1998, Day: 91)... SUCCESS: 3699.92
+ -> Checking t3 (Years: 1998, Day: 91)... SUCCESS: 3688.78
+ -> Checking t4 (Years: 1998, Day: 91)... SUCCESS: 3741.20
+ -> Checking t5 (Years: 1998, Day: 91)... SUCCESS: 4090.94
+ -> Checking t6 (Years: 1998, Day: 91)... SUCCESS: 3758.17
+ -> Checking t7 (Years: 1998, Day: 91)... SUCCESS: 4122.08
+ -> Checking t8 (Years: 1998, Day: 91)... SUCCESS: 3741.20
+ -> Checking t1 (Years: 1997, Day: 51)... SUCCESS: 3665.66
+ -> Checking t2 (Years: 1997, Day: 51)... SUCCESS: 3705.87
+ -> Checking t3 (Years: 1997, Day: 51)... SUCCESS: 3695.55
+ -> Checking t4 (Years: 1997, Day: 51)... SUCCESS: 3744.19
+ -> Checking t5 (Years: 1997, Day: 51)... SUCCESS: 4071.15
+ -> Checking t6 (Years: 1997, Day: 51)... SUCCESS: 3760.24
+ -> Checking t7 (Years: 1997, Day: 51)... SUCCESS: 4100.43
+ -> Checking t8 (Years: 1997, Day: 51)... SUCCESS: 3744.19
+ -> Checking t1 (Years: 1996, Day: 22)... SUCCESS: 3676.99
+ -> Checking t2 (Years: 1996, Day: 22)... SUCCESS: 3713.66
+ -> Checking t3 (Years: 1996, Day: 22)... SUCCESS: 3704.14
+ -> Checking t4 (Years: 1996, Day: 22)... SUCCESS: 3749.29
+ -> Checking t5 (Years: 1996, Day: 22)... SUCCESS: 4053.16
+ -> Checking t6 (Years: 1996, Day: 22)... SUCCESS: 3763.94
+ -> Checking t7 (Years: 1996, Day: 22)... SUCCESS: 4080.29
+ -> Checking t8 (Years: 1996, Day: 22)... SUCCESS: 3749.29
+ -> Checking t1 (Years: 1995, Day: 55)... SUCCESS: 3686.95
+ -> Checking t2 (Years: 1995, Day: 55)... SUCCESS: 3719.66
+ -> Checking t3 (Years: 1995, Day: 55)... SUCCESS: 3711.11
+ -> Checking t4 (Years: 1995, Day: 55)... SUCCESS: 3752.51
+ -> Checking t5 (Years: 1995, Day: 55)... SUCCESS: 4029.99
+ -> Checking t6 (Years: 1995, Day: 55)... SUCCESS: 3765.61
+ -> Checking t7 (Years: 1995, Day: 55)... SUCCESS: 4054.60
+ -> Checking t8 (Years: 1995, Day: 55)... SUCCESS: 3752.51
+ -> Checking t1 (Years: 1993, Day: 360)... SUCCESS: 3699.53
+ -> Checking t2 (Years: 1993, Day: 360)... SUCCESS: 3728.00
+ -> Checking t3 (Years: 1993, Day: 360)... SUCCESS: 3720.33
+ -> Checking t4 (Years: 1993, Day: 360)... SUCCESS: 3757.83
+ -> Checking t5 (Years: 1993, Day: 360)... SUCCESS: 4009.79
+ -> Checking t6 (Years: 1993, Day: 360)... SUCCESS: 3769.56
+ -> Checking t7 (Years: 1993, Day: 360)... SUCCESS: 4031.63
+ -> Checking t8 (Years: 1993, Day: 360)... SUCCESS: 3757.83
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2014/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

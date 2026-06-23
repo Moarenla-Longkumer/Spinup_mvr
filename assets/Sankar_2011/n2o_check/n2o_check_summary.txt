@@ -1,0 +1,15 @@
+N2O Check Summary for Site: Sankar_2011
+
+RESULT: MODEL ONLY - No N2O flux observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled N2O plots were generated from DayCent output.
+Add N2O flux rows to the GHG comparison sheet if N2O calibration metrics are needed.
+
+
+--- N2O Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+[INFO] N2O observation rows: 0
+[INFO] No N2O flux rows in observation file. Creating model-only plot.
+Model-only plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Sankar_2011/observed_vs_modeled_n2o.png'
+[INFO] Observed-vs-modelled metrics skipped because observed N2O data is missing.

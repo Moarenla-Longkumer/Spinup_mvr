@@ -1,0 +1,96 @@
+Biomass Check Summary for Site: Ma_2021
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 6
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+               Observation   Observed  Simulated          Difference
+ma_2021_ck_cgrain_cot_2017 159.024390    93.7884 -41.02% [SHORTFALL]
+ ma_2021_s_cgrain_cot_2017 182.439024    91.1267 -50.05% [SHORTFALL]
+ma_2021_si_cgrain_cot_2017 173.658537    91.1267 -47.53% [SHORTFALL]
+ma_2021_sm_cgrain_cot_2017 175.609756    91.1267 -48.11% [SHORTFALL]
+ma_2021_sb_cgrain_cot_2017 166.829268    99.0591 -40.62% [SHORTFALL]
+ma_2021_sb_cgrain_cot_2018 147.317073    93.9283 -36.24% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Ma_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.1831
+RMSE: 75.26 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Ma_2021_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'depth', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 10
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in CK
+Successfully processed: 'ma_2021_ck_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2018
+-! WARNING: Calculation failed for 'ma_2021_ck_cgrain_cot_2018'. No data found.
+    [DEBUG] Checking Treatment Sch: S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in S
+Successfully processed: 'ma_2021_s_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: S
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_S_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2018
+-! WARNING: Calculation failed for 'ma_2021_s_cgrain_cot_2018'. No data found.
+    [DEBUG] Checking Treatment Sch: SI
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_SI_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SI
+Successfully processed: 'ma_2021_si_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: SI
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_SI_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2018
+-! WARNING: Calculation failed for 'ma_2021_si_cgrain_cot_2018'. No data found.
+    [DEBUG] Checking Treatment Sch: SM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_SM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SM
+Successfully processed: 'ma_2021_sm_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: SM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_SM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2018
+-! WARNING: Calculation failed for 'ma_2021_sm_cgrain_cot_2018'. No data found.
+    [DEBUG] Checking Treatment Sch: SB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_SB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SB
+Successfully processed: 'ma_2021_sb_cgrain_cot_2017'
+    [DEBUG] Checking Treatment Sch: SB
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/Ma_2021_out/Ma_2021_SB_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in SB
+Successfully processed: 'ma_2021_sb_cgrain_cot_2018'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Ma_2021/observed_vs_modeled_biomass.png'
+--- Script finished. ---

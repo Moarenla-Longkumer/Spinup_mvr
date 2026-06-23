@@ -1,0 +1,94 @@
+SOMSC Check Summary for Site: Gabhane_2014
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-35.34%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,968.65 g C / m²
+Change during Equilibrium Phase: +3,084.68 g C / m²
+Change during Base Phase: -2,943.51 g C / m²
+Final SOMSC at end of Base Phase: 2,126.25 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,288.58 g C / m²
+Model is 35.34% lower than observation.
+(Difference: -1,162.33 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 10
+Experiments with SOMSC increase: 2, SOMSC decrease: 8
+
+SOMSC Increase (g C / m²):
+  + TRT_T1_F5 (+196.03)
+  + TRT_T2_F5 (+137.27)
+
+SOMSC Decrease (g C / m²):
+  - TRT_T1_F1 (-211.64)
+  - TRT_T1_F2 (-211.64)
+  - TRT_T1_F3 (-173.97)
+  - TRT_T1_F4 (-136.25)
+  - TRT_T2_F1 (-192.28)
+  - TRT_T2_F2 (-192.28)
+  - TRT_T2_F3 (-161.83)
+  - TRT_T2_F4 (-131.32)
+
+--- Experimental Analysis ---
+'gabhane_2014_trt_t1_f1_somsc' Change: -211.64 g C / m² (End value: 3,076.94)
+'gabhane_2014_trt_t1_f2_somsc' Change: -211.64 g C / m² (End value: 3,076.94)
+'gabhane_2014_trt_t1_f3_somsc' Change: -173.97 g C / m² (End value: 3,114.60)
+'gabhane_2014_trt_t1_f4_somsc' Change: -136.25 g C / m² (End value: 3,152.33)
+'gabhane_2014_trt_t1_f5_somsc' Change: +196.03 g C / m² (End value: 3,484.61)
+'gabhane_2014_trt_t2_f1_somsc' Change: -192.28 g C / m² (End value: 3,096.30)
+'gabhane_2014_trt_t2_f2_somsc' Change: -192.28 g C / m² (End value: 3,096.29)
+'gabhane_2014_trt_t2_f3_somsc' Change: -161.83 g C / m² (End value: 3,126.74)
+'gabhane_2014_trt_t2_f4_somsc' Change: -131.32 g C / m² (End value: 3,157.26)
+'gabhane_2014_trt_t2_f5_somsc' Change: +137.27 g C / m² (End value: 3,425.84)
+
+Average SOMSC at end of all experimental phases: 3,180.79 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_ct (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_mt (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_f1 (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F1_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F1_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_f2 (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F2_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F2_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_f3 (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F3_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F3_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_f4 (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F4_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F4_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_f5 (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F5_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F5_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_f6 (Years: 2009, Day: 300)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_MT_F6_output/soilc.out 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/Gabhane_2014_out/Gabhane_2014_TRT_CT_F6_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Gabhane_2014/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

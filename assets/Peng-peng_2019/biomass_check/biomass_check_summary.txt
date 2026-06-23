@@ -1,0 +1,143 @@
+Biomass Check Summary for Site: Peng-peng_2019
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 12
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 12
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                          Observation  Observed  Simulated          Difference
+ peng-peng_2019_ns_ck_cgrain_cot_2015    201.04    29.6424 -85.26% [SHORTFALL]
+ peng-peng_2019_ns_om_cgrain_cot_2015    239.68   124.3713 -48.11% [SHORTFALL]
+peng-peng_2019_ns_npk_cgrain_cot_2015    252.40   132.2830 -47.59% [SHORTFALL]
+  peng-peng_2019_s_ck_cgrain_cot_2015    218.92    28.8776 -86.81% [SHORTFALL]
+  peng-peng_2019_s_om_cgrain_cot_2015    248.12   124.3713 -49.87% [SHORTFALL]
+ peng-peng_2019_s_npk_cgrain_cot_2015    253.44   124.3713 -50.93% [SHORTFALL]
+ peng-peng_2019_ns_ck_cgrain_cot_2016    220.56    23.9212 -89.15% [SHORTFALL]
+ peng-peng_2019_ns_om_cgrain_cot_2016    232.20   130.8089 -43.67% [SHORTFALL]
+peng-peng_2019_ns_npk_cgrain_cot_2016    254.60   130.8123 -48.62% [SHORTFALL]
+  peng-peng_2019_s_ck_cgrain_cot_2016    221.16    24.2400 -89.04% [SHORTFALL]
+  peng-peng_2019_s_om_cgrain_cot_2016    244.76   130.8089 -46.56% [SHORTFALL]
+ peng-peng_2019_s_npk_cgrain_cot_2016    255.88   130.8089 -48.88% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Peng-peng_2019_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 12
+R²: 0.7730
+RMSE: 146.31 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'n_obs', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 16
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NS_CK
+Successfully processed: 'peng-peng_2019_ns_ck_cgrain_cot_2015'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_OM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_OM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NS_OM
+Successfully processed: 'peng-peng_2019_ns_om_cgrain_cot_2015'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NS_NPK
+Successfully processed: 'peng-peng_2019_ns_npk_cgrain_cot_2015'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_NPK_OM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_NPK_OM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'peng-peng_2019_ns_npk_om_cgrain_cot_2015'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in S_CK
+Successfully processed: 'peng-peng_2019_s_ck_cgrain_cot_2015'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_OM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_OM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in S_OM
+Successfully processed: 'peng-peng_2019_s_om_cgrain_cot_2015'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in S_NPK
+Successfully processed: 'peng-peng_2019_s_npk_cgrain_cot_2015'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_NPK_OM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_NPK_OM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'peng-peng_2019_s_npk_om_cgrain_cot_2015'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NS_CK
+Successfully processed: 'peng-peng_2019_ns_ck_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_OM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_OM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NS_OM
+Successfully processed: 'peng-peng_2019_ns_om_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in NS_NPK
+Successfully processed: 'peng-peng_2019_ns_npk_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: NS_NPK_OM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_NS_NPK_OM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'peng-peng_2019_ns_npk_cgrain_cot_2016'. No data found.
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_CK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_CK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in S_CK
+Successfully processed: 'peng-peng_2019_s_ck_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_OM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_OM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in S_OM
+Successfully processed: 'peng-peng_2019_s_om_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in S_NPK
+Successfully processed: 'peng-peng_2019_s_npk_cgrain_cot_2016'
+    [WARN] Non-numeric target_crop_num 'COT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: S_NPK_OM
+    [DEBUG] Folder exists: False | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/Peng-peng_2019_out/Peng-peng_2019_S_NPK_OM_output
+    [DEBUG] Sch file exists: False
+-! WARNING: Calculation failed for 'peng-peng_2019_s_npk_cgrain_cot_2016'. No data found.
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Peng-peng_2019/observed_vs_modeled_biomass.png'
+--- Script finished. ---

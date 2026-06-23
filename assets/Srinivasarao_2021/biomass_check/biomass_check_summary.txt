@@ -1,0 +1,487 @@
+Biomass Check Summary for Site: Srinivasarao_2021
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 64
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 64
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                          Observation  Observed  Simulated          Difference
+srinivasarao_2021_t1_cgrain_gnut_1996      30.6    11.4268 -62.66% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_1997      29.4    13.7146 -53.35% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_1998      27.6    11.0990 -59.79% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_1999      38.4     7.8755 -79.49% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2000      39.0    10.0054 -74.35% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2001      27.0    10.5077 -61.08% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2002      23.4    11.1694 -52.27% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2003      27.6    14.6308 -46.99% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2004      28.8    11.4054 -60.40% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2005      18.6    14.4609 -22.25% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2006      30.6    15.8282 -48.27% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2007      34.8    16.6524 -52.15% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2008      25.2    16.0766 -36.20% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2009      18.6     9.9633 -46.43% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2010      28.8    15.2595 -47.02% [SHORTFALL]
+srinivasarao_2021_t1_cgrain_gnut_2011      30.6    17.0962 -44.13% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_1996      48.0    11.4268 -76.19% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_1997      43.2    13.7158 -68.25% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_1998      60.6    11.0990 -81.68% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_1999      70.2     7.8753 -88.78% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2000      52.2    10.0145 -80.82% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2001      54.6    10.5072 -80.76% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2002      46.8    11.1686 -76.14% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2003      56.4    14.6701 -73.99% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2004      40.2    11.4704 -71.47% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2005      48.6    14.4591 -70.25% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2006      37.8    15.8660 -58.03% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2007      55.8    16.6549 -70.15% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2008      58.8    16.0778 -72.66% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2009      54.0    10.0020 -81.48% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2010      57.0    15.3001 -73.16% [SHORTFALL]
+srinivasarao_2021_t2_cgrain_gnut_2011      52.2    17.1098 -67.22% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_1996      42.0    11.4268 -72.79% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_1997      55.2    13.7158 -75.15% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_1998      64.2    11.0990 -82.71% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_1999      47.4     7.8753 -83.39% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2000      71.4    10.0145 -85.97% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2001      55.8    10.5072 -81.17% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2002      49.8    11.1686 -77.57% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2003      58.2    14.6701 -74.79% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2004      39.6    11.5095 -70.94% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2005      53.4    14.4588 -72.92% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2006      42.6    15.8706 -62.75% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2007      63.0    16.6549 -73.56% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2008      57.6    16.0778 -72.09% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2009      43.8    10.0055 -77.16% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2010      49.8    15.3001 -69.28% [SHORTFALL]
+srinivasarao_2021_t3_cgrain_gnut_2011      51.6    17.1098 -66.84% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_1996      43.2    11.4268 -73.55% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_1997      43.2    13.7093 -68.27% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_1998      63.0    11.0969 -82.39% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_1999      53.4     7.8767 -85.25% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2000      59.4    10.0073 -83.15% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2001      52.2    10.5063 -79.87% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2002      42.0    11.1646 -73.42% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2003      54.0    14.6512 -72.87% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2004      51.0    11.4594 -77.53% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2005      52.2    14.4599 -72.30% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2006      43.2    15.8592 -63.29% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2007      58.8    16.6521 -71.68% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2008      60.0    16.0790 -73.20% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2009      53.4    10.0015 -81.27% [SHORTFALL]
+srinivasarao_2021_t4_cgrain_gnut_2010      65.4    15.2982 -76.61% [SHORTFALL]
+ srinivasarao_2021_t4_cgrain_nan_2011      59.4    17.1102 -71.19% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Srinivasarao_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 64
+R²: 0.0000
+RMSE: 36.28 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Srinivasarao_2021_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'soc_calc', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 64
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_1996'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_1997'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_1998'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_1999'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2000'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2001'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2002'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2003'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2004'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2005'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2006'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2007'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2008'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2009'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2010'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2021_t1_cgrain_gnut_2011'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_1996'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_1997'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_1998'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_1999'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2000'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2001'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2002'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2003'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2004'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2005'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2006'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2007'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2008'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2009'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2010'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2021_t2_cgrain_gnut_2011'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_1996'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_1997'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_1998'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_1999'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2000'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2001'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2002'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2003'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2004'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2005'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2006'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2007'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2008'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2009'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2010'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2021_t3_cgrain_gnut_2011'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_1996'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_1997'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_1998'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_1999'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2000'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2001'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2002'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2003'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2004'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2005'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2006'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2007'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2008'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2009'
+    [WARN] Non-numeric target_crop_num 'GNUT' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_gnut_2010'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/Srinivasarao_2021_out/Srinivasarao_2021_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2021_t4_cgrain_nan_2011'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2021/observed_vs_modeled_biomass.png'
+--- Script finished. ---

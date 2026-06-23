@@ -1,0 +1,348 @@
+SOMSC Check Summary for Site: Locke_2012
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-10.73%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 2,047.41 g C / m²
+Change during Equilibrium Phase: +2,948.01 g C / m²
+Change during Base Phase: +746.93 g C / m²
+Final SOMSC at end of Base Phase: 5,752.30 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 6,443.86 g C / m²
+Model is 10.73% lower than observation.
+(Difference: -691.56 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 0, SOMSC decrease: 6
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - MT_Clover (-273.08)
+  - MT_None (-496.00)
+  - MT_Rye (-222.47)
+  - NT_Clover (-181.36)
+  - NT_None (-335.40)
+  - NT_Rye (-171.98)
+
+--- Experimental Analysis ---
+'locke_2012_mt_clover_somsc' Change: -273.08 g C / m² (End value: 6,170.77)
+'locke_2012_mt_none_somsc' Change: -496.00 g C / m² (End value: 5,947.86)
+'locke_2012_mt_rye_somsc' Change: -222.47 g C / m² (End value: 6,221.38)
+'locke_2012_nt_clover_somsc' Change: -181.36 g C / m² (End value: 6,262.50)
+'locke_2012_nt_none_somsc' Change: -335.40 g C / m² (End value: 6,108.46)
+'locke_2012_nt_rye_somsc' Change: -171.98 g C / m² (End value: 6,271.87)
+
+Average SOMSC at end of all experimental phases: 6,163.81 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking nan (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking nan (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking nan (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking clover (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking clover (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking clover (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking rye (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking rye (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking rye (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking nan (Years: 2002, Day: 118)... SUCCESS: 6314.51
+ -> Checking nan (Years: 2002, Day: 118)... SUCCESS: 6314.51
+ -> Checking nan (Years: 2002, Day: 118)... SUCCESS: 6314.51
+ -> Checking clover (Years: 2002, Day: 118)... SUCCESS: 6320.87
+ -> Checking clover (Years: 2002, Day: 118)... SUCCESS: 6320.87
+ -> Checking clover (Years: 2002, Day: 118)... SUCCESS: 6320.87
+ -> Checking rye (Years: 2002, Day: 118)... SUCCESS: 6320.61
+ -> Checking rye (Years: 2002, Day: 118)... SUCCESS: 6320.61
+ -> Checking rye (Years: 2002, Day: 118)... SUCCESS: 6320.61
+ -> Checking nan (Years: 2003, Day: 118)... SUCCESS: 6252.01
+ -> Checking nan (Years: 2003, Day: 118)... SUCCESS: 6252.01
+ -> Checking nan (Years: 2003, Day: 118)... SUCCESS: 6252.01
+ -> Checking clover (Years: 2003, Day: 118)... SUCCESS: 6290.40
+ -> Checking clover (Years: 2003, Day: 118)... SUCCESS: 6290.40
+ -> Checking clover (Years: 2003, Day: 118)... SUCCESS: 6290.40
+ -> Checking rye (Years: 2003, Day: 118)... SUCCESS: 6289.86
+ -> Checking rye (Years: 2003, Day: 118)... SUCCESS: 6289.86
+ -> Checking rye (Years: 2003, Day: 118)... SUCCESS: 6289.86
+ -> Checking nan (Years: 2004, Day: 118)... SUCCESS: 6183.18
+ -> Checking nan (Years: 2004, Day: 118)... SUCCESS: 6183.18
+ -> Checking nan (Years: 2004, Day: 118)... SUCCESS: 6183.18
+ -> Checking clover (Years: 2004, Day: 118)... SUCCESS: 6256.92
+ -> Checking clover (Years: 2004, Day: 118)... SUCCESS: 6256.92
+ -> Checking clover (Years: 2004, Day: 118)... SUCCESS: 6256.92
+ -> Checking rye (Years: 2004, Day: 118)... SUCCESS: 6265.37
+ -> Checking rye (Years: 2004, Day: 118)... SUCCESS: 6265.37
+ -> Checking rye (Years: 2004, Day: 118)... SUCCESS: 6265.37
+ -> Checking nan (Years: 2005, Day: 118)... SUCCESS: 6115.63
+ -> Checking nan (Years: 2005, Day: 118)... SUCCESS: 6115.63
+ -> Checking nan (Years: 2005, Day: 118)... SUCCESS: 6115.63
+ -> Checking clover (Years: 2005, Day: 118)... SUCCESS: 6233.25
+ -> Checking clover (Years: 2005, Day: 118)... SUCCESS: 6233.25
+ -> Checking clover (Years: 2005, Day: 118)... SUCCESS: 6233.25
+ -> Checking rye (Years: 2005, Day: 118)... SUCCESS: 6248.60
+ -> Checking rye (Years: 2005, Day: 118)... SUCCESS: 6248.60
+ -> Checking rye (Years: 2005, Day: 118)... SUCCESS: 6248.60
+ -> Checking nan (Years: 2006, Day: 118)... SUCCESS: 6055.78
+ -> Checking nan (Years: 2006, Day: 118)... SUCCESS: 6055.78
+ -> Checking nan (Years: 2006, Day: 118)... SUCCESS: 6055.78
+ -> Checking clover (Years: 2006, Day: 118)... SUCCESS: 6221.14
+ -> Checking clover (Years: 2006, Day: 118)... SUCCESS: 6221.14
+ -> Checking clover (Years: 2006, Day: 118)... SUCCESS: 6221.14
+ -> Checking rye (Years: 2006, Day: 118)... SUCCESS: 6246.20
+ -> Checking rye (Years: 2006, Day: 118)... SUCCESS: 6246.20
+ -> Checking rye (Years: 2006, Day: 118)... SUCCESS: 6246.20
+ -> Checking nt (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking nt (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking nt (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking mt (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking mt (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking mt (Years: 2001, Day: 118)... SUCCESS: 6380.79
+ -> Checking nt (Years: 2002, Day: 118)... SUCCESS: 6334.52
+ -> Checking nt (Years: 2002, Day: 118)... SUCCESS: 6334.52
+ -> Checking nt (Years: 2002, Day: 118)... SUCCESS: 6334.52
+ -> Checking mt (Years: 2002, Day: 118)... SUCCESS: 6302.80
+ -> Checking mt (Years: 2002, Day: 118)... SUCCESS: 6302.80
+ -> Checking mt (Years: 2002, Day: 118)... SUCCESS: 6302.80
+ -> Checking nt (Years: 2003, Day: 118)... SUCCESS: 6304.49
+ -> Checking nt (Years: 2003, Day: 118)... SUCCESS: 6304.49
+ -> Checking nt (Years: 2003, Day: 118)... SUCCESS: 6304.49
+ -> Checking mt (Years: 2003, Day: 118)... SUCCESS: 6250.36
+ -> Checking mt (Years: 2003, Day: 118)... SUCCESS: 6250.36
+ -> Checking mt (Years: 2003, Day: 118)... SUCCESS: 6250.36
+ -> Checking nt (Years: 2004, Day: 118)... SUCCESS: 6271.70
+ -> Checking nt (Years: 2004, Day: 118)... SUCCESS: 6271.70
+ -> Checking nt (Years: 2004, Day: 118)... SUCCESS: 6271.70
+ -> Checking mt (Years: 2004, Day: 118)... SUCCESS: 6198.61
+ -> Checking mt (Years: 2004, Day: 118)... SUCCESS: 6198.61
+ -> Checking mt (Years: 2004, Day: 118)... SUCCESS: 6198.61
+ -> Checking nt (Years: 2005, Day: 118)... SUCCESS: 6243.68
+ -> Checking nt (Years: 2005, Day: 118)... SUCCESS: 6243.68
+ -> Checking nt (Years: 2005, Day: 118)... SUCCESS: 6243.68
+ -> Checking mt (Years: 2005, Day: 118)... SUCCESS: 6154.64
+ -> Checking mt (Years: 2005, Day: 118)... SUCCESS: 6154.64
+ -> Checking mt (Years: 2005, Day: 118)... SUCCESS: 6154.64
+ -> Checking nt (Years: 2006, Day: 118)... SUCCESS: 6223.90
+ -> Checking nt (Years: 2006, Day: 118)... SUCCESS: 6223.90
+ -> Checking nt (Years: 2006, Day: 118)... SUCCESS: 6223.90
+ -> Checking mt (Years: 2006, Day: 118)... SUCCESS: 6124.85
+ -> Checking mt (Years: 2006, Day: 118)... SUCCESS: 6124.85
+ -> Checking mt (Years: 2006, Day: 118)... SUCCESS: 6124.85
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Locke_2012/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Locke_2012/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Locke_2012/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 90
+Rows passing delta rule (sim >= obs): 90
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+            Observation  Observed   Simulated Difference
+   locke_2012_nan_somsc  161.0070 6380.788700  +3863.05%
+   locke_2012_nan_somsc  257.1930 6380.788700  +2380.93%
+   locke_2012_nan_somsc  815.4900 6380.788700   +682.45%
+locke_2012_clover_somsc  185.5040 6380.788700  +3339.70%
+locke_2012_clover_somsc  275.0940 6380.788700  +2219.49%
+locke_2012_clover_somsc  822.1200 6380.788700   +676.14%
+   locke_2012_rye_somsc  158.5080 6380.788700  +3925.53%
+   locke_2012_rye_somsc  269.8920 6380.788700  +2264.20%
+   locke_2012_rye_somsc  835.3800 6380.788700   +663.82%
+   locke_2012_nan_somsc  192.3720 6314.505550  +3182.45%
+   locke_2012_nan_somsc  291.6945 6314.505550  +2064.77%
+   locke_2012_nan_somsc  951.4050 6314.505550   +563.70%
+locke_2012_clover_somsc  261.3920 6320.871950  +2318.16%
+locke_2012_clover_somsc  325.6860 6320.871950  +1840.79%
+locke_2012_clover_somsc  938.0600 6320.871950   +573.82%
+   locke_2012_rye_somsc  199.2060 6320.605850  +3072.90%
+   locke_2012_rye_somsc  302.0220 6320.605850  +1992.76%
+   locke_2012_rye_somsc  921.0600 6320.605850   +586.23%
+   locke_2012_nan_somsc  244.6470 6252.008350  +2455.52%
+   locke_2012_nan_somsc  288.5580 6252.008350  +2066.64%
+   locke_2012_nan_somsc  888.6750 6252.008350   +603.52%
+locke_2012_clover_somsc  324.6320 6290.396250  +1837.70%
+locke_2012_clover_somsc  322.5240 6290.396250  +1850.37%
+locke_2012_clover_somsc  927.5200 6290.396250   +578.20%
+   locke_2012_rye_somsc  254.8980 6289.864850  +2367.60%
+   locke_2012_rye_somsc  314.8740 6289.864850  +1897.58%
+   locke_2012_rye_somsc  899.6400 6289.864850   +599.15%
+   locke_2012_nan_somsc  271.8300 6183.178400  +2174.65%
+   locke_2012_nan_somsc  341.8785 6183.178400  +1708.59%
+   locke_2012_nan_somsc  815.4900 6183.178400   +658.22%
+locke_2012_clover_somsc  360.4680 6256.915400  +1635.78%
+locke_2012_clover_somsc  360.4680 6256.915400  +1635.78%
+locke_2012_clover_somsc  906.4400 6256.915400   +590.27%
+   locke_2012_rye_somsc  385.5600 6265.374100  +1525.01%
+   locke_2012_rye_somsc  343.7910 6265.374100  +1722.44%
+   locke_2012_rye_somsc  856.8000 6265.374100   +631.25%
+   locke_2012_nan_somsc  336.6510 6115.628950  +1716.61%
+   locke_2012_nan_somsc  310.5135 6115.628950  +1869.52%
+   locke_2012_nan_somsc  825.9450 6115.628950   +640.44%
+locke_2012_clover_somsc  425.8160 6233.254650  +1363.84%
+locke_2012_clover_somsc  363.6300 6233.254650  +1614.18%
+locke_2012_clover_somsc  874.8200 6233.254650   +612.52%
+   locke_2012_rye_somsc  389.8440 6248.597750  +1502.85%
+   locke_2012_rye_somsc  347.0040 6248.597750  +1700.73%
+   locke_2012_rye_somsc  846.0900 6248.597750   +638.53%
+   locke_2012_nan_somsc  317.8320 6055.784700  +1805.34%
+   locke_2012_nan_somsc  332.4690 6055.784700  +1721.46%
+   locke_2012_nan_somsc  825.9450 6055.784700   +633.19%
+locke_2012_clover_somsc  402.6280 6221.136250  +1445.13%
+locke_2012_clover_somsc  395.2500 6221.136250  +1473.98%
+locke_2012_clover_somsc  864.2800 6221.136250   +619.81%
+   locke_2012_rye_somsc  406.9800 6246.200350  +1434.77%
+   locke_2012_rye_somsc  388.7730 6246.200350  +1506.64%
+   locke_2012_rye_somsc  888.9300 6246.200350   +602.67%
+    locke_2012_nt_somsc  173.5020 6380.788700  +3577.65%
+    locke_2012_nt_somsc  269.8920 6380.788700  +2264.20%
+    locke_2012_nt_somsc  867.5100 6380.788700   +635.53%
+    locke_2012_mt_somsc  163.0980 6380.788700  +3812.24%
+    locke_2012_mt_somsc  266.6025 6380.788700  +2293.37%
+    locke_2012_mt_somsc  784.1250 6380.788700   +713.75%
+    locke_2012_nt_somsc  242.0460 6334.520200  +2517.07%
+    locke_2012_nt_somsc  305.2350 6334.520200  +1975.29%
+    locke_2012_nt_somsc  953.1900 6334.520200   +564.56%
+    locke_2012_mt_somsc  194.4630 6302.802033  +3141.13%
+    locke_2012_mt_somsc  307.3770 6302.802033  +1950.51%
+    locke_2012_mt_somsc  920.0400 6302.802033   +585.06%
+    locke_2012_nt_somsc  295.5960 6304.486600  +2032.81%
+    locke_2012_nt_somsc  305.2350 6304.486600  +1965.45%
+    locke_2012_nt_somsc  921.0600 6304.486600   +584.48%
+    locke_2012_mt_somsc  255.1020 6250.359700  +2350.14%
+    locke_2012_mt_somsc  310.5135 6250.359700  +1912.91%
+    locke_2012_mt_somsc  899.1300 6250.359700   +595.16%
+    locke_2012_nt_somsc  411.2640 6271.697367  +1424.98%
+    locke_2012_nt_somsc  359.8560 6271.697367  +1642.84%
+    locke_2012_nt_somsc  824.6700 6271.697367   +660.51%
+    locke_2012_mt_somsc  269.7390 6198.614567  +2198.00%
+    locke_2012_mt_somsc  338.7420 6198.614567  +1729.89%
+    locke_2012_mt_somsc  899.1300 6198.614567   +589.40%
+    locke_2012_nt_somsc  443.3940 6243.681000  +1308.16%
+    locke_2012_nt_somsc  337.3650 6243.681000  +1750.72%
+    locke_2012_nt_somsc  846.0900 6243.681000   +637.95%
+    locke_2012_mt_somsc  326.1960 6154.639900  +1786.79%
+    locke_2012_mt_somsc  341.8785 6154.639900  +1700.24%
+    locke_2012_mt_somsc  846.8550 6154.639900   +626.76%
+    locke_2012_nt_somsc  417.6900 6223.898167  +1390.08%
+    locke_2012_nt_somsc  353.4300 6223.898167  +1661.00%
+    locke_2012_nt_somsc  835.3800 6223.898167   +645.04%
+    locke_2012_mt_somsc  334.5600 6124.849367  +1730.72%
+    locke_2012_mt_somsc  388.9260 6124.849367  +1474.81%
+    locke_2012_mt_somsc  878.2200 6124.849367   +597.42%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 90
+R²: 0.0072
+RMSE: 5774.94 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Locke_2012_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+locke_2012_nan_somsc,nan,2001,118,161.007,6380.788699999999
+locke_2012_nan_somsc,nan,2001,118,257.193,6380.788699999999
+locke_2012_nan_somsc,nan,2001,118,815.49,6380.788699999999
+locke_2012_clover_somsc,clover,2001,118,185.504,6380.788699999999
+locke_2012_clover_somsc,clover,2001,118,275.094,6380.788699999999
+locke_2012_clover_somsc,clover,2001,118,822.12,6380.788699999999
+locke_2012_rye_somsc,rye,2001,118,158.508,6380.788699999999
+locke_2012_rye_somsc,rye,2001,118,269.892,6380.788699999999
+locke_2012_rye_somsc,rye,2001,118,835.38,6380.788699999999
+locke_2012_nan_somsc,nan,2002,118,192.372,6314.50555
+locke_2012_nan_somsc,nan,2002,118,291.6945,6314.50555
+locke_2012_nan_somsc,nan,2002,118,951.405,6314.50555
+locke_2012_clover_somsc,clover,2002,118,261.392,6320.871950000001
+locke_2012_clover_somsc,clover,2002,118,325.686,6320.871950000001
+locke_2012_clover_somsc,clover,2002,118,938.06,6320.871950000001
+locke_2012_rye_somsc,rye,2002,118,199.206,6320.60585
+locke_2012_rye_somsc,rye,2002,118,302.022,6320.60585
+locke_2012_rye_somsc,rye,2002,118,921.06,6320.60585
+locke_2012_nan_somsc,nan,2003,118,244.647,6252.00835
+locke_2012_nan_somsc,nan,2003,118,288.558,6252.00835
+locke_2012_nan_somsc,nan,2003,118,888.675,6252.00835
+locke_2012_clover_somsc,clover,2003,118,324.632,6290.396250000001
+locke_2012_clover_somsc,clover,2003,118,322.524,6290.396250000001
+locke_2012_clover_somsc,clover,2003,118,927.52,6290.396250000001
+locke_2012_rye_somsc,rye,2003,118,254.898,6289.86485
+locke_2012_rye_somsc,rye,2003,118,314.874,6289.86485
+locke_2012_rye_somsc,rye,2003,118,899.64,6289.86485
+locke_2012_nan_somsc,nan,2004,118,271.83,6183.1784
+locke_2012_nan_somsc,nan,2004,118,341.8785,6183.1784
+locke_2012_nan_somsc,nan,2004,118,815.49,6183.1784
+locke_2012_clover_somsc,clover,2004,118,360.468,6256.9154
+locke_2012_clover_somsc,clover,2004,118,360.468,6256.9154
+locke_2012_clover_somsc,clover,2004,118,906.44,6256.9154
+locke_2012_rye_somsc,rye,2004,118,385.56,6265.3741
+locke_2012_rye_somsc,rye,2004,118,343.791,6265.3741
+locke_2012_rye_somsc,rye,2004,118,856.8,6265.3741
+locke_2012_nan_somsc,nan,2005,118,336.651,6115.62895
+locke_2012_nan_somsc,nan,2005,118,310.5135,6115.62895
+locke_2012_nan_somsc,nan,2005,118,825.945,6115.62895
+locke_2012_clover_somsc,clover,2005,118,425.816,6233.25465
+locke_2012_clover_somsc,clover,2005,118,363.63,6233.25465
+locke_2012_clover_somsc,clover,2005,118,874.82,6233.25465
+locke_2012_rye_somsc,rye,2005,118,389.844,6248.59775
+locke_2012_rye_somsc,rye,2005,118,347.004,6248.59775
+locke_2012_rye_somsc,rye,2005,118,846.09,6248.59775
+locke_2012_nan_somsc,nan,2006,118,317.832,6055.7847
+locke_2012_nan_somsc,nan,2006,118,332.469,6055.7847
+locke_2012_nan_somsc,nan,2006,118,825.945,6055.7847
+locke_2012_clover_somsc,clover,2006,118,402.628,6221.13625
+locke_2012_clover_somsc,clover,2006,118,395.25,6221.13625
+locke_2012_clover_somsc,clover,2006,118,864.28,6221.13625
+locke_2012_rye_somsc,rye,2006,118,406.98,6246.20035
+locke_2012_rye_somsc,rye,2006,118,388.773,6246.20035
+locke_2012_rye_somsc,rye,2006,118,888.93,6246.20035
+locke_2012_nt_somsc,nt,2001,118,173.502,6380.7887
+locke_2012_nt_somsc,nt,2001,118,269.892,6380.7887
+locke_2012_nt_somsc,nt,2001,118,867.51,6380.7887
+locke_2012_mt_somsc,mt,2001,118,163.098,6380.7887
+locke_2012_mt_somsc,mt,2001,118,266.6025,6380.7887
+locke_2012_mt_somsc,mt,2001,118,784.125,6380.7887
+locke_2012_nt_somsc,nt,2002,118,242.046,6334.520199999999
+locke_2012_nt_somsc,nt,2002,118,305.235,6334.520199999999
+locke_2012_nt_somsc,nt,2002,118,953.19,6334.520199999999
+locke_2012_mt_somsc,mt,2002,118,194.463,6302.802033333333
+locke_2012_mt_somsc,mt,2002,118,307.377,6302.802033333333
+locke_2012_mt_somsc,mt,2002,118,920.04,6302.802033333333
+locke_2012_nt_somsc,nt,2003,118,295.596,6304.4866
+locke_2012_nt_somsc,nt,2003,118,305.235,6304.4866
+locke_2012_nt_somsc,nt,2003,118,921.06,6304.4866
+locke_2012_mt_somsc,mt,2003,118,255.102,6250.359700000001
+locke_2012_mt_somsc,mt,2003,118,310.5135,6250.359700000001
+locke_2012_mt_somsc,mt,2003,118,899.13,6250.359700000001
+locke_2012_nt_somsc,nt,2004,118,411.264,6271.697366666667
+locke_2012_nt_somsc,nt,2004,118,359.856,6271.697366666667
+locke_2012_nt_somsc,nt,2004,118,824.67,6271.697366666667
+locke_2012_mt_somsc,mt,2004,118,269.739,6198.614566666666
+locke_2012_mt_somsc,mt,2004,118,338.742,6198.614566666666
+locke_2012_mt_somsc,mt,2004,118,899.13,6198.614566666666
+locke_2012_nt_somsc,nt,2005,118,443.394,6243.6810000000005
+locke_2012_nt_somsc,nt,2005,118,337.365,6243.6810000000005
+locke_2012_nt_somsc,nt,2005,118,846.09,6243.6810000000005
+locke_2012_mt_somsc,mt,2005,118,326.196,6154.639899999999
+locke_2012_mt_somsc,mt,2005,118,341.8785,6154.639899999999
+locke_2012_mt_somsc,mt,2005,118,846.855,6154.639899999999
+locke_2012_nt_somsc,nt,2006,118,417.69,6223.898166666667
+locke_2012_nt_somsc,nt,2006,118,353.43,6223.898166666667
+locke_2012_nt_somsc,nt,2006,118,835.38,6223.898166666667
+locke_2012_mt_somsc,mt,2006,118,334.56,6124.849366666666
+locke_2012_mt_somsc,mt,2006,118,388.926,6124.849366666666
+locke_2012_mt_somsc,mt,2006,118,878.22,6124.849366666666

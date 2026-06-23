@@ -1,0 +1,106 @@
+SOMSC Check Summary for Site: Singh_2007
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-67.72%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,945.14 g C / m²
+Change during Equilibrium Phase: +1,054.28 g C / m²
+Change during Base Phase: -1,492.31 g C / m²
+Final SOMSC at end of Base Phase: 1,552.77 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,810.74 g C / m²
+Model is 67.72% lower than observation.
+(Difference: -3,257.97 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 6, SOMSC decrease: 0
+
+SOMSC Increase (g C / m²):
+  + T0 (+151.07)
+  + T1 (+1132.89)
+  + T10 (+208.84)
+  + T2 (+1000.36)
+  + T3 (+1322.51)
+  + T4 (+1006.13)
+
+SOMSC Decrease (g C / m²):
+  (none)
+
+--- Experimental Analysis ---
+'singh_2007_t0_somsc' Change: +151.07 g C / m² (End value: 4,961.75)
+'singh_2007_t1_somsc' Change: +1,132.89 g C / m² (End value: 5,943.57)
+'singh_2007_t10_somsc' Change: +208.84 g C / m² (End value: 5,019.52)
+'singh_2007_t2_somsc' Change: +1,000.36 g C / m² (End value: 5,811.04)
+'singh_2007_t3_somsc' Change: +1,322.51 g C / m² (End value: 6,133.19)
+'singh_2007_t4_somsc' Change: +1,006.13 g C / m² (End value: 5,816.81)
+
+Average SOMSC at end of all experimental phases: 5,614.31 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t0 (Years: 2006, Day: 10)... SUCCESS: 4991.23
+ -> Checking t1 (Years: 2006, Day: 10)... SUCCESS: 5974.07
+ -> Checking t2 (Years: 2006, Day: 10)... SUCCESS: 5844.03
+ -> Checking t3 (Years: 2006, Day: 10)... SUCCESS: 6165.66
+ -> Checking t4 (Years: 2006, Day: 10)... SUCCESS: 5846.76
+ -> Checking t5 (Years: 2006, Day: 10)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/Singh_2007_out/Singh_2007_t5_output/soilc.out FAILED: No matching data found.
+ -> Checking t6 (Years: 2006, Day: 10)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/Singh_2007_out/Singh_2007_t6_output/soilc.out FAILED: No matching data found.
+ -> Checking t7 (Years: 2006, Day: 10)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/Singh_2007_out/Singh_2007_t7_output/soilc.out FAILED: No matching data found.
+ -> Checking t8 (Years: 2006, Day: 10)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/Singh_2007_out/Singh_2007_t8_output/soilc.out FAILED: No matching data found.
+ -> Checking t9 (Years: 2006, Day: 10)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/Singh_2007_out/Singh_2007_t9_output/soilc.out FAILED: No matching data found.
+ -> Checking t10 (Years: 2006, Day: 10)... SUCCESS: 5032.29
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Singh_2007/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 6
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+         Observation  Observed  Simulated Difference
+ singh_2007_t0_somsc    729.75  4991.2293   +583.96%
+ singh_2007_t1_somsc   1031.25  5974.0690   +479.30%
+ singh_2007_t2_somsc    937.50  5844.0311   +523.36%
+ singh_2007_t3_somsc    956.25  6165.6617   +544.78%
+ singh_2007_t4_somsc   1041.60  5846.7573   +461.32%
+singh_2007_t10_somsc    966.00  5032.2945   +420.94%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.4031
+RMSE: 4715.72 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Singh_2007_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+singh_2007_t0_somsc,t0,2006,10,729.75,4991.2293
+singh_2007_t1_somsc,t1,2006,10,1031.25,5974.069
+singh_2007_t2_somsc,t2,2006,10,937.5,5844.0311
+singh_2007_t3_somsc,t3,2006,10,956.25,6165.6617
+singh_2007_t4_somsc,t4,2006,10,1041.6,5846.757299999999
+singh_2007_t10_somsc,t10,2006,10,966.0,5032.2945

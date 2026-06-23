@@ -1,0 +1,91 @@
+SOMSC Check Summary for Site: Khokhar_2022
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-88.17%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,906.37 g C / m²
+Change during Equilibrium Phase: +756.73 g C / m²
+Change during Base Phase: -2,028.55 g C / m²
+Final SOMSC at end of Base Phase: 669.45 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 5,659.41 g C / m²
+Model is 88.17% lower than observation.
+(Difference: -4,989.96 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 6
+Experiments with SOMSC increase: 4, SOMSC decrease: 2
+
+SOMSC Increase (g C / m²):
+  + CT_N1 (+554.83)
+  + CT_N2 (+555.23)
+  + RT1_N1 (+554.83)
+  + RT1_N2 (+555.23)
+
+SOMSC Decrease (g C / m²):
+  - CT_N3 (-79.96)
+  - RT1_N3 (-79.96)
+
+--- Experimental Analysis ---
+'khokhar_2022_ct_n1_somsc' Change: +554.83 g C / m² (End value: 6,214.24)
+'khokhar_2022_ct_n2_somsc' Change: +555.23 g C / m² (End value: 6,214.64)
+'khokhar_2022_ct_n3_somsc' Change: -79.96 g C / m² (End value: 5,579.45)
+'khokhar_2022_rt1_n1_somsc' Change: +554.83 g C / m² (End value: 6,214.24)
+'khokhar_2022_rt1_n2_somsc' Change: +555.23 g C / m² (End value: 6,214.64)
+'khokhar_2022_rt1_n3_somsc' Change: -79.96 g C / m² (End value: 5,579.45)
+
+Average SOMSC at end of all experimental phases: 6,002.78 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct (Years: 2017, Day: 108)... SUCCESS: 6003.02
+ -> Checking rt1 (Years: 2017, Day: 108)... SUCCESS: 6003.02
+ -> Checking n1 (Years: 2017, Day: 108)... SUCCESS: 6213.14
+ -> Checking n2 (Years: 2017, Day: 108)... SUCCESS: 6213.54
+ -> Checking n3 (Years: 2017, Day: 108)... SUCCESS: 5582.37
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Khokhar_2022/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Khokhar_2022/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Khokhar_2022/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 5
+Rows passing delta rule (sim >= obs): 5
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+           Observation  Observed   Simulated Difference
+ khokhar_2022_ct_somsc  1226.100 6003.018867   +389.60%
+khokhar_2022_rt1_somsc  1302.000 6003.018867   +361.06%
+ khokhar_2022_n1_somsc  1352.610 6213.139700   +359.34%
+ khokhar_2022_n2_somsc  1353.165 6213.542000   +359.19%
+ khokhar_2022_n3_somsc  1237.665 5582.374900   +351.04%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 5
+R²: 0.5987
+RMSE: 4712.60 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+khokhar_2022_ct_somsc,ct,2017,108,1226.1,6003.018866666666
+khokhar_2022_rt1_somsc,rt1,2017,108,1302.0,6003.018866666666
+khokhar_2022_n1_somsc,n1,2017,108,1352.61,6213.1397
+khokhar_2022_n2_somsc,n2,2017,108,1353.165,6213.542
+khokhar_2022_n3_somsc,n3,2017,108,1237.665,5582.3749

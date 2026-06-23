@@ -1,0 +1,94 @@
+SOMSC Check Summary for Site: Shukla_2018
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,859.71 g C / m²
+Change during Equilibrium Phase: +102.09 g C / m²
+Change during Base Phase: +7,320.23 g C / m²
+Final SOMSC at end of Base Phase: 9,336.57 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,595.38 g C / m²
+Model is 159.68% higher than observation.
+(Difference: +5,741.19 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 24
+Experiments with SOMSC increase: 0, SOMSC decrease: 24
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - T1_M1_N1 (-510.67)
+  - T1_M1_N2 (-493.28)
+  - T1_M1_N3 (-492.81)
+  - T1_M1_N4 (-492.28)
+  - T1_M2_N1 (-509.95)
+  - T1_M2_N2 (-491.21)
+  - T1_M2_N3 (-490.73)
+  - T1_M2_N4 (-490.18)
+  - T2_M1_N1 (-510.67)
+  - T2_M1_N2 (-493.28)
+  - T2_M1_N3 (-492.81)
+  - T2_M1_N4 (-492.28)
+  - T2_M2_N1 (-509.95)
+  - T2_M2_N2 (-491.21)
+  - T2_M2_N3 (-490.73)
+  - T2_M2_N4 (-490.18)
+  - T3_M1_N1 (-510.67)
+  - T3_M1_N2 (-493.28)
+  - T3_M1_N3 (-492.81)
+  - T3_M1_N4 (-492.28)
+  - T3_M2_N1 (-509.95)
+  - T3_M2_N2 (-491.21)
+  - T3_M2_N3 (-490.73)
+  - T3_M2_N4 (-490.18)
+
+--- Experimental Analysis ---
+'shukla_2018_t1_m1_n1_somsc' Change: -510.67 g C / m² (End value: 3,084.70)
+'shukla_2018_t1_m1_n2_somsc' Change: -493.28 g C / m² (End value: 3,102.09)
+'shukla_2018_t1_m1_n3_somsc' Change: -492.81 g C / m² (End value: 3,102.56)
+'shukla_2018_t1_m1_n4_somsc' Change: -492.28 g C / m² (End value: 3,103.09)
+'shukla_2018_t1_m2_n1_somsc' Change: -509.95 g C / m² (End value: 3,085.42)
+'shukla_2018_t1_m2_n2_somsc' Change: -491.21 g C / m² (End value: 3,104.16)
+'shukla_2018_t1_m2_n3_somsc' Change: -490.73 g C / m² (End value: 3,104.64)
+'shukla_2018_t1_m2_n4_somsc' Change: -490.18 g C / m² (End value: 3,105.19)
+'shukla_2018_t2_m1_n1_somsc' Change: -510.67 g C / m² (End value: 3,084.70)
+'shukla_2018_t2_m1_n2_somsc' Change: -493.28 g C / m² (End value: 3,102.09)
+'shukla_2018_t2_m1_n3_somsc' Change: -492.81 g C / m² (End value: 3,102.56)
+'shukla_2018_t2_m1_n4_somsc' Change: -492.28 g C / m² (End value: 3,103.09)
+'shukla_2018_t2_m2_n1_somsc' Change: -509.95 g C / m² (End value: 3,085.42)
+'shukla_2018_t2_m2_n2_somsc' Change: -491.21 g C / m² (End value: 3,104.16)
+'shukla_2018_t2_m2_n3_somsc' Change: -490.73 g C / m² (End value: 3,104.64)
+'shukla_2018_t2_m2_n4_somsc' Change: -490.18 g C / m² (End value: 3,105.19)
+'shukla_2018_t3_m1_n1_somsc' Change: -510.67 g C / m² (End value: 3,084.70)
+'shukla_2018_t3_m1_n2_somsc' Change: -493.28 g C / m² (End value: 3,102.09)
+'shukla_2018_t3_m1_n3_somsc' Change: -492.81 g C / m² (End value: 3,102.56)
+'shukla_2018_t3_m1_n4_somsc' Change: -492.28 g C / m² (End value: 3,103.09)
+'shukla_2018_t3_m2_n1_somsc' Change: -509.95 g C / m² (End value: 3,085.42)
+'shukla_2018_t3_m2_n2_somsc' Change: -491.21 g C / m² (End value: 3,104.16)
+'shukla_2018_t3_m2_n3_somsc' Change: -490.73 g C / m² (End value: 3,104.64)
+'shukla_2018_t3_m2_n4_somsc' Change: -490.18 g C / m² (End value: 3,105.19)
+
+Average SOMSC at end of all experimental phases: 3,098.98 g C / m²
+
+--- Calibration Script Test ---
+Status: FAILED
+Reason: Script exited with error code 1
+
+--- Error Output ---
+Traceback (most recent call last):
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Shukla_2018/scripts/extract_somsc.py", line 402, in <module>
+    main()
+  File "/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Shukla_2018/scripts/extract_somsc.py", line 251, in main
+    target_day = int(row['target_day'])
+ValueError: cannot convert float NaN to integer
+
+
+--- Averaged SOMSC Comparison Data ---
+NOTE: 'averaged_somsc_comparison.csv' not found. This may be because the 'extract_somsc.py' script failed or does not produce this file.

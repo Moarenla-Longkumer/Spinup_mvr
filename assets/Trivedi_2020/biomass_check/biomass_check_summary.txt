@@ -1,0 +1,136 @@
+Biomass Check Summary for Site: Trivedi_2020
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 16
+Rows passing delta rule (sim >= obs): 8
+Rows with shortfall (sim < obs): 8
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                             Observation  Observed  Simulated          Difference
+      trivedi_2020_trt_control_cgrain_c6    22.360  36.499102             +63.23%
+            trivedi_2020_trt_n_cgrain_c6    18.920 152.564735            +706.37%
+          trivedi_2020_trt_fym_cgrain_c6   124.700 110.469323 -11.41% [SHORTFALL]
+          trivedi_2020_trt_npk_cgrain_c6    62.780 152.361769            +142.69%
+    trivedi_2020_trt_fympk_adj_cgrain_c6   133.730 126.152172  -5.67% [SHORTFALL]
+         trivedi_2020_trt_npkl_cgrain_c6   170.710 152.037020 -10.94% [SHORTFALL]
+   trivedi_2020_trt_fympkl_adj_cgrain_c6   125.130 126.152172              +0.82%
+           trivedi_2020_trt_nl_cgrain_c6   101.480 152.058015             +49.84%
+   trivedi_2020_trt_control_cgrain_sw3eg    32.802  21.721460 -33.78% [SHORTFALL]
+         trivedi_2020_trt_n_cgrain_sw3eg     7.854 136.081602           +1632.64%
+       trivedi_2020_trt_fym_cgrain_sw3eg   106.260  75.192937 -29.24% [SHORTFALL]
+       trivedi_2020_trt_npk_cgrain_sw3eg    85.932 135.869525             +58.11%
+ trivedi_2020_trt_fympk_adj_cgrain_sw3eg   112.728  72.037055 -36.10% [SHORTFALL]
+      trivedi_2020_trt_npkl_cgrain_sw3eg   166.782 131.593970 -21.10% [SHORTFALL]
+trivedi_2020_trt_fympkl_adj_cgrain_sw3eg   100.716  72.037055 -28.48% [SHORTFALL]
+        trivedi_2020_trt_nl_cgrain_sw3eg    77.154 131.661904             +70.65%
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Trivedi_2020_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 16
+R²: 0.0659
+RMSE: 59.14 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Trivedi_2020_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 16
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 45 data points in TRT_CONTROL
+Successfully processed: 'trivedi_2020_trt_control_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 54 data points in TRT_N
+Successfully processed: 'trivedi_2020_trt_n_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_FYM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_FYM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_FYM
+Successfully processed: 'trivedi_2020_trt_fym_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 54 data points in TRT_NPK
+Successfully processed: 'trivedi_2020_trt_npk_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_FYMPK_ADJ
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_FYMPK_ADJ_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 54 data points in TRT_FYMPK_ADJ
+Successfully processed: 'trivedi_2020_trt_fympk_adj_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_NPKL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_NPKL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 54 data points in TRT_NPKL
+Successfully processed: 'trivedi_2020_trt_npkl_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_FYMPKL_ADJ
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_FYMPKL_ADJ_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 54 data points in TRT_FYMPKL_ADJ
+Successfully processed: 'trivedi_2020_trt_fympkl_adj_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_NL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_NL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 54 data points in TRT_NL
+Successfully processed: 'trivedi_2020_trt_nl_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: TRT_CONTROL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_CONTROL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_CONTROL
+Successfully processed: 'trivedi_2020_trt_control_cgrain_sw3eg'
+    [DEBUG] Checking Treatment Sch: TRT_N
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_N_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_N
+Successfully processed: 'trivedi_2020_trt_n_cgrain_sw3eg'
+    [DEBUG] Checking Treatment Sch: TRT_FYM
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_FYM_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 52 data points in TRT_FYM
+Successfully processed: 'trivedi_2020_trt_fym_cgrain_sw3eg'
+    [DEBUG] Checking Treatment Sch: TRT_NPK
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_NPK_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_NPK
+Successfully processed: 'trivedi_2020_trt_npk_cgrain_sw3eg'
+    [DEBUG] Checking Treatment Sch: TRT_FYMPK_ADJ
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_FYMPK_ADJ_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_FYMPK_ADJ
+Successfully processed: 'trivedi_2020_trt_fympk_adj_cgrain_sw3eg'
+    [DEBUG] Checking Treatment Sch: TRT_NPKL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_NPKL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_NPKL
+Successfully processed: 'trivedi_2020_trt_npkl_cgrain_sw3eg'
+    [DEBUG] Checking Treatment Sch: TRT_FYMPKL_ADJ
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_FYMPKL_ADJ_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_FYMPKL_ADJ
+Successfully processed: 'trivedi_2020_trt_fympkl_adj_cgrain_sw3eg'
+    [DEBUG] Checking Treatment Sch: TRT_NL
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/Trivedi_2020_out/Trivedi_2020_TRT_NL_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 53 data points in TRT_NL
+Successfully processed: 'trivedi_2020_trt_nl_cgrain_sw3eg'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Trivedi_2020/observed_vs_modeled_biomass.png'
+--- Script finished. ---

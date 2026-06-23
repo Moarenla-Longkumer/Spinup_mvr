@@ -1,0 +1,93 @@
+SOMSC Check Summary for Site: Behera_2021
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,877.10 g C / m²
+Change during Equilibrium Phase: +368.12 g C / m²
+Change during Base Phase: +982.07 g C / m²
+Final SOMSC at end of Base Phase: 3,278.64 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,102.76 g C / m²
+Model is 5.67% higher than observation.
+(Difference: +175.88 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 20
+Experiments with SOMSC increase: 5, SOMSC decrease: 15
+
+SOMSC Increase (g C / m²):
+  + CT_R_CW (+43.93)
+  + CT_R_MW (+80.76)
+  + ZT_R_CW (+179.33)
+  + ZT_R_MW (+201.55)
+  + ZT_R_PW (+10.16)
+
+SOMSC Decrease (g C / m²):
+  - CT_CW (-482.93)
+  - CT_GW (-544.69)
+  - CT_MW (-460.65)
+  - CT_PW (-527.34)
+  - CT_R_GW (-205.62)
+  - CT_R_PW (-177.28)
+  - CT_R_SW (-211.96)
+  - CT_SW (-536.55)
+  - ZT_CW (-89.41)
+  - ZT_GW (-175.26)
+  - ZT_MW (-61.93)
+  - ZT_PW (-150.86)
+  - ZT_R_GW (-17.72)
+  - ZT_R_SW (-11.31)
+  - ZT_SW (-162.12)
+
+--- Experimental Analysis ---
+'behera_2021_ct_cw_somsc' Change: -482.93 g C / m² (End value: 2,619.91)
+'behera_2021_ct_gw_somsc' Change: -544.69 g C / m² (End value: 2,558.15)
+'behera_2021_ct_mw_somsc' Change: -460.65 g C / m² (End value: 2,642.20)
+'behera_2021_ct_pw_somsc' Change: -527.34 g C / m² (End value: 2,575.50)
+'behera_2021_ct_r_cw_somsc' Change: +43.93 g C / m² (End value: 3,146.77)
+'behera_2021_ct_r_gw_somsc' Change: -205.62 g C / m² (End value: 2,897.22)
+'behera_2021_ct_r_mw_somsc' Change: +80.76 g C / m² (End value: 3,183.61)
+'behera_2021_ct_r_pw_somsc' Change: -177.28 g C / m² (End value: 2,925.56)
+'behera_2021_ct_r_sw_somsc' Change: -211.96 g C / m² (End value: 2,890.89)
+'behera_2021_ct_sw_somsc' Change: -536.55 g C / m² (End value: 2,566.29)
+'behera_2021_zt_cw_somsc' Change: -89.41 g C / m² (End value: 3,013.44)
+'behera_2021_zt_gw_somsc' Change: -175.26 g C / m² (End value: 2,927.58)
+'behera_2021_zt_mw_somsc' Change: -61.93 g C / m² (End value: 3,040.91)
+'behera_2021_zt_pw_somsc' Change: -150.86 g C / m² (End value: 2,951.98)
+'behera_2021_zt_r_cw_somsc' Change: +179.33 g C / m² (End value: 3,282.17)
+'behera_2021_zt_r_gw_somsc' Change: -17.72 g C / m² (End value: 3,085.13)
+'behera_2021_zt_r_mw_somsc' Change: +201.55 g C / m² (End value: 3,304.40)
+'behera_2021_zt_r_pw_somsc' Change: +10.16 g C / m² (End value: 3,113.01)
+'behera_2021_zt_r_sw_somsc' Change: -11.31 g C / m² (End value: 3,091.53)
+'behera_2021_zt_sw_somsc' Change: -162.12 g C / m² (End value: 2,940.72)
+
+Average SOMSC at end of all experimental phases: 2,937.85 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking cw (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking pw (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking gw (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking mw (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking sw (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking ct (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking ct_r (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking zt (Years: 2014, Day: 110)... FAILED: No matching data found.
+ -> Checking zt_r (Years: 2014, Day: 110)... FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Behera_2021/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

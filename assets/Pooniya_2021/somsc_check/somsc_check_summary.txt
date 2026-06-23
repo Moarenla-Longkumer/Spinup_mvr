@@ -1,0 +1,103 @@
+SOMSC Check Summary for Site: Pooniya_2021
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,883.95 g C / m²
+Change during Equilibrium Phase: +413.09 g C / m²
+Change during Base Phase: +7,089.11 g C / m²
+Final SOMSC at end of Base Phase: 9,408.59 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 2,770.99 g C / m²
+Model is 239.54% higher than observation.
+(Difference: +6,637.60 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 9
+Experiments with SOMSC increase: 0, SOMSC decrease: 9
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - TRT_CT_FFP (-3555.25)
+  - TRT_CT_NE (-3555.24)
+  - TRT_CT_RDF (-3555.24)
+  - TRT_PNB_FFP (-2691.22)
+  - TRT_PNB_NE (-2691.19)
+  - TRT_PNB_RDF (-2691.19)
+  - TRT_ZTFB_FFP (-169.01)
+  - TRT_ZTFB_NE (-280.28)
+  - TRT_ZTFB_RDF (-215.47)
+
+--- Experimental Analysis ---
+'pooniya_2021_trt_ct_ffp_somsc' Change: -3,555.25 g C / m² (End value: -784.19)
+'pooniya_2021_trt_ct_ne_somsc' Change: -3,555.24 g C / m² (End value: -784.17)
+'pooniya_2021_trt_ct_rdf_somsc' Change: -3,555.24 g C / m² (End value: -784.17)
+'pooniya_2021_trt_pnb_ffp_somsc' Change: -2,691.22 g C / m² (End value: 79.85)
+'pooniya_2021_trt_pnb_ne_somsc' Change: -2,691.19 g C / m² (End value: 79.88)
+'pooniya_2021_trt_pnb_rdf_somsc' Change: -2,691.19 g C / m² (End value: 79.88)
+'pooniya_2021_trt_ztfb_ffp_somsc' Change: -169.01 g C / m² (End value: 2,602.05)
+'pooniya_2021_trt_ztfb_ne_somsc' Change: -280.28 g C / m² (End value: 2,490.79)
+'pooniya_2021_trt_ztfb_rdf_somsc' Change: -215.47 g C / m² (End value: 2,555.60)
+
+Average SOMSC at end of all experimental phases: 615.06 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_ct_avg (Years: 2017, Day: 292)... SUCCESS: -12.95
+ -> Checking trt_pnb_avg (Years: 2017, Day: 292)... SUCCESS: 683.80
+ -> Checking trt_ztfb_avg (Years: 2017, Day: 292)... SUCCESS: 2681.27
+ -> Checking trt_avg_ffp (Years: 2017, Day: 292)... SUCCESS: 1141.26
+ -> Checking trt_avg_rdf (Years: 2017, Day: 292)... SUCCESS: 1105.44
+ -> Checking trt_avg_ne (Years: 2017, Day: 292)... SUCCESS: 1105.43
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Pooniya_2021/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 6
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 6
+
+                    Observation  Observed   Simulated         Difference
+  pooniya_2021_trt_ct_avg_somsc       0.0  -12.945600 FLAG (invalid obs)
+ pooniya_2021_trt_pnb_avg_somsc       0.0  683.801767 FLAG (invalid obs)
+pooniya_2021_trt_ztfb_avg_somsc       0.0 2681.272833 FLAG (invalid obs)
+ pooniya_2021_trt_avg_ffp_somsc       0.0 1141.261633 FLAG (invalid obs)
+ pooniya_2021_trt_avg_rdf_somsc       0.0 1105.435433 FLAG (invalid obs)
+  pooniya_2021_trt_avg_ne_somsc       0.0 1105.431933 FLAG (invalid obs)
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, and `target_variable` in `observations/Pooniya_2021_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 6
+R²: 0.0000 (flat observations or flat model)
+RMSE: 1378.61 g C / m²
+Status: FLAG - Near-zero variance in observed and/or simulated values.
+Action: Review `.sch` files and observation timing in `observations/Pooniya_2021_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+pooniya_2021_trt_ct_avg_somsc,trt_ct_avg,2017,292,0.0,-12.945600000000317
+pooniya_2021_trt_pnb_avg_somsc,trt_pnb_avg,2017,292,0.0,683.8017666666661
+pooniya_2021_trt_ztfb_avg_somsc,trt_ztfb_avg,2017,292,0.0,2681.272833333333
+pooniya_2021_trt_avg_ffp_somsc,trt_avg_ffp,2017,292,0.0,1141.2616333333326
+pooniya_2021_trt_avg_rdf_somsc,trt_avg_rdf,2017,292,0.0,1105.435433333333
+pooniya_2021_trt_avg_ne_somsc,trt_avg_ne,2017,292,0.0,1105.4319333333333

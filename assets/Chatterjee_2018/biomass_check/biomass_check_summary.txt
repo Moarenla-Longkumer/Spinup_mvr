@@ -1,0 +1,277 @@
+Biomass Check Summary for Site: Chatterjee_2018
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 22
+Rows passing delta rule (sim >= obs): 0
+Rows with shortfall (sim < obs): 22
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                              Observation   Observed  Simulated          Difference
+  chatterjee_2018_i0_m0_n0_cgrain_c6_2012 100.031579    17.0104 -82.99% [SHORTFALL]
+ chatterjee_2018_i0_m0_n75_cgrain_c6_2012 223.600000   102.7481 -54.05% [SHORTFALL]
+chatterjee_2018_i0_m0_n150_cgrain_c6_2012 184.221053   128.6800 -30.15% [SHORTFALL]
+  chatterjee_2018_i0_m+_n0_cgrain_c6_2012 142.126316    21.9499 -84.56% [SHORTFALL]
+ chatterjee_2018_i0_m+_n75_cgrain_c6_2012 252.115790   101.2402 -59.84% [SHORTFALL]
+  chatterjee_2018_i+_m0_n0_cgrain_c6_2012 224.957895    17.0104 -92.44% [SHORTFALL]
+ chatterjee_2018_i+_m0_n75_cgrain_c6_2012 272.484211   102.7481 -62.29% [SHORTFALL]
+chatterjee_2018_i+_m0_n150_cgrain_c6_2012 290.136842   128.6800 -55.65% [SHORTFALL]
+  chatterjee_2018_i+_m+_n0_cgrain_c6_2012 151.631579    14.9648 -90.13% [SHORTFALL]
+ chatterjee_2018_i+_m+_n75_cgrain_c6_2012 299.642105   101.3682 -66.17% [SHORTFALL]
+chatterjee_2018_i+_m+_n150_cgrain_c6_2012 315.936842   126.7951 -59.87% [SHORTFALL]
+       chatterjee_2018_i0_m0_n0_cgrain_c6 108.178947    17.0104 -84.28% [SHORTFALL]
+      chatterjee_2018_i0_m0_n75_cgrain_c6 189.652632   102.7481 -45.82% [SHORTFALL]
+     chatterjee_2018_i0_m0_n150_cgrain_c6 178.789474   128.6800 -28.03% [SHORTFALL]
+       chatterjee_2018_i0_m+_n0_cgrain_c6 163.852632    21.9499 -86.60% [SHORTFALL]
+      chatterjee_2018_i0_m+_n75_cgrain_c6 241.252632   101.2402 -58.04% [SHORTFALL]
+       chatterjee_2018_i+_m0_n0_cgrain_c6 169.284211    17.0104 -89.95% [SHORTFALL]
+      chatterjee_2018_i+_m0_n75_cgrain_c6 235.821053   102.7481 -56.43% [SHORTFALL]
+     chatterjee_2018_i+_m0_n150_cgrain_c6 256.189474   128.6800 -49.77% [SHORTFALL]
+       chatterjee_2018_i+_m+_n0_cgrain_c6 151.631579    14.9648 -90.13% [SHORTFALL]
+      chatterjee_2018_i+_m+_n75_cgrain_c6 264.336842   101.3682 -61.65% [SHORTFALL]
+     chatterjee_2018_i+_m+_n150_cgrain_c6 265.694737   126.7951 -52.28% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Chatterjee_2018_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 22
+R²: 0.5511
+RMSE: 140.37 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 36
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M0_N0
+Successfully processed: 'chatterjee_2018_i0_m0_n0_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M0_N75
+Successfully processed: 'chatterjee_2018_i0_m0_n75_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M0_N150
+Successfully processed: 'chatterjee_2018_i0_m0_n150_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M+_N0
+Successfully processed: 'chatterjee_2018_i0_m+_n0_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M+_N75
+Successfully processed: 'chatterjee_2018_i0_m+_n75_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2012
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m+_n150_cgrain_c6_2012'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M0_N0
+Successfully processed: 'chatterjee_2018_i+_m0_n0_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M0_N75
+Successfully processed: 'chatterjee_2018_i+_m0_n75_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M0_N150
+Successfully processed: 'chatterjee_2018_i+_m0_n150_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M+_N0
+Successfully processed: 'chatterjee_2018_i+_m+_n0_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M+_N75
+Successfully processed: 'chatterjee_2018_i+_m+_n75_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M+_N150
+Successfully processed: 'chatterjee_2018_i+_m+_n150_cgrain_c6_2012'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m0_n0_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m0_n75_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m0_n150_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m+_n0_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m+_n75_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m+_n150_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i+_m0_n0_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i+_m0_n75_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i+_m0_n150_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i+_m+_n0_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i+_m+_n75_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i+_m+_n150_cgrain_c6_2013'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M0_N0
+Successfully processed: 'chatterjee_2018_i0_m0_n0_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M0_N75
+Successfully processed: 'chatterjee_2018_i0_m0_n75_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M0_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M0_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M0_N150
+Successfully processed: 'chatterjee_2018_i0_m0_n150_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M+_N0
+Successfully processed: 'chatterjee_2018_i0_m+_n0_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I0_M+_N75
+Successfully processed: 'chatterjee_2018_i0_m+_n75_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I0_M+_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I0_M+_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] ! Extraction returned 0 points for cgrain in Year(s) 2012,2013
+-! WARNING: Calculation failed for 'chatterjee_2018_i0_m+_n150_cgrain_c6'. No data found.
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M0_N0
+Successfully processed: 'chatterjee_2018_i+_m0_n0_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M0_N75
+Successfully processed: 'chatterjee_2018_i+_m0_n75_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M0_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M0_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M0_N150
+Successfully processed: 'chatterjee_2018_i+_m0_n150_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N0
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N0_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M+_N0
+Successfully processed: 'chatterjee_2018_i+_m+_n0_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N75
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N75_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M+_N75
+Successfully processed: 'chatterjee_2018_i+_m+_n75_cgrain_c6'
+    [WARN] Non-numeric target_crop_num 'C6' ignored (expected an integer crop index).
+    [DEBUG] Checking Treatment Sch: I+_M+_N150
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/Chatterjee_2018_out/Chatterjee_2018_I+_M+_N150_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in I+_M+_N150
+Successfully processed: 'chatterjee_2018_i+_m+_n150_cgrain_c6'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Chatterjee_2018/observed_vs_modeled_biomass.png'
+--- Script finished. ---

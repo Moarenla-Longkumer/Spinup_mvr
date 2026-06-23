@@ -1,0 +1,42 @@
+SOMSC Check Summary for Site: Yadav_2021
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-60.20%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,969.76 g C / m²
+Change during Equilibrium Phase: +3,015.23 g C / m²
+Change during Base Phase: -2,775.02 g C / m²
+Final SOMSC at end of Base Phase: 2,233.50 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 5,612.12 g C / m²
+Model is 60.20% lower than observation.
+(Difference: -3,378.62 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+No experimental treatment outputs found.
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking trt_zt_rr0 (Years: 2019, Day: 298)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR0_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_zt_rr30 (Years: 2019, Day: 298)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR30_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_zt_rr60 (Years: 2019, Day: 298)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR60_output/soilc.out FAILED: No matching data found.
+ -> Checking trt_zt_rr90 (Years: 2019, Day: 298)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/Yadav_2021_out/Yadav_2021_TRT_ZT_RR90_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Yadav_2021/output_somsc.txt'
+
+No data available to plot or save.
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: MODEL ONLY - No SOMSC observations in the observation file.
+Observed-vs-modelled metrics were skipped, but modelled SOMSC plots were generated from DayCent output.
+Add SOMSC rows to the observation file if SOMSC calibration metrics are needed.

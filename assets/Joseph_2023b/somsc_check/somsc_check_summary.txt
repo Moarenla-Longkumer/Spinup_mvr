@@ -1,0 +1,84 @@
+SOMSC Check Summary for Site: Joseph_2023b
+
+RESULT: OK for Calibration - Base SOMSC meets or exceeds SoilGrids observation.
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,877.77 g C / m²
+Change during Equilibrium Phase: +411.94 g C / m²
+Change during Base Phase: +2,030.43 g C / m²
+Final SOMSC at end of Base Phase: 4,365.14 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 3,327.95 g C / m²
+Model is 31.17% higher than observation.
+(Difference: +1,037.19 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 3
+Experiments with SOMSC increase: 0, SOMSC decrease: 3
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - CT (-868.47)
+  - PNBB (-440.60)
+  - PNBB_R (-127.18)
+
+--- Experimental Analysis ---
+'joseph_2023b_ct_somsc' Change: -868.47 g C / m² (End value: 2,459.72)
+'joseph_2023b_pnbb_somsc' Change: -440.60 g C / m² (End value: 2,887.59)
+'joseph_2023b_pnbb_r_somsc' Change: -127.18 g C / m² (End value: 3,201.01)
+
+Average SOMSC at end of all experimental phases: 2,849.44 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking ct (Years: 2020, Day: 316)... SUCCESS: 2490.33
+ -> Checking pnbb (Years: 2020, Day: 316)... SUCCESS: 2940.19
+ -> Checking pnbb_r (Years: 2020, Day: 316)... SUCCESS: 3262.93
+ -> Checking zt (Years: 2020, Day: 316)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Joseph_2023b/Joseph_2023b_out/Joseph_2023b_ZT_output/soilc.out FAILED: No matching data found.
+ -> Checking zt_r (Years: 2020, Day: 316)... 
+    [WARN] File missing: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Joseph_2023b/Joseph_2023b_out/Joseph_2023b_ZT_R_output/soilc.out FAILED: No matching data found.
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Joseph_2023b/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Joseph_2023b/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Joseph_2023b/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 3
+Rows passing delta rule (sim >= obs): 3
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+              Observation    Observed  Simulated Difference
+    joseph_2023b_ct_somsc 1270.440252  2490.3331    +96.02%
+  joseph_2023b_pnbb_somsc 1468.553459  2940.1912   +100.21%
+joseph_2023b_pnbb_r_somsc 1654.088050  3262.9264    +97.26%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 3
+R²: 0.9943
+RMSE: 1442.48 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+joseph_2023b_ct_somsc,ct,2020,316,1270.440252,2490.3331
+joseph_2023b_pnbb_somsc,pnbb,2020,316,1468.553459,2940.1912
+joseph_2023b_pnbb_r_somsc,pnbb_r,2020,316,1654.08805,3262.9264

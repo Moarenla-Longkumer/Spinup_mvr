@@ -1,0 +1,472 @@
+Biomass Check Summary for Site: Srinivasarao_2019
+
+RESULT: NEEDS INVESTIGATION - Model below observation and/or invalid comparison rows (see Point-wise delta).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 72
+Rows passing delta rule (sim >= obs): 8
+Rows with shortfall (sim < obs): 64
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                           Observation  Observed  Simulated          Difference
+        srinivasarao_2019_t1_cgrain_c6    66.880  23.445933 -64.94% [SHORTFALL]
+        srinivasarao_2019_t2_cgrain_c6    91.960  56.982317 -38.04% [SHORTFALL]
+        srinivasarao_2019_t3_cgrain_c6    97.680  40.695467 -58.34% [SHORTFALL]
+        srinivasarao_2019_t4_cgrain_c6    91.080  41.263283 -54.70% [SHORTFALL]
+        srinivasarao_2019_t5_cgrain_c6    88.440  45.794900 -48.22% [SHORTFALL]
+        srinivasarao_2019_t6_cgrain_c6    89.320  40.977917 -54.12% [SHORTFALL]
+        srinivasarao_2019_t7_cgrain_c6    93.280  39.808017 -57.32% [SHORTFALL]
+        srinivasarao_2019_t8_cgrain_c6   102.080  42.820867 -58.05% [SHORTFALL]
+        srinivasarao_2019_t9_cgrain_c6    78.320  56.982317 -27.24% [SHORTFALL]
+     srinivasarao_2019_t1_cgrain_bgram    28.000  11.151567 -60.17% [SHORTFALL]
+     srinivasarao_2019_t2_cgrain_bgram    41.200  10.560767 -74.37% [SHORTFALL]
+     srinivasarao_2019_t3_cgrain_bgram    44.400  10.569000 -76.20% [SHORTFALL]
+     srinivasarao_2019_t4_cgrain_bgram    38.800  10.569033 -72.76% [SHORTFALL]
+     srinivasarao_2019_t5_cgrain_bgram    38.800  10.557950 -72.79% [SHORTFALL]
+     srinivasarao_2019_t6_cgrain_bgram    39.600  10.565250 -73.32% [SHORTFALL]
+     srinivasarao_2019_t7_cgrain_bgram    38.800  10.569583 -72.76% [SHORTFALL]
+     srinivasarao_2019_t8_cgrain_bgram    38.800  10.563917 -72.77% [SHORTFALL]
+     srinivasarao_2019_t9_cgrain_bgram    35.600  10.560767 -70.33% [SHORTFALL]
+        srinivasarao_2019_t1_cgrain_c6    43.824  20.155850 -54.01% [SHORTFALL]
+        srinivasarao_2019_t2_cgrain_c6    68.772  50.595500 -26.43% [SHORTFALL]
+        srinivasarao_2019_t3_cgrain_c6    56.144  33.857250 -39.70% [SHORTFALL]
+        srinivasarao_2019_t4_cgrain_c6    60.544  34.043350 -43.77% [SHORTFALL]
+        srinivasarao_2019_t5_cgrain_c6    54.780  40.917800 -25.31% [SHORTFALL]
+        srinivasarao_2019_t6_cgrain_c6    56.452  35.367700 -37.35% [SHORTFALL]
+        srinivasarao_2019_t7_cgrain_c6    59.708  33.477150 -43.93% [SHORTFALL]
+        srinivasarao_2019_t8_cgrain_c6    64.636  36.700750 -43.22% [SHORTFALL]
+        srinivasarao_2019_t9_cgrain_c6    53.152  50.595500  -4.81% [SHORTFALL]
+        srinivasarao_2019_t1_cgrain_c6    32.868  25.952400 -21.04% [SHORTFALL]
+        srinivasarao_2019_t2_cgrain_c6    37.004  57.317400             +54.90%
+        srinivasarao_2019_t3_cgrain_c6    41.624  43.029400              +3.38%
+        srinivasarao_2019_t4_cgrain_c6    41.096  43.698750              +6.33%
+        srinivasarao_2019_t5_cgrain_c6    40.832  46.059700             +12.80%
+        srinivasarao_2019_t6_cgrain_c6    42.196  42.387650              +0.45%
+        srinivasarao_2019_t7_cgrain_c6    41.932  42.268000              +0.80%
+        srinivasarao_2019_t8_cgrain_c6    48.224  42.072300 -12.76% [SHORTFALL]
+        srinivasarao_2019_t9_cgrain_c6    38.368  57.317400             +49.39%
+        srinivasarao_2019_t1_cgrain_c6   124.916  24.229550 -80.60% [SHORTFALL]
+        srinivasarao_2019_t2_cgrain_c6   166.320  63.034050 -62.10% [SHORTFALL]
+        srinivasarao_2019_t3_cgrain_c6   193.424  45.199750 -76.63% [SHORTFALL]
+        srinivasarao_2019_t4_cgrain_c6   175.076  46.047750 -73.70% [SHORTFALL]
+        srinivasarao_2019_t5_cgrain_c6   170.148  50.407200 -70.37% [SHORTFALL]
+        srinivasarao_2019_t6_cgrain_c6   172.348  45.178400 -73.79% [SHORTFALL]
+        srinivasarao_2019_t7_cgrain_c6   179.168  43.678900 -75.62% [SHORTFALL]
+        srinivasarao_2019_t8_cgrain_c6   194.260  49.689550 -74.42% [SHORTFALL]
+        srinivasarao_2019_t9_cgrain_c6   144.100  63.034050 -56.26% [SHORTFALL]
+srinivasarao_2019_t1_cgrain_bgram_2008    16.320  18.231600             +11.71%
+srinivasarao_2019_t2_cgrain_bgram_2008    22.640  16.433500 -27.41% [SHORTFALL]
+srinivasarao_2019_t3_cgrain_bgram_2008    25.480  16.418400 -35.56% [SHORTFALL]
+srinivasarao_2019_t4_cgrain_bgram_2008    25.040  16.421800 -34.42% [SHORTFALL]
+srinivasarao_2019_t5_cgrain_bgram_2008    23.800  16.411800 -31.04% [SHORTFALL]
+srinivasarao_2019_t6_cgrain_bgram_2008    24.760  16.414300 -33.71% [SHORTFALL]
+srinivasarao_2019_t7_cgrain_bgram_2008    25.320  16.414200 -35.17% [SHORTFALL]
+srinivasarao_2019_t8_cgrain_bgram_2008    22.920  16.414100 -28.39% [SHORTFALL]
+srinivasarao_2019_t9_cgrain_bgram_2008    21.480  16.433500 -23.49% [SHORTFALL]
+srinivasarao_2019_t1_cgrain_bgram_2010    34.120  13.951900 -59.11% [SHORTFALL]
+srinivasarao_2019_t2_cgrain_bgram_2010    50.080  13.933200 -72.18% [SHORTFALL]
+srinivasarao_2019_t3_cgrain_bgram_2010    52.400  13.934500 -73.41% [SHORTFALL]
+srinivasarao_2019_t4_cgrain_bgram_2010    46.280  13.934400 -69.89% [SHORTFALL]
+srinivasarao_2019_t5_cgrain_bgram_2010    44.480  13.931800 -68.68% [SHORTFALL]
+srinivasarao_2019_t6_cgrain_bgram_2010    46.440  13.934800 -69.99% [SHORTFALL]
+srinivasarao_2019_t7_cgrain_bgram_2010    45.360  13.934800 -69.28% [SHORTFALL]
+srinivasarao_2019_t8_cgrain_bgram_2010    44.760  13.934900 -68.87% [SHORTFALL]
+srinivasarao_2019_t9_cgrain_bgram_2010    42.160  13.933200 -66.95% [SHORTFALL]
+srinivasarao_2019_t1_cgrain_bgram_2012    34.040   8.416300 -75.28% [SHORTFALL]
+srinivasarao_2019_t2_cgrain_bgram_2012    49.920   8.342300 -83.29% [SHORTFALL]
+srinivasarao_2019_t3_cgrain_bgram_2012    55.360   8.361700 -84.90% [SHORTFALL]
+srinivasarao_2019_t4_cgrain_bgram_2012    44.920   8.360000 -81.39% [SHORTFALL]
+srinivasarao_2019_t5_cgrain_bgram_2012    48.560   8.377600 -82.75% [SHORTFALL]
+srinivasarao_2019_t6_cgrain_bgram_2012    47.240   8.349600 -82.33% [SHORTFALL]
+srinivasarao_2019_t7_cgrain_bgram_2012    45.360   8.363500 -81.56% [SHORTFALL]
+srinivasarao_2019_t8_cgrain_bgram_2012    48.400   8.355200 -82.74% [SHORTFALL]
+srinivasarao_2019_t9_cgrain_bgram_2012    43.320   8.342300 -80.74% [SHORTFALL]
+
+Status: FLAG - At least one row failed the delta rule.
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Srinivasarao_2019_obs.csv`.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 72
+R²: 0.3578
+RMSE: 51.42 g C / m²
+Status: FLAG - R² < 0.50 (poor obs–sim agreement).
+Action: Review treatment `.sch` files, `target_year` / `target_day`, `target_crop`, and `target_variable` in `observations/Srinivasarao_2019_obs.csv`.
+
+
+--- Biomass Extraction Script ---
+Status: Successful Run
+
+--- Output ---
+--- Script started (with upgraded functions). ---
+[DEBUG] Observation Columns Detected: ['site_name', 'treatment_name', 'treatment_sch_file_name', 'observation_name', 'observation_description', 'observation_type', 'target_variable', 'target_crop', 'target_crop_num', 'depth (cm)', 'target_year', 'target_day', 'value', 'units', 'uncertainty_type', 'uncertainty units', 'uncertainty_value', 'n_obs', 'COMMENT', 'start_target_year', 'start_target_day']
+[DEBUG] Rows remaining after filtering: 72
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 6 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_bgram'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 2 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_c6'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_bgram_2008'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_bgram_2010'
+    [DEBUG] Checking Treatment Sch: T1
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T1_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T1
+Successfully processed: 'srinivasarao_2019_t1_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T2
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T2_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T2
+Successfully processed: 'srinivasarao_2019_t2_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T3
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T3_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T3
+Successfully processed: 'srinivasarao_2019_t3_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T4
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T4_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T4
+Successfully processed: 'srinivasarao_2019_t4_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T5
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T5_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T5
+Successfully processed: 'srinivasarao_2019_t5_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T6
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T6_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T6
+Successfully processed: 'srinivasarao_2019_t6_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T7
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T7_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T7
+Successfully processed: 'srinivasarao_2019_t7_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T8
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T8_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T8
+Successfully processed: 'srinivasarao_2019_t8_cgrain_bgram_2012'
+    [DEBUG] Checking Treatment Sch: T9
+    [DEBUG] Folder exists: True | Path: /Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/Srinivasarao_2019_out/Srinivasarao_2019_T9_output
+    [DEBUG] Sch file exists: True
+    [DEBUG] Found 1 data points in T9
+Successfully processed: 'srinivasarao_2019_t9_cgrain_bgram_2012'
+
+PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/output_biomass.txt'
+Raw simulated data points saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/raw_simulated_points.csv'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/averaged_biomass_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2019/observed_vs_modeled_biomass.png'
+--- Script finished. ---

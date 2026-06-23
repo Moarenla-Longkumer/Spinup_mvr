@@ -1,0 +1,100 @@
+SOMSC Check Summary for Site: Srinivasarao_2012c
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-79.84%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,941.44 g C / m²
+Change during Equilibrium Phase: +3,373.82 g C / m²
+Change during Base Phase: -4,481.36 g C / m²
+Final SOMSC at end of Base Phase: 857.81 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,255.42 g C / m²
+Model is 79.84% lower than observation.
+(Difference: -3,397.61 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 7
+Experiments with SOMSC increase: 0, SOMSC decrease: 7
+
+SOMSC Increase (g C / m²):
+  (none)
+
+SOMSC Decrease (g C / m²):
+  - T1 (-311.44)
+  - T2 (-189.28)
+  - T3 (-118.31)
+  - T4 (-51.43)
+  - T5 (-40.65)
+  - T6 (-273.05)
+  - T7 (-28.79)
+
+--- Experimental Analysis ---
+'srinivasarao_2012c_t1_somsc' Change: -311.44 g C / m² (End value: 3,943.98)
+'srinivasarao_2012c_t2_somsc' Change: -189.28 g C / m² (End value: 4,066.14)
+'srinivasarao_2012c_t3_somsc' Change: -118.31 g C / m² (End value: 4,137.11)
+'srinivasarao_2012c_t4_somsc' Change: -51.43 g C / m² (End value: 4,203.99)
+'srinivasarao_2012c_t5_somsc' Change: -40.65 g C / m² (End value: 4,214.77)
+'srinivasarao_2012c_t6_somsc' Change: -273.05 g C / m² (End value: 3,982.37)
+'srinivasarao_2012c_t7_somsc' Change: -28.79 g C / m² (End value: 4,226.63)
+
+Average SOMSC at end of all experimental phases: 4,110.71 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking t1 (Years: 2007, Day: 63)... SUCCESS: 3960.29
+ -> Checking t2 (Years: 2007, Day: 63)... SUCCESS: 4080.16
+ -> Checking t3 (Years: 2007, Day: 63)... SUCCESS: 4149.69
+ -> Checking t4 (Years: 2007, Day: 63)... SUCCESS: 4222.19
+ -> Checking t5 (Years: 2007, Day: 63)... SUCCESS: 4229.81
+ -> Checking t6 (Years: 2007, Day: 63)... SUCCESS: 3989.17
+ -> Checking t7 (Years: 2007, Day: 63)... SUCCESS: 4243.60
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Srinivasarao_2012c/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 7
+Rows passing delta rule (sim >= obs): 7
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+                Observation  Observed  Simulated Difference
+srinivasarao_2012c_t1_somsc    1959.6  3960.2892   +102.10%
+srinivasarao_2012c_t2_somsc    2183.6  4080.1641    +86.85%
+srinivasarao_2012c_t3_somsc    2335.0  4149.6900    +77.72%
+srinivasarao_2012c_t4_somsc    2394.4  4222.1924    +76.34%
+srinivasarao_2012c_t5_somsc    2594.8  4229.8116    +63.01%
+srinivasarao_2012c_t6_somsc    2308.4  3989.1722    +72.81%
+srinivasarao_2012c_t7_somsc    2628.0  4243.6018    +61.48%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 7
+R²: 0.7384
+RMSE: 1786.54 g C / m²
+Status: PASS - R² >= 0.50 with n >= 2.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+srinivasarao_2012c_t1_somsc,t1,2007,63,1959.6,3960.2892
+srinivasarao_2012c_t2_somsc,t2,2007,63,2183.6,4080.1641
+srinivasarao_2012c_t3_somsc,t3,2007,63,2335.0,4149.6900000000005
+srinivasarao_2012c_t4_somsc,t4,2007,63,2394.4,4222.1924
+srinivasarao_2012c_t5_somsc,t5,2007,63,2594.8,4229.8116
+srinivasarao_2012c_t6_somsc,t6,2007,63,2308.4,3989.1722
+srinivasarao_2012c_t7_somsc,t7,2007,63,2628.0,4243.6018

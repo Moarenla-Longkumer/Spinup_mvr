@@ -1,0 +1,110 @@
+SOMSC Check Summary for Site: Hazra_2019
+
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-77.35%).
+
+--- Spinup Analysis ---
+Initial SOMSC (Year 0): 1,945.89 g C / m²
+Change during Equilibrium Phase: +1,141.05 g C / m²
+Change during Base Phase: -2,180.79 g C / m²
+Final SOMSC at end of Base Phase: 930.52 g C / m²
+
+--- SoilGrids Comparison ---
+SoilGrids Observed Value: 4,107.64 g C / m²
+Model is 77.35% lower than observation.
+(Difference: -3,177.12 g C / m²)
+
+Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
+
+--- Treatment SOMSC Change Summary ---
+Source: soilc.out (som1c(2) + som2c(2) + som3c)
+Treatments assessed (n): 12
+Experiments with SOMSC increase: 4, SOMSC decrease: 8
+
+SOMSC Increase (g C / m²):
+  + MWMC_INM (+1403.75)
+  + MWMb_INM (+904.88)
+  + MW_INM (+1209.17)
+  + PW_INM (+1299.48)
+
+SOMSC Decrease (g C / m²):
+  - MWMC_C (-280.50)
+  - MWMC_NPKSZnB (-91.54)
+  - MWMb_C (-371.93)
+  - MWMb_NPKSZnB (-158.99)
+  - MW_C (-329.14)
+  - MW_NPKSZnB (-78.06)
+  - PW_C (-286.55)
+  - PW_NPKSZnB (-174.39)
+
+--- Experimental Analysis ---
+'hazra_2019_mwmc_c_somsc' Change: -280.50 g C / m² (End value: 3,827.13)
+'hazra_2019_mwmc_inm_somsc' Change: +1,403.75 g C / m² (End value: 5,511.39)
+'hazra_2019_mwmc_npksznb_somsc' Change: -91.54 g C / m² (End value: 4,016.10)
+'hazra_2019_mwmb_c_somsc' Change: -371.93 g C / m² (End value: 3,735.70)
+'hazra_2019_mwmb_inm_somsc' Change: +904.88 g C / m² (End value: 5,012.52)
+'hazra_2019_mwmb_npksznb_somsc' Change: -158.99 g C / m² (End value: 3,948.64)
+'hazra_2019_mw_c_somsc' Change: -329.14 g C / m² (End value: 3,778.49)
+'hazra_2019_mw_inm_somsc' Change: +1,209.17 g C / m² (End value: 5,316.81)
+'hazra_2019_mw_npksznb_somsc' Change: -78.06 g C / m² (End value: 4,029.57)
+'hazra_2019_pw_c_somsc' Change: -286.55 g C / m² (End value: 3,821.09)
+'hazra_2019_pw_inm_somsc' Change: +1,299.48 g C / m² (End value: 5,407.12)
+'hazra_2019_pw_npksznb_somsc' Change: -174.39 g C / m² (End value: 3,933.24)
+
+Average SOMSC at end of all experimental phases: 4,361.48 g C / m²
+
+--- Calibration Script Test ---
+Status: Successful Run
+
+--- Output ---
+-> Checking mw (Years: 2016, Day: 95)... SUCCESS: 4389.79
+ -> Checking mwmb (Years: 2016, Day: 95)... SUCCESS: 4248.09
+ -> Checking mwmc (Years: 2016, Day: 95)... SUCCESS: 4467.99
+ -> Checking pw (Years: 2016, Day: 95)... SUCCESS: 4400.97
+ -> Checking c (Years: 2016, Day: 95)... SUCCESS: 3799.02
+ -> Checking npksznb (Years: 2016, Day: 95)... SUCCESS: 3981.58
+ -> Checking inm (Years: 2016, Day: 95)... SUCCESS: 5349.53
+
+Standard PEST++ output file written to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hazra_2019/output_somsc.txt'
+Averaged comparison data saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hazra_2019/averaged_somsc_comparison.csv'
+Plot saved to '/Users/mac/Documents/Spinup_testing/daycent_sites2/sites/Hazra_2019/observed_vs_modeled_somsc.png'
+
+
+--- Averaged SOMSC Comparison Data ---
+RESULT: OK for Calibration - All points have simulated >= observed (no shortfalls).
+
+--- Point-wise delta (obs vs sim) ---
+Rule: FAIL if simulated < observed (percent_diff < 0); PASS if simulated >= observed. Any positive gap passes (no upper limit).
+Rows in comparison file (n): 7
+Rows passing delta rule (sim >= obs): 7
+Rows with shortfall (sim < obs): 0
+Rows with zero simulated: 0
+Rows with missing simulated: 0
+Rows with invalid/missing observed (cannot compute %): 0
+
+             Observation  Observed   Simulated  Difference
+     hazra_2019_mw_somsc      3.84 4389.785900 +114217.34%
+   hazra_2019_mwmb_somsc      4.73 4248.093567  +89711.70%
+   hazra_2019_mwmc_somsc      4.44 4467.989700 +100530.40%
+     hazra_2019_pw_somsc      5.35 4400.966633  +82161.06%
+      hazra_2019_c_somsc      3.73 3799.021175 +101750.43%
+hazra_2019_npksznb_somsc      4.59 3981.578100  +86644.62%
+    hazra_2019_inm_somsc      5.45 5349.527575  +98056.47%
+
+Status: PASS - No shortfalls; simulated meets or exceeds observed.
+
+--- Treatment fit (obs vs sim) ---
+R² cutoff (minimum for PASS): 0.50
+Paired points (n): 7
+R²: 0.4413
+RMSE: 4395.89 g C / m²
+Status: FLAG - R² < 0.50.
+Action: Review `.sch` files and observation timing in `observations/Hazra_2019_obs.csv`.
+
+observation_name,treatment_name,target_years,target_day,observed_value,simulated_value_avg
+hazra_2019_mw_somsc,mw,2016,95,3.84,4389.7859
+hazra_2019_mwmb_somsc,mwmb,2016,95,4.73,4248.093566666666
+hazra_2019_mwmc_somsc,mwmc,2016,95,4.44,4467.9897
+hazra_2019_pw_somsc,pw,2016,95,5.35,4400.966633333333
+hazra_2019_c_somsc,c,2016,95,3.73,3799.021175
+hazra_2019_npksznb_somsc,npksznb,2016,95,4.59,3981.5780999999997
+hazra_2019_inm_somsc,inm,2016,95,5.45,5349.527575
