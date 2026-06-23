@@ -11,9 +11,9 @@ st.title("DayCent QA/QC Dashboard")
 def load_summary_xlsx(path_str: str):
     return pd.read_excel(path_str)
 
-inv_path = Path("qaqc_inventory.csv")
+inv_path = Path("qaqc_spinup_inventory.csv")
 if not inv_path.exists():
-    st.error("Missing qaqc_inventory.csv. Run inventory step first.")
+    st.error("Missing qaqc_spinup_inventory.csv. Run inventory step first.")
     st.stop()
 
 df = pd.read_csv(inv_path).fillna("")
