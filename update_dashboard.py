@@ -28,7 +28,7 @@ SITES_MARKER = "daycent_sites2/sites/"
 ASSETS = Path("assets")
 INV = Path("/Users/mac/Documents/Spinup_testing/daycent_pipeline/my_ap/Spinup_mvr/qaqc_spinup_inventory.csv")
 
-# Columns in the CSV that hold filesystem paths we want to bundle.
+# Columns in the CSV that hold a single filesystem path to bundle.
 PATH_COLS = [
     "site_dir",
     "somsc_summary",
@@ -40,6 +40,24 @@ PATH_COLS = [
     "biomass_scatter_png",
     "n2o_scatter_png",
 ]
+
+# Columns that hold semicolon-separated lists of paths (e.g. livec_out plots).
+PATH_LIST_COLS = [
+    "biomass_livec_pngs",
+]
+
+
+def copy_path(value: str):
+    """Copy one file into assets/. Returns (relative_path, copied, missing)."""
+    rel_path, src = to_relative(value)
+    if rel_path is None:
+        return None, 0, 0
+    if src is not None and src.is_file():
+        dest = Path(rel_path)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dest)
+        return rel_path, 1, 0
+    return rel_path, 0, 1
 
 
 def to_relative(value: str):
@@ -83,18 +101,31 @@ def main():
             for col in PATH_COLS:
                 if col not in row:
                     continue
-                rel_path, src = to_relative(row[col])
+                rel_path, did_copy, did_miss = copy_path(row[col])
                 if rel_path is None:
                     skipped += 1
                     continue
-                if src is not None and src.is_file():
-                    dest = Path(rel_path)
-                    dest.parent.mkdir(parents=True, exist_ok=True)
-                    shutil.copy2(src, dest)
-                    copied += 1
-                else:
-                    missing += 1
+                copied += did_copy
+                missing += did_miss
                 row[col] = rel_path
+
+            for col in PATH_LIST_COLS:
+                if col not in row:
+                    continue
+                path_values = [p.strip() for p in (row[col] or "").split(";") if p.strip()]
+                if not path_values:
+                    continue
+                rel_paths = []
+                for path_value in path_values:
+                    rel_path, did_copy, did_miss = copy_path(path_value)
+                    if rel_path is None:
+                        skipped += 1
+                        continue
+                    copied += did_copy
+                    missing += did_miss
+                    rel_paths.append(rel_path)
+                row[col] = ";".join(rel_paths)
+
             rows.append(row)
 
     with INV.open("w", newline="") as f:

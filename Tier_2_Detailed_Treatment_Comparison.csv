@@ -1,0 +1,1222 @@
+Site,Treatment,Full_Name_Before,Change_Before,End_Before,Full_Name_After,Change_After,End_After,_merge,Delta_Improvement,End_Value_Delta,Treatment_Evaluation
+Agegnehu_2015,b10_f,agegnehu_2015_trt_b10_f_somsc,407.27,1767.36,agegnehu_2015_trt_b10_f_somsc,414.9,4618.15,both,7.6299999999999955,2850.79,🟡 Stabilized / Slight Change
+Agegnehu_2015,b2_5_com25_f,agegnehu_2015_trt_b2_5_com25_f_somsc,663.17,2023.27,agegnehu_2015_trt_b2_5_com25_f_somsc,672.94,4876.19,both,9.770000000000095,2852.9199999999996,🟡 Stabilized / Slight Change
+Agegnehu_2015,com25_f,agegnehu_2015_trt_com25_f_somsc,663.17,2023.27,agegnehu_2015_trt_com25_f_somsc,672.94,4876.19,both,9.770000000000095,2852.9199999999996,🟡 Stabilized / Slight Change
+Agegnehu_2015,combi25_f,agegnehu_2015_trt_combi25_f_somsc,658.75,2018.85,agegnehu_2015_trt_combi25_f_somsc,668.49,4871.74,both,9.740000000000009,2852.89,🟡 Stabilized / Slight Change
+Agegnehu_2015,f_ctrl,agegnehu_2015_trt_f_ctrl_somsc,-12.07,1348.03,agegnehu_2015_trt_f_ctrl_somsc,-7.68,4195.57,both,4.390000000000001,2847.54,🟡 Stabilized / Slight Change
+Anandakumar_2022,anandakumar_2022_control,anandakumar_2022_control_somsc,-1197.07,444.34,anandakumar_2022_control_somsc,-2609.95,2815.82,both,-1412.8799999999999,2371.48,🔴 Degraded
+Anandakumar_2022,anandakumar_2022_ic,anandakumar_2022_ic_somsc,-1194.81,446.6,anandakumar_2022_ic_somsc,-2605.87,2819.89,both,-1411.06,2373.29,🔴 Degraded
+Anandakumar_2022,anandakumar_2022_inm,anandakumar_2022_inm_somsc,-1579.45,458.59,anandakumar_2022_inm_somsc,-2990.05,2832.34,both,-1410.6000000000001,2373.75,🔴 Degraded
+Anandakumar_2022,anandakumar_2022_om,anandakumar_2022_om_somsc,-1581.71,456.33,anandakumar_2022_om_somsc,-2994.11,2828.28,both,-1412.4,2371.9500000000003,🔴 Degraded
+Aravindh_2023_Coimbatore,aravindh_2023_coimbatore_c_1,aravindh_2023_coimbatore_c_1_somsc,-1165.56,440.26,aravindh_2023_coimbatore_c_1_somsc,-2015.02,3348.58,both,-849.46,2908.3199999999997,🔴 Degraded
+Aravindh_2023_Coimbatore,aravindh_2023_coimbatore_ic_1,aravindh_2023_coimbatore_ic_1_somsc,-1165.17,440.66,aravindh_2023_coimbatore_ic_1_somsc,-2013.79,3349.81,both,-848.6199999999999,2909.15,🔴 Degraded
+Aravindh_2023_Coimbatore,aravindh_2023_coimbatore_inm_1,aravindh_2023_coimbatore_inm_1_somsc,-1163.73,442.1,aravindh_2023_coimbatore_inm_1_somsc,-2011.87,3351.72,both,-848.1399999999999,2909.62,🔴 Degraded
+Aravindh_2023_Coimbatore,aravindh_2023_coimbatore_om_1,aravindh_2023_coimbatore_om_1_somsc,-1164.12,441.71,aravindh_2023_coimbatore_om_1_somsc,-2013.48,3350.12,both,-849.3600000000001,2908.41,🔴 Degraded
+Aravindh_2023_Kovilpatt,aravindh_2023_kovilpatt_c_3,aravindh_2023_kovilpatt_c_3_somsc,-978.34,873.09,aravindh_2023_kovilpatt_c_3_somsc,-1384.87,8727.58,both,-406.52999999999986,7854.49,🔴 Degraded
+Aravindh_2023_Kovilpatt,aravindh_2023_kovilpatt_ic_3,aravindh_2023_kovilpatt_ic_3_somsc,-977.8,873.62,aravindh_2023_kovilpatt_ic_3_somsc,-1382.44,8730.01,both,-404.6400000000001,7856.39,🔴 Degraded
+Aravindh_2023_Kovilpatt,aravindh_2023_kovilpatt_inm_3,aravindh_2023_kovilpatt_inm_3_somsc,-958.27,893.15,aravindh_2023_kovilpatt_inm_3_somsc,-1363.38,8749.07,both,-405.1100000000001,7855.92,🔴 Degraded
+Aravindh_2023_Kovilpatt,aravindh_2023_kovilpatt_om_3,aravindh_2023_kovilpatt_om_3_somsc,-958.79,892.63,aravindh_2023_kovilpatt_om_3_somsc,-1365.9,8746.55,both,-407.1100000000001,7853.919999999999,🔴 Degraded
+Aulakh_2013,aulakh_2013_t1,aulakh_2013_t1_somsc,-202.95,1066.11,aulakh_2013_t1_somsc,-68.42,3788.03,both,134.52999999999997,2721.92,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t10,aulakh_2013_t10_somsc,-109.28,1159.78,aulakh_2013_t10_somsc,-17.23,3839.22,both,92.05,2679.4399999999996,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t11,aulakh_2013_t11_somsc,-109.26,1159.8,aulakh_2013_t11_somsc,-17.23,3839.22,both,92.03,2679.42,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t12,aulakh_2013_t12_somsc,387.81,1656.87,aulakh_2013_t12_somsc,479.98,4336.43,both,92.17000000000002,2679.5600000000004,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t13,aulakh_2013_t13_somsc,-111.83,1157.23,aulakh_2013_t13_somsc,-25.2,3831.25,both,86.63,2674.02,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t14,aulakh_2013_t14_somsc,-5.02,1264.04,aulakh_2013_t14_somsc,83.26,3939.71,both,88.28,2675.67,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t15,aulakh_2013_t15_somsc,-5.05,1264.01,aulakh_2013_t15_somsc,83.21,3939.66,both,88.25999999999999,2675.6499999999996,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t16,aulakh_2013_t16_somsc,494.75,1763.81,aulakh_2013_t16_somsc,583.01,4439.45,both,88.25999999999999,2675.64,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t2,aulakh_2013_t2_somsc,-171.0,1098.06,aulakh_2013_t2_somsc,-32.08,3824.37,both,138.92000000000002,2726.31,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t3,aulakh_2013_t3_somsc,-170.94,1098.12,aulakh_2013_t3_somsc,-32.05,3824.4,both,138.89,2726.28,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t4,aulakh_2013_t4_somsc,402.6,1671.66,aulakh_2013_t4_somsc,541.5,4397.95,both,138.89999999999998,2726.29,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t5,aulakh_2013_t5_somsc,-160.65,1108.4,aulakh_2013_t5_somsc,-31.75,3824.7,both,128.9,2716.2999999999997,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t6,aulakh_2013_t6_somsc,-48.24,1220.82,aulakh_2013_t6_somsc,87.94,3944.39,both,136.18,2723.5699999999997,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t7,aulakh_2013_t7_somsc,-48.1,1220.96,aulakh_2013_t7_somsc,88.04,3944.49,both,136.14000000000001,2723.5299999999997,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t8,aulakh_2013_t8_somsc,528.1,1797.16,aulakh_2013_t8_somsc,664.27,4520.72,both,136.16999999999996,2723.5600000000004,🟢 Massive Overall Fix
+Aulakh_2013,aulakh_2013_t9,aulakh_2013_t9_somsc,-145.96,1123.1,aulakh_2013_t9_somsc,-55.42,3801.03,both,90.54,2677.9300000000003,🟢 Massive Overall Fix
+Babu_2016,control,babu_2016_trt_control_somsc,-1093.88,1024.65,babu_2016_trt_control_somsc,-451.52,4239.98,both,642.3600000000001,3215.3299999999995,🟢 Massive Overall Fix
+Babu_2016,fym4,babu_2016_trt_fym4_somsc,-683.33,1435.21,babu_2016_trt_fym4_somsc,-41.17,4650.33,both,642.1600000000001,3215.12,🟢 Massive Overall Fix
+Babu_2016,fym5,babu_2016_trt_fym5_somsc,-608.14,1510.39,babu_2016_trt_fym5_somsc,30.91,4722.4,both,639.05,3212.0099999999993,🟢 Massive Overall Fix
+Babu_2016,gns4,babu_2016_trt_gns4_somsc,-385.18,1733.35,babu_2016_trt_gns4_somsc,257.26,4948.76,both,642.44,3215.4100000000003,🟢 Massive Overall Fix
+Babu_2016,rdf100,babu_2016_trt_rdf100_somsc,-1096.42,1022.11,babu_2016_trt_rdf100_somsc,-449.95,4241.54,both,646.47,3219.43,🟢 Massive Overall Fix
+Babu_2016,rdf100_zn,babu_2016_trt_rdf100_zn_somsc,-1093.17,1025.37,babu_2016_trt_rdf100_zn_somsc,-448.78,4242.71,both,644.3900000000001,3217.34,🟢 Massive Overall Fix
+Babu_2016,rdf50,babu_2016_trt_rdf50_somsc,-1096.42,1022.11,babu_2016_trt_rdf50_somsc,-449.95,4241.55,both,646.47,3219.44,🟢 Massive Overall Fix
+Babu_2016,rdf50_fym4,babu_2016_trt_rdf50_fym4_somsc,-683.33,1435.21,babu_2016_trt_rdf50_fym4_somsc,-41.16,4650.34,both,642.1700000000001,3215.13,🟢 Massive Overall Fix
+Babu_2016,rdf50_gns4,babu_2016_trt_rdf50_gns4_somsc,-385.18,1733.35,babu_2016_trt_rdf50_gns4_somsc,257.26,4948.76,both,642.44,3215.4100000000003,🟢 Massive Overall Fix
+Banerjee_2018,banerjee_2018_t1,banerjee_2018_t1_somsc,-116.13,1901.47,banerjee_2018_t1_somsc,239.44,5137.14,both,355.57,3235.67,🟢 Massive Overall Fix
+Banerjee_2018,banerjee_2018_t2,banerjee_2018_t2_somsc,-89.12,1928.48,banerjee_2018_t2_somsc,264.0,5161.7,both,353.12,3233.22,🟢 Massive Overall Fix
+Banerjee_2018,banerjee_2018_t3,banerjee_2018_t3_somsc,150.48,2168.07,banerjee_2018_t3_somsc,502.76,5400.45,both,352.28,3232.3799999999997,🟢 Massive Overall Fix
+Banerjee_2018,banerjee_2018_t4,banerjee_2018_t4_somsc,388.41,2406.0,banerjee_2018_t4_somsc,740.31,5638.01,both,351.8999999999999,3232.01,🟢 Massive Overall Fix
+Behera_2021,behera_2021_ct_cw,,,,behera_2021_ct_cw_somsc,-482.93,2619.91,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_gw,,,,behera_2021_ct_gw_somsc,-544.69,2558.15,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_mw,,,,behera_2021_ct_mw_somsc,-460.65,2642.2,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_pw,,,,behera_2021_ct_pw_somsc,-527.34,2575.5,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_r_cw,,,,behera_2021_ct_r_cw_somsc,43.93,3146.77,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_r_gw,,,,behera_2021_ct_r_gw_somsc,-205.62,2897.22,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_r_mw,,,,behera_2021_ct_r_mw_somsc,80.76,3183.61,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_r_pw,,,,behera_2021_ct_r_pw_somsc,-177.28,2925.56,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_r_sw,,,,behera_2021_ct_r_sw_somsc,-211.96,2890.89,right_only,,,⚪ No data
+Behera_2021,behera_2021_ct_sw,,,,behera_2021_ct_sw_somsc,-536.55,2566.29,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_cw,,,,behera_2021_zt_cw_somsc,-89.41,3013.44,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_gw,,,,behera_2021_zt_gw_somsc,-175.26,2927.58,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_mw,,,,behera_2021_zt_mw_somsc,-61.93,3040.91,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_pw,,,,behera_2021_zt_pw_somsc,-150.86,2951.98,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_r_cw,,,,behera_2021_zt_r_cw_somsc,179.33,3282.17,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_r_gw,,,,behera_2021_zt_r_gw_somsc,-17.72,3085.13,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_r_mw,,,,behera_2021_zt_r_mw_somsc,201.55,3304.4,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_r_pw,,,,behera_2021_zt_r_pw_somsc,10.16,3113.01,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_r_sw,,,,behera_2021_zt_r_sw_somsc,-11.31,3091.53,right_only,,,⚪ No data
+Behera_2021,behera_2021_zt_sw,,,,behera_2021_zt_sw_somsc,-162.12,2940.72,right_only,,,⚪ No data
+Behera_2021,ct_cw,behera_2021_reformatted_ct_cw_somsc,-271.78,921.35,,,,left_only,,,⚪ No data
+Behera_2021,ct_gw,behera_2021_reformatted_ct_gw_somsc,-318.88,874.25,,,,left_only,,,⚪ No data
+Behera_2021,ct_mw,behera_2021_reformatted_ct_mw_somsc,-247.49,945.64,,,,left_only,,,⚪ No data
+Behera_2021,ct_pw,behera_2021_reformatted_ct_pw_somsc,-307.32,885.81,,,,left_only,,,⚪ No data
+Behera_2021,ct_r_cw,behera_2021_reformatted_ct_r_cw_somsc,253.15,1446.28,,,,left_only,,,⚪ No data
+Behera_2021,ct_r_gw,behera_2021_reformatted_ct_r_gw_somsc,19.5,1212.63,,,,left_only,,,⚪ No data
+Behera_2021,ct_r_mw,behera_2021_reformatted_ct_r_mw_somsc,291.75,1484.87,,,,left_only,,,⚪ No data
+Behera_2021,ct_r_pw,behera_2021_reformatted_ct_r_pw_somsc,41.97,1235.1,,,,left_only,,,⚪ No data
+Behera_2021,ct_r_sw,behera_2021_reformatted_ct_r_sw_somsc,10.04,1203.17,,,,left_only,,,⚪ No data
+Behera_2021,ct_sw,behera_2021_reformatted_ct_sw_somsc,-313.85,879.28,,,,left_only,,,⚪ No data
+Behera_2021,zt_cw,behera_2021_reformatted_zt_cw_somsc,1.19,1194.32,,,,left_only,,,⚪ No data
+Behera_2021,zt_gw,behera_2021_reformatted_zt_gw_somsc,-68.18,1124.95,,,,left_only,,,⚪ No data
+Behera_2021,zt_mw,behera_2021_reformatted_zt_mw_somsc,30.33,1223.46,,,,left_only,,,⚪ No data
+Behera_2021,zt_pw,behera_2021_reformatted_zt_pw_somsc,-51.68,1141.45,,,,left_only,,,⚪ No data
+Behera_2021,zt_r_cw,behera_2021_reformatted_zt_r_cw_somsc,269.51,1462.64,,,,left_only,,,⚪ No data
+Behera_2021,zt_r_gw,behera_2021_reformatted_zt_r_gw_somsc,89.98,1283.11,,,,left_only,,,⚪ No data
+Behera_2021,zt_r_mw,behera_2021_reformatted_zt_r_mw_somsc,292.52,1485.64,,,,left_only,,,⚪ No data
+Behera_2021,zt_r_pw,behera_2021_reformatted_zt_r_pw_somsc,108.61,1301.74,,,,left_only,,,⚪ No data
+Behera_2021,zt_r_sw,behera_2021_reformatted_zt_r_sw_somsc,90.54,1283.67,,,,left_only,,,⚪ No data
+Behera_2021,zt_sw,behera_2021_reformatted_zt_sw_somsc,-59.61,1133.51,,,,left_only,,,⚪ No data
+Bhattacharya_2023,bhattacharya_2023_ct r+,bhattacharya_2023_ct r+_somsc,-54.79,1196.04,bhattacharya_2023_ct r+_somsc,-183.13,3144.79,both,-128.34,1948.75,🔴 Degraded
+Bhattacharya_2023,bhattacharya_2023_ct r0,bhattacharya_2023_ct r0_somsc,-101.41,1149.42,bhattacharya_2023_ct r0_somsc,-234.37,3093.54,both,-132.96,1944.12,🔴 Degraded
+Bhattacharya_2023,bhattacharya_2023_nt r+,bhattacharya_2023_nt r+_somsc,37.5,1288.32,bhattacharya_2023_nt r+_somsc,-28.69,3299.22,both,-66.19,2010.8999999999999,🔴 Degraded
+Bhattacharya_2023,bhattacharya_2023_nt r0,bhattacharya_2023_nt r0_somsc,12.16,1262.98,bhattacharya_2023_nt r0_somsc,-57.07,3270.84,both,-69.23,2007.8600000000001,🔴 Degraded
+Bhattacharyya_2018,bhattacharyya_2018_ct,,,,bhattacharyya_2018_ct_somsc,-527.34,2710.96,right_only,,,⚪ No data
+Bhattacharyya_2018,bhattacharyya_2018_pnbb,,,,bhattacharyya_2018_pnbb_somsc,-221.65,3016.65,right_only,,,⚪ No data
+Bhattacharyya_2018,bhattacharyya_2018_pnbb_r,,,,bhattacharyya_2018_pnbb_r_somsc,-40.21,3198.09,right_only,,,⚪ No data
+Bhattacharyya_2018,ct,bhattacharyya_2018_reformatted_ct_somsc,-199.79,1038.88,,,,left_only,,,⚪ No data
+Bhattacharyya_2018,pnbb,bhattacharyya_2018_reformatted_pnbb_somsc,-21.12,1217.55,,,,left_only,,,⚪ No data
+Bhattacharyya_2018,pnbb_r,bhattacharyya_2018_reformatted_pnbb_r_somsc,151.88,1390.55,,,,left_only,,,⚪ No data
+Biswakarma_2019,biswakarma_2019_ct_ffp,biswakarma_2019_ct_ffp_somsc,-236.33,1214.09,biswakarma_2019_ct_ffp_somsc,-43.84,3277.23,both,192.49,2063.1400000000003,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_ct_half rfa + cr,biswakarma_2019_ct_half rfa + cr_somsc,-172.51,1277.92,biswakarma_2019_ct_half rfa + cr_somsc,12.63,3333.7,both,185.14,2055.7799999999997,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_ct_ne,biswakarma_2019_ct_ne_somsc,-218.71,1231.72,biswakarma_2019_ct_ne_somsc,-23.84,3297.23,both,194.87,2065.51,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_ct_rfa,biswakarma_2019_ct_rfa_somsc,-219.25,1231.18,biswakarma_2019_ct_rfa_somsc,-24.13,3296.94,both,195.12,2065.76,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_pnb_ffp,biswakarma_2019_pnb_ffp_somsc,-236.33,1214.09,biswakarma_2019_pnb_ffp_somsc,-43.84,3277.23,both,192.49,2063.1400000000003,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_pnb_half rfa + cr,biswakarma_2019_pnb_half rfa + cr_somsc,-172.51,1277.92,biswakarma_2019_pnb_half rfa + cr_somsc,12.63,3333.7,both,185.14,2055.7799999999997,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_pnb_ne,biswakarma_2019_pnb_ne_somsc,-218.71,1231.72,biswakarma_2019_pnb_ne_somsc,-23.84,3297.23,both,194.87,2065.51,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_pnb_rfa,biswakarma_2019_pnb_rfa_somsc,-219.25,1231.18,biswakarma_2019_pnb_rfa_somsc,-24.13,3296.94,both,195.12,2065.76,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_zt-fb_ffp,biswakarma_2019_zt-fb_ffp_somsc,-9.6,1440.83,biswakarma_2019_zt-fb_ffp_somsc,21.49,3342.56,both,31.089999999999996,1901.73,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_zt-fb_half rfa + cr,biswakarma_2019_zt-fb_half rfa + cr_somsc,41.74,1492.16,biswakarma_2019_zt-fb_half rfa + cr_somsc,67.45,3388.52,both,25.71,1896.36,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_zt-fb_ne,biswakarma_2019_zt-fb_ne_somsc,9.09,1459.51,biswakarma_2019_zt-fb_ne_somsc,41.63,3362.7,both,32.540000000000006,1903.1899999999998,🟢 Massive Overall Fix
+Biswakarma_2019,biswakarma_2019_zt-fb_rfa,biswakarma_2019_zt-fb_rfa_somsc,9.33,1459.76,biswakarma_2019_zt-fb_rfa_somsc,41.75,3362.82,both,32.42,1903.0600000000002,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f0fl0,borah_2023_f0fl0_somsc,-639.54,257.59,borah_2023_f0fl0_somsc,-435.35,4416.73,both,204.18999999999994,4159.139999999999,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f0fl1,borah_2023_f0fl1_somsc,-566.88,330.25,borah_2023_f0fl1_somsc,-332.76,4519.32,both,234.12,4189.07,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f0fl2,borah_2023_f0fl2_somsc,-537.99,359.14,borah_2023_f0fl2_somsc,-305.2,4546.88,both,232.79000000000002,4187.74,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f0fl3,borah_2023_f0fl3_somsc,-524.34,372.79,borah_2023_f0fl3_somsc,-290.93,4561.15,both,233.41000000000003,4188.36,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f1fl0,borah_2023_f1fl0_somsc,-147.92,749.21,borah_2023_f1fl0_somsc,86.25,4938.34,both,234.17,4189.13,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f1fl1,borah_2023_f1fl1_somsc,-106.95,790.18,borah_2023_f1fl1_somsc,143.74,4995.82,both,250.69,4205.639999999999,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f1fl2,borah_2023_f1fl2_somsc,-85.1,812.03,borah_2023_f1fl2_somsc,166.78,5018.86,both,251.88,4206.83,🟢 Massive Overall Fix
+Borah_2023,borah_2023_f1fl3,borah_2023_f1fl3_somsc,-75.11,822.02,borah_2023_f1fl3_somsc,178.07,5030.15,both,253.18,4208.129999999999,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bb_c,chary_2019_bb_c_somsc,-312.22,1216.54,chary_2019_bb_c_somsc,-77.69,3149.08,both,234.53000000000003,1932.54,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bb_inm,chary_2019_bb_inm_somsc,133.46,1662.22,chary_2019_bb_inm_somsc,394.99,3621.77,both,261.53,1959.55,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bb_o,chary_2019_bb_o_somsc,-148.54,1380.22,chary_2019_bb_o_somsc,94.13,3320.91,both,242.67,1940.6899999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bb_rdf,chary_2019_bb_rdf_somsc,-267.39,1261.37,chary_2019_bb_rdf_somsc,-5.74,3221.04,both,261.65,1959.67,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bc_c,chary_2019_bc_c_somsc,-286.98,1241.78,chary_2019_bc_c_somsc,-63.14,3163.63,both,223.84000000000003,1921.8500000000001,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bc_inm,chary_2019_bc_inm_somsc,157.15,1685.92,chary_2019_bc_inm_somsc,402.29,3629.06,both,245.14000000000001,1943.1399999999999,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bc_o,chary_2019_bc_o_somsc,-124.39,1404.37,chary_2019_bc_o_somsc,106.46,3333.24,both,230.85,1928.87,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bc_rdf,chary_2019_bc_rdf_somsc,-254.8,1273.97,chary_2019_bc_rdf_somsc,-9.53,3217.24,both,245.27,1943.2699999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bg_c,chary_2019_bg_c_somsc,-371.08,1157.68,chary_2019_bg_c_somsc,-104.77,3122.0,both,266.31,1964.32,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bg_inm,chary_2019_bg_inm_somsc,-166.19,1362.58,chary_2019_bg_inm_somsc,112.96,3339.74,both,279.15,1977.1599999999999,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bg_o,chary_2019_bg_o_somsc,-215.41,1313.36,chary_2019_bg_o_somsc,53.99,3280.76,both,269.4,1967.4000000000003,🟢 Massive Overall Fix
+Chary_2019,chary_2019_bg_rdf,chary_2019_bg_rdf_somsc,-342.53,1186.24,chary_2019_bg_rdf_somsc,-63.28,3163.5,both,279.25,1977.26,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cac_c,chary_2019_cac_c_somsc,-259.66,1269.1,chary_2019_cac_c_somsc,-56.78,3170.0,both,202.88000000000002,1900.9,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cac_inm,chary_2019_cac_inm_somsc,185.22,1713.98,chary_2019_cac_inm_somsc,404.68,3631.46,both,219.46,1917.48,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cac_o,chary_2019_cac_o_somsc,-98.92,1429.84,chary_2019_cac_o_somsc,111.09,3337.87,both,210.01,1908.03,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cac_rdf,chary_2019_cac_rdf_somsc,-229.14,1299.63,chary_2019_cac_rdf_somsc,-10.11,3216.67,both,219.02999999999997,1917.04,🟢 Massive Overall Fix
+Chary_2019,chary_2019_caca_c,chary_2019_caca_c_somsc,-212.47,1316.3,chary_2019_caca_c_somsc,-32.76,3194.01,both,179.71,1877.7100000000003,🟢 Massive Overall Fix
+Chary_2019,chary_2019_caca_inm,chary_2019_caca_inm_somsc,206.83,1735.59,chary_2019_caca_inm_somsc,421.3,3648.07,both,214.47,1912.4800000000002,🟢 Massive Overall Fix
+Chary_2019,chary_2019_caca_o,chary_2019_caca_o_somsc,-89.57,1439.2,chary_2019_caca_o_somsc,115.77,3342.55,both,205.33999999999997,1903.3500000000001,🟢 Massive Overall Fix
+Chary_2019,chary_2019_caca_rdf,chary_2019_caca_rdf_somsc,-210.99,1317.77,chary_2019_caca_rdf_somsc,3.01,3229.79,both,214.0,1912.02,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cag_c,chary_2019_cag_c_somsc,-318.7,1210.06,chary_2019_cag_c_somsc,-79.24,3147.54,both,239.45999999999998,1937.48,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cag_inm,chary_2019_cag_inm_somsc,-132.47,1396.29,chary_2019_cag_inm_somsc,123.7,3350.48,both,256.17,1954.19,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cag_o,chary_2019_cag_o_somsc,-184.77,1343.99,chary_2019_cag_o_somsc,66.53,3293.31,both,251.3,1949.32,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cag_rdf,chary_2019_cag_rdf_somsc,-315.32,1213.44,chary_2019_cag_rdf_somsc,-59.48,3167.3,both,255.84,1953.8600000000001,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cc_c,chary_2019_cc_c_somsc,-248.35,1280.41,chary_2019_cc_c_somsc,-47.85,3178.93,both,200.5,1898.5199999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cc_inm,chary_2019_cc_inm_somsc,188.49,1717.26,chary_2019_cc_inm_somsc,403.82,3630.6,both,215.32999999999998,1913.34,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cc_o,chary_2019_cc_o_somsc,-85.97,1442.79,chary_2019_cc_o_somsc,122.04,3348.81,both,208.01,1906.02,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cc_rdf,chary_2019_cc_rdf_somsc,-237.6,1291.17,chary_2019_cc_rdf_somsc,-22.23,3204.55,both,215.37,1913.38,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cg_c,chary_2019_cg_c_somsc,-296.62,1232.14,chary_2019_cg_c_somsc,-65.8,3160.98,both,230.82,1928.84,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cg_inm,chary_2019_cg_inm_somsc,-132.42,1396.35,chary_2019_cg_inm_somsc,118.31,3345.09,both,250.73,1948.7400000000002,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cg_o,chary_2019_cg_o_somsc,-168.91,1359.85,chary_2019_cg_o_somsc,79.13,3305.9,both,248.04,1946.0500000000002,🟢 Massive Overall Fix
+Chary_2019,chary_2019_cg_rdf,chary_2019_cg_rdf_somsc,-320.56,1208.2,chary_2019_cg_rdf_somsc,-69.87,3156.91,both,250.69,1948.7099999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_gg_c,chary_2019_gg_c_somsc,-396.81,1131.95,chary_2019_gg_c_somsc,-115.37,3111.41,both,281.44,1979.4599999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_gg_inm,chary_2019_gg_inm_somsc,-269.8,1258.96,chary_2019_gg_inm_somsc,11.88,3238.66,both,281.68,1979.6999999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_gg_o,chary_2019_gg_o_somsc,-248.4,1280.36,chary_2019_gg_o_somsc,33.32,3260.1,both,281.72,1979.74,🟢 Massive Overall Fix
+Chary_2019,chary_2019_gg_rdf,chary_2019_gg_rdf_somsc,-396.81,1131.95,chary_2019_gg_rdf_somsc,-115.32,3111.45,both,281.49,1979.4999999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sc_c,chary_2019_sc_c_somsc,-288.84,1239.92,chary_2019_sc_c_somsc,-61.79,3164.99,both,227.04999999999998,1925.0699999999997,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sc_inm,chary_2019_sc_inm_somsc,-142.44,1386.33,chary_2019_sc_inm_somsc,90.58,3317.35,both,233.01999999999998,1931.02,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sc_o,chary_2019_sc_o_somsc,-130.41,1398.36,chary_2019_sc_o_somsc,99.6,3326.38,both,230.01,1928.0200000000002,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sc_rdf,chary_2019_sc_rdf_somsc,-282.94,1245.82,chary_2019_sc_rdf_somsc,-49.85,3176.93,both,233.09,1931.11,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sg_c,chary_2019_sg_c_somsc,-370.52,1158.24,chary_2019_sg_c_somsc,-101.55,3125.23,both,268.96999999999997,1966.99,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sg_inm,chary_2019_sg_inm_somsc,-167.38,1361.38,chary_2019_sg_inm_somsc,101.78,3328.56,both,269.15999999999997,1967.1799999999998,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sg_o,chary_2019_sg_o_somsc,-218.64,1310.12,chary_2019_sg_o_somsc,50.58,3277.35,both,269.21999999999997,1967.23,🟢 Massive Overall Fix
+Chary_2019,chary_2019_sg_rdf,chary_2019_sg_rdf_somsc,-370.51,1158.26,chary_2019_sg_rdf_somsc,-101.48,3125.3,both,269.03,1967.0400000000002,🟢 Massive Overall Fix
+Chary_2019,chary_2019_ss_c,chary_2019_ss_c_somsc,-337.66,1191.11,chary_2019_ss_c_somsc,-83.93,3142.85,both,253.73000000000002,1951.74,🟢 Massive Overall Fix
+Chary_2019,chary_2019_ss_inm,chary_2019_ss_inm_somsc,0.62,1529.38,chary_2019_ss_inm_somsc,254.47,3481.25,both,253.85,1951.87,🟢 Massive Overall Fix
+Chary_2019,chary_2019_ss_o,chary_2019_ss_o_somsc,-184.21,1344.56,chary_2019_ss_o_somsc,69.65,3296.43,both,253.86,1951.87,🟢 Massive Overall Fix
+Chary_2019,chary_2019_ss_rdf,chary_2019_ss_rdf_somsc,-337.64,1191.13,chary_2019_ss_rdf_somsc,-83.87,3142.91,both,253.76999999999998,1951.7799999999997,🟢 Massive Overall Fix
+Chatterjee_2018,chatterjee_2018_i+_m+_n0,chatterjee_2018_i+_m+_n0_somsc,36.88,1125.16,chatterjee_2018_i+_m+_n0_somsc,47.81,2846.52,both,10.93,1721.36,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i+_m+_n150,chatterjee_2018_i+_m+_n150_somsc,82.05,1170.34,chatterjee_2018_i+_m+_n150_somsc,99.51,2898.22,both,17.460000000000008,1727.8799999999999,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i+_m+_n75,chatterjee_2018_i+_m+_n75_somsc,81.71,1169.99,chatterjee_2018_i+_m+_n75_somsc,97.75,2896.46,both,16.040000000000006,1726.47,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i+_m0_n0,chatterjee_2018_i+_m0_n0_somsc,-33.0,1055.28,chatterjee_2018_i+_m0_n0_somsc,-21.24,2777.47,both,11.760000000000002,1722.1899999999998,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i+_m0_n150,chatterjee_2018_i+_m0_n150_somsc,-28.51,1059.77,chatterjee_2018_i+_m0_n150_somsc,-12.67,2786.04,both,15.840000000000002,1726.27,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i+_m0_n75,chatterjee_2018_i+_m0_n75_somsc,-29.04,1059.25,chatterjee_2018_i+_m0_n75_somsc,-14.4,2784.31,both,14.639999999999999,1725.06,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i0_m+_n0,chatterjee_2018_i0_m+_n0_somsc,78.49,1166.77,chatterjee_2018_i0_m+_n0_somsc,91.63,2890.34,both,13.14,1723.5700000000002,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i0_m+_n150,chatterjee_2018_i0_m+_n150_somsc,66.34,1154.62,chatterjee_2018_i0_m+_n150_somsc,86.74,2885.45,both,20.39999999999999,1730.83,🟢 Massive Overall Fix
+Chatterjee_2018,chatterjee_2018_i0_m+_n75,chatterjee_2018_i0_m+_n75_somsc,85.13,1173.41,chatterjee_2018_i0_m+_n75_somsc,101.31,2900.02,both,16.180000000000007,1726.61,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i0_m0_n0,chatterjee_2018_i0_m0_n0_somsc,-33.0,1055.28,chatterjee_2018_i0_m0_n0_somsc,-21.24,2777.47,both,11.760000000000002,1722.1899999999998,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i0_m0_n150,chatterjee_2018_i0_m0_n150_somsc,-28.51,1059.77,chatterjee_2018_i0_m0_n150_somsc,-12.67,2786.04,both,15.840000000000002,1726.27,🟡 Stabilized / Slight Change
+Chatterjee_2018,chatterjee_2018_i0_m0_n75,chatterjee_2018_i0_m0_n75_somsc,-29.04,1059.25,chatterjee_2018_i0_m0_n75_somsc,-14.4,2784.31,both,14.639999999999999,1725.06,🟡 Stabilized / Slight Change
+Chaudhari_2020,t1_ct-ct,chaudhari_2020_trt_t1_ct-ct_somsc,-23.13,1501.21,chaudhari_2020_trt_t1_ct-ct_somsc,-36.84,4288.51,both,-13.710000000000004,2787.3,🔴 Degraded
+Chaudhari_2020,t2_ct-zt,chaudhari_2020_trt_t2_ct-zt_somsc,-25.58,1498.76,chaudhari_2020_trt_t2_ct-zt_somsc,-36.45,4288.9,both,-10.870000000000005,2790.1399999999994,🔴 Degraded
+Chaudhari_2020,t3_zt-zt,chaudhari_2020_trt_t3_zt-zt_somsc,-26.81,1497.53,chaudhari_2020_trt_t3_zt-zt_somsc,-36.07,4289.28,both,-9.260000000000002,2791.75,🔴 Degraded
+Chaudhari_2020,t4_zt-zt+r,chaudhari_2020_trt_t4_zt-zt+r_somsc,-26.76,1497.59,chaudhari_2020_trt_t4_zt-zt+r_somsc,-36.06,4289.29,both,-9.3,2791.7,🔴 Degraded
+Chaudhari_2020,t5_zt+r-zt+r,chaudhari_2020_trt_t5_zt+r-zt+r_somsc,-14.04,1510.3,chaudhari_2020_trt_t5_zt+r-zt+r_somsc,-23.74,4301.61,both,-9.7,2791.3099999999995,🔴 Degraded
+Chaudhary_2017,chaudhary_2017_ct_mcs,,,,chaudhary_2017_ct_mcs_somsc,-203.59,3562.37,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_ct_mms,,,,chaudhary_2017_ct_mms_somsc,-211.12,3554.83,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_ct_mmumb,,,,chaudhary_2017_ct_mmumb_somsc,-377.57,3388.39,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_ct_mwmb,,,,chaudhary_2017_ct_mwmb_somsc,-416.22,3349.73,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_pb_mcs,,,,chaudhary_2017_pb_mcs_somsc,120.85,3886.81,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_pb_mms,,,,chaudhary_2017_pb_mms_somsc,215.24,3981.2,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_pb_mmumb,,,,chaudhary_2017_pb_mmumb_somsc,93.31,3859.26,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_pb_mwmb,,,,chaudhary_2017_pb_mwmb_somsc,149.72,3915.67,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_zt_mcs,,,,chaudhary_2017_zt_mcs_somsc,110.97,3876.92,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_zt_mms,,,,chaudhary_2017_zt_mms_somsc,178.03,3943.99,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_zt_mmumb,,,,chaudhary_2017_zt_mmumb_somsc,92.76,3858.71,right_only,,,⚪ No data
+Chaudhary_2017,chaudhary_2017_zt_mwmb,,,,chaudhary_2017_zt_mwmb_somsc,126.93,3892.89,right_only,,,⚪ No data
+Chaudhary_2017,ct_mcs,chaudhary_2017_reformatted_ct_mcs_somsc,-179.09,1098.6,,,,left_only,,,⚪ No data
+Chaudhary_2017,ct_mms,chaudhary_2017_reformatted_ct_mms_somsc,-184.37,1093.33,,,,left_only,,,⚪ No data
+Chaudhary_2017,ct_mmumb,chaudhary_2017_reformatted_ct_mmumb_somsc,-350.94,926.76,,,,left_only,,,⚪ No data
+Chaudhary_2017,ct_mwmb,chaudhary_2017_reformatted_ct_mwmb_somsc,-387.64,890.06,,,,left_only,,,⚪ No data
+Chaudhary_2017,pb_mcs,chaudhary_2017_reformatted_pb_mcs_somsc,151.23,1428.92,,,,left_only,,,⚪ No data
+Chaudhary_2017,pb_mms,chaudhary_2017_reformatted_pb_mms_somsc,247.54,1525.24,,,,left_only,,,⚪ No data
+Chaudhary_2017,pb_mmumb,chaudhary_2017_reformatted_pb_mmumb_somsc,120.36,1398.06,,,,left_only,,,⚪ No data
+Chaudhary_2017,pb_mwmb,chaudhary_2017_reformatted_pb_mwmb_somsc,181.9,1459.6,,,,left_only,,,⚪ No data
+Chaudhary_2017,zt_mcs,chaudhary_2017_reformatted_zt_mcs_somsc,143.13,1420.83,,,,left_only,,,⚪ No data
+Chaudhary_2017,zt_mms,chaudhary_2017_reformatted_zt_mms_somsc,211.93,1489.63,,,,left_only,,,⚪ No data
+Chaudhary_2017,zt_mmumb,chaudhary_2017_reformatted_zt_mmumb_somsc,123.39,1401.09,,,,left_only,,,⚪ No data
+Chaudhary_2017,zt_mwmb,chaudhary_2017_reformatted_zt_mwmb_somsc,161.09,1438.78,,,,left_only,,,⚪ No data
+Chinnadurai_2013,chinnadurai_2013_control,chinnadurai_2013_control_somsc,-1280.38,585.05,chinnadurai_2013_control_somsc,-2188.17,4017.11,both,-907.79,3432.0600000000004,🔴 Degraded
+Chinnadurai_2013,chinnadurai_2013_ic,chinnadurai_2013_ic_somsc,-1279.83,585.6,chinnadurai_2013_ic_somsc,-2185.17,4020.11,both,-905.3400000000001,3434.51,🔴 Degraded
+Chinnadurai_2013,chinnadurai_2013_om,chinnadurai_2013_om_somsc,-1347.8,586.75,chinnadurai_2013_om_somsc,-2254.76,4019.63,both,-906.9600000000003,3432.88,🔴 Degraded
+Choudhary_2018,choudhary_2018_ct_cr0_s0,,,,choudhary_2018_ct_cr0_s0_somsc,4.22,3242.3,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr0_s15,,,,choudhary_2018_ct_cr0_s15_somsc,3.29,3241.36,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr0_s30,,,,choudhary_2018_ct_cr0_s30_somsc,3.29,3241.36,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr0_s45,,,,choudhary_2018_ct_cr0_s45_somsc,3.29,3241.36,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr2_s0,,,,choudhary_2018_ct_cr2_s0_somsc,84.7,3322.77,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr2_s15,,,,choudhary_2018_ct_cr2_s15_somsc,88.26,3326.33,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr2_s30,,,,choudhary_2018_ct_cr2_s30_somsc,88.26,3326.33,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr2_s45,,,,choudhary_2018_ct_cr2_s45_somsc,88.26,3326.33,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr4_s0,,,,choudhary_2018_ct_cr4_s0_somsc,163.6,3401.68,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr4_s15,,,,choudhary_2018_ct_cr4_s15_somsc,168.6,3406.68,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr4_s30,,,,choudhary_2018_ct_cr4_s30_somsc,168.6,3406.68,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_ct_cr4_s45,,,,choudhary_2018_ct_cr4_s45_somsc,168.6,3406.68,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr2_s0,,,,choudhary_2018_zt_cr2_s0_somsc,111.98,3350.05,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr2_s15,,,,choudhary_2018_zt_cr2_s15_somsc,113.38,3351.45,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr2_s30,,,,choudhary_2018_zt_cr2_s30_somsc,113.38,3351.45,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr2_s45,,,,choudhary_2018_zt_cr2_s45_somsc,113.38,3351.45,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr4_s0,,,,choudhary_2018_zt_cr4_s0_somsc,194.13,3432.21,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr4_s15,,,,choudhary_2018_zt_cr4_s15_somsc,195.88,3433.96,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr4_s30,,,,choudhary_2018_zt_cr4_s30_somsc,195.88,3433.96,right_only,,,⚪ No data
+Choudhary_2018,choudhary_2018_zt_cr4_s45,,,,choudhary_2018_zt_cr4_s45_somsc,195.88,3433.96,right_only,,,⚪ No data
+Choudhary_2018,ct_cr0_s0,choudhary_2018_reformatted_ct_cr0_s0_somsc,-106.9,1138.63,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr0_s15,choudhary_2018_reformatted_ct_cr0_s15_somsc,-107.33,1138.2,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr0_s30,choudhary_2018_reformatted_ct_cr0_s30_somsc,-107.33,1138.2,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr0_s45,choudhary_2018_reformatted_ct_cr0_s45_somsc,-107.33,1138.2,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr2_s0,choudhary_2018_reformatted_ct_cr2_s0_somsc,-20.39,1225.14,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr2_s15,choudhary_2018_reformatted_ct_cr2_s15_somsc,-17.98,1227.55,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr2_s30,choudhary_2018_reformatted_ct_cr2_s30_somsc,-17.98,1227.55,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr2_s45,choudhary_2018_reformatted_ct_cr2_s45_somsc,-17.98,1227.55,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr4_s0,choudhary_2018_reformatted_ct_cr4_s0_somsc,63.28,1308.81,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr4_s15,choudhary_2018_reformatted_ct_cr4_s15_somsc,66.83,1312.36,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr4_s30,choudhary_2018_reformatted_ct_cr4_s30_somsc,66.83,1312.36,,,,left_only,,,⚪ No data
+Choudhary_2018,ct_cr4_s45,choudhary_2018_reformatted_ct_cr4_s45_somsc,66.83,1312.36,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr2_s0,choudhary_2018_reformatted_zt_cr2_s0_somsc,89.72,1335.25,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr2_s15,choudhary_2018_reformatted_zt_cr2_s15_somsc,90.94,1336.47,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr2_s30,choudhary_2018_reformatted_zt_cr2_s30_somsc,90.94,1336.47,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr2_s45,choudhary_2018_reformatted_zt_cr2_s45_somsc,90.94,1336.47,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr4_s0,choudhary_2018_reformatted_zt_cr4_s0_somsc,174.75,1420.28,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr4_s15,choudhary_2018_reformatted_zt_cr4_s15_somsc,176.36,1421.89,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr4_s30,choudhary_2018_reformatted_zt_cr4_s30_somsc,176.36,1421.89,,,,left_only,,,⚪ No data
+Choudhary_2018,zt_cr4_s45,choudhary_2018_reformatted_zt_cr4_s45_somsc,176.36,1421.89,,,,left_only,,,⚪ No data
+Das_2013,ctb_cm_wres,das_2013_reformatted_ctb_cm_wres_somsc,40.36,1285.89,,,,left_only,,,⚪ No data
+Das_2013,ctb_cmres,das_2013_reformatted_ctb_cmres_somsc,-116.16,1129.37,,,,left_only,,,⚪ No data
+Das_2013,ctb_nres,das_2013_reformatted_ctb_nres_somsc,-168.11,1077.42,,,,left_only,,,⚪ No data
+Das_2013,ctb_wres,das_2013_reformatted_ctb_wres_somsc,-17.95,1227.58,,,,left_only,,,⚪ No data
+Das_2013,ctf_cm_wres,das_2013_reformatted_ctf_cm_wres_somsc,40.36,1285.89,,,,left_only,,,⚪ No data
+Das_2013,ctf_cmres,das_2013_reformatted_ctf_cmres_somsc,-116.16,1129.37,,,,left_only,,,⚪ No data
+Das_2013,ctf_nres,das_2013_reformatted_ctf_nres_somsc,-168.11,1077.42,,,,left_only,,,⚪ No data
+Das_2013,ctf_wres,das_2013_reformatted_ctf_wres_somsc,-17.95,1227.58,,,,left_only,,,⚪ No data
+Das_2013,ztb_cm_wres,das_2013_reformatted_ztb_cm_wres_somsc,156.91,1402.44,,,,left_only,,,⚪ No data
+Das_2013,ztb_cmres,das_2013_reformatted_ztb_cmres_somsc,28.9,1274.43,,,,left_only,,,⚪ No data
+Das_2013,ztb_nres,das_2013_reformatted_ztb_nres_somsc,-8.82,1236.71,,,,left_only,,,⚪ No data
+Das_2013,ztb_wres,das_2013_reformatted_ztb_wres_somsc,120.19,1365.73,,,,left_only,,,⚪ No data
+Das_2013,ztf_cm_wres,das_2013_reformatted_ztf_cm_wres_somsc,66.31,1311.84,,,,left_only,,,⚪ No data
+Das_2013,ztf_cmres,das_2013_reformatted_ztf_cmres_somsc,24.22,1269.76,,,,left_only,,,⚪ No data
+Das_2013,ztf_nres,das_2013_reformatted_ztf_nres_somsc,11.35,1256.89,,,,left_only,,,⚪ No data
+Das_2013,ztf_wres,das_2013_reformatted_ztf_wres_somsc,54.19,1299.72,,,,left_only,,,⚪ No data
+Das_2018,ct,das_2018_reformatted_ct_somsc,-144.03,1094.64,,,,left_only,,,⚪ No data
+Das_2018,das_2018_ct,,,,das_2018_ct_somsc,-311.3,2926.93,right_only,,,⚪ No data
+Das_2018,das_2018_pnbb,,,,das_2018_pnbb_somsc,-94.3,3143.93,right_only,,,⚪ No data
+Das_2018,das_2018_pnbb_r,,,,das_2018_pnbb_r_somsc,11.4,3249.63,right_only,,,⚪ No data
+Das_2018,das_2018_zt,,,,das_2018_zt_somsc,-50.79,3187.44,right_only,,,⚪ No data
+Das_2018,das_2018_zt_r,,,,das_2018_zt_r_somsc,-8.47,3229.77,right_only,,,⚪ No data
+Das_2018,pnbb,das_2018_reformatted_pnbb_somsc,-3.92,1234.75,,,,left_only,,,⚪ No data
+Das_2018,pnbb_r,das_2018_reformatted_pnbb_r_somsc,97.03,1335.71,,,,left_only,,,⚪ No data
+Das_2018,zt,das_2018_reformatted_zt_somsc,-3.64,1235.04,,,,left_only,,,⚪ No data
+Das_2018,zt_r,das_2018_reformatted_zt_r_somsc,36.16,1274.83,,,,left_only,,,⚪ No data
+Dhadli_2016,dhadli_2016_t1,dhadli_2016_t1_somsc,-256.88,300.65,dhadli_2016_t1_somsc,-1286.33,2527.12,both,-1029.4499999999998,2226.47,🔴 Degraded
+Dhadli_2016,dhadli_2016_t2,dhadli_2016_t2_somsc,-245.38,312.15,dhadli_2016_t2_somsc,-1275.78,2537.67,both,-1030.4,2225.52,🔴 Degraded
+Dhadli_2016,dhadli_2016_t4,dhadli_2016_t4_somsc,4947.15,5504.68,dhadli_2016_t4_somsc,4907.52,8720.98,both,-39.6299999999992,3216.2999999999993,🔴 Degraded
+Dhadli_2016,dhadli_2016_t5,dhadli_2016_t5_somsc,-388.62,168.91,dhadli_2016_t5_somsc,-1599.32,2214.14,both,-1210.6999999999998,2045.2299999999998,🔴 Degraded
+Dinesh_2022,zt_nr_33gs,dinesh_2022_trt_zt_nr_33gs_somsc,455.36,1547.33,dinesh_2022_trt_zt_nr_33gs_somsc,-368.05,3126.42,both,-823.4100000000001,1579.0900000000001,🔴 Degraded
+Dinesh_2022,zt_nr_50gs,dinesh_2022_trt_zt_nr_50gs_somsc,404.23,1496.19,dinesh_2022_trt_zt_nr_50gs_somsc,-419.19,3075.29,both,-823.4200000000001,1579.1,🔴 Degraded
+Dinesh_2022,zt_nr_70gs,dinesh_2022_trt_zt_nr_70gs_somsc,462.92,1554.88,dinesh_2022_trt_zt_nr_70gs_somsc,-377.35,3117.12,both,-840.27,1562.2399999999998,🔴 Degraded
+Dinesh_2022,zt_nr_rdn,dinesh_2022_trt_zt_nr_rdn_somsc,506.04,1598.01,dinesh_2022_trt_zt_nr_rdn_somsc,-317.6,3176.87,both,-823.6400000000001,1578.86,🔴 Degraded
+Dinesh_2022,zt_r_33gs,dinesh_2022_trt_zt_r_33gs_somsc,506.52,1598.48,dinesh_2022_trt_zt_r_33gs_somsc,-346.42,3148.06,both,-852.94,1549.58,🔴 Degraded
+Dinesh_2022,zt_r_50gs,dinesh_2022_trt_zt_r_50gs_somsc,424.16,1516.13,dinesh_2022_trt_zt_r_50gs_somsc,-406.42,3088.06,both,-830.58,1571.9299999999998,🔴 Degraded
+Dinesh_2022,zt_r_70gs,dinesh_2022_trt_zt_r_70gs_somsc,425.4,1517.37,dinesh_2022_trt_zt_r_70gs_somsc,-403.97,3090.5,both,-829.37,1573.13,🔴 Degraded
+Dinesh_2022,zt_r_rdn,dinesh_2022_trt_zt_r_rdn_somsc,504.0,1595.96,dinesh_2022_trt_zt_r_rdn_somsc,-346.43,3148.04,both,-850.4300000000001,1552.08,🔴 Degraded
+Dinesh_2024,zt_nr_33gs,dinesh_2024_trt_zt_nr_33gs_somsc,541.53,1816.52,dinesh_2024_trt_zt_nr_33gs_somsc,513.08,4006.89,both,-28.449999999999932,2190.37,🔴 Degraded
+Dinesh_2024,zt_nr_50gs,dinesh_2024_trt_zt_nr_50gs_somsc,462.78,1737.77,dinesh_2024_trt_zt_nr_50gs_somsc,435.17,3928.97,both,-27.609999999999957,2191.2,🔴 Degraded
+Dinesh_2024,zt_nr_70gs,dinesh_2024_trt_zt_nr_70gs_somsc,529.84,1804.84,dinesh_2024_trt_zt_nr_70gs_somsc,500.57,3994.38,both,-29.27000000000004,2189.54,🔴 Degraded
+Dinesh_2024,zt_nr_rdn,dinesh_2024_trt_zt_nr_rdn_somsc,617.17,1892.17,dinesh_2024_trt_zt_nr_rdn_somsc,586.06,4079.87,both,-31.110000000000014,2187.7,🔴 Degraded
+Dinesh_2024,zt_r_33gs,dinesh_2024_trt_zt_r_33gs_somsc,574.68,1849.67,dinesh_2024_trt_zt_r_33gs_somsc,544.59,4038.4,both,-30.089999999999918,2188.73,🔴 Degraded
+Dinesh_2024,zt_r_50gs,dinesh_2024_trt_zt_r_50gs_somsc,484.53,1759.52,dinesh_2024_trt_zt_r_50gs_somsc,456.06,3949.87,both,-28.46999999999997,2190.35,🔴 Degraded
+Dinesh_2024,zt_r_70gs,dinesh_2024_trt_zt_r_70gs_somsc,489.61,1764.61,dinesh_2024_trt_zt_r_70gs_somsc,460.31,3954.12,both,-29.30000000000001,2189.51,🔴 Degraded
+Dinesh_2024,zt_r_rdn,dinesh_2024_trt_zt_r_rdn_somsc,570.67,1845.66,dinesh_2024_trt_zt_r_rdn_somsc,540.9,4034.71,both,-29.769999999999982,2189.05,🔴 Degraded
+Gabhane_2014,t1_f1,gabhane_2014_trt_t1_f1_somsc,-233.33,2273.84,gabhane_2014_trt_t1_f1_somsc,-211.64,3076.94,both,21.690000000000026,803.0999999999999,🟢 Massive Overall Fix
+Gabhane_2014,t1_f2,gabhane_2014_trt_t1_f2_somsc,-233.32,2273.84,gabhane_2014_trt_t1_f2_somsc,-211.64,3076.94,both,21.680000000000007,803.0999999999999,🟢 Massive Overall Fix
+Gabhane_2014,t1_f3,gabhane_2014_trt_t1_f3_somsc,-195.57,2311.59,gabhane_2014_trt_t1_f3_somsc,-173.97,3114.6,both,21.599999999999994,803.0099999999998,🟢 Massive Overall Fix
+Gabhane_2014,t1_f4,gabhane_2014_trt_t1_f4_somsc,-157.81,2349.36,gabhane_2014_trt_t1_f4_somsc,-136.25,3152.33,both,21.560000000000002,802.9699999999998,🟢 Massive Overall Fix
+Gabhane_2014,t1_f5,gabhane_2014_trt_t1_f5_somsc,175.0,2682.17,gabhane_2014_trt_t1_f5_somsc,196.03,3484.61,both,21.03,802.44,🟢 Massive Overall Fix
+Gabhane_2014,t2_f1,gabhane_2014_trt_t2_f1_somsc,-209.38,2297.79,gabhane_2014_trt_t2_f1_somsc,-192.28,3096.3,both,17.099999999999994,798.5100000000002,🟡 Stabilized / Slight Change
+Gabhane_2014,t2_f2,gabhane_2014_trt_t2_f2_somsc,-209.38,2297.79,gabhane_2014_trt_t2_f2_somsc,-192.28,3096.29,both,17.099999999999994,798.5,🟡 Stabilized / Slight Change
+Gabhane_2014,t2_f3,gabhane_2014_trt_t2_f3_somsc,-178.91,2328.26,gabhane_2014_trt_t2_f3_somsc,-161.83,3126.74,both,17.079999999999984,798.4799999999996,🟡 Stabilized / Slight Change
+Gabhane_2014,t2_f4,gabhane_2014_trt_t2_f4_somsc,-148.43,2358.73,gabhane_2014_trt_t2_f4_somsc,-131.32,3157.26,both,17.110000000000014,798.5300000000002,🟡 Stabilized / Slight Change
+Gabhane_2014,t2_f5,gabhane_2014_trt_t2_f5_somsc,120.15,2627.32,gabhane_2014_trt_t2_f5_somsc,137.27,3425.84,both,17.120000000000005,798.52,🟡 Stabilized / Slight Change
+Ghosh_2006,fallow_chickpea_0.5np,ghosh_2006_trt_fallow_chickpea_0.5np_somsc,-238.85,1361.41,ghosh_2006_trt_fallow_chickpea_0.5np_somsc,-273.18,4820.9,both,-34.33000000000001,3459.49,🔴 Degraded
+Ghosh_2006,fallow_chickpea_0np,ghosh_2006_trt_fallow_chickpea_0np_somsc,-239.59,1360.67,ghosh_2006_trt_fallow_chickpea_0np_somsc,-273.91,4820.17,both,-34.32000000000002,3459.5,🔴 Degraded
+Ghosh_2006,fallow_chickpea_1.0np,ghosh_2006_trt_fallow_chickpea_1.0np_somsc,-237.43,1362.83,ghosh_2006_trt_fallow_chickpea_1.0np_somsc,-271.69,4822.39,both,-34.25999999999999,3459.5600000000004,🔴 Degraded
+Ghosh_2006,fallow_chickpea_1.5np,ghosh_2006_trt_fallow_chickpea_1.5np_somsc,-238.26,1362.0,ghosh_2006_trt_fallow_chickpea_1.5np_somsc,-272.56,4821.52,both,-34.30000000000001,3459.5200000000004,🔴 Degraded
+Ghosh_2006,fallow_mustard_0.5np,ghosh_2006_trt_fallow_mustard_0.5np_somsc,-195.56,1404.7,ghosh_2006_trt_fallow_mustard_0.5np_somsc,-221.15,4872.93,both,-25.590000000000003,3468.2300000000005,🔴 Degraded
+Ghosh_2006,fallow_mustard_0np,ghosh_2006_trt_fallow_mustard_0np_somsc,-230.6,1369.66,ghosh_2006_trt_fallow_mustard_0np_somsc,-255.47,4838.6,both,-24.870000000000005,3468.9400000000005,🔴 Degraded
+Ghosh_2006,fallow_mustard_1.0np,ghosh_2006_trt_fallow_mustard_1.0np_somsc,-195.56,1404.7,ghosh_2006_trt_fallow_mustard_1.0np_somsc,-221.15,4872.93,both,-25.590000000000003,3468.2300000000005,🔴 Degraded
+Ghosh_2006,fallow_mustard_1.5np,ghosh_2006_trt_fallow_mustard_1.5np_somsc,-195.56,1404.7,ghosh_2006_trt_fallow_mustard_1.5np_somsc,-221.15,4872.93,both,-25.590000000000003,3468.2300000000005,🔴 Degraded
+Ghosh_2006,fallow_summergroundnut_0.5np,ghosh_2006_trt_fallow_summergroundnut_0.5np_somsc,-277.8,1322.46,ghosh_2006_trt_fallow_summergroundnut_0.5np_somsc,-333.28,4760.8,both,-55.47999999999996,3438.34,🔴 Degraded
+Ghosh_2006,fallow_summergroundnut_0np,ghosh_2006_trt_fallow_summergroundnut_0np_somsc,-277.79,1322.47,ghosh_2006_trt_fallow_summergroundnut_0np_somsc,-333.28,4760.8,both,-55.48999999999995,3438.33,🔴 Degraded
+Ghosh_2006,fallow_summergroundnut_1.0np,ghosh_2006_trt_fallow_summergroundnut_1.0np_somsc,-277.8,1322.46,ghosh_2006_trt_fallow_summergroundnut_1.0np_somsc,-333.28,4760.8,both,-55.47999999999996,3438.34,🔴 Degraded
+Ghosh_2006,fallow_summergroundnut_1.5np,ghosh_2006_trt_fallow_summergroundnut_1.5np_somsc,-277.8,1322.46,ghosh_2006_trt_fallow_summergroundnut_1.5np_somsc,-333.28,4760.8,both,-55.47999999999996,3438.34,🔴 Degraded
+Ghosh_2006,fallow_sunflower_0.5np,ghosh_2006_trt_fallow_sunflower_0.5np_somsc,-205.83,1394.43,ghosh_2006_trt_fallow_sunflower_0.5np_somsc,-233.16,4860.92,both,-27.329999999999984,3466.49,🔴 Degraded
+Ghosh_2006,fallow_sunflower_0np,ghosh_2006_trt_fallow_sunflower_0np_somsc,-205.83,1394.43,ghosh_2006_trt_fallow_sunflower_0np_somsc,-233.16,4860.92,both,-27.329999999999984,3466.49,🔴 Degraded
+Ghosh_2006,fallow_sunflower_1.0np,ghosh_2006_trt_fallow_sunflower_1.0np_somsc,-205.83,1394.43,ghosh_2006_trt_fallow_sunflower_1.0np_somsc,-233.16,4860.92,both,-27.329999999999984,3466.49,🔴 Degraded
+Ghosh_2006,fallow_sunflower_1.5np,ghosh_2006_trt_fallow_sunflower_1.5np_somsc,-205.83,1394.43,ghosh_2006_trt_fallow_sunflower_1.5np_somsc,-233.16,4860.92,both,-27.329999999999984,3466.49,🔴 Degraded
+Ghosh_2006,fallow_wheat_0.5np,ghosh_2006_trt_fallow_wheat_0.5np_somsc,-197.9,1402.36,ghosh_2006_trt_fallow_wheat_0.5np_somsc,-237.71,4856.37,both,-39.81,3454.01,🔴 Degraded
+Ghosh_2006,fallow_wheat_0np,ghosh_2006_trt_fallow_wheat_0np_somsc,-257.1,1343.16,ghosh_2006_trt_fallow_wheat_0np_somsc,-290.29,4803.79,both,-33.19,3460.63,🔴 Degraded
+Ghosh_2006,fallow_wheat_1.0np,ghosh_2006_trt_fallow_wheat_1.0np_somsc,-194.0,1406.26,ghosh_2006_trt_fallow_wheat_1.0np_somsc,-233.11,4860.97,both,-39.110000000000014,3454.71,🔴 Degraded
+Ghosh_2006,fallow_wheat_1.5np,ghosh_2006_trt_fallow_wheat_1.5np_somsc,-193.48,1406.78,ghosh_2006_trt_fallow_wheat_1.5np_somsc,-232.9,4861.18,both,-39.420000000000016,3454.4000000000005,🔴 Degraded
+Ghosh_2006,groundnut_chickpea_0.5np,ghosh_2006_trt_groundnut_chickpea_0.5np_somsc,-419.68,1180.58,ghosh_2006_trt_groundnut_chickpea_0.5np_somsc,-489.27,4604.81,both,-69.58999999999997,3424.2300000000005,🔴 Degraded
+Ghosh_2006,groundnut_chickpea_0np,ghosh_2006_trt_groundnut_chickpea_0np_somsc,-420.84,1179.42,ghosh_2006_trt_groundnut_chickpea_0np_somsc,-490.44,4603.63,both,-69.60000000000002,3424.21,🔴 Degraded
+Ghosh_2006,groundnut_chickpea_1.0np,ghosh_2006_trt_groundnut_chickpea_1.0np_somsc,-420.52,1179.74,ghosh_2006_trt_groundnut_chickpea_1.0np_somsc,-490.11,4603.97,both,-69.59000000000003,3424.2300000000005,🔴 Degraded
+Ghosh_2006,groundnut_chickpea_1.5np,ghosh_2006_trt_groundnut_chickpea_1.5np_somsc,-419.54,1180.72,ghosh_2006_trt_groundnut_chickpea_1.5np_somsc,-489.13,4604.95,both,-69.58999999999997,3424.2299999999996,🔴 Degraded
+Ghosh_2006,groundnut_mustard_0.5np,ghosh_2006_trt_groundnut_mustard_0.5np_somsc,-368.09,1232.17,ghosh_2006_trt_groundnut_mustard_0.5np_somsc,-424.16,4669.91,both,-56.07000000000005,3437.74,🔴 Degraded
+Ghosh_2006,groundnut_mustard_0np,ghosh_2006_trt_groundnut_mustard_0np_somsc,-439.4,1160.86,ghosh_2006_trt_groundnut_mustard_0np_somsc,-492.27,4601.8,both,-52.870000000000005,3440.9400000000005,🔴 Degraded
+Ghosh_2006,groundnut_mustard_1.0np,ghosh_2006_trt_groundnut_mustard_1.0np_somsc,-368.09,1232.17,ghosh_2006_trt_groundnut_mustard_1.0np_somsc,-424.16,4669.91,both,-56.07000000000005,3437.74,🔴 Degraded
+Ghosh_2006,groundnut_mustard_1.5np,ghosh_2006_trt_groundnut_mustard_1.5np_somsc,-368.09,1232.17,ghosh_2006_trt_groundnut_mustard_1.5np_somsc,-424.16,4669.91,both,-56.07000000000005,3437.74,🔴 Degraded
+Ghosh_2006,groundnut_summergroundnut_0.5np,ghosh_2006_trt_groundnut_summergroundnut_0.5np_somsc,-351.37,1248.89,ghosh_2006_trt_groundnut_summergroundnut_0.5np_somsc,-394.16,4699.91,both,-42.79000000000002,3451.0199999999995,🔴 Degraded
+Ghosh_2006,groundnut_summergroundnut_0np,ghosh_2006_trt_groundnut_summergroundnut_0np_somsc,-351.37,1248.89,ghosh_2006_trt_groundnut_summergroundnut_0np_somsc,-394.16,4699.91,both,-42.79000000000002,3451.0199999999995,🔴 Degraded
+Ghosh_2006,groundnut_summergroundnut_1.0np,ghosh_2006_trt_groundnut_summergroundnut_1.0np_somsc,-351.37,1248.89,ghosh_2006_trt_groundnut_summergroundnut_1.0np_somsc,-394.16,4699.91,both,-42.79000000000002,3451.0199999999995,🔴 Degraded
+Ghosh_2006,groundnut_summergroundnut_1.5np,ghosh_2006_trt_groundnut_summergroundnut_1.5np_somsc,-351.37,1248.89,ghosh_2006_trt_groundnut_summergroundnut_1.5np_somsc,-394.16,4699.91,both,-42.79000000000002,3451.0199999999995,🔴 Degraded
+Ghosh_2006,groundnut_sunflower_0.5np,ghosh_2006_trt_groundnut_sunflower_0.5np_somsc,-236.22,1364.04,ghosh_2006_trt_groundnut_sunflower_0.5np_somsc,-276.87,4817.2,both,-40.650000000000006,3453.16,🔴 Degraded
+Ghosh_2006,groundnut_sunflower_0np,ghosh_2006_trt_groundnut_sunflower_0np_somsc,-303.02,1297.24,ghosh_2006_trt_groundnut_sunflower_0np_somsc,-329.01,4765.06,both,-25.99000000000001,3467.8200000000006,🔴 Degraded
+Ghosh_2006,groundnut_sunflower_1.0np,ghosh_2006_trt_groundnut_sunflower_1.0np_somsc,-236.22,1364.04,ghosh_2006_trt_groundnut_sunflower_1.0np_somsc,-276.87,4817.2,both,-40.650000000000006,3453.16,🔴 Degraded
+Ghosh_2006,groundnut_sunflower_1.5np,ghosh_2006_trt_groundnut_sunflower_1.5np_somsc,-236.22,1364.04,ghosh_2006_trt_groundnut_sunflower_1.5np_somsc,-276.87,4817.2,both,-40.650000000000006,3453.16,🔴 Degraded
+Ghosh_2006,groundnut_wheat_0.5np,ghosh_2006_trt_groundnut_wheat_0.5np_somsc,-258.96,1341.3,ghosh_2006_trt_groundnut_wheat_0.5np_somsc,-290.8,4803.28,both,-31.840000000000032,3461.9799999999996,🔴 Degraded
+Ghosh_2006,groundnut_wheat_0np,ghosh_2006_trt_groundnut_wheat_0np_somsc,-343.36,1256.9,ghosh_2006_trt_groundnut_wheat_0np_somsc,-368.06,4726.01,both,-24.69999999999999,3469.11,🔴 Degraded
+Ghosh_2006,groundnut_wheat_1.0np,ghosh_2006_trt_groundnut_wheat_1.0np_somsc,-252.0,1348.26,ghosh_2006_trt_groundnut_wheat_1.0np_somsc,-283.41,4810.66,both,-31.410000000000025,3462.3999999999996,🔴 Degraded
+Ghosh_2006,groundnut_wheat_1.5np,ghosh_2006_trt_groundnut_wheat_1.5np_somsc,-250.48,1349.78,ghosh_2006_trt_groundnut_wheat_1.5np_somsc,-281.88,4812.2,both,-31.400000000000006,3462.42,🔴 Degraded
+Ghosh_2017,ghosh_2017_m–w–ct,ghosh_2017_m–w–ct_somsc,-517.34,1095.94,ghosh_2017_m–w–ct_somsc,-210.83,4294.32,both,306.51,3198.3799999999997,🟢 Massive Overall Fix
+Ghosh_2017,ghosh_2017_m–w–m–c–ct,ghosh_2017_m–w–m–c–ct_somsc,-465.71,1147.57,ghosh_2017_m–w–m–c–ct_somsc,-197.62,4307.53,both,268.09,3159.96,🟢 Massive Overall Fix
+Ghosh_2017,ghosh_2017_m–w–m–c–org,ghosh_2017_m–w–m–c–org_somsc,-114.69,1498.59,ghosh_2017_m–w–m–c–org_somsc,127.52,4632.67,both,242.20999999999998,3134.08,🟢 Massive Overall Fix
+Ghosh_2017,ghosh_2017_m–w–m–c–rdf,ghosh_2017_m–w–m–c–rdf_somsc,-350.08,1263.2,ghosh_2017_m–w–m–c–rdf_somsc,-68.58,4436.58,both,281.5,3173.38,🟢 Massive Overall Fix
+Ghosh_2017,ghosh_2017_m–w–org,ghosh_2017_m–w–org_somsc,-127.49,1485.79,ghosh_2017_m–w–org_somsc,146.64,4651.79,both,274.13,3166.0,🟢 Massive Overall Fix
+Ghosh_2017,ghosh_2017_m–w–rdf,ghosh_2017_m–w–rdf_somsc,-370.71,1242.57,ghosh_2017_m–w–rdf_somsc,-43.27,4461.88,both,327.44,3219.3100000000004,🟢 Massive Overall Fix
+Ghosh_2018,ghosh_2018_t1,ghosh_2018_t1_somsc,-332.89,1134.51,ghosh_2018_t1_somsc,-539.82,7811.1,both,-206.93000000000006,6676.59,🔴 Degraded
+Ghosh_2018,ghosh_2018_t2,ghosh_2018_t2_somsc,-256.23,1211.16,ghosh_2018_t2_somsc,-473.45,7877.47,both,-217.21999999999997,6666.31,🔴 Degraded
+Ghosh_2018,ghosh_2018_t3,ghosh_2018_t3_somsc,3174.36,4641.75,ghosh_2018_t3_somsc,2971.4,11322.32,both,-202.96000000000004,6680.57,🔴 Degraded
+Ghosh_2018,ghosh_2018_t4,ghosh_2018_t4_somsc,1936.94,3404.33,ghosh_2018_t4_somsc,1723.15,10074.07,both,-213.78999999999996,6669.74,🔴 Degraded
+Ghosh_2018,ghosh_2018_t5,ghosh_2018_t5_somsc,3.68,1471.08,ghosh_2018_t5_somsc,-210.76,8140.16,both,-214.44,6669.08,🔴 Degraded
+Ghosh_2018,ghosh_2018_t6,ghosh_2018_t6_somsc,63.21,1530.6,ghosh_2018_t6_somsc,-151.15,8199.77,both,-214.36,6669.17,🔴 Degraded
+Gopinath_2022,ctrl_gg,gopinath_2022_trt_ctrl_gg_somsc,-467.7,1119.53,gopinath_2022_trt_ctrl_gg_somsc,-141.58,4144.14,both,326.12,3024.6100000000006,🟢 Massive Overall Fix
+Gopinath_2022,ctrl_pp,gopinath_2022_trt_ctrl_pp_somsc,-382.42,1204.81,gopinath_2022_trt_ctrl_pp_somsc,-87.36,4198.36,both,295.06,2993.5499999999997,🟢 Massive Overall Fix
+Gopinath_2022,ctrl_sf,gopinath_2022_trt_ctrl_sf_somsc,-414.14,1173.09,gopinath_2022_trt_ctrl_sf_somsc,-112.83,4172.89,both,301.31,2999.8,🟢 Massive Overall Fix
+Gopinath_2022,int_gg,gopinath_2022_trt_int_gg_somsc,-223.28,1363.94,gopinath_2022_trt_int_gg_somsc,71.13,4356.85,both,294.40999999999997,2992.9100000000003,🟢 Massive Overall Fix
+Gopinath_2022,int_pp,gopinath_2022_trt_int_pp_somsc,-139.19,1448.03,gopinath_2022_trt_int_pp_somsc,116.94,4402.66,both,256.13,2954.63,🟢 Massive Overall Fix
+Gopinath_2022,int_sf,gopinath_2022_trt_int_sf_somsc,99.77,1686.99,gopinath_2022_trt_int_sf_somsc,426.99,4712.71,both,327.22,3025.7200000000003,🟢 Massive Overall Fix
+Gopinath_2022,org_gg,gopinath_2022_trt_org_gg_somsc,-199.1,1388.12,gopinath_2022_trt_org_gg_somsc,132.56,4418.28,both,331.65999999999997,3030.16,🟢 Massive Overall Fix
+Gopinath_2022,org_pp,gopinath_2022_trt_org_pp_somsc,-96.72,1490.5,gopinath_2022_trt_org_pp_somsc,200.34,4486.06,both,297.06,2995.5600000000004,🟢 Massive Overall Fix
+Gopinath_2022,org_sf,gopinath_2022_trt_org_sf_somsc,383.5,1970.73,gopinath_2022_trt_org_sf_somsc,683.92,4969.64,both,300.41999999999996,2998.9100000000003,🟢 Massive Overall Fix
+Govindasamy_2020,govindasamy_2020_ct,govindasamy_2020_ct_somsc,-917.01,1026.74,govindasamy_2020_ct_somsc,-1383.83,5733.17,both,-466.81999999999994,4706.43,🔴 Degraded
+Govindasamy_2020,govindasamy_2020_nt,govindasamy_2020_nt_somsc,-891.9,1051.84,govindasamy_2020_nt_somsc,-1356.41,5760.59,both,-464.5100000000001,4708.75,🔴 Degraded
+Gudadhe_2015,gudadhe_2015_t1v1,,,,gudadhe_2015_t1v1_somsc,146.85,5408.63,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t1v2,,,,gudadhe_2015_t1v2_somsc,146.85,5408.63,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t1v3,,,,gudadhe_2015_t1v3_somsc,146.85,5408.63,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t1v4,,,,gudadhe_2015_t1v4_somsc,146.85,5408.63,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t2v1,,,,gudadhe_2015_t2v1_somsc,-6.26,5255.52,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t2v2,,,,gudadhe_2015_t2v2_somsc,-6.26,5255.52,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t2v3,,,,gudadhe_2015_t2v3_somsc,-6.26,5255.52,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t2v4,,,,gudadhe_2015_t2v4_somsc,-6.26,5255.52,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t3v1,,,,gudadhe_2015_t3v1_somsc,3.61,5265.38,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t3v2,,,,gudadhe_2015_t3v2_somsc,3.61,5265.39,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t3v3,,,,gudadhe_2015_t3v3_somsc,3.61,5265.39,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t3v4,,,,gudadhe_2015_t3v4_somsc,3.62,5265.39,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t4v1,,,,gudadhe_2015_t4v1_somsc,13.29,5275.07,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t4v2,,,,gudadhe_2015_t4v2_somsc,13.3,5275.08,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t4v3,,,,gudadhe_2015_t4v3_somsc,13.31,5275.09,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t4v4,,,,gudadhe_2015_t4v4_somsc,13.31,5275.09,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t5v1,,,,gudadhe_2015_t5v1_somsc,22.8,5284.58,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t5v2,,,,gudadhe_2015_t5v2_somsc,22.82,5284.6,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t5v3,,,,gudadhe_2015_t5v3_somsc,22.83,5284.61,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t5v4,,,,gudadhe_2015_t5v4_somsc,22.84,5284.62,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t6v1,,,,gudadhe_2015_t6v1_somsc,-16.28,5245.5,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t6v2,,,,gudadhe_2015_t6v2_somsc,-16.28,5245.5,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t6v3,,,,gudadhe_2015_t6v3_somsc,-16.28,5245.5,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t6v4,,,,gudadhe_2015_t6v4_somsc,-16.28,5245.5,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t7v1,,,,gudadhe_2015_t7v1_somsc,-17.54,5244.24,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t7v2,,,,gudadhe_2015_t7v2_somsc,-17.45,5244.33,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t7v3,,,,gudadhe_2015_t7v3_somsc,-17.36,5244.42,right_only,,,⚪ No data
+Gudadhe_2015,gudadhe_2015_t7v4,,,,gudadhe_2015_t7v4_somsc,-17.31,5244.47,right_only,,,⚪ No data
+Gudadhe_2015,t1v1,gudadhe_2015_reformatted_t1v1_somsc,-28.61,2351.99,,,,left_only,,,⚪ No data
+Gudadhe_2015,t1v2,gudadhe_2015_reformatted_t1v2_somsc,-28.61,2351.99,,,,left_only,,,⚪ No data
+Gudadhe_2015,t1v3,gudadhe_2015_reformatted_t1v3_somsc,-28.61,2351.99,,,,left_only,,,⚪ No data
+Gudadhe_2015,t1v4,gudadhe_2015_reformatted_t1v4_somsc,-28.61,2351.99,,,,left_only,,,⚪ No data
+Gudadhe_2015,t2v1,gudadhe_2015_reformatted_t2v1_somsc,-181.57,2199.04,,,,left_only,,,⚪ No data
+Gudadhe_2015,t2v2,gudadhe_2015_reformatted_t2v2_somsc,-181.57,2199.04,,,,left_only,,,⚪ No data
+Gudadhe_2015,t2v3,gudadhe_2015_reformatted_t2v3_somsc,-181.57,2199.04,,,,left_only,,,⚪ No data
+Gudadhe_2015,t2v4,gudadhe_2015_reformatted_t2v4_somsc,-181.57,2199.04,,,,left_only,,,⚪ No data
+Gudadhe_2015,t3v1,gudadhe_2015_reformatted_t3v1_somsc,-171.53,2209.08,,,,left_only,,,⚪ No data
+Gudadhe_2015,t3v2,gudadhe_2015_reformatted_t3v2_somsc,-171.51,2209.1,,,,left_only,,,⚪ No data
+Gudadhe_2015,t3v3,gudadhe_2015_reformatted_t3v3_somsc,-171.5,2209.1,,,,left_only,,,⚪ No data
+Gudadhe_2015,t3v4,gudadhe_2015_reformatted_t3v4_somsc,-171.5,2209.1,,,,left_only,,,⚪ No data
+Gudadhe_2015,t4v1,gudadhe_2015_reformatted_t4v1_somsc,-161.72,2218.88,,,,left_only,,,⚪ No data
+Gudadhe_2015,t4v2,gudadhe_2015_reformatted_t4v2_somsc,-161.71,2218.9,,,,left_only,,,⚪ No data
+Gudadhe_2015,t4v3,gudadhe_2015_reformatted_t4v3_somsc,-161.69,2218.91,,,,left_only,,,⚪ No data
+Gudadhe_2015,t4v4,gudadhe_2015_reformatted_t4v4_somsc,-161.67,2218.93,,,,left_only,,,⚪ No data
+Gudadhe_2015,t5v1,gudadhe_2015_reformatted_t5v1_somsc,-151.87,2228.73,,,,left_only,,,⚪ No data
+Gudadhe_2015,t5v2,gudadhe_2015_reformatted_t5v2_somsc,-151.85,2228.76,,,,left_only,,,⚪ No data
+Gudadhe_2015,t5v3,gudadhe_2015_reformatted_t5v3_somsc,-151.83,2228.77,,,,left_only,,,⚪ No data
+Gudadhe_2015,t5v4,gudadhe_2015_reformatted_t5v4_somsc,-151.81,2228.79,,,,left_only,,,⚪ No data
+Gudadhe_2015,t6v1,gudadhe_2015_reformatted_t6v1_somsc,-191.82,2188.79,,,,left_only,,,⚪ No data
+Gudadhe_2015,t6v2,gudadhe_2015_reformatted_t6v2_somsc,-191.82,2188.79,,,,left_only,,,⚪ No data
+Gudadhe_2015,t6v3,gudadhe_2015_reformatted_t6v3_somsc,-191.82,2188.79,,,,left_only,,,⚪ No data
+Gudadhe_2015,t6v4,gudadhe_2015_reformatted_t6v4_somsc,-191.82,2188.78,,,,left_only,,,⚪ No data
+Gudadhe_2015,t7v1,gudadhe_2015_reformatted_t7v1_somsc,-191.69,2188.91,,,,left_only,,,⚪ No data
+Gudadhe_2015,t7v2,gudadhe_2015_reformatted_t7v2_somsc,-191.78,2188.83,,,,left_only,,,⚪ No data
+Gudadhe_2015,t7v3,gudadhe_2015_reformatted_t7v3_somsc,-191.81,2188.79,,,,left_only,,,⚪ No data
+Gudadhe_2015,t7v4,gudadhe_2015_reformatted_t7v4_somsc,-191.84,2188.76,,,,left_only,,,⚪ No data
+Hati_2015,ct_n150per,hati_2015_reformatted_ct_n150per_somsc,-359.49,1807.45,,,,left_only,,,⚪ No data
+Hati_2015,ct_n50per,hati_2015_reformatted_ct_n50per_somsc,-391.34,1775.6,,,,left_only,,,⚪ No data
+Hati_2015,hati_2015_ct_n150per,,,,hati_2015_ct_n150per_somsc,-666.02,2680.81,right_only,,,⚪ No data
+Hati_2015,hati_2015_ct_n50per,,,,hati_2015_ct_n50per_somsc,-689.11,2657.72,right_only,,,⚪ No data
+Hati_2015,hati_2015_mb_n100per,,,,hati_2015_mb_n100per_somsc,-234.95,3111.88,right_only,,,⚪ No data
+Hati_2015,hati_2015_mb_n150per,,,,hati_2015_mb_n150per_somsc,-236.14,3110.69,right_only,,,⚪ No data
+Hati_2015,hati_2015_mb_n50per,,,,hati_2015_mb_n50per_somsc,-468.98,2877.85,right_only,,,⚪ No data
+Hati_2015,hati_2015_nt_n150per,,,,hati_2015_nt_n150per_somsc,185.13,3531.95,right_only,,,⚪ No data
+Hati_2015,hati_2015_nt_n50per,,,,hati_2015_nt_n50per_somsc,46.32,3393.15,right_only,,,⚪ No data
+Hati_2015,hati_2015_rt_n100per,,,,hati_2015_rt_n100per_somsc,270.42,3617.25,right_only,,,⚪ No data
+Hati_2015,hati_2015_rt_n150per,,,,hati_2015_rt_n150per_somsc,359.49,3706.32,right_only,,,⚪ No data
+Hati_2015,hati_2015_rt_n50per,,,,hati_2015_rt_n50per_somsc,99.37,3446.2,right_only,,,⚪ No data
+Hati_2015,mb_n100per,hati_2015_reformatted_mb_n100per_somsc,81.18,2248.12,,,,left_only,,,⚪ No data
+Hati_2015,mb_n150per,hati_2015_reformatted_mb_n150per_somsc,79.96,2246.9,,,,left_only,,,⚪ No data
+Hati_2015,mb_n50per,hati_2015_reformatted_mb_n50per_somsc,-210.51,1956.43,,,,left_only,,,⚪ No data
+Hati_2015,nt_n150per,hati_2015_reformatted_nt_n150per_somsc,276.59,2443.53,,,,left_only,,,⚪ No data
+Hati_2015,nt_n50per,hati_2015_reformatted_nt_n50per_somsc,102.78,2269.72,,,,left_only,,,⚪ No data
+Hati_2015,rt_n100per,hati_2015_reformatted_rt_n100per_somsc,350.84,2517.78,,,,left_only,,,⚪ No data
+Hati_2015,rt_n150per,hati_2015_reformatted_rt_n150per_somsc,490.52,2657.46,,,,left_only,,,⚪ No data
+Hati_2015,rt_n50per,hati_2015_reformatted_rt_n50per_somsc,171.41,2338.35,,,,left_only,,,⚪ No data
+Hazra_2019,hazra_2019_mw_c,hazra_2019_mw_c_somsc,-727.38,903.41,hazra_2019_mw_c_somsc,-329.14,3778.49,both,398.24,2875.08,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mw_inm,hazra_2019_mw_inm_somsc,829.84,2460.64,hazra_2019_mw_inm_somsc,1209.17,5316.81,both,379.33000000000004,2856.1700000000005,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mw_npksznb,hazra_2019_mw_npksznb_somsc,-498.83,1131.96,hazra_2019_mw_npksznb_somsc,-78.06,4029.57,both,420.77,2897.61,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mwmb_c,hazra_2019_mwmb_c_somsc,-832.66,798.14,hazra_2019_mwmb_c_somsc,-371.93,3735.7,both,460.72999999999996,2937.56,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mwmb_inm,hazra_2019_mwmb_inm_somsc,446.37,2077.16,hazra_2019_mwmb_inm_somsc,904.88,5012.52,both,458.51,2935.3600000000006,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mwmb_npksznb,hazra_2019_mwmb_npksznb_somsc,-634.83,995.96,hazra_2019_mwmb_npksznb_somsc,-158.99,3948.64,both,475.84000000000003,2952.68,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mwmc_c,hazra_2019_mwmc_c_somsc,-688.79,942.0,hazra_2019_mwmc_c_somsc,-280.5,3827.13,both,408.28999999999996,2885.13,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mwmc_inm,hazra_2019_mwmc_inm_somsc,1005.89,2636.68,hazra_2019_mwmc_inm_somsc,1403.75,5511.39,both,397.86,2874.7100000000005,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_mwmc_npksznb,hazra_2019_mwmc_npksznb_somsc,-513.17,1117.62,hazra_2019_mwmc_npksznb_somsc,-91.54,4016.1,both,421.62999999999994,2898.48,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_pw_c,hazra_2019_pw_c_somsc,-694.47,936.33,hazra_2019_pw_c_somsc,-286.55,3821.09,both,407.92,2884.76,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_pw_inm,hazra_2019_pw_inm_somsc,904.24,2535.03,hazra_2019_pw_inm_somsc,1299.48,5407.12,both,395.24,2872.0899999999997,🟢 Massive Overall Fix
+Hazra_2019,hazra_2019_pw_npksznb,hazra_2019_pw_npksznb_somsc,-598.48,1032.31,hazra_2019_pw_npksznb_somsc,-174.39,3933.24,both,424.09000000000003,2900.93,🟢 Massive Overall Fix
+Ishaq_2002,ct_high,ishaq_2002_reformatted_ct_high_somsc,-120.98,1062.5,,,,left_only,,,⚪ No data
+Ishaq_2002,ct_low,ishaq_2002_reformatted_ct_low_somsc,-128.83,1054.65,,,,left_only,,,⚪ No data
+Ishaq_2002,ct_medium,ishaq_2002_reformatted_ct_medium_somsc,-121.68,1061.8,,,,left_only,,,⚪ No data
+Ishaq_2002,dt_high,ishaq_2002_reformatted_dt_high_somsc,-120.98,1062.5,,,,left_only,,,⚪ No data
+Ishaq_2002,dt_low,ishaq_2002_reformatted_dt_low_somsc,-128.83,1054.65,,,,left_only,,,⚪ No data
+Ishaq_2002,dt_medium,ishaq_2002_reformatted_dt_medium_somsc,-121.68,1061.8,,,,left_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_ct_high,,,,ishaq_2002_ct_high_somsc,-19.24,3912.73,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_ct_low,,,,ishaq_2002_ct_low_somsc,-28.63,3903.33,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_ct_medium,,,,ishaq_2002_ct_medium_somsc,-19.56,3912.4,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_dt_high,,,,ishaq_2002_dt_high_somsc,-19.24,3912.73,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_dt_low,,,,ishaq_2002_dt_low_somsc,-28.63,3903.33,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_dt_medium,,,,ishaq_2002_dt_medium_somsc,-19.56,3912.4,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_mt_high,,,,ishaq_2002_mt_high_somsc,-19.32,3912.64,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_mt_low,,,,ishaq_2002_mt_low_somsc,-28.49,3903.47,right_only,,,⚪ No data
+Ishaq_2002,ishaq_2002_mt_medium,,,,ishaq_2002_mt_medium_somsc,-19.63,3912.34,right_only,,,⚪ No data
+Ishaq_2002,mt_high,ishaq_2002_reformatted_mt_high_somsc,-121.11,1062.37,,,,left_only,,,⚪ No data
+Ishaq_2002,mt_low,ishaq_2002_reformatted_mt_low_somsc,-128.64,1054.84,,,,left_only,,,⚪ No data
+Ishaq_2002,mt_medium,ishaq_2002_reformatted_mt_medium_somsc,-121.69,1061.79,,,,left_only,,,⚪ No data
+Jain_2018,pn_gm_gg,jain_2018_trt_pn_gm_gg_somsc,-118.84,1498.23,jain_2018_trt_pn_gm_gg_somsc,-26.16,3725.15,both,92.68,2226.92,🟢 Massive Overall Fix
+Jain_2018,pn_gm_se,jain_2018_trt_pn_gm_se_somsc,-119.48,1497.59,jain_2018_trt_pn_gm_se_somsc,-26.8,3724.51,both,92.68,2226.92,🟢 Massive Overall Fix
+Jain_2018,pn_nr,jain_2018_trt_pn_nr_somsc,-73.35,1543.72,jain_2018_trt_pn_nr_somsc,-20.07,3731.23,both,53.279999999999994,2187.51,🟢 Massive Overall Fix
+Jain_2018,pw_ct_gm_gg,jain_2018_trt_pw_ct_gm_gg_somsc,-153.59,1463.48,jain_2018_trt_pw_ct_gm_gg_somsc,3.02,3754.32,both,156.61,2290.84,🟢 Massive Overall Fix
+Jain_2018,pw_ct_gm_se,jain_2018_trt_pw_ct_gm_se_somsc,-153.59,1463.48,jain_2018_trt_pw_ct_gm_se_somsc,3.02,3754.32,both,156.61,2290.84,🟢 Massive Overall Fix
+Jain_2018,pw_ct_nr,jain_2018_trt_pw_ct_nr_somsc,-112.28,1504.79,jain_2018_trt_pw_ct_nr_somsc,9.75,3761.05,both,122.03,2256.26,🟢 Massive Overall Fix
+Jain_2018,pw_ct_wsi,jain_2018_trt_pw_ct_wsi_somsc,-45.49,1571.58,jain_2018_trt_pw_ct_wsi_somsc,65.11,3816.42,both,110.6,2244.84,🟢 Massive Overall Fix
+Jain_2018,pw_zt_gm_gg,jain_2018_trt_pw_zt_gm_gg_somsc,-89.98,1527.09,jain_2018_trt_pw_zt_gm_gg_somsc,7.15,3758.45,both,97.13000000000001,2231.3599999999997,🟢 Massive Overall Fix
+Jain_2018,pw_zt_gm_se,jain_2018_trt_pw_zt_gm_se_somsc,-89.98,1527.09,jain_2018_trt_pw_zt_gm_se_somsc,7.15,3758.45,both,97.13000000000001,2231.3599999999997,🟢 Massive Overall Fix
+Jain_2018,pw_zt_nr,jain_2018_trt_pw_zt_nr_somsc,-43.97,1573.1,jain_2018_trt_pw_zt_nr_somsc,14.18,3765.48,both,58.15,2192.38,🟢 Massive Overall Fix
+Jain_2018,pw_zt_wsi,jain_2018_trt_pw_zt_wsi_somsc,11.37,1628.44,jain_2018_trt_pw_zt_wsi_somsc,66.68,3817.99,both,55.31000000000001,2189.5499999999997,🟢 Massive Overall Fix
+Jat_2024,jat_2024_ct − r × cb–m,jat_2024_ct − r × cb–m_somsc,-321.0,1207.57,jat_2024_ct − r × cb–m_somsc,-158.97,3687.86,both,162.03,2480.29,🟢 Massive Overall Fix
+Jat_2024,jat_2024_ct − r × f–m,jat_2024_ct − r × f–m_somsc,-193.03,1335.54,jat_2024_ct − r × f–m_somsc,-89.17,3757.67,both,103.86,2422.13,🟢 Massive Overall Fix
+Jat_2024,jat_2024_ct − r × gg–m,jat_2024_ct − r × gg–m_somsc,-321.98,1206.59,jat_2024_ct − r × gg–m_somsc,-159.74,3687.1,both,162.24,2480.51,🟢 Massive Overall Fix
+Jat_2024,jat_2024_ct − r × mz–m,jat_2024_ct − r × mz–m_somsc,65.74,1594.31,jat_2024_ct − r × mz–m_somsc,216.23,4063.07,both,150.49,2468.76,🟢 Massive Overall Fix
+Jat_2024,jat_2024_ct − r × pm–m,jat_2024_ct − r × pm–m_somsc,-0.08,1528.49,jat_2024_ct − r × pm–m_somsc,156.21,4003.05,both,156.29000000000002,2474.5600000000004,🟢 Massive Overall Fix
+Jat_2024,jat_2024_ct − r × s–m,jat_2024_ct − r × s–m_somsc,-292.02,1236.55,jat_2024_ct − r × s–m_somsc,-130.21,3716.63,both,161.80999999999997,2480.08,🟢 Massive Overall Fix
+Jat_2024,jat_2024_pb + r × cb–m,jat_2024_pb + r × cb–m_somsc,-255.09,1273.48,jat_2024_pb + r × cb–m_somsc,-99.5,3747.34,both,155.59,2473.86,🟢 Massive Overall Fix
+Jat_2024,jat_2024_pb + r × f–m,jat_2024_pb + r × f–m_somsc,-121.02,1407.55,jat_2024_pb + r × f–m_somsc,-23.27,3823.57,both,97.75,2416.0200000000004,🟢 Massive Overall Fix
+Jat_2024,jat_2024_pb + r × gg–m,jat_2024_pb + r × gg–m_somsc,-246.27,1282.3,jat_2024_pb + r × gg–m_somsc,-90.53,3756.31,both,155.74,2474.01,🟢 Massive Overall Fix
+Jat_2024,jat_2024_pb + r × mz–m,jat_2024_pb + r × mz–m_somsc,145.45,1674.02,jat_2024_pb + r × mz–m_somsc,295.61,4142.45,both,150.16000000000003,2468.43,🟢 Massive Overall Fix
+Jat_2024,jat_2024_pb + r × pm–m,jat_2024_pb + r × pm–m_somsc,63.43,1592.0,jat_2024_pb + r × pm–m_somsc,213.09,4059.93,both,149.66,2467.93,🟢 Massive Overall Fix
+Jat_2024,jat_2024_pb + r × s–m,jat_2024_pb + r × s–m_somsc,-221.64,1306.93,jat_2024_pb + r × s–m_somsc,-66.03,3780.81,both,155.60999999999999,2473.88,🟢 Massive Overall Fix
+Jat_2024,jat_2024_zt + r × cb–m,jat_2024_zt + r × cb–m_somsc,0.92,1529.49,jat_2024_zt + r × cb–m_somsc,38.22,3885.06,both,37.3,2355.5699999999997,🟢 Massive Overall Fix
+Jat_2024,jat_2024_zt + r × f–m,jat_2024_zt + r × f–m_somsc,-14.33,1514.24,jat_2024_zt + r × f–m_somsc,22.42,3869.26,both,36.75,2355.0200000000004,🟢 Massive Overall Fix
+Jat_2024,jat_2024_zt + r × gg–m,jat_2024_zt + r × gg–m_somsc,9.44,1538.01,jat_2024_zt + r × gg–m_somsc,46.91,3893.75,both,37.47,2355.74,🟢 Massive Overall Fix
+Jat_2024,jat_2024_zt + r × mz–m,jat_2024_zt + r × mz–m_somsc,398.3,1926.87,jat_2024_zt + r × mz–m_somsc,429.56,4276.4,both,31.25999999999999,2349.5299999999997,🟢 Massive Overall Fix
+Jat_2024,jat_2024_zt + r × pm–m,jat_2024_zt + r × pm–m_somsc,310.56,1839.13,jat_2024_zt + r × pm–m_somsc,342.57,4189.41,both,32.00999999999999,2350.2799999999997,🟢 Massive Overall Fix
+Jat_2024,jat_2024_zt + r × s–m,jat_2024_zt + r × s–m_somsc,34.13,1562.7,jat_2024_zt + r × s–m_somsc,70.0,3916.84,both,35.87,2354.1400000000003,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_ct-cs1,jayaraman_2020_ct-cs1_somsc,-335.0,1856.56,jayaraman_2020_ct-cs1_somsc,3.16,3334.02,both,338.16,1477.46,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_ct-cs3,jayaraman_2020_ct-cs3_somsc,-291.08,1900.48,jayaraman_2020_ct-cs3_somsc,-49.26,3281.6,both,241.82,1381.12,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_ct-cs5,jayaraman_2020_ct-cs5_somsc,-322.23,1869.33,jayaraman_2020_ct-cs5_somsc,-18.28,3312.58,both,303.95000000000005,1443.25,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_ct-cs6,jayaraman_2020_ct-cs6_somsc,-311.61,1879.96,jayaraman_2020_ct-cs6_somsc,14.07,3344.93,both,325.68,1464.9699999999998,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_rt-cs1,jayaraman_2020_rt-cs1_somsc,-153.89,2037.67,jayaraman_2020_rt-cs1_somsc,103.35,3434.21,both,257.24,1396.54,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_rt-cs3,jayaraman_2020_rt-cs3_somsc,-215.08,1976.48,jayaraman_2020_rt-cs3_somsc,-24.81,3306.05,both,190.27,1329.5700000000002,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_rt-cs5,jayaraman_2020_rt-cs5_somsc,-153.92,2037.64,jayaraman_2020_rt-cs5_somsc,52.55,3383.41,both,206.46999999999997,1345.7699999999998,🟢 Massive Overall Fix
+Jayaraman_2020,jayaraman_2020_rt-cs6,jayaraman_2020_rt-cs6_somsc,-88.34,2103.22,jayaraman_2020_rt-cs6_somsc,9.88,3340.74,both,98.22,1237.52,🟢 Massive Overall Fix
+Jayaraman_2022,ct_mc,jayaraman_2022_reformatted_ct_mc_somsc,-423.79,2224.39,,,,left_only,,,⚪ No data
+Jayaraman_2022,ct_sw,jayaraman_2022_reformatted_ct_sw_somsc,-434.66,2213.52,,,,left_only,,,⚪ No data
+Jayaraman_2022,nt_mc,jayaraman_2022_reformatted_nt_mc_somsc,-5.4,2642.78,,,,left_only,,,⚪ No data
+Jayaraman_2022,nt_sw,jayaraman_2022_reformatted_nt_sw_somsc,-9.78,2638.39,,,,left_only,,,⚪ No data
+Jayaraman_2022,rt_mc,jayaraman_2022_reformatted_rt_mc_somsc,-61.45,2586.72,,,,left_only,,,⚪ No data
+Jayaraman_2022,rt_sw,jayaraman_2022_reformatted_rt_sw_somsc,-65.47,2582.7,,,,left_only,,,⚪ No data
+Joseph_2023a,ct,joseph_2023a_reformatted_ct_somsc,-421.27,1005.86,,,,left_only,,,⚪ No data
+Joseph_2023a,fb,joseph_2023a_reformatted_fb_somsc,-1.63,1425.49,,,,left_only,,,⚪ No data
+Joseph_2023a,fb_r,joseph_2023a_reformatted_fb_r_somsc,286.54,1713.66,,,,left_only,,,⚪ No data
+Joseph_2023a,joseph_2023a_ct,,,,joseph_2023a_ct_somsc,-758.56,2569.45,right_only,,,⚪ No data
+Joseph_2023a,joseph_2023a_fb,,,,joseph_2023a_fb_somsc,-176.23,3151.77,right_only,,,⚪ No data
+Joseph_2023a,joseph_2023a_fb_r,,,,joseph_2023a_fb_r_somsc,125.98,3453.98,right_only,,,⚪ No data
+Joseph_2023a,joseph_2023a_pnbb,,,,joseph_2023a_pnbb_somsc,-348.37,2979.64,right_only,,,⚪ No data
+Joseph_2023a,joseph_2023a_pnbb_r,,,,joseph_2023a_pnbb_r_somsc,-11.17,3316.83,right_only,,,⚪ No data
+Joseph_2023a,pnbb,joseph_2023a_reformatted_pnbb_somsc,-119.35,1307.77,,,,left_only,,,⚪ No data
+Joseph_2023a,pnbb_r,joseph_2023a_reformatted_pnbb_r_somsc,199.51,1626.63,,,,left_only,,,⚪ No data
+Joseph_2023b,ct,joseph_2023b_reformatted_ct_somsc,-392.32,1035.8,,,,left_only,,,⚪ No data
+Joseph_2023b,joseph_2023b_ct,,,,joseph_2023b_ct_somsc,-868.47,2459.72,right_only,,,⚪ No data
+Joseph_2023b,joseph_2023b_pnbb,,,,joseph_2023b_pnbb_somsc,-440.6,2887.59,right_only,,,⚪ No data
+Joseph_2023b,joseph_2023b_pnbb_r,,,,joseph_2023b_pnbb_r_somsc,-127.18,3201.01,right_only,,,⚪ No data
+Joseph_2023b,pnbb,joseph_2023b_reformatted_pnbb_somsc,-110.12,1318.01,,,,left_only,,,⚪ No data
+Joseph_2023b,pnbb_r,joseph_2023b_reformatted_pnbb_r_somsc,194.07,1622.2,,,,left_only,,,⚪ No data
+Kalyani_2019,kalyani_2019_t1,kalyani_2019_t1_somsc,245.96,2467.03,kalyani_2019_t1_somsc,248.49,3661.15,both,2.530000000000001,1194.12,🟡 Stabilized / Slight Change
+Kalyani_2019,kalyani_2019_t2,kalyani_2019_t2_somsc,148.89,2369.96,kalyani_2019_t2_somsc,154.24,3566.89,both,5.350000000000023,1196.9299999999998,🟡 Stabilized / Slight Change
+Kalyani_2019,kalyani_2019_t3,kalyani_2019_t3_somsc,492.61,2713.67,kalyani_2019_t3_somsc,497.85,3910.5,both,5.240000000000009,1196.83,🟡 Stabilized / Slight Change
+Kalyani_2019,kalyani_2019_t4,kalyani_2019_t4_somsc,296.84,2517.91,kalyani_2019_t4_somsc,307.48,3720.13,both,10.640000000000043,1202.2200000000003,🟡 Stabilized / Slight Change
+Kalyani_2019,kalyani_2019_t6,kalyani_2019_t6_somsc,129.14,2350.21,kalyani_2019_t6_somsc,164.38,3577.04,both,35.24000000000001,1226.83,🟢 Massive Overall Fix
+Kalyani_2019,kalyani_2019_t8,kalyani_2019_t8_somsc,-0.92,2220.15,kalyani_2019_t8_somsc,-0.89,3411.76,both,0.030000000000000027,1191.6100000000001,🟡 Stabilized / Slight Change
+Kanchikerimath_2001,kanchikerimath_2001_t1,,,,kanchikerimath_2001_t1_somsc,-1350.38,1862.5,right_only,,,⚪ No data
+Kanchikerimath_2001,kanchikerimath_2001_t10,,,,kanchikerimath_2001_t10_somsc,-1520.92,1691.96,right_only,,,⚪ No data
+Kanchikerimath_2001,kanchikerimath_2001_t2,,,,kanchikerimath_2001_t2_somsc,-1281.72,1931.15,right_only,,,⚪ No data
+Kanchikerimath_2001,kanchikerimath_2001_t3,,,,kanchikerimath_2001_t3_somsc,-1241.34,1971.53,right_only,,,⚪ No data
+Kanchikerimath_2001,kanchikerimath_2001_t8,,,,kanchikerimath_2001_t8_somsc,2994.99,6207.86,right_only,,,⚪ No data
+Kanchikerimath_2001,t1,kanchikerimath_2001_reformatted_t1_somsc,-579.53,823.32,,,,left_only,,,⚪ No data
+Kanchikerimath_2001,t10,kanchikerimath_2001_reformatted_t10_somsc,-734.05,668.8,,,,left_only,,,⚪ No data
+Kanchikerimath_2001,t2,kanchikerimath_2001_reformatted_t2_somsc,-518.95,883.9,,,,left_only,,,⚪ No data
+Kanchikerimath_2001,t3,kanchikerimath_2001_reformatted_t3_somsc,-479.08,923.77,,,,left_only,,,⚪ No data
+Kanchikerimath_2001,t8,kanchikerimath_2001_reformatted_t8_somsc,3582.38,4985.23,,,,left_only,,,⚪ No data
+Karunakaran_2013,karunakaran_2013_ct-b_zt-b_no_r,karunakaran_2013_ct-b_zt-b_no_r_somsc,-120.41,1276.72,karunakaran_2013_ct-b_zt-b_no_r_somsc,-142.92,2840.45,both,-22.50999999999999,1563.7299999999998,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_ct-b_zt-b_s_r,karunakaran_2013_ct-b_zt-b_s_r_somsc,-112.02,1285.11,karunakaran_2013_ct-b_zt-b_s_r_somsc,-134.24,2849.13,both,-22.220000000000013,1564.0200000000002,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_ct-b_zt-b_w_r,karunakaran_2013_ct-b_zt-b_w_r_somsc,-96.85,1300.28,karunakaran_2013_ct-b_zt-b_w_r_somsc,-116.66,2866.71,both,-19.810000000000002,1566.43,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_ct-b_zt-b_w_s_r,karunakaran_2013_ct-b_zt-b_w_s_r_somsc,-87.75,1309.38,karunakaran_2013_ct-b_zt-b_w_s_r_somsc,-106.77,2876.6,both,-19.019999999999996,1567.2199999999998,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_ct-f_ zt-f_no_r,karunakaran_2013_ct-f_ zt-f_no_r_somsc,-57.06,1340.07,karunakaran_2013_ct-f_ zt-f_no_r_somsc,-78.04,2905.32,both,-20.980000000000004,1565.2500000000002,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_ct-f_ zt-f_s_r,karunakaran_2013_ct-f_ zt-f_s_r_somsc,-51.68,1345.45,karunakaran_2013_ct-f_ zt-f_s_r_somsc,-72.99,2910.38,both,-21.309999999999995,1564.93,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_ct-f_ zt-f_w_r,karunakaran_2013_ct-f_ zt-f_w_r_somsc,-33.8,1363.34,karunakaran_2013_ct-f_ zt-f_w_r_somsc,-52.65,2930.72,both,-18.85,1567.3799999999999,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_ct-f_ zt-f_w_s_r,karunakaran_2013_ct-f_ zt-f_w_s_r_somsc,-28.86,1368.27,karunakaran_2013_ct-f_ zt-f_w_s_r_somsc,-47.52,2935.85,both,-18.660000000000004,1567.58,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-b_ct-b_no_r,karunakaran_2013_zt-b_ct-b_no_r_somsc,-120.47,1276.66,karunakaran_2013_zt-b_ct-b_no_r_somsc,-142.92,2840.45,both,-22.44999999999999,1563.7899999999997,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-b_ct-b_s_r,karunakaran_2013_zt-b_ct-b_s_r_somsc,-111.83,1285.3,karunakaran_2013_zt-b_ct-b_s_r_somsc,-134.04,2849.33,both,-22.209999999999994,1564.03,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-b_ct-b_w_r,karunakaran_2013_zt-b_ct-b_w_r_somsc,-96.89,1300.24,karunakaran_2013_zt-b_ct-b_w_r_somsc,-116.68,2866.69,both,-19.790000000000006,1566.45,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-b_ct-b_w_s_r,karunakaran_2013_zt-b_ct-b_w_s_r_somsc,-88.21,1308.92,karunakaran_2013_zt-b_ct-b_w_s_r_somsc,-107.51,2875.86,both,-19.30000000000001,1566.94,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-f_ ct-f_no_r,karunakaran_2013_zt-f_ ct-f_no_r_somsc,-60.12,1337.02,karunakaran_2013_zt-f_ ct-f_no_r_somsc,-79.51,2903.86,both,-19.390000000000008,1566.8400000000001,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-f_ ct-f_s_r,karunakaran_2013_zt-f_ ct-f_s_r_somsc,-51.16,1345.97,karunakaran_2013_zt-f_ ct-f_s_r_somsc,-70.33,2913.04,both,-19.17,1567.07,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-f_ ct-f_w_r,karunakaran_2013_zt-f_ ct-f_w_r_somsc,-35.84,1361.29,karunakaran_2013_zt-f_ ct-f_w_r_somsc,-52.89,2930.48,both,-17.049999999999997,1569.19,🔴 Degraded
+Karunakaran_2013,karunakaran_2013_zt-f_ ct-f_w_s_r,karunakaran_2013_zt-f_ ct-f_w_s_r_somsc,-26.89,1370.24,karunakaran_2013_zt-f_ ct-f_w_s_r_somsc,-43.69,2939.68,both,-16.799999999999997,1569.4399999999998,🔴 Degraded
+Khan_2021,khan_2021_mtsi_f1,,,,khan_2021_mtsi_f1_somsc,-57.01,3165.62,right_only,,,⚪ No data
+Khan_2021,khan_2021_mtsi_f2,,,,khan_2021_mtsi_f2_somsc,-57.41,3165.22,right_only,,,⚪ No data
+Khan_2021,khan_2021_mtsi_f3,,,,khan_2021_mtsi_f3_somsc,-57.39,3165.24,right_only,,,⚪ No data
+Khan_2021,khan_2021_mtsi_f4,,,,khan_2021_mtsi_f4_somsc,-57.4,3165.23,right_only,,,⚪ No data
+Khan_2021,khan_2021_ztsas_f1,,,,khan_2021_ztsas_f1_somsc,16.44,3239.07,right_only,,,⚪ No data
+Khan_2021,khan_2021_ztsas_f2,,,,khan_2021_ztsas_f2_somsc,17.34,3239.97,right_only,,,⚪ No data
+Khan_2021,khan_2021_ztsas_f3,,,,khan_2021_ztsas_f3_somsc,17.78,3240.41,right_only,,,⚪ No data
+Khan_2021,khan_2021_ztsas_f4,,,,khan_2021_ztsas_f4_somsc,17.96,3240.59,right_only,,,⚪ No data
+Khan_2021,mtsi_f1,khan_2021_reformatted_mtsi_f1_somsc,145.04,2024.03,,,,left_only,,,⚪ No data
+Khan_2021,mtsi_f2,khan_2021_reformatted_mtsi_f2_somsc,144.41,2023.39,,,,left_only,,,⚪ No data
+Khan_2021,mtsi_f3,khan_2021_reformatted_mtsi_f3_somsc,144.42,2023.4,,,,left_only,,,⚪ No data
+Khan_2021,mtsi_f4,khan_2021_reformatted_mtsi_f4_somsc,144.39,2023.37,,,,left_only,,,⚪ No data
+Khan_2021,ztsas_f1,khan_2021_reformatted_ztsas_f1_somsc,172.43,2051.42,,,,left_only,,,⚪ No data
+Khan_2021,ztsas_f2,khan_2021_reformatted_ztsas_f2_somsc,175.47,2054.46,,,,left_only,,,⚪ No data
+Khan_2021,ztsas_f3,khan_2021_reformatted_ztsas_f3_somsc,175.95,2054.93,,,,left_only,,,⚪ No data
+Khan_2021,ztsas_f4,khan_2021_reformatted_ztsas_f4_somsc,176.13,2055.12,,,,left_only,,,⚪ No data
+Khokhar_2022,khokhar_2022_ct_n1,khokhar_2022_ct_n1_somsc,488.46,1296.09,khokhar_2022_ct_n1_somsc,554.83,6214.24,both,66.37000000000006,4918.15,🟢 Massive Overall Fix
+Khokhar_2022,khokhar_2022_ct_n2,khokhar_2022_ct_n2_somsc,488.95,1296.58,khokhar_2022_ct_n2_somsc,555.23,6214.64,both,66.28000000000003,4918.06,🟢 Massive Overall Fix
+Khokhar_2022,khokhar_2022_ct_n3,khokhar_2022_ct_n3_somsc,-121.96,685.67,khokhar_2022_ct_n3_somsc,-79.96,5579.45,both,42.0,4893.78,🟢 Massive Overall Fix
+Khokhar_2022,khokhar_2022_rt1_n1,khokhar_2022_rt1_n1_somsc,488.46,1296.09,khokhar_2022_rt1_n1_somsc,554.83,6214.24,both,66.37000000000006,4918.15,🟢 Massive Overall Fix
+Khokhar_2022,khokhar_2022_rt1_n2,khokhar_2022_rt1_n2_somsc,488.95,1296.58,khokhar_2022_rt1_n2_somsc,555.23,6214.64,both,66.28000000000003,4918.06,🟢 Massive Overall Fix
+Khokhar_2022,khokhar_2022_rt1_n3,khokhar_2022_rt1_n3_somsc,-121.96,685.67,khokhar_2022_rt1_n3_somsc,-79.96,5579.45,both,42.0,4893.78,🟢 Massive Overall Fix
+Kumar_2016,ca_100np_cr,kumar_2016_trt_ca_100np_cr_somsc,11.81,1280.87,kumar_2016_trt_ca_100np_cr_somsc,93.69,3950.13,both,81.88,2669.26,🟢 Massive Overall Fix
+Kumar_2016,ca_100np_fym_cr,kumar_2016_trt_ca_100np_fym_cr_somsc,430.8,1699.86,kumar_2016_trt_ca_100np_fym_cr_somsc,518.66,4375.1,both,87.85999999999996,2675.2400000000007,🟢 Massive Overall Fix
+Kumar_2016,ca_100np_fym_nocr,kumar_2016_trt_ca_100np_fym_nocr_somsc,430.8,1699.86,kumar_2016_trt_ca_100np_fym_nocr_somsc,377.1,4233.54,both,-53.69999999999999,2533.6800000000003,🔴 Degraded
+Kumar_2016,ca_100np_nocr,kumar_2016_trt_ca_100np_nocr_somsc,-1.41,1267.65,kumar_2016_trt_ca_100np_nocr_somsc,-72.66,3783.78,both,-71.25,2516.13,🔴 Degraded
+Kumar_2016,ca_125np_cr,kumar_2016_trt_ca_125np_cr_somsc,16.87,1285.93,kumar_2016_trt_ca_125np_cr_somsc,97.49,3953.94,both,80.61999999999999,2668.01,🟢 Massive Overall Fix
+Kumar_2016,ca_125np_nocr,kumar_2016_trt_ca_125np_nocr_somsc,16.87,1285.93,kumar_2016_trt_ca_125np_nocr_somsc,-51.09,3805.35,both,-67.96000000000001,2519.42,🔴 Degraded
+Kumar_2016,ca_control_cr,kumar_2016_trt_ca_control_cr_somsc,-26.11,1242.95,kumar_2016_trt_ca_control_cr_somsc,61.39,3917.84,both,87.5,2674.8900000000003,🟢 Massive Overall Fix
+Kumar_2016,ca_control_nocr,kumar_2016_trt_ca_control_nocr_somsc,-26.11,1242.95,kumar_2016_trt_ca_control_nocr_somsc,-90.67,3765.77,both,-64.56,2522.8199999999997,🔴 Degraded
+Kumar_2016,ct_100np_cr,kumar_2016_trt_ct_100np_cr_somsc,-200.85,1068.21,kumar_2016_trt_ct_100np_cr_somsc,-182.42,3674.02,both,18.430000000000007,2605.81,🟡 Stabilized / Slight Change
+Kumar_2016,ct_100np_fym_cr,kumar_2016_trt_ct_100np_fym_cr_somsc,335.09,1604.15,kumar_2016_trt_ct_100np_fym_cr_somsc,406.21,4262.65,both,71.12,2658.4999999999995,🟢 Massive Overall Fix
+Kumar_2016,ct_100np_fym_nocr,kumar_2016_trt_ct_100np_fym_nocr_somsc,335.09,1604.15,kumar_2016_trt_ct_100np_fym_nocr_somsc,171.19,4027.63,both,-163.89999999999998,2423.48,🔴 Degraded
+Kumar_2016,ct_100np_nocr,kumar_2016_trt_ct_100np_nocr_somsc,-200.85,1068.21,kumar_2016_trt_ct_100np_nocr_somsc,-384.8,3471.65,both,-183.95000000000002,2403.44,🔴 Degraded
+Kumar_2016,ct_125np_cr,kumar_2016_trt_ct_125np_cr_somsc,-196.39,1072.67,kumar_2016_trt_ct_125np_cr_somsc,-179.41,3677.03,both,16.97999999999999,2604.36,🟡 Stabilized / Slight Change
+Kumar_2016,ct_125np_nocr,kumar_2016_trt_ct_125np_nocr_somsc,-196.39,1072.67,kumar_2016_trt_ct_125np_nocr_somsc,-381.09,3475.35,both,-184.7,2402.68,🔴 Degraded
+Kumar_2016,ct_control_cr,kumar_2016_trt_ct_control_cr_somsc,-222.98,1046.08,kumar_2016_trt_ct_control_cr_somsc,-199.39,3657.06,both,23.590000000000003,2610.98,🟢 Massive Overall Fix
+Kumar_2016,ct_control_nocr,kumar_2016_trt_ct_control_nocr_somsc,-222.98,1046.08,kumar_2016_trt_ct_control_nocr_somsc,-403.27,3453.17,both,-180.29,2407.09,🔴 Degraded
+Kumar_2017,absolute_control,kumar_2017_trt_absolute_control_somsc,-33.04,2448.23,kumar_2017_trt_absolute_control_somsc,-10.38,3635.75,both,22.659999999999997,1187.52,🟢 Massive Overall Fix
+Kumar_2017,castor_cake_500kg,kumar_2017_trt_castor_cake_500kg_somsc,4.66,2485.93,kumar_2017_trt_castor_cake_500kg_somsc,6.9,3653.03,both,2.24,1167.1000000000004,🟡 Stabilized / Slight Change
+Kumar_2017,fym_10t,kumar_2017_trt_fym_10t_somsc,79.21,2560.48,kumar_2017_trt_fym_10t_somsc,81.69,3727.83,both,2.480000000000004,1167.35,🟡 Stabilized / Slight Change
+Kumar_2017,fym_5t,kumar_2017_trt_fym_5t_somsc,34.98,2516.25,kumar_2017_trt_fym_5t_somsc,37.48,3683.61,both,2.5,1167.3600000000001,🟡 Stabilized / Slight Change
+Kumar_2017,fym_5t_neem_cake_500kg,kumar_2017_trt_fym_5t_neem_cake_500kg_somsc,6.99,2488.26,kumar_2017_trt_fym_5t_neem_cake_500kg_somsc,8.91,3655.04,both,1.92,1166.7799999999997,🟡 Stabilized / Slight Change
+Kumar_2017,neem_cake_500kg,kumar_2017_trt_neem_cake_500kg_somsc,3.23,2484.5,kumar_2017_trt_neem_cake_500kg_somsc,5.44,3651.57,both,2.2100000000000004,1167.0700000000002,🟡 Stabilized / Slight Change
+Kumar_2017,vermicompost_2_5t,kumar_2017_trt_vermicompost_2_5t_somsc,12.87,2494.14,kumar_2017_trt_vermicompost_2_5t_somsc,15.38,3661.51,both,2.5100000000000016,1167.3700000000003,🟡 Stabilized / Slight Change
+Kumar_2017,vermicompost_5t,kumar_2017_trt_vermicompost_5t_somsc,34.98,2516.25,kumar_2017_trt_vermicompost_5t_somsc,37.48,3683.61,both,2.5,1167.3600000000001,🟡 Stabilized / Slight Change
+Kumar_2022,kumar_2022_ct-mc,kumar_2022_ct-mc_somsc,-353.57,897.02,kumar_2022_ct-mc_somsc,-74.2,5224.11,both,279.37,4327.09,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_ct-mm,kumar_2022_ct-mm_somsc,-388.08,862.5,kumar_2022_ct-mm_somsc,-117.02,5181.28,both,271.06,4318.78,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_ct-mw,kumar_2022_ct-mw_somsc,-338.22,912.37,kumar_2022_ct-mw_somsc,-56.17,5242.13,both,282.05,4329.76,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_prb-mc,kumar_2022_prb-mc_somsc,-16.08,1234.51,kumar_2022_prb-mc_somsc,139.41,5437.72,both,155.49,4203.21,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_prb-mm,kumar_2022_prb-mm_somsc,-97.42,1153.17,kumar_2022_prb-mm_somsc,54.38,5352.69,both,151.8,4199.5199999999995,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_prb-mw,kumar_2022_prb-mw_somsc,-1.74,1248.84,kumar_2022_prb-mw_somsc,160.18,5458.48,both,161.92000000000002,4209.639999999999,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_zt-mc,kumar_2022_zt-mc_somsc,87.17,1337.76,kumar_2022_zt-mc_somsc,183.63,5481.93,both,96.46,4144.17,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_zt-mm,kumar_2022_zt-mm_somsc,0.44,1251.03,kumar_2022_zt-mm_somsc,95.76,5394.06,both,95.32000000000001,4143.030000000001,🟢 Massive Overall Fix
+Kumar_2022,kumar_2022_zt-mw,kumar_2022_zt-mw_somsc,101.41,1352.0,kumar_2022_zt-mw_somsc,205.88,5504.18,both,104.47,4152.18,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_-b,kundu_2013_cs_-b_somsc,-63.34,2496.93,kundu_2013_cs_-b_somsc,34.89,4320.66,both,98.23,1823.73,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_-k,kundu_2013_cs_-k_somsc,-63.34,2496.93,kundu_2013_cs_-k_somsc,34.89,4320.66,both,98.23,1823.73,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_-n,kundu_2013_cs_-n_somsc,-94.57,2465.7,kundu_2013_cs_-n_somsc,-3.08,4282.69,both,91.49,1816.9899999999998,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_-p,kundu_2013_cs_-p_somsc,-63.34,2496.93,kundu_2013_cs_-p_somsc,34.89,4320.66,both,98.23,1823.73,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_-s,kundu_2013_cs_-s_somsc,-63.34,2496.93,kundu_2013_cs_-s_somsc,34.89,4320.66,both,98.23,1823.73,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_-zn,kundu_2013_cs_-zn_somsc,-63.34,2496.93,kundu_2013_cs_-zn_somsc,34.89,4320.66,both,98.23,1823.73,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_control,kundu_2013_cs_control_somsc,-113.55,2446.72,kundu_2013_cs_control_somsc,-15.61,4270.16,both,97.94,1823.44,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cs_npksznb,kundu_2013_cs_npksznb_somsc,-63.34,2496.93,kundu_2013_cs_npksznb_somsc,34.89,4320.66,both,98.23,1823.73,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_-b,kundu_2013_cv_-b_somsc,-172.76,2387.51,kundu_2013_cv_-b_somsc,-25.92,4259.86,both,146.83999999999997,1872.3499999999995,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_-k,kundu_2013_cv_-k_somsc,-172.76,2387.51,kundu_2013_cv_-k_somsc,-25.92,4259.86,both,146.83999999999997,1872.3499999999995,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_-n,kundu_2013_cv_-n_somsc,-181.26,2379.01,kundu_2013_cv_-n_somsc,-39.25,4246.52,both,142.01,1867.5100000000002,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_-p,kundu_2013_cv_-p_somsc,-172.76,2387.51,kundu_2013_cv_-p_somsc,-25.92,4259.86,both,146.83999999999997,1872.3499999999995,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_-s,kundu_2013_cv_-s_somsc,-172.76,2387.51,kundu_2013_cv_-s_somsc,-25.92,4259.86,both,146.83999999999997,1872.3499999999995,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_-zn,kundu_2013_cv_-zn_somsc,-172.76,2387.51,kundu_2013_cv_-zn_somsc,-25.92,4259.86,both,146.83999999999997,1872.3499999999995,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_control,kundu_2013_cv_control_somsc,-187.56,2372.71,kundu_2013_cv_control_somsc,-45.52,4240.25,both,142.04,1867.54,🟢 Massive Overall Fix
+Kundu_2013,kundu_2013_cv_npksznb,kundu_2013_cv_npksznb_somsc,-172.76,2387.51,kundu_2013_cv_npksznb_somsc,-25.92,4259.86,both,146.83999999999997,1872.3499999999995,🟢 Massive Overall Fix
+Laskhman_2024,laskhman_2024_t1,laskhman_2024_t1_somsc,-9.71,1771.71,laskhman_2024_t1_somsc,-6.09,4846.0,both,3.620000000000001,3074.29,🟡 Stabilized / Slight Change
+Laskhman_2024,laskhman_2024_t2,laskhman_2024_t2_somsc,26.48,1807.9,laskhman_2024_t2_somsc,30.15,4882.24,both,3.669999999999998,3074.3399999999997,🟡 Stabilized / Slight Change
+Laskhman_2024,laskhman_2024_t3,laskhman_2024_t3_somsc,-5.97,1775.45,laskhman_2024_t3_somsc,-2.62,4849.47,both,3.3499999999999996,3074.0200000000004,🟡 Stabilized / Slight Change
+Laskhman_2024,laskhman_2024_t4,laskhman_2024_t4_somsc,17.09,1798.51,laskhman_2024_t4_somsc,20.22,4872.31,both,3.129999999999999,3073.8,🟡 Stabilized / Slight Change
+Lenka_2016,lenka_2016_inm,lenka_2016_inm_somsc,-416.04,2052.13,lenka_2016_inm_somsc,-343.87,2988.63,both,72.17000000000002,936.5,🟢 Massive Overall Fix
+Lenka_2016,lenka_2016_npk,lenka_2016_npk_somsc,-669.67,1798.51,lenka_2016_npk_somsc,-586.62,2745.89,both,83.04999999999995,947.3799999999999,🟢 Massive Overall Fix
+Lenka_2016,lenka_2016_onm,lenka_2016_onm_somsc,-159.51,2308.67,lenka_2016_onm_somsc,-100.81,3231.69,both,58.69999999999999,923.02,🟢 Massive Overall Fix
+Lenka_2022,lenka_2022_nt-t1,lenka_2022_nt-t1_somsc,-7.65,2131.58,lenka_2022_nt-t1_somsc,77.27,3409.79,both,84.92,1278.21,🟢 Massive Overall Fix
+Lenka_2022,lenka_2022_nt-t2,lenka_2022_nt-t2_somsc,354.55,2493.78,lenka_2022_nt-t2_somsc,439.41,3771.92,both,84.86000000000001,1278.1399999999999,🟢 Massive Overall Fix
+Lenka_2022,lenka_2022_nt-t3,lenka_2022_nt-t3_somsc,716.81,2856.04,lenka_2022_nt-t3_somsc,801.59,4134.1,both,84.78000000000009,1278.0600000000004,🟢 Massive Overall Fix
+Lenka_2022,lenka_2022_rt-t1,lenka_2022_rt-t1_somsc,-218.43,1920.8,lenka_2022_rt-t1_somsc,3.36,3335.88,both,221.79000000000002,1415.0800000000002,🟢 Massive Overall Fix
+Lenka_2022,lenka_2022_rt-t2,lenka_2022_rt-t2_somsc,163.88,2303.11,lenka_2022_rt-t2_somsc,385.46,3717.97,both,221.57999999999998,1414.8599999999997,🟢 Massive Overall Fix
+Lenka_2022,lenka_2022_rt-t3,lenka_2022_rt-t3_somsc,546.5,2685.73,lenka_2022_rt-t3_somsc,767.89,4100.4,both,221.39,1414.6699999999996,🟢 Massive Overall Fix
+Locke_2012,locke_2012_mt_clover,locke_2012_mt_clover_somsc,44.85,1743.56,locke_2012_mt_clover_somsc,-273.08,6170.77,both,-317.93,4427.210000000001,🔴 Degraded
+Locke_2012,locke_2012_mt_none,locke_2012_mt_none_somsc,-130.39,1568.32,locke_2012_mt_none_somsc,-496.0,5947.86,both,-365.61,4379.54,🔴 Degraded
+Locke_2012,locke_2012_mt_rye,locke_2012_mt_rye_somsc,-0.17,1698.54,locke_2012_mt_rye_somsc,-222.47,6221.38,both,-222.3,4522.84,🔴 Degraded
+Locke_2012,locke_2012_nt_clover,locke_2012_nt_clover_somsc,39.18,1737.9,locke_2012_nt_clover_somsc,-181.36,6262.5,both,-220.54000000000002,4524.6,🔴 Degraded
+Locke_2012,locke_2012_nt_none,locke_2012_nt_none_somsc,-73.56,1625.16,locke_2012_nt_none_somsc,-335.4,6108.46,both,-261.84,4483.3,🔴 Degraded
+Locke_2012,locke_2012_nt_rye,locke_2012_nt_rye_somsc,6.58,1705.29,locke_2012_nt_rye_somsc,-171.98,6271.87,both,-178.56,4566.58,🔴 Degraded
+Lv_2021,lv_2021_ck,lv_2021_ck_somsc,-585.49,1327.44,lv_2021_ck_somsc,-160.62,3370.85,both,424.87,2043.4099999999999,🟢 Massive Overall Fix
+Lv_2021,lv_2021_npk,lv_2021_npk_somsc,-438.45,1474.48,lv_2021_npk_somsc,44.52,3575.98,both,482.96999999999997,2101.5,🟢 Massive Overall Fix
+Lv_2021,lv_2021_npkm,lv_2021_npkm_somsc,3542.72,5455.65,lv_2021_npkm_somsc,4025.67,7557.13,both,482.9500000000003,2101.4800000000005,🟢 Massive Overall Fix
+Lv_2021,lv_2021_npkm+,lv_2021_npkm+_somsc,7523.47,9436.4,lv_2021_npkm+_somsc,8006.48,11537.94,both,483.0099999999993,2101.540000000001,🟢 Massive Overall Fix
+Lv_2021,lv_2021_npks,lv_2021_npks_somsc,592.02,2504.95,lv_2021_npks_somsc,1093.15,4624.61,both,501.1300000000001,2119.66,🟢 Massive Overall Fix
+Ma_2021,ma_2021_ck,ma_2021_ck_somsc,1.28,777.79,ma_2021_ck_somsc,-29.25,5505.81,both,-30.53,4728.02,🔴 Degraded
+Ma_2021,ma_2021_s,ma_2021_s_somsc,192.21,968.72,ma_2021_s_somsc,257.52,5792.58,both,65.30999999999997,4823.86,🟢 Massive Overall Fix
+Ma_2021,ma_2021_sb,ma_2021_sb_somsc,202.38,978.89,ma_2021_sb_somsc,244.0,5779.06,both,41.620000000000005,4800.17,🟢 Massive Overall Fix
+Ma_2021,ma_2021_si,ma_2021_si_somsc,192.21,968.72,ma_2021_si_somsc,257.52,5792.58,both,65.30999999999997,4823.86,🟢 Massive Overall Fix
+Ma_2021,ma_2021_sm,ma_2021_sm_somsc,192.21,968.72,ma_2021_sm_somsc,257.52,5792.58,both,65.30999999999997,4823.86,🟢 Massive Overall Fix
+Manna_2013,manna_2013_control,manna_2013_control_somsc,-1488.32,1705.81,manna_2013_control_somsc,-764.26,3830.73,both,724.06,2124.92,🟢 Massive Overall Fix
+Manna_2013,manna_2013_n,manna_2013_n_somsc,-1474.34,1719.8,manna_2013_n_somsc,-738.32,3856.67,both,736.0199999999999,2136.87,🟢 Massive Overall Fix
+Manna_2013,manna_2013_np,manna_2013_np_somsc,-1474.34,1719.8,manna_2013_np_somsc,-738.32,3856.67,both,736.0199999999999,2136.87,🟢 Massive Overall Fix
+Manna_2013,manna_2013_npk,manna_2013_npk_somsc,-1474.34,1719.8,manna_2013_npk_somsc,-738.32,3856.67,both,736.0199999999999,2136.87,🟢 Massive Overall Fix
+Manna_2013,manna_2013_npk+fym,manna_2013_npk+fym_somsc,2453.31,5647.45,manna_2013_npk+fym_somsc,3093.31,7688.3,both,640.0,2040.8500000000004,🟢 Massive Overall Fix
+Meena_2015,mcg_ct_inc,meena_2015_trt_mcg_ct_inc_somsc,-137.3,1078.05,meena_2015_trt_mcg_ct_inc_somsc,-162.24,3570.2,both,-24.939999999999998,2492.1499999999996,🔴 Degraded
+Meena_2015,mcg_ct_rem,meena_2015_trt_mcg_ct_rem_somsc,-209.58,1005.78,meena_2015_trt_mcg_ct_rem_somsc,-269.69,3462.75,both,-60.109999999999985,2456.9700000000003,🔴 Degraded
+Meena_2015,mcg_zt_mul,meena_2015_trt_mcg_zt_mul_somsc,83.61,1298.96,meena_2015_trt_mcg_zt_mul_somsc,94.67,3827.12,both,11.060000000000002,2528.16,🟡 Stabilized / Slight Change
+Meena_2015,mcg_zt_rem,meena_2015_trt_mcg_zt_rem_somsc,20.49,1235.85,meena_2015_trt_mcg_zt_rem_somsc,12.76,3745.21,both,-7.729999999999999,2509.36,🔴 Degraded
+Meena_2015,mlg_ct_inc,meena_2015_trt_mlg_ct_inc_somsc,-104.61,1110.75,meena_2015_trt_mlg_ct_inc_somsc,-138.59,3593.86,both,-33.980000000000004,2483.11,🔴 Degraded
+Meena_2015,mlg_ct_rem,meena_2015_trt_mlg_ct_rem_somsc,-215.9,999.46,meena_2015_trt_mlg_ct_rem_somsc,-279.56,3452.88,both,-63.66,2453.42,🔴 Degraded
+Meena_2015,mlg_zt_mul,meena_2015_trt_mlg_zt_mul_somsc,84.57,1299.93,meena_2015_trt_mlg_zt_mul_somsc,92.49,3824.93,both,7.920000000000002,2525.0,🟡 Stabilized / Slight Change
+Meena_2015,mlg_zt_rem,meena_2015_trt_mlg_zt_rem_somsc,12.46,1227.82,meena_2015_trt_mlg_zt_rem_somsc,4.29,3736.74,both,-8.170000000000002,2508.92,🔴 Degraded
+Meena_2015,mmg_ct_inc,meena_2015_trt_mmg_ct_inc_somsc,-142.51,1072.85,meena_2015_trt_mmg_ct_inc_somsc,-176.15,3556.29,both,-33.640000000000015,2483.44,🔴 Degraded
+Meena_2015,mmg_ct_rem,meena_2015_trt_mmg_ct_rem_somsc,-202.07,1013.29,meena_2015_trt_mmg_ct_rem_somsc,-260.46,3471.98,both,-58.389999999999986,2458.69,🔴 Degraded
+Meena_2015,mmg_zt_mul,meena_2015_trt_mmg_zt_mul_somsc,74.19,1289.55,meena_2015_trt_mmg_zt_mul_somsc,84.74,3817.18,both,10.549999999999997,2527.63,🟡 Stabilized / Slight Change
+Meena_2015,mmg_zt_rem,meena_2015_trt_mmg_zt_rem_somsc,21.92,1237.28,meena_2015_trt_mmg_zt_rem_somsc,17.12,3749.56,both,-4.800000000000001,2512.2799999999997,🔴 Degraded
+Meena_2015,mwg_ct_inc,meena_2015_trt_mwg_ct_inc_somsc,-79.87,1135.49,meena_2015_trt_mwg_ct_inc_somsc,-69.86,3662.58,both,10.010000000000005,2527.09,🟡 Stabilized / Slight Change
+Meena_2015,mwg_ct_rem,meena_2015_trt_mwg_ct_rem_somsc,-198.2,1017.16,meena_2015_trt_mwg_ct_rem_somsc,-252.27,3480.18,both,-54.07000000000002,2463.02,🔴 Degraded
+Meena_2015,mwg_zt_mul,meena_2015_trt_mwg_zt_mul_somsc,119.75,1335.11,meena_2015_trt_mwg_zt_mul_somsc,150.66,3883.11,both,30.909999999999997,2548.0,🟢 Massive Overall Fix
+Meena_2015,mwg_zt_rem,meena_2015_trt_mwg_zt_rem_somsc,32.18,1247.54,meena_2015_trt_mwg_zt_rem_somsc,33.01,3765.46,both,0.8299999999999983,2517.92,🟡 Stabilized / Slight Change
+Meena_2023,meena_2023_t1,meena_2023_t1_somsc,1460.06,3507.83,meena_2023_t1_somsc,1504.26,4896.36,both,44.200000000000045,1388.5299999999997,🟢 Massive Overall Fix
+Meena_2023,meena_2023_t2,meena_2023_t2_somsc,396.66,2444.43,meena_2023_t2_somsc,451.5,3843.59,both,54.839999999999975,1399.1600000000003,🟢 Massive Overall Fix
+Meena_2023,meena_2023_t3,meena_2023_t3_somsc,332.15,2379.92,meena_2023_t3_somsc,529.76,3921.86,both,197.61,1541.94,🟢 Massive Overall Fix
+Meena_2023,meena_2023_t4,meena_2023_t4_somsc,2094.22,4141.99,meena_2023_t4_somsc,2258.87,5650.97,both,164.6500000000001,1508.9800000000005,🟢 Massive Overall Fix
+Meena_2023,meena_2023_t5,meena_2023_t5_somsc,31.52,2079.29,meena_2023_t5_somsc,230.54,3622.64,both,199.01999999999998,1543.35,🟢 Massive Overall Fix
+Meena_2024,cacm,meena_2024_trt_cacm_somsc,304.92,1789.53,meena_2024_trt_cacm_somsc,354.64,3810.62,both,49.71999999999997,2021.09,🟢 Massive Overall Fix
+Meena_2024,caom,meena_2024_trt_caom_somsc,1098.5,2583.11,meena_2024_trt_caom_somsc,1143.3,4599.28,both,44.799999999999955,2016.1699999999996,🟢 Massive Overall Fix
+Meena_2024,ctcm,meena_2024_trt_ctcm_somsc,355.69,1840.29,meena_2024_trt_ctcm_somsc,531.41,3987.39,both,175.71999999999997,2147.1,🟢 Massive Overall Fix
+Meena_2024,ctom,meena_2024_trt_ctom_somsc,2098.1,3582.71,meena_2024_trt_ctom_somsc,2262.78,5718.76,both,164.6800000000003,2136.05,🟢 Massive Overall Fix
+Meena_2024,pops,meena_2024_trt_pops_somsc,57.1,1541.71,meena_2024_trt_pops_somsc,231.86,3687.83,both,174.76000000000002,2146.12,🟢 Massive Overall Fix
+Moharana_2017,moharana_2017_ba_f,moharana_2017_ba_f_somsc,-545.84,862.5,moharana_2017_ba_f_somsc,-148.39,2420.64,both,397.45000000000005,1558.1399999999999,🟢 Massive Overall Fix
+Moharana_2017,moharana_2017_ch_gr,moharana_2017_ch_gr_somsc,-670.18,738.15,moharana_2017_ch_gr_somsc,-220.6,2348.43,both,449.5799999999999,1610.2799999999997,🟢 Massive Overall Fix
+Moharana_2017,moharana_2017_mu_mo,moharana_2017_mu_mo_somsc,-675.48,732.85,moharana_2017_mu_mo_somsc,-245.03,2324.0,both,430.45000000000005,1591.15,🟢 Massive Overall Fix
+Moharana_2017,moharana_2017_wh_gg,moharana_2017_wh_gg_somsc,-581.11,827.22,moharana_2017_wh_gg_somsc,-132.43,2436.6,both,448.68,1609.3799999999999,🟢 Massive Overall Fix
+Moharana_2017,moharana_2017_wh_pm,moharana_2017_wh_pm_somsc,-401.36,1006.98,moharana_2017_wh_pm_somsc,60.61,2629.64,both,461.97,1622.6599999999999,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_sct_wct,monsefi_2014_sct_wct_somsc,-155.2,890.16,monsefi_2014_sct_wct_somsc,-18.76,3475.08,both,136.44,2584.92,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_sct_wzt,monsefi_2014_sct_wzt_somsc,-81.71,963.64,monsefi_2014_sct_wzt_somsc,-6.29,3487.55,both,75.41999999999999,2523.9100000000003,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_sct_wztsr,monsefi_2014_sct_wztsr_somsc,-70.79,974.56,monsefi_2014_sct_wztsr_somsc,5.77,3499.61,both,76.56,2525.05,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_sctws_wzt,monsefi_2014_sctws_wzt_somsc,-43.21,1002.15,monsefi_2014_sctws_wzt_somsc,40.36,3534.2,both,83.57,2532.0499999999997,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_sctws_wztsr,monsefi_2014_sctws_wztsr_somsc,-32.25,1013.1,monsefi_2014_sctws_wztsr_somsc,52.84,3546.67,both,85.09,2533.57,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_szt_wctsr,monsefi_2014_szt_wctsr_somsc,-67.5,977.86,monsefi_2014_szt_wctsr_somsc,14.16,3508.0,both,81.66,2530.14,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_szt_wzt,monsefi_2014_szt_wzt_somsc,-7.08,1038.28,monsefi_2014_szt_wzt_somsc,5.64,3499.48,both,12.719999999999999,2461.2,🟡 Stabilized / Slight Change
+Monsefi_2014,monsefi_2014_szt_wztsr,monsefi_2014_szt_wztsr_somsc,0.94,1046.3,monsefi_2014_szt_wztsr_somsc,13.54,3507.38,both,12.6,2461.08,🟡 Stabilized / Slight Change
+Monsefi_2014,monsefi_2014_sztws_wct,monsefi_2014_sztws_wct_somsc,-43.7,1001.65,monsefi_2014_sztws_wct_somsc,41.67,3535.51,both,85.37,2533.86,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_sztws_wctsr,monsefi_2014_sztws_wctsr_somsc,-27.27,1018.09,monsefi_2014_sztws_wctsr_somsc,61.53,3555.37,both,88.8,2537.2799999999997,🟢 Massive Overall Fix
+Monsefi_2014,monsefi_2014_sztws_wzt,monsefi_2014_sztws_wzt_somsc,12.53,1057.89,monsefi_2014_sztws_wzt_somsc,26.71,3520.55,both,14.180000000000001,2462.66,🟡 Stabilized / Slight Change
+Monsefi_2014,monsefi_2014_sztws_wztsr,monsefi_2014_sztws_wztsr_somsc,19.36,1064.72,monsefi_2014_sztws_wztsr_somsc,34.33,3528.17,both,14.969999999999999,2463.45,🟡 Stabilized / Slight Change
+Nath_2022,nath_2022_ct + r + 100 n,nath_2022_ct + r + 100 n_somsc,90.9,1341.72,nath_2022_ct + r + 100 n_somsc,121.86,3449.89,both,30.959999999999994,2108.17,🟢 Massive Overall Fix
+Nath_2022,nath_2022_ct – r + 100 n,nath_2022_ct – r + 100 n_somsc,-69.65,1181.17,nath_2022_ct – r + 100 n_somsc,-36.29,3291.74,both,33.36000000000001,2110.5699999999997,🟢 Massive Overall Fix
+Nath_2022,nath_2022_zt + r + 100 n,nath_2022_zt + r + 100 n_somsc,72.41,1323.24,nath_2022_zt + r + 100 n_somsc,81.78,3409.81,both,9.370000000000005,2086.5699999999997,🟡 Stabilized / Slight Change
+Nath_2022,nath_2022_zt – r + 100 n,nath_2022_zt – r + 100 n_somsc,-16.26,1234.56,nath_2022_zt – r + 100 n_somsc,-5.31,3322.72,both,10.950000000000003,2088.16,🟡 Stabilized / Slight Change
+Pandian_2016,pandian_2016_c,pandian_2016_c_somsc,-130.64,860.46,pandian_2016_c_somsc,-72.91,7343.41,both,57.72999999999999,6482.95,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_ccp,pandian_2016_ccp_somsc,-35.24,955.86,pandian_2016_ccp_somsc,29.53,7445.85,both,64.77000000000001,6489.990000000001,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_csb_2.5,pandian_2016_csb_2.5_somsc,1286.87,2277.97,pandian_2016_csb_2.5_somsc,1356.11,8772.43,both,69.24000000000001,6494.460000000001,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_csb_5,pandian_2016_csb_5_somsc,1286.87,2277.97,pandian_2016_csb_5_somsc,1356.11,8772.43,both,69.24000000000001,6494.460000000001,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_efym,pandian_2016_efym_somsc,-35.08,956.03,pandian_2016_efym_somsc,34.35,7450.67,both,69.43,6494.64,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_msb_2.5,pandian_2016_msb_2.5_somsc,1090.73,2081.84,pandian_2016_msb_2.5_somsc,1158.37,8574.69,both,67.63999999999987,6492.85,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_msb_5,pandian_2016_msb_5_somsc,1090.73,2081.84,pandian_2016_msb_5_somsc,1158.37,8574.69,both,67.63999999999987,6492.85,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_pb_2.5,pandian_2016_pb_2.5_somsc,1393.85,2384.95,pandian_2016_pb_2.5_somsc,1463.93,8880.25,both,70.08000000000015,6495.3,🟢 Massive Overall Fix
+Pandian_2016,pandian_2016_rsb_2.5,pandian_2016_rsb_2.5_somsc,1331.44,2322.55,pandian_2016_rsb_2.5_somsc,1401.03,8817.35,both,69.58999999999992,6494.8,🟢 Massive Overall Fix
+Parihar_2016,ct_mcs,parihar_2016_reformatted_ct_mcs_somsc,-51.28,1035.68,,,,left_only,,,⚪ No data
+Parihar_2016,ct_mms,parihar_2016_reformatted_ct_mms_somsc,-43.71,1043.25,,,,left_only,,,⚪ No data
+Parihar_2016,ct_mmumb,parihar_2016_reformatted_ct_mmumb_somsc,-204.8,882.16,,,,left_only,,,⚪ No data
+Parihar_2016,ct_mwmb,parihar_2016_reformatted_ct_mwmb_somsc,-207.97,878.99,,,,left_only,,,⚪ No data
+Parihar_2016,parihar_2016_ct_mcs,,,,parihar_2016_ct_mcs_somsc,-492.7,2745.5,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_ct_mms,,,,parihar_2016_ct_mms_somsc,-491.25,2746.95,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_ct_mmumb,,,,parihar_2016_ct_mmumb_somsc,-774.33,2463.87,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_ct_mwmb,,,,parihar_2016_ct_mwmb_somsc,-786.83,2451.36,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_pb_mcs,,,,parihar_2016_pb_mcs_somsc,-242.84,2995.35,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_pb_mms,,,,parihar_2016_pb_mms_somsc,-234.03,3004.17,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_pb_mmumb,,,,parihar_2016_pb_mmumb_somsc,-334.03,2904.17,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_pb_mwmb,,,,parihar_2016_pb_mwmb_somsc,-292.88,2945.32,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_zt_mcs,,,,parihar_2016_zt_mcs_somsc,-72.14,3166.06,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_zt_mms,,,,parihar_2016_zt_mms_somsc,-75.57,3162.62,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_zt_mmumb,,,,parihar_2016_zt_mmumb_somsc,-149.63,3088.57,right_only,,,⚪ No data
+Parihar_2016,parihar_2016_zt_mwmb,,,,parihar_2016_zt_mwmb_somsc,-125.18,3113.02,right_only,,,⚪ No data
+Parihar_2016,pb_mcs,parihar_2016_reformatted_pb_mcs_somsc,57.59,1144.56,,,,left_only,,,⚪ No data
+Parihar_2016,pb_mms,parihar_2016_reformatted_pb_mms_somsc,73.45,1160.41,,,,left_only,,,⚪ No data
+Parihar_2016,pb_mmumb,parihar_2016_reformatted_pb_mmumb_somsc,-5.21,1081.76,,,,left_only,,,⚪ No data
+Parihar_2016,pb_mwmb,parihar_2016_reformatted_pb_mwmb_somsc,31.48,1118.45,,,,left_only,,,⚪ No data
+Parihar_2016,zt_mcs,parihar_2016_reformatted_zt_mcs_somsc,94.49,1181.45,,,,left_only,,,⚪ No data
+Parihar_2016,zt_mms,parihar_2016_reformatted_zt_mms_somsc,102.36,1189.33,,,,left_only,,,⚪ No data
+Parihar_2016,zt_mmumb,parihar_2016_reformatted_zt_mmumb_somsc,50.67,1137.64,,,,left_only,,,⚪ No data
+Parihar_2016,zt_mwmb,parihar_2016_reformatted_zt_mwmb_somsc,73.34,1160.3,,,,left_only,,,⚪ No data
+Parihar_2018,ct_mcs,parihar_2018_reformatted_ct_mcs_somsc,-18.06,1227.47,,,,left_only,,,⚪ No data
+Parihar_2018,ct_mms,parihar_2018_reformatted_ct_mms_somsc,-30.83,1214.71,,,,left_only,,,⚪ No data
+Parihar_2018,ct_mmumb,parihar_2018_reformatted_ct_mmumb_somsc,-186.34,1059.19,,,,left_only,,,⚪ No data
+Parihar_2018,ct_mwmb,parihar_2018_reformatted_ct_mwmb_somsc,-207.39,1038.14,,,,left_only,,,⚪ No data
+Parihar_2018,parihar_2018_ct_mcs,,,,parihar_2018_ct_mcs_somsc,-406.84,2831.36,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_ct_mms,,,,parihar_2018_ct_mms_somsc,-427.61,2810.58,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_ct_mmumb,,,,parihar_2018_ct_mmumb_somsc,-674.46,2563.74,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_ct_mwmb,,,,parihar_2018_ct_mwmb_somsc,-696.69,2541.51,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_pb_mcs,,,,parihar_2018_pb_mcs_somsc,-112.24,3125.95,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_pb_mms,,,,parihar_2018_pb_mms_somsc,-99.79,3138.4,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_pb_mmumb,,,,parihar_2018_pb_mmumb_somsc,-177.18,3061.02,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_pb_mwmb,,,,parihar_2018_pb_mwmb_somsc,-144.05,3094.15,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_zt_mcs,,,,parihar_2018_zt_mcs_somsc,-77.74,3160.46,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_zt_mms,,,,parihar_2018_zt_mms_somsc,-77.4,3160.8,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_zt_mmumb,,,,parihar_2018_zt_mmumb_somsc,-143.16,3095.04,right_only,,,⚪ No data
+Parihar_2018,parihar_2018_zt_mwmb,,,,parihar_2018_zt_mwmb_somsc,-120.8,3117.39,right_only,,,⚪ No data
+Parihar_2018,pb_mcs,parihar_2018_reformatted_pb_mcs_somsc,97.18,1342.71,,,,left_only,,,⚪ No data
+Parihar_2018,pb_mms,parihar_2018_reformatted_pb_mms_somsc,118.81,1364.35,,,,left_only,,,⚪ No data
+Parihar_2018,pb_mmumb,parihar_2018_reformatted_pb_mmumb_somsc,53.94,1299.47,,,,left_only,,,⚪ No data
+Parihar_2018,pb_mwmb,parihar_2018_reformatted_pb_mwmb_somsc,86.62,1332.15,,,,left_only,,,⚪ No data
+Parihar_2018,zt_mcs,parihar_2018_reformatted_zt_mcs_somsc,83.62,1329.15,,,,left_only,,,⚪ No data
+Parihar_2018,zt_mms,parihar_2018_reformatted_zt_mms_somsc,93.36,1338.89,,,,left_only,,,⚪ No data
+Parihar_2018,zt_mmumb,parihar_2018_reformatted_zt_mmumb_somsc,44.08,1289.61,,,,left_only,,,⚪ No data
+Parihar_2018,zt_mwmb,parihar_2018_reformatted_zt_mwmb_somsc,65.42,1310.95,,,,left_only,,,⚪ No data
+Pathak_2021,pathak_2021_iii,pathak_2021_iii_somsc,2611.58,3921.67,pathak_2021_iii_somsc,2570.56,6071.47,both,-41.01999999999998,2149.8,🔴 Degraded
+Peng-peng_2019,ns_ck,peng_peng_2019_reformatted_ns_ck_somsc,-82.21,1575.51,,,,left_only,,,⚪ No data
+Peng-peng_2019,ns_npk,peng_peng_2019_reformatted_ns_npk_somsc,-41.46,1616.26,,,,left_only,,,⚪ No data
+Peng-peng_2019,ns_om,peng_peng_2019_reformatted_ns_om_somsc,3901.59,5559.31,,,,left_only,,,⚪ No data
+Peng-peng_2019,peng-peng_2019_ns_ck,,,,peng-peng_2019_ns_ck_somsc,-69.16,4796.74,right_only,,,⚪ No data
+Peng-peng_2019,peng-peng_2019_ns_npk,,,,peng-peng_2019_ns_npk_somsc,-21.95,4843.96,right_only,,,⚪ No data
+Peng-peng_2019,peng-peng_2019_ns_om,,,,peng-peng_2019_ns_om_somsc,3916.04,8781.94,right_only,,,⚪ No data
+Peng-peng_2019,peng-peng_2019_s_ck,,,,peng-peng_2019_s_ck_somsc,39.01,4904.92,right_only,,,⚪ No data
+Peng-peng_2019,peng-peng_2019_s_npk,,,,peng-peng_2019_s_npk_somsc,396.05,5261.96,right_only,,,⚪ No data
+Peng-peng_2019,peng-peng_2019_s_om,,,,peng-peng_2019_s_om_somsc,4351.05,9216.96,right_only,,,⚪ No data
+Peng-peng_2019,s_ck,peng_peng_2019_reformatted_s_ck_somsc,65.45,1723.17,,,,left_only,,,⚪ No data
+Peng-peng_2019,s_npk,peng_peng_2019_reformatted_s_npk_somsc,376.92,2034.64,,,,left_only,,,⚪ No data
+Peng-peng_2019,s_om,peng_peng_2019_reformatted_s_om_somsc,4334.15,5991.87,,,,left_only,,,⚪ No data
+Pooniya_2021,ct_ffp,pooniya_2021_trt_ct_ffp_somsc,-272.22,982.95,,,,left_only,,,⚪ No data
+Pooniya_2021,ct_ne,pooniya_2021_trt_ct_ne_somsc,-274.81,980.36,,,,left_only,,,⚪ No data
+Pooniya_2021,ct_rdf,pooniya_2021_trt_ct_rdf_somsc,-274.46,980.71,,,,left_only,,,⚪ No data
+Pooniya_2021,pnb_ffp,pooniya_2021_trt_pnb_ffp_somsc,544.9,1800.06,pooniya_2021_trt_pnb_ffp_somsc,-2691.22,79.85,both,-3236.12,-1720.21,🔴 Degraded
+Pooniya_2021,pnb_ne,pooniya_2021_trt_pnb_ne_somsc,542.71,1797.88,pooniya_2021_trt_pnb_ne_somsc,-2691.19,79.88,both,-3233.9,-1718.0,🔴 Degraded
+Pooniya_2021,pnb_rdf,pooniya_2021_trt_pnb_rdf_somsc,542.81,1797.98,pooniya_2021_trt_pnb_rdf_somsc,-2691.19,79.88,both,-3234.0,-1718.1,🔴 Degraded
+Pooniya_2021,ztfb_ffp,pooniya_2021_trt_ztfb_ffp_somsc,870.48,2125.65,pooniya_2021_trt_ztfb_ffp_somsc,-169.01,2602.05,both,-1039.49,476.4000000000001,🔴 Degraded
+Pooniya_2021,ztfb_ne,pooniya_2021_trt_ztfb_ne_somsc,823.66,2078.83,pooniya_2021_trt_ztfb_ne_somsc,-280.28,2490.79,both,-1103.94,411.96000000000004,🔴 Degraded
+Pooniya_2021,ztfb_rdf,pooniya_2021_trt_ztfb_rdf_somsc,891.27,2146.44,pooniya_2021_trt_ztfb_rdf_somsc,-215.47,2555.6,both,-1106.74,409.15999999999985,🔴 Degraded
+Pradhan_2023,pradhan_2023_rb × n1,pradhan_2023_rb × n1_somsc,19.47,2261.6,pradhan_2023_rb × n1_somsc,-1.77,4159.18,both,-21.24,1897.5800000000004,🔴 Degraded
+Pradhan_2023,pradhan_2023_rb × n2,pradhan_2023_rb × n2_somsc,19.48,2261.61,pradhan_2023_rb × n2_somsc,-1.76,4159.19,both,-21.240000000000002,1897.5799999999995,🔴 Degraded
+Pradhan_2023,pradhan_2023_rb × n3,pradhan_2023_rb × n3_somsc,19.54,2261.67,pradhan_2023_rb × n3_somsc,-1.75,4159.21,both,-21.29,1897.54,🔴 Degraded
+Pradhan_2023,pradhan_2023_rr × n1,pradhan_2023_rr × n1_somsc,419.0,2661.14,pradhan_2023_rr × n1_somsc,403.07,4564.02,both,-15.930000000000007,1902.8800000000006,🔴 Degraded
+Pradhan_2023,pradhan_2023_rr × n2,pradhan_2023_rr × n2_somsc,418.31,2660.44,pradhan_2023_rr × n2_somsc,402.13,4563.08,both,-16.180000000000007,1902.6399999999999,🔴 Degraded
+Pradhan_2023,pradhan_2023_rr × n3,pradhan_2023_rr × n3_somsc,425.35,2667.49,pradhan_2023_rr × n3_somsc,408.92,4569.87,both,-16.430000000000007,1902.38,🔴 Degraded
+Purakayastha_2008,100_npk,purakayastha_2008_reformatted_100_npk_somsc,232.4,2225.11,,,,left_only,,,⚪ No data
+Purakayastha_2008,100_npk_manure,purakayastha_2008_reformatted_100_npk_manure_somsc,4133.0,6125.7,,,,left_only,,,⚪ No data
+Purakayastha_2008,150_npk,purakayastha_2008_reformatted_150_npk_somsc,-631.84,1360.86,,,,left_only,,,⚪ No data
+Purakayastha_2008,50_npk,purakayastha_2008_reformatted_50_npk_somsc,-763.88,1228.83,,,,left_only,,,⚪ No data
+Purakayastha_2008,control,purakayastha_2008_reformatted_control_somsc,-1008.58,984.13,,,,left_only,,,⚪ No data
+Purakayastha_2008,purakayastha_2008_100_npk,,,,purakayastha_2008_100_npk_somsc,-24.01,3214.04,right_only,,,⚪ No data
+Purakayastha_2008,purakayastha_2008_100_npk_manure,,,,purakayastha_2008_100_npk_manure_somsc,3642.29,6880.34,right_only,,,⚪ No data
+Purakayastha_2008,purakayastha_2008_150_npk,,,,purakayastha_2008_150_npk_somsc,-650.48,2587.57,right_only,,,⚪ No data
+Purakayastha_2008,purakayastha_2008_50_npk,,,,purakayastha_2008_50_npk_somsc,-754.31,2483.74,right_only,,,⚪ No data
+Purakayastha_2008,purakayastha_2008_control,,,,purakayastha_2008_control_somsc,-930.24,2307.82,right_only,,,⚪ No data
+Rafique_2012_awagat,bnm_gm_nores_flatbed,rafique_2012_awagat_reformatted_bnm_gm_nores_flatbed_somsc,-139.86,1000.77,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,bnm_gm_nores_raisedbed,rafique_2012_awagat_reformatted_bnm_gm_nores_raisedbed_somsc,-139.86,1000.77,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,bnm_gm_res_flatbed,rafique_2012_awagat_reformatted_bnm_gm_res_flatbed_somsc,319.08,1459.71,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,bnm_gm_res_raisedbed,rafique_2012_awagat_reformatted_bnm_gm_res_raisedbed_somsc,319.08,1459.71,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,bnm_nores_flatbed,rafique_2012_awagat_reformatted_bnm_nores_flatbed_somsc,-202.59,938.04,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,bnm_nores_raisedbed,rafique_2012_awagat_reformatted_bnm_nores_raisedbed_somsc,-202.59,938.04,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,bnm_res_flatbed,rafique_2012_awagat_reformatted_bnm_res_flatbed_somsc,360.11,1500.74,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,bnm_res_raisedbed,rafique_2012_awagat_reformatted_bnm_res_raisedbed_somsc,360.11,1500.74,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,ffu_nores_flatbed,rafique_2012_awagat_reformatted_ffu_nores_flatbed_somsc,-206.71,933.92,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,ffu_nores_raisedbed,rafique_2012_awagat_reformatted_ffu_nores_raisedbed_somsc,-206.71,933.92,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,ffu_res_flatbed,rafique_2012_awagat_reformatted_ffu_res_flatbed_somsc,247.91,1388.54,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,ffu_res_raisedbed,rafique_2012_awagat_reformatted_ffu_res_raisedbed_somsc,247.91,1388.54,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,inm_nores_flatbed,rafique_2012_awagat_reformatted_inm_nores_flatbed_somsc,-2.67,1137.96,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,inm_nores_raisedbed,rafique_2012_awagat_reformatted_inm_nores_raisedbed_somsc,-2.67,1137.96,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,inm_res_flatbed,rafique_2012_awagat_reformatted_inm_res_flatbed_somsc,494.03,1634.66,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,inm_res_raisedbed,rafique_2012_awagat_reformatted_inm_res_raisedbed_somsc,494.03,1634.66,,,,left_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_gm_nores_flatbed,,,,rafique_2012_awagat_bnm_gm_nores_flatbed_somsc,21.62,3192.39,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_gm_nores_raisedbed,,,,rafique_2012_awagat_bnm_gm_nores_raisedbed_somsc,21.62,3192.39,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_gm_res_flatbed,,,,rafique_2012_awagat_bnm_gm_res_flatbed_somsc,443.71,3614.48,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_gm_res_raisedbed,,,,rafique_2012_awagat_bnm_gm_res_raisedbed_somsc,443.71,3614.48,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_nores_flatbed,,,,rafique_2012_awagat_bnm_nores_flatbed_somsc,-5.68,3165.09,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_nores_raisedbed,,,,rafique_2012_awagat_bnm_nores_raisedbed_somsc,-5.68,3165.09,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_res_flatbed,,,,rafique_2012_awagat_bnm_res_flatbed_somsc,519.12,3689.89,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_bnm_res_raisedbed,,,,rafique_2012_awagat_bnm_res_raisedbed_somsc,519.12,3689.89,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_ffu_nores_flatbed,,,,rafique_2012_awagat_ffu_nores_flatbed_somsc,-12.78,3157.99,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_ffu_nores_raisedbed,,,,rafique_2012_awagat_ffu_nores_raisedbed_somsc,-12.78,3157.99,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_ffu_res_flatbed,,,,rafique_2012_awagat_ffu_res_flatbed_somsc,379.66,3550.43,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_ffu_res_raisedbed,,,,rafique_2012_awagat_ffu_res_raisedbed_somsc,379.66,3550.43,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_inm_nores_flatbed,,,,rafique_2012_awagat_inm_nores_flatbed_somsc,192.96,3363.73,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_inm_nores_raisedbed,,,,rafique_2012_awagat_inm_nores_raisedbed_somsc,192.96,3363.73,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_inm_res_flatbed,,,,rafique_2012_awagat_inm_res_flatbed_somsc,641.22,3811.99,right_only,,,⚪ No data
+Rafique_2012_awagat,rafique_2012_awagat_inm_res_raisedbed,,,,rafique_2012_awagat_inm_res_raisedbed_somsc,641.22,3811.99,right_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_gm_nores_flatbed,rafique_2012_shahpur_reformatted_bnm_gm_nores_flatbed_somsc,-170.16,1580.37,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_gm_nores_raisedbed,rafique_2012_shahpur_reformatted_bnm_gm_nores_raisedbed_somsc,-170.16,1580.37,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_gm_res_flatbed,rafique_2012_shahpur_reformatted_bnm_gm_res_flatbed_somsc,418.91,2169.44,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_gm_res_raisedbed,rafique_2012_shahpur_reformatted_bnm_gm_res_raisedbed_somsc,418.91,2169.44,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_nores_flatbed,rafique_2012_shahpur_reformatted_bnm_nores_flatbed_somsc,-237.24,1513.29,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_nores_raisedbed,rafique_2012_shahpur_reformatted_bnm_nores_raisedbed_somsc,-237.24,1513.29,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_res_flatbed,rafique_2012_shahpur_reformatted_bnm_res_flatbed_somsc,473.79,2224.32,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,bnm_res_raisedbed,rafique_2012_shahpur_reformatted_bnm_res_raisedbed_somsc,473.79,2224.32,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,ffu_nores_flatbed,rafique_2012_shahpur_reformatted_ffu_nores_flatbed_somsc,-238.07,1512.46,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,ffu_nores_raisedbed,rafique_2012_shahpur_reformatted_ffu_nores_raisedbed_somsc,-238.07,1512.46,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,ffu_res_flatbed,rafique_2012_shahpur_reformatted_ffu_res_flatbed_somsc,377.69,2128.22,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,ffu_res_raisedbed,rafique_2012_shahpur_reformatted_ffu_res_raisedbed_somsc,377.69,2128.22,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,inm_nores_flatbed,rafique_2012_shahpur_reformatted_inm_nores_flatbed_somsc,-22.57,1727.96,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,inm_nores_raisedbed,rafique_2012_shahpur_reformatted_inm_nores_raisedbed_somsc,-22.57,1727.96,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,inm_res_flatbed,rafique_2012_shahpur_reformatted_inm_res_flatbed_somsc,630.28,2380.81,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,inm_res_raisedbed,rafique_2012_shahpur_reformatted_inm_res_raisedbed_somsc,630.28,2380.81,,,,left_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_gm_nores_flatbed,,,,rafique_2012_shahpur_bnm_gm_nores_flatbed_somsc,16.48,2903.5,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_gm_nores_raisedbed,,,,rafique_2012_shahpur_bnm_gm_nores_raisedbed_somsc,16.48,2903.5,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_gm_res_flatbed,,,,rafique_2012_shahpur_bnm_gm_res_flatbed_somsc,450.68,3337.7,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_gm_res_raisedbed,,,,rafique_2012_shahpur_bnm_gm_res_raisedbed_somsc,450.68,3337.7,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_nores_flatbed,,,,rafique_2012_shahpur_bnm_nores_flatbed_somsc,-4.33,2882.69,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_nores_raisedbed,,,,rafique_2012_shahpur_bnm_nores_raisedbed_somsc,-4.33,2882.69,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_res_flatbed,,,,rafique_2012_shahpur_bnm_res_flatbed_somsc,536.4,3423.43,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_bnm_res_raisedbed,,,,rafique_2012_shahpur_bnm_res_raisedbed_somsc,536.4,3423.43,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_ffu_nores_flatbed,,,,rafique_2012_shahpur_ffu_nores_flatbed_somsc,-11.21,2875.82,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_ffu_nores_raisedbed,,,,rafique_2012_shahpur_ffu_nores_raisedbed_somsc,-11.21,2875.82,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_ffu_res_flatbed,,,,rafique_2012_shahpur_ffu_res_flatbed_somsc,397.45,3284.48,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_ffu_res_raisedbed,,,,rafique_2012_shahpur_ffu_res_raisedbed_somsc,397.45,3284.48,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_inm_nores_flatbed,,,,rafique_2012_shahpur_inm_nores_flatbed_somsc,195.85,3082.88,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_inm_nores_raisedbed,,,,rafique_2012_shahpur_inm_nores_raisedbed_somsc,195.85,3082.88,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_inm_res_flatbed,,,,rafique_2012_shahpur_inm_res_flatbed_somsc,659.23,3546.25,right_only,,,⚪ No data
+Rafique_2012_shahpur,rafique_2012_shahpur_inm_res_raisedbed,,,,rafique_2012_shahpur_inm_res_raisedbed_somsc,659.23,3546.25,right_only,,,⚪ No data
+Ram_2013,cts_ctw,ram_2013_trt_cts_ctw_somsc,23.23,1229.4,ram_2013_trt_cts_ctw_somsc,283.92,4606.47,both,260.69,3377.07,🟢 Massive Overall Fix
+Ram_2013,cts_fbw,ram_2013_trt_cts_fbw_somsc,23.23,1229.4,ram_2013_trt_cts_fbw_somsc,283.92,4606.47,both,260.69,3377.07,🟢 Massive Overall Fix
+Ram_2013,cts_ntw,ram_2013_trt_cts_ntw_somsc,170.23,1376.39,ram_2013_trt_cts_ntw_somsc,342.54,4665.09,both,172.31000000000003,3288.7,🟢 Massive Overall Fix
+Ram_2013,fbs_ctw,ram_2013_trt_fbs_ctw_somsc,25.59,1231.76,ram_2013_trt_fbs_ctw_somsc,279.73,4602.28,both,254.14000000000001,3370.5199999999995,🟢 Massive Overall Fix
+Ram_2013,nts_ntw,ram_2013_trt_nts_ntw_somsc,295.69,1501.85,ram_2013_trt_nts_ntw_somsc,340.48,4663.03,both,44.79000000000002,3161.18,🟢 Massive Overall Fix
+Ram_2013,nts_sm_ntw,ram_2013_trt_nts_sm_ntw_somsc,372.71,1578.87,ram_2013_trt_nts_sm_ntw_somsc,422.5,4745.05,both,49.79000000000002,3166.1800000000003,🟢 Massive Overall Fix
+Ram_2013,pbs_pbw,ram_2013_trt_pbs_pbw_somsc,23.23,1229.4,ram_2013_trt_pbs_pbw_somsc,283.92,4606.47,both,260.69,3377.07,🟢 Massive Overall Fix
+Ram_2013,pbs_sm_pbw,ram_2013_trt_pbs_sm_pbw_somsc,110.1,1316.26,ram_2013_trt_pbs_sm_pbw_somsc,377.04,4699.59,both,266.94000000000005,3383.33,🟢 Massive Overall Fix
+Ramu_2024_Alfisol,ramu_2024_alfisol_t1_alfisol,ramu_2024_alfisol_t1_alfisol_somsc,-0.63,1236.64,ramu_2024_alfisol_t1_alfisol_somsc,-3.36,4099.67,both,-2.73,2863.0299999999997,🔴 Degraded
+Ramu_2024_Alfisol,ramu_2024_alfisol_t2_alfisol,ramu_2024_alfisol_t2_alfisol_somsc,2.82,1240.09,ramu_2024_alfisol_t2_alfisol_somsc,-2.95,4100.09,both,-5.77,2860.0,🔴 Degraded
+Ramu_2024_vertisol,ramu_2024_vertisol_t1_vertisol,ramu_2024_vertisol_t1_vertisol_somsc,-0.27,2535.65,ramu_2024_vertisol_t1_vertisol_somsc,-2.62,4100.42,both,-2.35,1564.77,🔴 Degraded
+Ramu_2024_vertisol,ramu_2024_vertisol_t2_vertisol,ramu_2024_vertisol_t2_vertisol_somsc,-0.18,2535.74,ramu_2024_vertisol_t2_vertisol_somsc,-2.63,4100.41,both,-2.4499999999999997,1564.67,🔴 Degraded
+Rudrappa_2006,100_npk,rudrappa_2006_reformatted_100_npk_somsc,232.4,2225.11,,,,left_only,,,⚪ No data
+Rudrappa_2006,100_npk_manure,rudrappa_2006_reformatted_100_npk_manure_somsc,4133.0,6125.7,,,,left_only,,,⚪ No data
+Rudrappa_2006,150_npk,rudrappa_2006_reformatted_150_npk_somsc,-631.84,1360.86,,,,left_only,,,⚪ No data
+Rudrappa_2006,50_npk,rudrappa_2006_reformatted_50_npk_somsc,-763.88,1228.83,,,,left_only,,,⚪ No data
+Rudrappa_2006,control,rudrappa_2006_reformatted_control_somsc,-1008.58,984.13,,,,left_only,,,⚪ No data
+Rudrappa_2006,rudrappa_2006_100_npk,,,,rudrappa_2006_100_npk_somsc,-371.11,2866.92,right_only,,,⚪ No data
+Rudrappa_2006,rudrappa_2006_100_npk_manure,,,,rudrappa_2006_100_npk_manure_somsc,3102.81,6340.83,right_only,,,⚪ No data
+Rudrappa_2006,rudrappa_2006_150_npk,,,,rudrappa_2006_150_npk_somsc,-1190.25,2047.77,right_only,,,⚪ No data
+Rudrappa_2006,rudrappa_2006_50_npk,,,,rudrappa_2006_50_npk_somsc,-1290.39,1947.63,right_only,,,⚪ No data
+Rudrappa_2006,rudrappa_2006_control,,,,rudrappa_2006_control_somsc,-1452.95,1785.08,right_only,,,⚪ No data
+Saha_2010,ct_ri,saha_2010_trt_ct_ri_somsc,-96.58,1148.01,saha_2010_trt_ct_ri_somsc,-116.47,3211.47,both,-19.89,2063.46,🔴 Degraded
+Saha_2010,ct_rm,saha_2010_trt_ct_rm_somsc,-134.05,1110.54,saha_2010_trt_ct_rm_somsc,-155.17,3172.76,both,-21.119999999999976,2062.2200000000003,🔴 Degraded
+Saha_2010,zt_rm,saha_2010_trt_zt_rm_somsc,-30.88,1213.71,saha_2010_trt_zt_rm_somsc,-49.53,3278.41,both,-18.650000000000002,2064.7,🔴 Degraded
+Saha_2010,zt_rr,saha_2010_trt_zt_rr_somsc,-13.4,1231.19,saha_2010_trt_zt_rr_somsc,-31.07,3296.87,both,-17.67,2065.68,🔴 Degraded
+Saha_2013,m0_t1,saha_2013_trt_m0_t1_somsc,-86.21,1148.97,saha_2013_trt_m0_t1_somsc,-42.95,8393.1,both,43.25999999999999,7244.13,🟢 Massive Overall Fix
+Saha_2013,m0_t2,saha_2013_trt_m0_t2_somsc,-10.4,1224.78,saha_2013_trt_m0_t2_somsc,-13.22,8422.83,both,-2.8200000000000003,7198.05,🔴 Degraded
+Saha_2013,m1_t1,saha_2013_trt_m1_t1_somsc,-49.64,1185.54,saha_2013_trt_m1_t1_somsc,-6.0,8430.05,both,43.64,7244.509999999999,🟢 Massive Overall Fix
+Saha_2013,m1_t2,saha_2013_trt_m1_t2_somsc,20.14,1255.32,saha_2013_trt_m1_t2_somsc,18.96,8455.01,both,-1.1799999999999997,7199.6900000000005,🔴 Degraded
+Saha_2013,m2_t1,saha_2013_trt_m2_t1_somsc,429.41,1664.59,saha_2013_trt_m2_t1_somsc,471.1,8907.15,both,41.69,7242.5599999999995,🟢 Massive Overall Fix
+Saha_2013,m2_t2,saha_2013_trt_m2_t2_somsc,429.41,1664.59,saha_2013_trt_m2_t2_somsc,471.1,8907.15,both,41.69,7242.5599999999995,🟢 Massive Overall Fix
+Saha_2013,m3_t1,saha_2013_trt_m3_t1_somsc,715.3,1950.48,saha_2013_trt_m3_t1_somsc,756.52,9192.57,both,41.22000000000003,7242.09,🟢 Massive Overall Fix
+Saha_2013,m3_t2,saha_2013_trt_m3_t2_somsc,908.32,2143.5,saha_2013_trt_m3_t2_somsc,948.09,9384.14,both,39.76999999999998,7240.639999999999,🟢 Massive Overall Fix
+Saha_2013,m4_t1,saha_2013_trt_m4_t1_somsc,350.33,1585.51,saha_2013_trt_m4_t1_somsc,392.29,8828.34,both,41.960000000000036,7242.83,🟢 Massive Overall Fix
+Saha_2013,m4_t2,saha_2013_trt_m4_t2_somsc,350.33,1585.51,saha_2013_trt_m4_t2_somsc,392.29,8828.34,both,41.960000000000036,7242.83,🟢 Massive Overall Fix
+Saha_2013,m5_t1,saha_2013_trt_m5_t1_somsc,182.63,1417.82,saha_2013_trt_m5_t1_somsc,225.32,8661.36,both,42.69,7243.540000000001,🟢 Massive Overall Fix
+Saha_2013,m5_t2,saha_2013_trt_m5_t2_somsc,182.63,1417.82,saha_2013_trt_m5_t2_somsc,225.32,8661.36,both,42.69,7243.540000000001,🟢 Massive Overall Fix
+Sankar_2011,fym_100npk,sankar_2011_trt_fym_100npk_somsc,-861.52,1075.5,sankar_2011_trt_fym_100npk_somsc,-643.22,6434.84,both,218.29999999999995,5359.34,🟢 Massive Overall Fix
+Sankar_2011,fym_10t,sankar_2011_trt_fym_10t_somsc,-831.5,1105.52,sankar_2011_trt_fym_10t_somsc,-616.06,6462.0,both,215.44000000000005,5356.48,🟢 Massive Overall Fix
+Sankar_2011,fym_10t_100npk,sankar_2011_trt_fym_10t_100npk_somsc,-831.14,1105.88,sankar_2011_trt_fym_10t_100npk_somsc,-614.58,6463.48,both,216.55999999999995,5357.599999999999,🟢 Massive Overall Fix
+Sankar_2011,fym_10t_50npk,sankar_2011_trt_fym_10t_50npk_somsc,-831.27,1105.74,sankar_2011_trt_fym_10t_50npk_somsc,-615.07,6462.98,both,216.19999999999993,5357.24,🟢 Massive Overall Fix
+Sankar_2011,fym_control,sankar_2011_trt_fym_control_somsc,-861.9,1075.12,sankar_2011_trt_fym_control_somsc,-644.78,6433.28,both,217.12,5358.16,🟢 Massive Overall Fix
+Sankar_2011,mr_100npk,sankar_2011_trt_mr_100npk_somsc,-861.52,1075.5,sankar_2011_trt_mr_100npk_somsc,-643.22,6434.84,both,218.29999999999995,5359.34,🟢 Massive Overall Fix
+Sankar_2011,mr_5t,sankar_2011_trt_mr_5t_somsc,-794.65,1142.37,sankar_2011_trt_mr_5t_somsc,-582.32,6495.74,both,212.32999999999993,5353.37,🟢 Massive Overall Fix
+Sankar_2011,mr_5t_100npk,sankar_2011_trt_mr_5t_100npk_somsc,-794.27,1142.75,sankar_2011_trt_mr_5t_100npk_somsc,-580.74,6497.32,both,213.52999999999997,5354.57,🟢 Massive Overall Fix
+Sankar_2011,mr_5t_50npk,sankar_2011_trt_mr_5t_50npk_somsc,-794.41,1142.61,sankar_2011_trt_mr_5t_50npk_somsc,-581.28,6496.78,both,213.13,5354.17,🟢 Massive Overall Fix
+Sankar_2011,mr_control,sankar_2011_trt_mr_control_somsc,-861.9,1075.12,sankar_2011_trt_mr_control_somsc,-644.78,6433.28,both,217.12,5358.16,🟢 Massive Overall Fix
+Sankar_2014,sankar_2014_t1,,,,sankar_2014_t1_somsc,-221.39,3549.1,right_only,,,⚪ No data
+Sankar_2014,sankar_2014_t2,,,,sankar_2014_t2_somsc,-149.27,3621.23,right_only,,,⚪ No data
+Sankar_2014,sankar_2014_t3,,,,sankar_2014_t3_somsc,-167.46,3603.03,right_only,,,⚪ No data
+Sankar_2014,sankar_2014_t4,,,,sankar_2014_t4_somsc,-92.65,3677.84,right_only,,,⚪ No data
+Sankar_2014,sankar_2014_t5,,,,sankar_2014_t5_somsc,398.75,4169.24,right_only,,,⚪ No data
+Sankar_2014,sankar_2014_t6,,,,sankar_2014_t6_somsc,-64.76,3705.73,right_only,,,⚪ No data
+Sankar_2014,sankar_2014_t7,,,,sankar_2014_t7_somsc,442.6,4213.09,right_only,,,⚪ No data
+Sankar_2014,sankar_2014_t8,,,,sankar_2014_t8_somsc,-92.65,3677.84,right_only,,,⚪ No data
+Sankar_2014,t1,sankar_2014_reformatted_t1_somsc,-772.26,1423.99,,,,left_only,,,⚪ No data
+Sankar_2014,t2,sankar_2014_reformatted_t2_somsc,-728.45,1467.8,,,,left_only,,,⚪ No data
+Sankar_2014,t3,sankar_2014_reformatted_t3_somsc,-742.72,1453.53,,,,left_only,,,⚪ No data
+Sankar_2014,t4,sankar_2014_reformatted_t4_somsc,-666.08,1530.16,,,,left_only,,,⚪ No data
+Sankar_2014,t5,sankar_2014_reformatted_t5_somsc,-161.82,2034.43,,,,left_only,,,⚪ No data
+Sankar_2014,t6,sankar_2014_reformatted_t6_somsc,-645.06,1551.18,,,,left_only,,,⚪ No data
+Sankar_2014,t7,sankar_2014_reformatted_t7_somsc,-136.22,2060.03,,,,left_only,,,⚪ No data
+Sankar_2014,t8,sankar_2014_reformatted_t8_somsc,-666.08,1530.16,,,,left_only,,,⚪ No data
+Sathish_2018,sathish_2018_t1,sathish_2018_t1_somsc,-750.67,771.49,sathish_2018_t1_somsc,-387.47,4554.01,both,363.19999999999993,3782.5200000000004,🟢 Massive Overall Fix
+Sathish_2018,sathish_2018_t2,sathish_2018_t2_somsc,352.8,1874.96,sathish_2018_t2_somsc,722.97,5664.45,both,370.17,3789.49,🟢 Massive Overall Fix
+Sathish_2018,sathish_2018_t3,sathish_2018_t3_somsc,394.39,1916.54,sathish_2018_t3_somsc,767.97,5709.45,both,373.58000000000004,3792.91,🟢 Massive Overall Fix
+Sathish_2018,sathish_2018_t4,sathish_2018_t4_somsc,420.91,1943.06,sathish_2018_t4_somsc,795.91,5737.39,both,374.99999999999994,3794.3300000000004,🟢 Massive Overall Fix
+Sathish_2018,sathish_2018_t5,sathish_2018_t5_somsc,-672.26,849.9,sathish_2018_t5_somsc,-298.73,4642.75,both,373.53,3792.85,🟢 Massive Overall Fix
+Shukla_2018,shukla_2018_t1_m1_n1,shukla_2018_t1_m1_n1_somsc,-70.11,1095.3,shukla_2018_t1_m1_n1_somsc,-510.67,3084.7,both,-440.56,1989.3999999999999,🔴 Degraded
+Shukla_2018,shukla_2018_t1_m1_n2,shukla_2018_t1_m1_n2_somsc,-29.28,1136.12,shukla_2018_t1_m1_n2_somsc,-493.28,3102.09,both,-464.0,1965.9700000000003,🔴 Degraded
+Shukla_2018,shukla_2018_t1_m1_n3,shukla_2018_t1_m1_n3_somsc,-27.36,1138.05,shukla_2018_t1_m1_n3_somsc,-492.81,3102.56,both,-465.45,1964.51,🔴 Degraded
+Shukla_2018,shukla_2018_t1_m1_n4,shukla_2018_t1_m1_n4_somsc,-26.67,1138.73,shukla_2018_t1_m1_n4_somsc,-492.28,3103.09,both,-465.60999999999996,1964.3600000000001,🔴 Degraded
+Shukla_2018,shukla_2018_t1_m2_n1,shukla_2018_t1_m2_n1_somsc,-70.61,1094.79,shukla_2018_t1_m2_n1_somsc,-509.95,3085.42,both,-439.34,1990.63,🔴 Degraded
+Shukla_2018,shukla_2018_t1_m2_n2,shukla_2018_t1_m2_n2_somsc,-29.14,1136.27,shukla_2018_t1_m2_n2_somsc,-491.21,3104.16,both,-462.07,1967.8899999999999,🔴 Degraded
+Shukla_2018,shukla_2018_t1_m2_n3,shukla_2018_t1_m2_n3_somsc,-26.97,1138.43,shukla_2018_t1_m2_n3_somsc,-490.73,3104.64,both,-463.76,1966.2099999999998,🔴 Degraded
+Shukla_2018,shukla_2018_t1_m2_n4,shukla_2018_t1_m2_n4_somsc,-26.21,1139.19,shukla_2018_t1_m2_n4_somsc,-490.18,3105.19,both,-463.97,1966.0,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m1_n1,shukla_2018_t2_m1_n1_somsc,-70.11,1095.3,shukla_2018_t2_m1_n1_somsc,-510.67,3084.7,both,-440.56,1989.3999999999999,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m1_n2,shukla_2018_t2_m1_n2_somsc,-29.28,1136.12,shukla_2018_t2_m1_n2_somsc,-493.28,3102.09,both,-464.0,1965.9700000000003,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m1_n3,shukla_2018_t2_m1_n3_somsc,-27.36,1138.05,shukla_2018_t2_m1_n3_somsc,-492.81,3102.56,both,-465.45,1964.51,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m1_n4,shukla_2018_t2_m1_n4_somsc,-26.67,1138.73,shukla_2018_t2_m1_n4_somsc,-492.28,3103.09,both,-465.60999999999996,1964.3600000000001,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m2_n1,shukla_2018_t2_m2_n1_somsc,-70.61,1094.79,shukla_2018_t2_m2_n1_somsc,-509.95,3085.42,both,-439.34,1990.63,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m2_n2,shukla_2018_t2_m2_n2_somsc,-29.14,1136.27,shukla_2018_t2_m2_n2_somsc,-491.21,3104.16,both,-462.07,1967.8899999999999,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m2_n3,shukla_2018_t2_m2_n3_somsc,-26.97,1138.43,shukla_2018_t2_m2_n3_somsc,-490.73,3104.64,both,-463.76,1966.2099999999998,🔴 Degraded
+Shukla_2018,shukla_2018_t2_m2_n4,shukla_2018_t2_m2_n4_somsc,-26.21,1139.19,shukla_2018_t2_m2_n4_somsc,-490.18,3105.19,both,-463.97,1966.0,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m1_n1,shukla_2018_t3_m1_n1_somsc,-70.11,1095.3,shukla_2018_t3_m1_n1_somsc,-510.67,3084.7,both,-440.56,1989.3999999999999,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m1_n2,shukla_2018_t3_m1_n2_somsc,-29.28,1136.12,shukla_2018_t3_m1_n2_somsc,-493.28,3102.09,both,-464.0,1965.9700000000003,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m1_n3,shukla_2018_t3_m1_n3_somsc,-27.36,1138.05,shukla_2018_t3_m1_n3_somsc,-492.81,3102.56,both,-465.45,1964.51,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m1_n4,shukla_2018_t3_m1_n4_somsc,-26.67,1138.73,shukla_2018_t3_m1_n4_somsc,-492.28,3103.09,both,-465.60999999999996,1964.3600000000001,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m2_n1,shukla_2018_t3_m2_n1_somsc,-70.61,1094.79,shukla_2018_t3_m2_n1_somsc,-509.95,3085.42,both,-439.34,1990.63,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m2_n2,shukla_2018_t3_m2_n2_somsc,-29.14,1136.27,shukla_2018_t3_m2_n2_somsc,-491.21,3104.16,both,-462.07,1967.8899999999999,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m2_n3,shukla_2018_t3_m2_n3_somsc,-26.97,1138.43,shukla_2018_t3_m2_n3_somsc,-490.73,3104.64,both,-463.76,1966.2099999999998,🔴 Degraded
+Shukla_2018,shukla_2018_t3_m2_n4,shukla_2018_t3_m2_n4_somsc,-26.21,1139.19,shukla_2018_t3_m2_n4_somsc,-490.18,3105.19,both,-463.97,1966.0,🔴 Degraded
+Singh_2007,singh_2007_t0,singh_2007_t0_somsc,-81.74,1583.67,singh_2007_t0_somsc,151.07,4961.75,both,232.81,3378.08,🟢 Massive Overall Fix
+Singh_2007,singh_2007_t1,singh_2007_t1_somsc,899.65,2565.06,singh_2007_t1_somsc,1132.89,5943.57,both,233.24000000000012,3378.5099999999998,🟢 Massive Overall Fix
+Singh_2007,singh_2007_t10,singh_2007_t10_somsc,-23.71,1641.7,singh_2007_t10_somsc,208.84,5019.52,both,232.55,3377.8200000000006,🟢 Massive Overall Fix
+Singh_2007,singh_2007_t2,singh_2007_t2_somsc,764.9,2430.31,singh_2007_t2_somsc,1000.36,5811.04,both,235.46000000000004,3380.73,🟢 Massive Overall Fix
+Singh_2007,singh_2007_t3,singh_2007_t3_somsc,1087.34,2752.76,singh_2007_t3_somsc,1322.51,6133.19,both,235.17000000000007,3380.4299999999994,🟢 Massive Overall Fix
+Singh_2007,singh_2007_t4,singh_2007_t4_somsc,773.25,2438.66,singh_2007_t4_somsc,1006.13,5816.81,both,232.88,3378.1500000000005,🟢 Massive Overall Fix
+Singh_2024,m1_s1,singh_2024_trt_m1_s1_somsc,-31.53,1497.06,singh_2024_trt_m1_s1_somsc,-38.72,3541.54,both,-7.189999999999998,2044.48,🔴 Degraded
+Singh_2024,m1_s2,singh_2024_trt_m1_s2_somsc,-31.53,1497.06,singh_2024_trt_m1_s2_somsc,-38.72,3541.54,both,-7.189999999999998,2044.48,🔴 Degraded
+Singh_2024,m1_s3,singh_2024_trt_m1_s3_somsc,-1.17,1527.42,singh_2024_trt_m1_s3_somsc,-8.39,3571.87,both,-7.220000000000001,2044.4499999999998,🔴 Degraded
+Singh_2024,m1_s4,singh_2024_trt_m1_s4_somsc,-16.34,1512.25,singh_2024_trt_m1_s4_somsc,-23.55,3556.71,both,-7.210000000000001,2044.46,🔴 Degraded
+Singh_2024,m2_s1,singh_2024_trt_m2_s1_somsc,-30.78,1497.81,singh_2024_trt_m2_s1_somsc,-37.99,3542.26,both,-7.210000000000001,2044.4500000000003,🔴 Degraded
+Singh_2024,m2_s2,singh_2024_trt_m2_s2_somsc,-30.78,1497.81,singh_2024_trt_m2_s2_somsc,-37.99,3542.26,both,-7.210000000000001,2044.4500000000003,🔴 Degraded
+Singh_2024,m2_s3,singh_2024_trt_m2_s3_somsc,-0.59,1528.0,singh_2024_trt_m2_s3_somsc,-7.82,3572.44,both,-7.23,2044.44,🔴 Degraded
+Singh_2024,m2_s4,singh_2024_trt_m2_s4_somsc,-15.68,1512.91,singh_2024_trt_m2_s4_somsc,-22.91,3557.35,both,-7.23,2044.4399999999998,🔴 Degraded
+Singh_2024,m3_s1,singh_2024_trt_m3_s1_somsc,-30.3,1498.29,singh_2024_trt_m3_s1_somsc,-37.53,3542.73,both,-7.23,2044.44,🔴 Degraded
+Singh_2024,m3_s2,singh_2024_trt_m3_s2_somsc,-30.3,1498.29,singh_2024_trt_m3_s2_somsc,-37.53,3542.73,both,-7.23,2044.44,🔴 Degraded
+Singh_2024,m3_s3,singh_2024_trt_m3_s3_somsc,-0.13,1528.46,singh_2024_trt_m3_s3_somsc,-7.36,3572.89,both,-7.23,2044.4299999999998,🔴 Degraded
+Singh_2024,m3_s4,singh_2024_trt_m3_s4_somsc,-15.22,1513.37,singh_2024_trt_m3_s4_somsc,-22.44,3557.81,both,-7.220000000000001,2044.44,🔴 Degraded
+Singh_2024,m4_s1,singh_2024_trt_m4_s1_somsc,-29.89,1498.7,singh_2024_trt_m4_s1_somsc,-37.12,3543.14,both,-7.229999999999997,2044.4399999999998,🔴 Degraded
+Singh_2024,m4_s2,singh_2024_trt_m4_s2_somsc,-29.89,1498.7,singh_2024_trt_m4_s2_somsc,-37.12,3543.14,both,-7.229999999999997,2044.4399999999998,🔴 Degraded
+Singh_2024,m4_s3,singh_2024_trt_m4_s3_somsc,0.28,1528.87,singh_2024_trt_m4_s3_somsc,-6.96,3573.3,both,-7.24,2044.4300000000003,🔴 Degraded
+Singh_2024,m4_s4,singh_2024_trt_m4_s4_somsc,-14.81,1513.78,singh_2024_trt_m4_s4_somsc,-22.04,3558.22,both,-7.229999999999999,2044.4399999999998,🔴 Degraded
+Somasundaram_2018,ct_mc,somasundaram_2018_reformatted_ct_mc_somsc,-241.01,2453.6,,,,left_only,,,⚪ No data
+Somasundaram_2018,ct_sw,somasundaram_2018_reformatted_ct_sw_somsc,-236.54,2458.07,,,,left_only,,,⚪ No data
+Somasundaram_2018,nt_mc,somasundaram_2018_reformatted_nt_mc_somsc,9.6,2704.21,,,,left_only,,,⚪ No data
+Somasundaram_2018,nt_sw,somasundaram_2018_reformatted_nt_sw_somsc,11.36,2705.97,,,,left_only,,,⚪ No data
+Somasundaram_2018,rt_mc,somasundaram_2018_reformatted_rt_mc_somsc,-15.14,2679.46,,,,left_only,,,⚪ No data
+Somasundaram_2018,rt_sw,somasundaram_2018_reformatted_rt_sw_somsc,-4.96,2689.65,,,,left_only,,,⚪ No data
+Somasundaram_2018,somasundaram_2018_ct_mc,,,,somasundaram_2018_ct_mc_somsc,-727.46,2605.07,right_only,,,⚪ No data
+Somasundaram_2018,somasundaram_2018_ct_sw,,,,somasundaram_2018_ct_sw_somsc,-720.12,2612.41,right_only,,,⚪ No data
+Somasundaram_2018,somasundaram_2018_nt_mc,,,,somasundaram_2018_nt_mc_somsc,-161.68,3170.85,right_only,,,⚪ No data
+Somasundaram_2018,somasundaram_2018_nt_sw,,,,somasundaram_2018_nt_sw_somsc,-160.72,3171.81,right_only,,,⚪ No data
+Somasundaram_2018,somasundaram_2018_rt_mc,,,,somasundaram_2018_rt_mc_somsc,-321.55,3010.97,right_only,,,⚪ No data
+Somasundaram_2018,somasundaram_2018_rt_sw,,,,somasundaram_2018_rt_sw_somsc,-312.06,3020.47,right_only,,,⚪ No data
+Somasundaram_2019,ct_mc_sf_mc,somasundaram_2019_reformatted_ct_mc_sf_mc_somsc,-191.61,1979.74,,,,left_only,,,⚪ No data
+Somasundaram_2019,ct_sf_mc_sf,somasundaram_2019_reformatted_ct_sf_mc_sf_somsc,-200.8,1970.55,,,,left_only,,,⚪ No data
+Somasundaram_2019,ct_sf_sf_sf,somasundaram_2019_reformatted_ct_sf_sf_sf_somsc,-210.8,1960.55,,,,left_only,,,⚪ No data
+Somasundaram_2019,ct_sw_sw_sw,somasundaram_2019_reformatted_ct_sw_sw_sw_somsc,-192.86,1978.49,,,,left_only,,,⚪ No data
+Somasundaram_2019,rt_mc_sf_mc,somasundaram_2019_reformatted_rt_mc_sf_mc_somsc,-66.08,2105.27,,,,left_only,,,⚪ No data
+Somasundaram_2019,rt_sf_mc_sf,somasundaram_2019_reformatted_rt_sf_mc_sf_somsc,-108.06,2063.28,,,,left_only,,,⚪ No data
+Somasundaram_2019,rt_sf_sf_sf,somasundaram_2019_reformatted_rt_sf_sf_sf_somsc,-150.37,2020.98,,,,left_only,,,⚪ No data
+Somasundaram_2019,rt_sw_sw_sw,somasundaram_2019_reformatted_rt_sw_sw_sw_somsc,-74.56,2096.79,,,,left_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_ct_mc_sf_mc,,,,somasundaram_2019_ct_mc_sf_mc_somsc,5.49,3337.99,right_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_ct_sf_mc_sf,,,,somasundaram_2019_ct_sf_mc_sf_somsc,-16.95,3315.55,right_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_ct_sf_sf_sf,,,,somasundaram_2019_ct_sf_sf_sf_somsc,-35.11,3297.4,right_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_ct_sw_sw_sw,,,,somasundaram_2019_ct_sw_sw_sw_somsc,23.06,3355.57,right_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_rt_mc_sf_mc,,,,somasundaram_2019_rt_mc_sf_mc_somsc,35.85,3368.36,right_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_rt_sf_mc_sf,,,,somasundaram_2019_rt_sf_mc_sf_somsc,4.84,3337.34,right_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_rt_sf_sf_sf,,,,somasundaram_2019_rt_sf_sf_sf_somsc,-23.39,3309.11,right_only,,,⚪ No data
+Somasundaram_2019,somasundaram_2019_rt_sw_sw_sw,,,,somasundaram_2019_rt_sw_sw_sw_somsc,31.23,3363.73,right_only,,,⚪ No data
+Sonune_2021,ct_t1,sonune_2021_reformatted_ct_t1_somsc,-305.5,1891.27,,,,left_only,,,⚪ No data
+Sonune_2021,ct_t3,sonune_2021_reformatted_ct_t3_somsc,-81.77,2115.0,,,,left_only,,,⚪ No data
+Sonune_2021,ct_t4,sonune_2021_reformatted_ct_t4_somsc,559.92,2756.69,,,,left_only,,,⚪ No data
+Sonune_2021,ct_t5,sonune_2021_reformatted_ct_t5_somsc,-239.84,1956.93,,,,left_only,,,⚪ No data
+Sonune_2021,ct_t6,sonune_2021_reformatted_ct_t6_somsc,46.76,2243.53,,,,left_only,,,⚪ No data
+Sonune_2021,ct_t7,sonune_2021_reformatted_ct_t7_somsc,-256.15,1940.62,,,,left_only,,,⚪ No data
+Sonune_2021,ct_t8,sonune_2021_reformatted_ct_t8_somsc,-203.19,1993.58,,,,left_only,,,⚪ No data
+Sonune_2021,mt_t1,sonune_2021_reformatted_mt_t1_somsc,-129.93,2066.84,,,,left_only,,,⚪ No data
+Sonune_2021,mt_t3,sonune_2021_reformatted_mt_t3_somsc,124.66,2321.43,,,,left_only,,,⚪ No data
+Sonune_2021,mt_t4,sonune_2021_reformatted_mt_t4_somsc,856.1,3052.87,,,,left_only,,,⚪ No data
+Sonune_2021,mt_t5,sonune_2021_reformatted_mt_t5_somsc,-55.09,2141.68,,,,left_only,,,⚪ No data
+Sonune_2021,mt_t6,sonune_2021_reformatted_mt_t6_somsc,294.76,2491.53,,,,left_only,,,⚪ No data
+Sonune_2021,mt_t7,sonune_2021_reformatted_mt_t7_somsc,-79.1,2117.67,,,,left_only,,,⚪ No data
+Sonune_2021,mt_t8,sonune_2021_reformatted_mt_t8_somsc,-13.6,2183.17,,,,left_only,,,⚪ No data
+Sonune_2021,sonune_2021_ct_t1,,,,sonune_2021_ct_t1_somsc,8.83,3779.31,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_ct_t3,,,,sonune_2021_ct_t3_somsc,231.38,4001.86,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_ct_t4,,,,sonune_2021_ct_t4_somsc,872.66,4643.14,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_ct_t5,,,,sonune_2021_ct_t5_somsc,73.64,3844.12,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_ct_t6,,,,sonune_2021_ct_t6_somsc,359.76,4130.24,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_ct_t7,,,,sonune_2021_ct_t7_somsc,57.3,3827.78,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_ct_t8,,,,sonune_2021_ct_t8_somsc,116.46,3886.94,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_mt_t1,,,,sonune_2021_mt_t1_somsc,47.08,3817.56,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_mt_t3,,,,sonune_2021_mt_t3_somsc,300.05,4070.53,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_mt_t4,,,,sonune_2021_mt_t4_somsc,1031.04,4801.52,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_mt_t5,,,,sonune_2021_mt_t5_somsc,122.63,3893.11,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_mt_t6,,,,sonune_2021_mt_t6_somsc,469.82,4240.3,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_mt_t7,,,,sonune_2021_mt_t7_somsc,97.51,3867.99,right_only,,,⚪ No data
+Sonune_2021,sonune_2021_mt_t8,,,,sonune_2021_mt_t8_somsc,162.95,3933.43,right_only,,,⚪ No data
+Srinivasarao_2012a,srinivasarao_2012a_control,srinivasarao_2012a_control_somsc,-559.94,783.49,srinivasarao_2012a_control_somsc,-351.82,4339.66,both,208.12000000000006,3556.17,🟢 Massive Overall Fix
+Srinivasarao_2012a,srinivasarao_2012a_fym,srinivasarao_2012a_fym_somsc,-497.42,846.01,srinivasarao_2012a_fym_somsc,-284.02,4407.46,both,213.40000000000003,3561.45,🟢 Massive Overall Fix
+Srinivasarao_2012a,srinivasarao_2012a_rdf,srinivasarao_2012a_rdf_somsc,-559.94,783.49,srinivasarao_2012a_rdf_somsc,-351.82,4339.66,both,208.12000000000006,3556.17,🟢 Massive Overall Fix
+Srinivasarao_2012a,srinivasarao_2012a_rdf_fym,srinivasarao_2012a_rdf_fym_somsc,-509.92,833.51,srinivasarao_2012a_rdf_fym_somsc,-297.7,4393.77,both,212.22000000000003,3560.26,🟢 Massive Overall Fix
+Srinivasarao_2012a,srinivasarao_2012a_rdf_gns,srinivasarao_2012a_rdf_gns_somsc,-533.06,810.37,srinivasarao_2012a_rdf_gns_somsc,-324.01,4367.47,both,209.04999999999995,3557.1000000000004,🟢 Massive Overall Fix
+Srinivasarao_2012b,srinivasarao_2012b_t1,,,,srinivasarao_2012b_t1_somsc,-262.33,4745.37,right_only,,,⚪ No data
+Srinivasarao_2012b,srinivasarao_2012b_t2,,,,srinivasarao_2012b_t2_somsc,535.97,5543.67,right_only,,,⚪ No data
+Srinivasarao_2012b,srinivasarao_2012b_t3,,,,srinivasarao_2012b_t3_somsc,559.02,5566.73,right_only,,,⚪ No data
+Srinivasarao_2012b,srinivasarao_2012b_t4,,,,srinivasarao_2012b_t4_somsc,570.78,5578.48,right_only,,,⚪ No data
+Srinivasarao_2012b,srinivasarao_2012b_t5,,,,srinivasarao_2012b_t5_somsc,-202.64,4805.07,right_only,,,⚪ No data
+Srinivasarao_2012b,t1,srinivasarao_2012b_reformatted_t1_somsc,-579.86,1075.04,,,,left_only,,,⚪ No data
+Srinivasarao_2012b,t2,srinivasarao_2012b_reformatted_t2_somsc,222.43,1877.34,,,,left_only,,,⚪ No data
+Srinivasarao_2012b,t3,srinivasarao_2012b_reformatted_t3_somsc,239.18,1894.09,,,,left_only,,,⚪ No data
+Srinivasarao_2012b,t4,srinivasarao_2012b_reformatted_t4_somsc,247.84,1902.75,,,,left_only,,,⚪ No data
+Srinivasarao_2012b,t5,srinivasarao_2012b_reformatted_t5_somsc,-535.13,1119.78,,,,left_only,,,⚪ No data
+Srinivasarao_2012c,srinivasarao_2012c_t1,srinivasarao_2012c_t1_somsc,-560.23,2649.86,srinivasarao_2012c_t1_somsc,-311.44,3943.98,both,248.79000000000002,1294.12,🟢 Massive Overall Fix
+Srinivasarao_2012c,srinivasarao_2012c_t2,srinivasarao_2012c_t2_somsc,-443.37,2766.72,srinivasarao_2012c_t2_somsc,-189.28,4066.14,both,254.09,1299.42,🟢 Massive Overall Fix
+Srinivasarao_2012c,srinivasarao_2012c_t3,srinivasarao_2012c_t3_somsc,-372.98,2837.11,srinivasarao_2012c_t3_somsc,-118.31,4137.11,both,254.67000000000002,1299.9999999999995,🟢 Massive Overall Fix
+Srinivasarao_2012c,srinivasarao_2012c_t4,srinivasarao_2012c_t4_somsc,-521.12,2688.97,srinivasarao_2012c_t4_somsc,-51.43,4203.99,both,469.69,1515.02,🟢 Massive Overall Fix
+Srinivasarao_2012c,srinivasarao_2012c_t5,srinivasarao_2012c_t5_somsc,-266.92,2943.17,srinivasarao_2012c_t5_somsc,-40.65,4214.77,both,226.27,1271.6000000000004,🟢 Massive Overall Fix
+Srinivasarao_2012c,srinivasarao_2012c_t6,srinivasarao_2012c_t6_somsc,-744.99,2465.1,srinivasarao_2012c_t6_somsc,-273.05,3982.37,both,471.94,1517.27,🟢 Massive Overall Fix
+Srinivasarao_2012c,srinivasarao_2012c_t7,srinivasarao_2012c_t7_somsc,-238.26,2971.83,srinivasarao_2012c_t7_somsc,-28.79,4226.63,both,209.47,1254.8000000000002,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t1,srinivasarao_2019_t1_somsc,-330.55,954.82,srinivasarao_2019_t1_somsc,-98.57,6432.84,both,231.98000000000002,5478.02,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t2,srinivasarao_2019_t2_somsc,-300.02,985.35,srinivasarao_2019_t2_somsc,-68.7,6462.72,both,231.32,5477.37,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t3,srinivasarao_2019_t3_somsc,296.27,1581.65,srinivasarao_2019_t3_somsc,528.28,7059.7,both,232.01,5478.049999999999,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t4,srinivasarao_2019_t4_somsc,59.4,1344.78,srinivasarao_2019_t4_somsc,291.37,6822.79,both,231.97,5478.01,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t5,srinivasarao_2019_t5_somsc,-53.35,1232.02,srinivasarao_2019_t5_somsc,177.09,6708.5,both,230.44,5476.48,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t6,srinivasarao_2019_t6_somsc,-88.88,1196.49,srinivasarao_2019_t6_somsc,142.55,6673.97,both,231.43,5477.4800000000005,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t7,srinivasarao_2019_t7_somsc,-64.56,1220.82,srinivasarao_2019_t7_somsc,167.35,6698.77,both,231.91,5477.950000000001,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t8,srinivasarao_2019_t8_somsc,-135.71,1149.66,srinivasarao_2019_t8_somsc,96.26,6627.67,both,231.97000000000003,5478.01,🟢 Massive Overall Fix
+Srinivasarao_2019,srinivasarao_2019_t9,srinivasarao_2019_t9_somsc,-300.02,985.35,srinivasarao_2019_t9_somsc,-68.7,6462.72,both,231.32,5477.37,🟢 Massive Overall Fix
+Srinivasarao_2021,srinivasarao_2021_t1,srinivasarao_2021_t1_somsc,-737.55,2142.66,srinivasarao_2021_t1_somsc,-127.73,3700.16,both,609.8199999999999,1557.5,🟢 Massive Overall Fix
+Srinivasarao_2021,srinivasarao_2021_t2,srinivasarao_2021_t2_somsc,-725.22,2154.99,srinivasarao_2021_t2_somsc,-117.73,3710.16,both,607.49,1555.17,🟢 Massive Overall Fix
+Srinivasarao_2021,srinivasarao_2021_t3,srinivasarao_2021_t3_somsc,1181.63,4061.84,srinivasarao_2021_t3_somsc,1703.18,5531.07,both,521.55,1469.2299999999996,🟢 Massive Overall Fix
+Srinivasarao_2021,srinivasarao_2021_t4,srinivasarao_2021_t4_somsc,237.2,3117.41,srinivasarao_2021_t4_somsc,808.41,4636.3,both,571.21,1518.8900000000003,🟢 Massive Overall Fix
+Srivastava_2018,bs,srivastava_2018_trt_bs_somsc,3243.96,4909.37,srivastava_2018_trt_bs_somsc,-6.76,4803.78,both,-3250.7200000000003,-105.59000000000015,🔴 Degraded
+Srivastava_2018,control,srivastava_2018_trt_control_somsc,-316.67,1348.75,srivastava_2018_trt_control_somsc,-3566.88,1243.67,both,-3250.21,-105.07999999999993,🔴 Degraded
+Srivastava_2018,fym,srivastava_2018_trt_fym_somsc,2666.42,4331.83,srivastava_2018_trt_fym_somsc,-589.22,4221.32,both,-3255.6400000000003,-110.51000000000022,🔴 Degraded
+Srivastava_2018,rdf,srivastava_2018_trt_rdf_somsc,-179.15,1486.27,srivastava_2018_trt_rdf_somsc,-3563.07,1247.47,both,-3383.92,-238.79999999999995,🔴 Degraded
+Srivastava_2018,spmc,srivastava_2018_trt_spmc_somsc,2279.3,3944.71,srivastava_2018_trt_spmc_somsc,-977.32,3833.23,both,-3256.6200000000003,-111.48000000000002,🔴 Degraded
+Srivastava_2018,vc,srivastava_2018_trt_vc_somsc,2277.47,3942.88,srivastava_2018_trt_vc_somsc,-977.41,3833.14,both,-3254.8799999999997,-109.74000000000024,🔴 Degraded
+Suman_2009,bgs,suman_2009_trt_bgs_somsc,1813.09,3478.51,suman_2009_trt_bgs_somsc,1802.99,6613.72,both,-10.099999999999909,3135.21,🔴 Degraded
+Suman_2009,control,suman_2009_trt_control_somsc,175.38,1840.8,suman_2009_trt_control_somsc,174.99,4985.72,both,-0.38999999999998636,3144.92,🔴 Degraded
+Suman_2009,fym,suman_2009_trt_fym_somsc,1557.62,3223.03,suman_2009_trt_fym_somsc,1536.68,6347.42,both,-20.939999999999827,3124.39,🔴 Degraded
+Suman_2009,npk,suman_2009_trt_npk_somsc,504.11,2169.53,suman_2009_trt_npk_somsc,273.85,5084.58,both,-230.26,2915.0499999999997,🔴 Degraded
+Suman_2009,spmc,suman_2009_trt_spmc_somsc,1381.61,3047.03,suman_2009_trt_spmc_somsc,1357.65,6168.38,both,-23.95999999999981,3121.35,🔴 Degraded
+Suman_2009,vc,suman_2009_trt_vc_somsc,1376.48,3041.89,suman_2009_trt_vc_somsc,1356.27,6167.0,both,-20.210000000000036,3125.11,🔴 Degraded
+Sun_2022,sun_2022_fo_n1,,,,sun_2022_fo_n1_somsc,-47.07,11396.88,right_only,,,⚪ No data
+Sun_2022,sun_2022_fo_n2,,,,sun_2022_fo_n2_somsc,-46.92,11397.03,right_only,,,⚪ No data
+Sun_2022,sun_2022_fo_n3,,,,sun_2022_fo_n3_somsc,-46.92,11397.03,right_only,,,⚪ No data
+Sun_2022,sun_2022_sc_n0,,,,sun_2022_sc_n0_somsc,-62.07,11381.88,right_only,,,⚪ No data
+Sun_2022,sun_2022_sc_n1,,,,sun_2022_sc_n1_somsc,-49.72,11394.24,right_only,,,⚪ No data
+Sun_2022,sun_2022_sc_n2,,,,sun_2022_sc_n2_somsc,-49.5,11394.45,right_only,,,⚪ No data
+Sun_2022,sun_2022_sc_n3,,,,sun_2022_sc_n3_somsc,-49.43,11394.52,right_only,,,⚪ No data
+Sun_2022,sun_2022_update version_fo_n1,sun_2022_update version_fo_n1_somsc,-19.07,1414.05,,,,left_only,,,⚪ No data
+Sun_2022,sun_2022_update version_fo_n2,sun_2022_update version_fo_n2_somsc,-19.12,1414.0,,,,left_only,,,⚪ No data
+Sun_2022,sun_2022_update version_fo_n3,sun_2022_update version_fo_n3_somsc,-19.32,1413.8,,,,left_only,,,⚪ No data
+Sun_2022,sun_2022_update version_sc_n0,sun_2022_update version_sc_n0_somsc,-36.83,1396.29,,,,left_only,,,⚪ No data
+Sun_2022,sun_2022_update version_sc_n1,sun_2022_update version_sc_n1_somsc,-26.32,1406.8,,,,left_only,,,⚪ No data
+Sun_2022,sun_2022_update version_sc_n2,sun_2022_update version_sc_n2_somsc,-26.32,1406.8,,,,left_only,,,⚪ No data
+Sun_2022,sun_2022_update version_sc_n3,sun_2022_update version_sc_n3_somsc,-26.35,1406.77,,,,left_only,,,⚪ No data
+Surendran_2016,t1_s1,surendran_2016_trt_t1_s1_somsc,-13.71,1255.96,surendran_2016_trt_t1_s1_somsc,134.52,6611.2,both,148.23000000000002,5355.24,🟢 Massive Overall Fix
+Surendran_2016,t1_s2,surendran_2016_trt_t1_s2_somsc,166.46,1436.12,surendran_2016_trt_t1_s2_somsc,405.6,6882.29,both,239.14000000000001,5446.17,🟢 Massive Overall Fix
+Surendran_2016,t2_s1,surendran_2016_trt_t2_s1_somsc,-90.59,1179.07,surendran_2016_trt_t2_s1_somsc,105.73,6582.42,both,196.32,5403.35,🟢 Massive Overall Fix
+Surendran_2016,t2_s2,surendran_2016_trt_t2_s2_somsc,136.3,1405.96,surendran_2016_trt_t2_s2_somsc,450.08,6926.77,both,313.78,5520.81,🟢 Massive Overall Fix
+Surendran_2016,t3_s1,surendran_2016_trt_t3_s1_somsc,-14.2,1255.47,surendran_2016_trt_t3_s1_somsc,120.9,6597.59,both,135.1,5342.12,🟢 Massive Overall Fix
+Surendran_2016,t3_s2,surendran_2016_trt_t3_s2_somsc,113.84,1383.5,surendran_2016_trt_t3_s2_somsc,299.92,6776.61,both,186.08,5393.11,🟢 Massive Overall Fix
+Sutaria_2010,sutaria_2010_t1_f0,sutaria_2010_t1_f0_somsc,-204.2,1247.13,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t1_f1,sutaria_2010_t1_f1_somsc,-204.19,1247.15,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t1_f2,sutaria_2010_t1_f2_somsc,-154.47,1296.87,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t1_f3,sutaria_2010_t1_f3_somsc,-103.99,1347.35,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t2_f0,sutaria_2010_t2_f0_somsc,-185.67,1265.67,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t2_f1,sutaria_2010_t2_f1_somsc,-185.66,1265.68,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t2_f2,sutaria_2010_t2_f2_somsc,-135.93,1315.41,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t2_f3,sutaria_2010_t2_f3_somsc,-85.42,1365.92,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t3_f0,sutaria_2010_t3_f0_somsc,-313.72,1137.62,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t3_f1,sutaria_2010_t3_f1_somsc,-313.7,1137.64,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t3_f2,sutaria_2010_t3_f2_somsc,-254.24,1197.1,,,,left_only,,,⚪ No data
+Sutaria_2010,sutaria_2010_t3_f3,sutaria_2010_t3_f3_somsc,-194.77,1256.56,,,,left_only,,,⚪ No data
+Tigga_2020,tigga_2020_ct+ri+gi-ffp,tigga_2020_ct+ri+gi-ffp_somsc,-60.01,1578.2,tigga_2020_ct+ri+gi-ffp_somsc,97.88,4544.1,both,157.89,2965.9000000000005,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_ct+ri+gi-rdf,tigga_2020_ct+ri+gi-rdf_somsc,-58.54,1579.66,tigga_2020_ct+ri+gi-rdf_somsc,99.37,4545.6,both,157.91,2965.9400000000005,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_ct+ri+gi-ssnm,tigga_2020_ct+ri+gi-ssnm_somsc,-60.68,1577.52,tigga_2020_ct+ri+gi-ssnm_somsc,97.2,4543.43,both,157.88,2965.9100000000003,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_ct-rr-ffp,tigga_2020_ct-rr-ffp_somsc,-182.71,1455.5,tigga_2020_ct-rr-ffp_somsc,-23.6,4422.62,both,159.11,2967.12,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_ct-rr-rdf,tigga_2020_ct-rr-rdf_somsc,-182.34,1455.87,tigga_2020_ct-rr-rdf_somsc,-23.21,4423.01,both,159.13,2967.1400000000003,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_ct-rr-ssnm,tigga_2020_ct-rr-ssnm_somsc,-182.76,1455.45,tigga_2020_ct-rr-ssnm_somsc,-23.65,4422.57,both,159.10999999999999,2967.12,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_pb+rr+gr-ffp,tigga_2020_pb+rr+gr-ffp_somsc,94.32,1732.53,tigga_2020_pb+rr+gr-ffp_somsc,125.99,4572.21,both,31.67,2839.6800000000003,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_pb+rr+gr-rdf,tigga_2020_pb+rr+gr-rdf_somsc,94.86,1733.06,tigga_2020_pb+rr+gr-rdf_somsc,126.46,4572.68,both,31.599999999999994,2839.6200000000003,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_pb+rr+gr-ssnm,tigga_2020_pb+rr+gr-ssnm_somsc,94.4,1732.6,tigga_2020_pb+rr+gr-ssnm_somsc,126.15,4572.37,both,31.75,2839.77,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_pb+rr-ffp,tigga_2020_pb+rr-ffp_somsc,77.39,1715.6,tigga_2020_pb+rr-ffp_somsc,109.19,4555.41,both,31.799999999999997,2839.81,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_pb+rr-rdf,tigga_2020_pb+rr-rdf_somsc,77.74,1715.95,tigga_2020_pb+rr-rdf_somsc,109.68,4555.91,both,31.940000000000012,2839.96,🟢 Massive Overall Fix
+Tigga_2020,tigga_2020_pb+rr-ssnm,tigga_2020_pb+rr-ssnm_somsc,76.45,1714.66,tigga_2020_pb+rr-ssnm_somsc,108.5,4554.73,both,32.05,2840.0699999999997,🟢 Massive Overall Fix
+Trivedi_2020,control,trivedi_2020_trt_control_somsc,-1270.5,898.37,trivedi_2020_trt_control_somsc,-2443.33,2760.19,both,-1172.83,1861.8200000000002,🔴 Degraded
+Trivedi_2020,fym,trivedi_2020_trt_fym_somsc,3040.1,5208.97,trivedi_2020_trt_fym_somsc,1845.34,7048.86,both,-1194.76,1839.8899999999994,🔴 Degraded
+Trivedi_2020,fympk_adj,trivedi_2020_trt_fympk_adj_somsc,3113.42,5282.3,trivedi_2020_trt_fympk_adj_somsc,1914.85,7118.37,both,-1198.5700000000002,1836.0699999999997,🔴 Degraded
+Trivedi_2020,fympkl_adj,trivedi_2020_trt_fympkl_adj_somsc,2945.02,5113.9,trivedi_2020_trt_fympkl_adj_somsc,1745.86,6949.38,both,-1199.16,1835.4800000000005,🔴 Degraded
+Trivedi_2020,n,trivedi_2020_trt_n_somsc,-768.3,1400.57,trivedi_2020_trt_n_somsc,-1963.53,3239.99,both,-1195.23,1839.4199999999998,🔴 Degraded
+Trivedi_2020,nl,trivedi_2020_trt_nl_somsc,-787.97,1380.9,trivedi_2020_trt_nl_somsc,-1993.82,3209.7,both,-1205.85,1828.7999999999997,🔴 Degraded
+Trivedi_2020,npk,trivedi_2020_trt_npk_somsc,-768.35,1400.53,trivedi_2020_trt_npk_somsc,-1963.69,3239.83,both,-1195.3400000000001,1839.3,🔴 Degraded
+Trivedi_2020,npkl,trivedi_2020_trt_npkl_somsc,-788.06,1380.81,trivedi_2020_trt_npkl_somsc,-1993.92,3209.6,both,-1205.8600000000001,1828.79,🔴 Degraded
+Usman_2014,ct_n0,usman_2014_reformatted_ct_n0_somsc,-68.53,1810.46,,,,left_only,,,⚪ No data
+Usman_2014,ct_n100,usman_2014_reformatted_ct_n100_somsc,-68.33,1810.65,,,,left_only,,,⚪ No data
+Usman_2014,ct_n150,usman_2014_reformatted_ct_n150_somsc,-68.34,1810.65,,,,left_only,,,⚪ No data
+Usman_2014,ct_n200,usman_2014_reformatted_ct_n200_somsc,-68.22,1810.76,,,,left_only,,,⚪ No data
+Usman_2014,ct_n50,usman_2014_reformatted_ct_n50_somsc,-68.41,1810.58,,,,left_only,,,⚪ No data
+Usman_2014,rt_n0,usman_2014_reformatted_rt_n0_somsc,-5.6,1873.38,,,,left_only,,,⚪ No data
+Usman_2014,rt_n100,usman_2014_reformatted_rt_n100_somsc,-5.24,1873.74,,,,left_only,,,⚪ No data
+Usman_2014,rt_n150,usman_2014_reformatted_rt_n150_somsc,-5.27,1873.72,,,,left_only,,,⚪ No data
+Usman_2014,rt_n200,usman_2014_reformatted_rt_n200_somsc,-5.27,1873.71,,,,left_only,,,⚪ No data
+Usman_2014,rt_n50,usman_2014_reformatted_rt_n50_somsc,-5.34,1873.65,,,,left_only,,,⚪ No data
+Usman_2014,usman_2014_ct_n0,,,,usman_2014_ct_n0_somsc,-170.48,3052.13,right_only,,,⚪ No data
+Usman_2014,usman_2014_ct_n100,,,,usman_2014_ct_n100_somsc,-170.5,3052.11,right_only,,,⚪ No data
+Usman_2014,usman_2014_ct_n150,,,,usman_2014_ct_n150_somsc,-170.5,3052.11,right_only,,,⚪ No data
+Usman_2014,usman_2014_ct_n200,,,,usman_2014_ct_n200_somsc,-170.41,3052.2,right_only,,,⚪ No data
+Usman_2014,usman_2014_ct_n50,,,,usman_2014_ct_n50_somsc,-170.48,3052.12,right_only,,,⚪ No data
+Usman_2014,usman_2014_rt_n0,,,,usman_2014_rt_n0_somsc,-69.68,3152.92,right_only,,,⚪ No data
+Usman_2014,usman_2014_rt_n100,,,,usman_2014_rt_n100_somsc,-69.57,3153.04,right_only,,,⚪ No data
+Usman_2014,usman_2014_rt_n150,,,,usman_2014_rt_n150_somsc,-69.58,3153.03,right_only,,,⚪ No data
+Usman_2014,usman_2014_rt_n200,,,,usman_2014_rt_n200_somsc,-69.55,3153.05,right_only,,,⚪ No data
+Usman_2014,usman_2014_rt_n50,,,,usman_2014_rt_n50_somsc,-69.58,3153.02,right_only,,,⚪ No data
+Usman_2014,usman_2014_zt_n0,,,,usman_2014_zt_n0_somsc,-33.29,3189.32,right_only,,,⚪ No data
+Usman_2014,usman_2014_zt_n100,,,,usman_2014_zt_n100_somsc,-32.03,3190.57,right_only,,,⚪ No data
+Usman_2014,usman_2014_zt_n150,,,,usman_2014_zt_n150_somsc,-32.04,3190.57,right_only,,,⚪ No data
+Usman_2014,usman_2014_zt_n200,,,,usman_2014_zt_n200_somsc,-32.0,3190.61,right_only,,,⚪ No data
+Usman_2014,usman_2014_zt_n50,,,,usman_2014_zt_n50_somsc,-32.03,3190.57,right_only,,,⚪ No data
+Usman_2014,zt_n0,usman_2014_reformatted_zt_n0_somsc,-0.79,1878.19,,,,left_only,,,⚪ No data
+Usman_2014,zt_n100,usman_2014_reformatted_zt_n100_somsc,0.6,1879.59,,,,left_only,,,⚪ No data
+Usman_2014,zt_n150,usman_2014_reformatted_zt_n150_somsc,0.58,1879.57,,,,left_only,,,⚪ No data
+Usman_2014,zt_n200,usman_2014_reformatted_zt_n200_somsc,0.59,1879.58,,,,left_only,,,⚪ No data
+Usman_2014,zt_n50,usman_2014_reformatted_zt_n50_somsc,0.52,1879.51,,,,left_only,,,⚪ No data
+Venkatesh_2013,venkatesh_2013_mw_c,venkatesh_2013_mw_c_somsc,-500.69,1055.17,venkatesh_2013_mw_c_somsc,-127.38,3980.26,both,373.31,2925.09,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mw_i,venkatesh_2013_mw_i_somsc,-399.42,1156.44,venkatesh_2013_mw_i_somsc,-11.1,4096.54,both,388.32,2940.1,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mw_o,venkatesh_2013_mw_o_somsc,1153.27,2709.13,venkatesh_2013_mw_o_somsc,1440.64,5548.28,both,287.3700000000001,2839.1499999999996,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mwmb_c,venkatesh_2013_mwmb_c_somsc,-620.18,935.68,venkatesh_2013_mwmb_c_somsc,-160.85,3946.79,both,459.3299999999999,3011.11,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mwmb_i,venkatesh_2013_mwmb_i_somsc,-576.56,979.3,venkatesh_2013_mwmb_i_somsc,-63.74,4043.9,both,512.8199999999999,3064.6000000000004,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mwmb_o,venkatesh_2013_mwmb_o_somsc,1459.47,3015.33,venkatesh_2013_mwmb_o_somsc,1915.63,6023.27,both,456.1600000000001,3007.9400000000005,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mwmc_c,venkatesh_2013_mwmc_c_somsc,-481.77,1074.09,venkatesh_2013_mwmc_c_somsc,-100.56,4007.08,both,381.21,2932.99,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mwmc_i,venkatesh_2013_mwmc_i_somsc,-432.5,1123.36,venkatesh_2013_mwmc_i_somsc,-37.73,4069.91,both,394.77,2946.55,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_mwmc_o,venkatesh_2013_mwmc_o_somsc,1229.34,2785.2,venkatesh_2013_mwmc_o_somsc,1535.0,5642.65,both,305.6600000000001,2857.45,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_pw_c,venkatesh_2013_pw_c_somsc,-540.48,1015.38,venkatesh_2013_pw_c_somsc,-136.76,3970.88,both,403.72,2955.5,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_pw_i,venkatesh_2013_pw_i_somsc,-502.79,1053.07,venkatesh_2013_pw_i_somsc,-83.19,4024.45,both,419.6,2971.38,🟢 Massive Overall Fix
+Venkatesh_2013,venkatesh_2013_pw_o,venkatesh_2013_pw_o_somsc,1129.3,2685.15,venkatesh_2013_pw_o_somsc,1497.24,5604.88,both,367.94000000000005,2919.73,🟢 Massive Overall Fix
+Verma_2022,verma_2022_t1_control,verma_2022_t1_control_somsc,-245.88,1272.71,verma_2022_t1_control_somsc,-116.51,8205.94,both,129.37,6933.2300000000005,🟢 Massive Overall Fix
+Verma_2022,verma_2022_t2_npk100,verma_2022_t2_npk100_somsc,-245.88,1272.71,verma_2022_t2_npk100_somsc,-116.52,8205.93,both,129.36,6933.22,🟢 Massive Overall Fix
+Verma_2022,verma_2022_t3_npk50_lime,verma_2022_t3_npk50_lime_somsc,-245.88,1272.71,verma_2022_t3_npk50_lime_somsc,-116.52,8205.93,both,129.36,6933.22,🟢 Massive Overall Fix
+Verma_2022,verma_2022_t4_npk50_vc,verma_2022_t4_npk50_vc_somsc,-55.95,1462.65,verma_2022_t4_npk50_vc_somsc,73.39,8395.84,both,129.34,6933.1900000000005,🟢 Massive Overall Fix
+Verma_2022,verma_2022_t5_npk50_vc_lime,verma_2022_t5_npk50_vc_lime_somsc,-55.95,1462.65,verma_2022_t5_npk50_vc_lime_somsc,73.39,8395.84,both,129.34,6933.1900000000005,🟢 Massive Overall Fix
+Verma_2022,verma_2022_t6_organic,verma_2022_t6_organic_somsc,-153.19,1365.4,verma_2022_t6_organic_somsc,-23.96,8298.49,both,129.23,6933.09,🟢 Massive Overall Fix
+Virk_2017,ct_n0,virk_2017_trt_ct_n0_somsc,22.67,821.58,virk_2017_trt_ct_n0_somsc,11.21,3867.68,both,-11.46,3046.1,🔴 Degraded
+Virk_2017,ct_n100,virk_2017_trt_ct_n100_somsc,22.67,821.58,virk_2017_trt_ct_n100_somsc,11.17,3867.64,both,-11.500000000000002,3046.06,🔴 Degraded
+Virk_2017,ct_n125,virk_2017_trt_ct_n125_somsc,22.67,821.58,virk_2017_trt_ct_n125_somsc,11.17,3867.64,both,-11.500000000000002,3046.06,🔴 Degraded
+Virk_2017,ct_n75,virk_2017_trt_ct_n75_somsc,22.67,821.58,virk_2017_trt_ct_n75_somsc,11.17,3867.65,both,-11.500000000000002,3046.07,🔴 Degraded
+Virk_2017,hs_n0,virk_2017_trt_hs_n0_somsc,75.99,874.9,virk_2017_trt_hs_n0_somsc,73.07,3929.54,both,-2.9200000000000017,3054.64,🔴 Degraded
+Virk_2017,hs_n100,virk_2017_trt_hs_n100_somsc,75.96,874.87,virk_2017_trt_hs_n100_somsc,73.12,3929.59,both,-2.839999999999989,3054.7200000000003,🔴 Degraded
+Virk_2017,hs_n125,virk_2017_trt_hs_n125_somsc,75.96,874.87,virk_2017_trt_hs_n125_somsc,73.13,3929.6,both,-2.8299999999999983,3054.73,🔴 Degraded
+Virk_2017,hs_n75,virk_2017_trt_hs_n75_somsc,75.97,874.88,virk_2017_trt_hs_n75_somsc,73.12,3929.59,both,-2.8499999999999943,3054.71,🔴 Degraded
+Virk_2017,sczt_n0,virk_2017_trt_sczt_n0_somsc,75.99,874.9,virk_2017_trt_sczt_n0_somsc,73.07,3929.54,both,-2.9200000000000017,3054.64,🔴 Degraded
+Virk_2017,sczt_n100,virk_2017_trt_sczt_n100_somsc,75.96,874.87,virk_2017_trt_sczt_n100_somsc,73.12,3929.59,both,-2.839999999999989,3054.7200000000003,🔴 Degraded
+Virk_2017,sczt_n125,virk_2017_trt_sczt_n125_somsc,75.96,874.87,virk_2017_trt_sczt_n125_somsc,73.13,3929.6,both,-2.8299999999999983,3054.73,🔴 Degraded
+Virk_2017,sczt_n75,virk_2017_trt_sczt_n75_somsc,75.97,874.88,virk_2017_trt_sczt_n75_somsc,73.12,3929.59,both,-2.8499999999999943,3054.71,🔴 Degraded
+Wagh_2016,wagh_2016_set_i_t1,wagh_2016_set_i_t1_somsc,-9.39,2145.53,wagh_2016_set_i_t1_somsc,-13.2,3233.11,both,-3.8099999999999987,1087.58,🔴 Degraded
+Wagh_2016,wagh_2016_set_i_t3,wagh_2016_set_i_t3_somsc,118.67,2273.59,wagh_2016_set_i_t3_somsc,99.37,3345.68,both,-19.299999999999997,1072.0899999999997,🔴 Degraded
+Wagh_2016,wagh_2016_set_i_t4,wagh_2016_set_i_t4_somsc,77.72,2232.64,wagh_2016_set_i_t4_somsc,72.49,3318.79,both,-5.230000000000004,1086.15,🔴 Degraded
+Wagh_2016,wagh_2016_set_i_t6,wagh_2016_set_i_t6_somsc,38.44,2193.36,wagh_2016_set_i_t6_somsc,32.69,3278.99,both,-5.75,1085.6299999999997,🔴 Degraded
+Wagh_2016,wagh_2016_set_ii_t3,wagh_2016_set_ii_t3_somsc,50.5,2205.42,wagh_2016_set_ii_t3_somsc,90.14,3336.44,both,39.64,1131.02,🟢 Massive Overall Fix
+Wagh_2016,wagh_2016_set_ii_t4,wagh_2016_set_ii_t4_somsc,94.77,2249.7,wagh_2016_set_ii_t4_somsc,129.69,3375.99,both,34.92,1126.29,🟢 Massive Overall Fix
+Wagh_2016,wagh_2016_set_ii_t6,wagh_2016_set_ii_t6_somsc,3.11,2158.03,wagh_2016_set_ii_t6_somsc,40.15,3286.45,both,37.04,1128.4199999999996,🟢 Massive Overall Fix
+Yang_2024,yang_2024_mw,yang_2024_mw_somsc,343.66,1677.71,yang_2024_mw_somsc,480.96,3034.42,both,137.29999999999995,1356.71,🟢 Massive Overall Fix
+Yang_2024,yang_2024_pwm,yang_2024_pwm_somsc,63.3,1397.35,yang_2024_pwm_somsc,110.48,2663.94,both,47.18000000000001,1266.5900000000001,🟢 Massive Overall Fix
+Yang_2024,yang_2024_rswm,yang_2024_rswm_somsc,32.8,1366.85,yang_2024_rswm_somsc,93.53,2646.99,both,60.730000000000004,1280.1399999999999,🟢 Massive Overall Fix
+Yang_2024,yang_2024_smwm,yang_2024_smwm_somsc,102.66,1436.71,yang_2024_smwm_somsc,155.4,2708.86,both,52.74000000000001,1272.15,🟢 Massive Overall Fix
+Yang_2024,yang_2024_spwm,yang_2024_spwm_somsc,218.57,1552.62,yang_2024_spwm_somsc,282.85,2836.3,both,64.28000000000003,1283.6800000000003,🟢 Massive Overall Fix
+Yang_2024,yang_2024_swm,yang_2024_swm_somsc,62.76,1396.81,yang_2024_swm_somsc,122.88,2676.34,both,60.12,1279.5300000000002,🟢 Massive Overall Fix
+Zhang_2013,zhang_2013_ct,zhang_2013_ct_somsc,319.19,1740.32,zhang_2013_ct_somsc,55.6,2653.22,both,-263.59,912.8999999999999,🔴 Degraded
+Zhang_2013,zhang_2013_nt,zhang_2013_nt_somsc,854.14,2275.27,zhang_2013_nt_somsc,797.92,3395.54,both,-56.22000000000003,1120.27,🔴 Degraded
+Zhang_2013,zhang_2013_rt,zhang_2013_rt_somsc,292.96,1714.1,zhang_2013_rt_somsc,29.1,2626.72,both,-263.85999999999996,912.6199999999999,🔴 Degraded

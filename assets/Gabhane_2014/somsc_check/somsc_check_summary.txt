@@ -1,52 +1,52 @@
 SOMSC Check Summary for Site: Gabhane_2014
 
-RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-35.34%).
+RESULT: Model NEEDS INVESTIGATION - Base SOMSC is below SoilGrids observation (-90.70%).
 
 --- Spinup Analysis ---
 Initial SOMSC (Year 0): 1,968.65 g C / m²
 Change during Equilibrium Phase: +3,084.68 g C / m²
-Change during Base Phase: -2,943.51 g C / m²
-Final SOMSC at end of Base Phase: 2,126.25 g C / m²
+Change during Base Phase: -4,797.87 g C / m²
+Final SOMSC at end of Base Phase: 305.72 g C / m²
 
 --- SoilGrids Comparison ---
 SoilGrids Observed Value: 3,288.58 g C / m²
-Model is 35.34% lower than observation.
-(Difference: -1,162.33 g C / m²)
+Model is 90.70% lower than observation.
+(Difference: -2,982.86 g C / m²)
 
 Rule: FAIL if model < observation; PASS if model >= observation. Any positive gap passes (no upper limit).
 
 --- Treatment SOMSC Change Summary ---
 Source: soilc.out (som1c(2) + som2c(2) + som3c)
 Treatments assessed (n): 10
-Experiments with SOMSC increase: 2, SOMSC decrease: 8
+Experiments with SOMSC increase: 3, SOMSC decrease: 7
 
 SOMSC Increase (g C / m²):
-  + TRT_T1_F5 (+196.03)
-  + TRT_T2_F5 (+137.27)
+  + TRT_T1_F4 (+10.75)
+  + TRT_T1_F5 (+342.69)
+  + TRT_T2_F5 (+269.12)
 
 SOMSC Decrease (g C / m²):
-  - TRT_T1_F1 (-211.64)
-  - TRT_T1_F2 (-211.64)
-  - TRT_T1_F3 (-173.97)
-  - TRT_T1_F4 (-136.25)
-  - TRT_T2_F1 (-192.28)
-  - TRT_T2_F2 (-192.28)
-  - TRT_T2_F3 (-161.83)
-  - TRT_T2_F4 (-131.32)
+  - TRT_T1_F1 (-63.32)
+  - TRT_T1_F2 (-64.59)
+  - TRT_T1_F3 (-26.92)
+  - TRT_T2_F1 (-59.93)
+  - TRT_T2_F2 (-61.25)
+  - TRT_T2_F3 (-30.74)
+  - TRT_T2_F4 (-0.25)
 
 --- Experimental Analysis ---
-'gabhane_2014_trt_t1_f1_somsc' Change: -211.64 g C / m² (End value: 3,076.94)
-'gabhane_2014_trt_t1_f2_somsc' Change: -211.64 g C / m² (End value: 3,076.94)
-'gabhane_2014_trt_t1_f3_somsc' Change: -173.97 g C / m² (End value: 3,114.60)
-'gabhane_2014_trt_t1_f4_somsc' Change: -136.25 g C / m² (End value: 3,152.33)
-'gabhane_2014_trt_t1_f5_somsc' Change: +196.03 g C / m² (End value: 3,484.61)
-'gabhane_2014_trt_t2_f1_somsc' Change: -192.28 g C / m² (End value: 3,096.30)
-'gabhane_2014_trt_t2_f2_somsc' Change: -192.28 g C / m² (End value: 3,096.29)
-'gabhane_2014_trt_t2_f3_somsc' Change: -161.83 g C / m² (End value: 3,126.74)
-'gabhane_2014_trt_t2_f4_somsc' Change: -131.32 g C / m² (End value: 3,157.26)
-'gabhane_2014_trt_t2_f5_somsc' Change: +137.27 g C / m² (End value: 3,425.84)
+'gabhane_2014_trt_t1_f1_somsc' Change: -63.32 g C / m² (End value: 3,225.24)
+'gabhane_2014_trt_t1_f2_somsc' Change: -64.59 g C / m² (End value: 3,223.98)
+'gabhane_2014_trt_t1_f3_somsc' Change: -26.92 g C / m² (End value: 3,261.65)
+'gabhane_2014_trt_t1_f4_somsc' Change: +10.75 g C / m² (End value: 3,299.32)
+'gabhane_2014_trt_t1_f5_somsc' Change: +342.69 g C / m² (End value: 3,631.26)
+'gabhane_2014_trt_t2_f1_somsc' Change: -59.93 g C / m² (End value: 3,228.64)
+'gabhane_2014_trt_t2_f2_somsc' Change: -61.25 g C / m² (End value: 3,227.31)
+'gabhane_2014_trt_t2_f3_somsc' Change: -30.74 g C / m² (End value: 3,257.83)
+'gabhane_2014_trt_t2_f4_somsc' Change: -0.25 g C / m² (End value: 3,288.31)
+'gabhane_2014_trt_t2_f5_somsc' Change: +269.12 g C / m² (End value: 3,557.69)
 
-Average SOMSC at end of all experimental phases: 3,180.79 g C / m²
+Average SOMSC at end of all experimental phases: 3,320.12 g C / m²
 
 --- Calibration Script Test ---
 Status: Successful Run

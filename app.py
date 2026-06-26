@@ -40,6 +40,12 @@ def show_img(path_str, label):
     else:
         st.info(f"{label}: not found")
 
+
+def parse_path_list(value) -> list[str]:
+    if value is None or (isinstance(value, float) and pd.isna(value)):
+        return []
+    return [p.strip() for p in str(value).split(";") if p.strip()]
+
 tab_summary, tab1, tab2, tab3 = st.tabs(
     ["QA/QC Summary", "SOMSC", "Biomass", "N2O"]
 )
@@ -102,6 +108,13 @@ with tab1:
 
 with tab2:
     show_img(row["biomass_scatter_png"], "observed_vs_modeled_biomass.png")
+    livec_paths = parse_path_list(row.get("biomass_livec_pngs", ""))
+    if livec_paths:
+        st.markdown("**Live carbon pool time series (`livec_out`)**")
+        for livec_path in livec_paths:
+            show_img(livec_path, Path(livec_path).name)
+    elif int(row.get("biomass_livec_plot_count") or 0) > 0:
+        st.info("Livec plot paths missing from inventory; re-run the dashboard notebook.")
     if Path(row["biomass_summary"]).exists():
         st.text(Path(row["biomass_summary"]).read_text(encoding="utf-8", errors="replace"))
 

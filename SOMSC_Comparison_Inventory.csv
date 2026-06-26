@@ -1,0 +1,15 @@
+Category,Count
+Sites in BEFORE run,106
+Sites in AFTER run,103
+Sites in both runs,103
+Only in BEFORE,3
+Only in AFTER,0
+Sites with higher avg end SOMSC (AFTER),100
+Sites with lower avg end SOMSC (AFTER),2
+Median avg end SOMSC shift (g C/m²),2147.76
+Mean avg end SOMSC shift (g C/m²),2633.59
+Calibration OK in BEFORE,1
+Calibration OK in AFTER,22
+Newly OK for calibration,22
+Regressed calibration status,1
+Only-in-BEFORE site list,"Das_2013, Jayaraman_2022, Sutaria_2010"
